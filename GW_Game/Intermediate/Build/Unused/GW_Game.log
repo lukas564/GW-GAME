@@ -1,0 +1,11 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for hot reloading GW_GameEditor (modules to compile have changed)
+  Compiling game modules for hot reload
+  Performing 3 actions (4 in parallel)
+  AssaultPlayerController.cpp
+  [2/3] Link UE4Editor-GW_Game-6893.dll
+  [3/3] Link UE4Editor-GW_Game-6893.lib
+     Creating library D:\repos\GWGame\GW_Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-GW_Game-6893.suppressed.lib and object D:\repos\GWGame\GW_Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-GW_Game-6893.suppressed.exp
+     Creating library D:\repos\GWGame\GW_Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-GW_Game-6893.lib and object D:\repos\GWGame\GW_Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-GW_Game-6893.exp
+  Deploying GW_GameEditor Win64 Development...
+  Total build time: 15,40 seconds (Local executor: 1,02 seconds)

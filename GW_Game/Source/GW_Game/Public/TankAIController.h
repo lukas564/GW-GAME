@@ -3,6 +3,7 @@
 #pragma once
 
 #include "Assault.h"
+#include "Heavy.h"
 #include "CoreMinimal.h"
 #include "AIController.h"
 #include "TankAIController.generated.h"
@@ -18,7 +19,6 @@ class GW_GAME_API ATankAIController : public AAIController
 private:
 	AAssault* GetControlledTank() const;
 	AAssault* GetPlayerTank() const;
-
-public:
-	void BeginPlay() override;
+	virtual void Tick (float DeltaTime) override;
+	virtual void BeginPlay() override;
 };

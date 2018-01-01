@@ -41,6 +41,32 @@ void EmptyLinkFunctionForGeneratedCodeAssaultPlayerController() {}
 				{ "ModuleRelativePath", "Public/AssaultPlayerController.h" },
 			};
 #endif
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_LineTraceRange_MetaData[] = {
+				{ "Category", "AssaultPlayerController" },
+				{ "ModuleRelativePath", "Public/AssaultPlayerController.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_LineTraceRange = { UE4CodeGen_Private::EPropertyClass::Float, "LineTraceRange", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000000001, 1, nullptr, STRUCT_OFFSET(AAssaultPlayerController, LineTraceRange), METADATA_PARAMS(NewProp_LineTraceRange_MetaData, ARRAY_COUNT(NewProp_LineTraceRange_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CrossHairYLocation_MetaData[] = {
+				{ "Category", "AssaultPlayerController" },
+				{ "ModuleRelativePath", "Public/AssaultPlayerController.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_CrossHairYLocation = { UE4CodeGen_Private::EPropertyClass::Float, "CrossHairYLocation", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000000001, 1, nullptr, STRUCT_OFFSET(AAssaultPlayerController, CrossHairYLocation), METADATA_PARAMS(NewProp_CrossHairYLocation_MetaData, ARRAY_COUNT(NewProp_CrossHairYLocation_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CrossHairXLocation_MetaData[] = {
+				{ "Category", "AssaultPlayerController" },
+				{ "ModuleRelativePath", "Public/AssaultPlayerController.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_CrossHairXLocation = { UE4CodeGen_Private::EPropertyClass::Float, "CrossHairXLocation", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000000001, 1, nullptr, STRUCT_OFFSET(AAssaultPlayerController, CrossHairXLocation), METADATA_PARAMS(NewProp_CrossHairXLocation_MetaData, ARRAY_COUNT(NewProp_CrossHairXLocation_MetaData)) };
+			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_LineTraceRange,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_CrossHairYLocation,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_CrossHairXLocation,
+			};
 			static const FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 				TCppClassTypeTraits<AAssaultPlayerController>::IsAbstract,
 			};
@@ -49,7 +75,7 @@ void EmptyLinkFunctionForGeneratedCodeAssaultPlayerController() {}
 				DependentSingletons, ARRAY_COUNT(DependentSingletons),
 				0x00900284u,
 				nullptr, 0,
-				nullptr, 0,
+				PropPointers, ARRAY_COUNT(PropPointers),
 				"Game",
 				&StaticCppClassTypeInfo,
 				nullptr, 0,
@@ -59,7 +85,7 @@ void EmptyLinkFunctionForGeneratedCodeAssaultPlayerController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAssaultPlayerController, 749124864);
+	IMPLEMENT_CLASS(AAssaultPlayerController, 1724097323);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AAssaultPlayerController(Z_Construct_UClass_AAssaultPlayerController, &AAssaultPlayerController::StaticClass, TEXT("/Script/GW_Game"), TEXT("AAssaultPlayerController"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AAssaultPlayerController);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
