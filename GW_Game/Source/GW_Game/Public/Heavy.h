@@ -12,9 +12,6 @@ class GW_GAME_API AHeavy : public APawn
 	GENERATED_BODY()
 
 public:
-	void AimAt(FVector HitLocation);
-
-private:
 	// Sets default values for this pawn's properties
 	AHeavy();
 

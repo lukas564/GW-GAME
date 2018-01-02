@@ -3,7 +3,6 @@
 #pragma once
 
 #include "Assault.h"
-#include "Heavy.h"
 #include "CoreMinimal.h"
 #include "GameFramework/PlayerController.h"
 #include "AssaultPlayerController.generated.h"

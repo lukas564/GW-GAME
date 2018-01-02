@@ -3,7 +3,6 @@
 #pragma once
 
 #include "Assault.h"
-#include "Heavy.h"
 #include "CoreMinimal.h"
 #include "AIController.h"
 #include "TankAIController.generated.h"
