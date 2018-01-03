@@ -1,11 +1,19 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
   Creating makefile for hot reloading GW_GameEditor (modules to compile have changed)
   Compiling game modules for hot reload
-  Performing 3 actions (4 in parallel)
+  Parsing headers for GW_GameEditor
+    Running UnrealHeaderTool "D:\repos\GWGame\GW_Game\GW_Game.uproject" "D:\repos\GWGame\GW_Game\Intermediate\Build\Win64\GW_GameEditor\Development\GW_GameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for GW_GameEditor in 6,7868985 seconds
+  Performing 8 actions (4 in parallel)
+  Assault.gen.cpp
+  AssaultPlayerController.gen.cpp
+  TankAIController.cpp
   AssaultPlayerController.cpp
-  [2/3] Link UE4Editor-GW_Game-6893.dll
-  [3/3] Link UE4Editor-GW_Game-6893.lib
-     Creating library D:\repos\GWGame\GW_Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-GW_Game-6893.suppressed.lib and object D:\repos\GWGame\GW_Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-GW_Game-6893.suppressed.exp
-     Creating library D:\repos\GWGame\GW_Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-GW_Game-6893.lib and object D:\repos\GWGame\GW_Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-GW_Game-6893.exp
+  Assault.cpp
+  TankAIController.gen.cpp
+  [7/8] Link UE4Editor-GW_Game-1783.dll
+  [8/8] Link UE4Editor-GW_Game-1783.lib
+     Creating library D:\repos\GWGame\GW_Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-GW_Game-1783.suppressed.lib and object D:\repos\GWGame\GW_Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-GW_Game-1783.suppressed.exp
+     Creating library D:\repos\GWGame\GW_Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-GW_Game-1783.lib and object D:\repos\GWGame\GW_Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-GW_Game-1783.exp
   Deploying GW_GameEditor Win64 Development...
-  Total build time: 15,40 seconds (Local executor: 1,02 seconds)
+  Total build time: 25,50 seconds (Local executor: 2,02 seconds)

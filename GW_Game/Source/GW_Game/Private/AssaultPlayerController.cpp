@@ -55,7 +55,7 @@ bool AAssaultPlayerController::GetSightRayHitLocation(FVector& HitLocation) cons
 	return true;
 }
 
-bool AAssaultPlayerController::GetLookVectorHitLocation(FVector LookDirection, FVector& HitLocation) const
+bool AAssaultPlayerController::GetLookVectorHitLocation(FVector LookDirection, FVector& OUTHitLocation) const
 {
 	FHitResult HitResult;
 	auto StartLocation = PlayerCameraManager->GetCameraLocation();
@@ -66,7 +66,7 @@ bool AAssaultPlayerController::GetLookVectorHitLocation(FVector LookDirection, F
 		EndLocation,
 		ECollisionChannel::ECC_Visibility))
 	{
-		HitLocation = HitResult.Location;
+		OUTHitLocation = HitResult.Location;
 		return true;
 	}
 	return false;

@@ -2,8 +2,8 @@
 
 #pragma once
 
-#include "Assault.h"
 #include "CoreMinimal.h"
+#include "Assault.h"
 #include "AIController.h"
 #include "TankAIController.generated.h"
 
