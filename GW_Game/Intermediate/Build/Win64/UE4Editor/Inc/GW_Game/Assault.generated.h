@@ -16,6 +16,15 @@ class UStaticMeshComponent;
 
 #define GW_Game_Source_GW_Game_Public_Assault_h_13_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execSetTurretReference) \
+	{ \
+		P_GET_OBJECT(UStaticMeshComponent,Z_Param_TurretToSet); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->SetTurretReference(Z_Param_TurretToSet); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execSetBarrelReference) \
 	{ \
 		P_GET_OBJECT(UStaticMeshComponent,Z_Param_BarrelToSet); \
@@ -27,6 +36,15 @@ class UStaticMeshComponent;
 
 
 #define GW_Game_Source_GW_Game_Public_Assault_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSetTurretReference) \
+	{ \
+		P_GET_OBJECT(UStaticMeshComponent,Z_Param_TurretToSet); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->SetTurretReference(Z_Param_TurretToSet); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execSetBarrelReference) \
 	{ \
@@ -82,7 +100,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AAssault); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AAssault)
 
 
-#define GW_Game_Source_GW_Game_Public_Assault_h_13_PRIVATE_PROPERTY_OFFSET
+#define GW_Game_Source_GW_Game_Public_Assault_h_13_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__LaunchSpeed() { return STRUCT_OFFSET(AAssault, LaunchSpeed); }
+
+
 #define GW_Game_Source_GW_Game_Public_Assault_h_10_PROLOG
 #define GW_Game_Source_GW_Game_Public_Assault_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

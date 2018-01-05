@@ -35,10 +35,15 @@ void AAssault::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 
 void AAssault::AimAt(FVector HitLocation)
 {
-	TankAimingComponent->AimAt(HitLocation);
+	TankAimingComponent->AimAt(HitLocation, LaunchSpeed);
 }
 
 void AAssault::SetBarrelReference(UStaticMeshComponent* BarrelToSet)
 {
 	TankAimingComponent->SetBarrelReference(BarrelToSet);
+}
+
+void AAssault::SetTurretReference(UStaticMeshComponent* TurretToSet)
+{
+	TankAimingComponent->SetTurretReference(TurretToSet);
 }
