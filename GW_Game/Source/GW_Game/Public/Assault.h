@@ -6,6 +6,7 @@
 #include "TankAimingComponent.h"
 #include "GameFramework/Pawn.h"
 #include "Assault.generated.h"
+class UTankBarrel;
 
 UCLASS()
 class GW_GAME_API AAssault : public APawn
@@ -17,7 +18,7 @@ public:
 	void AimAt(FVector HitLocation);
 
 	UFUNCTION(BlueprintCallable, Category = Setup)
-	void SetBarrelReference(UStaticMeshComponent* BarrelToSet);
+	void SetBarrelReference(UTankBarrel* BarrelToSet);
 
 	UFUNCTION(BlueprintCallable, Category = Setup)
 		void SetTurretReference(UStaticMeshComponent* TurretToSet);

@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\GW_Game.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{5AB204D9-3552-45E7-8812-A2D5306168CC}</UniqueIdentifier>
+			<UniqueIdentifier>{6DA301EC-CCAC-4966-B9D2-76E79558089E}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\GW_Game.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{E9F00920-594A-4666-84CB-3684D5AF7086}</UniqueIdentifier>
+			<UniqueIdentifier>{361C5829-EE2E-41C5-B4D9-1CD62686CCAE}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -28,7 +28,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\GW_Game">
-			<UniqueIdentifier>{7CDBF490-69CC-43F9-BBA0-15304DC30D5C}</UniqueIdentifier>
+			<UniqueIdentifier>{799409FD-9EBA-4BE4-8906-971B6777A7C0}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\GW_Game\GW_Game.Build.cs">
 			<Filter>Source\GW_Game</Filter>
@@ -46,7 +46,7 @@
 			<Filter>Source\GW_Game</Filter>
 		</ClInclude >
 		<Filter Include="Source\GW_Game\Private">
-			<UniqueIdentifier>{12FB3AA8-1DC2-4310-B639-226A06A6F366}</UniqueIdentifier>
+			<UniqueIdentifier>{C950977B-6A87-4C55-8C63-678C925ADB2D}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\GW_Game\Private\Assault.cpp">
 			<Filter>Source\GW_Game\Private</Filter>
@@ -66,8 +66,11 @@
 		<ClCompile Include="..\..\Source\GW_Game\Private\TankAimingComponent.cpp">
 			<Filter>Source\GW_Game\Private</Filter>
 		</ClCompile >
+		<ClCompile Include="..\..\Source\GW_Game\Private\TankBarrel.cpp">
+			<Filter>Source\GW_Game\Private</Filter>
+		</ClCompile >
 		<Filter Include="Source\GW_Game\Public">
-			<UniqueIdentifier>{590B103A-AF43-4A13-AA43-2BCF03980B07}</UniqueIdentifier>
+			<UniqueIdentifier>{73A4D68C-FCD6-44A3-A7AB-F1C33397F1C7}</UniqueIdentifier>
 		</Filter>
 		<ClInclude Include="..\..\Source\GW_Game\Public\Assault.h">
 			<Filter>Source\GW_Game\Public</Filter>
@@ -85,6 +88,9 @@
 			<Filter>Source\GW_Game\Public</Filter>
 		</ClInclude >
 		<ClInclude Include="..\..\Source\GW_Game\Public\TankAimingComponent.h">
+			<Filter>Source\GW_Game\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\GW_Game\Public\TankBarrel.h">
 			<Filter>Source\GW_Game\Public</Filter>
 		</ClInclude >
 	</ItemGroup>

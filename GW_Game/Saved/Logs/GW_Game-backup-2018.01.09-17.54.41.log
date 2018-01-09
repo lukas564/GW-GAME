@@ -1,0 +1,1720 @@
+﻿Log file open, 01/05/18 01:19:12
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: GW_Game
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1809438821) SRandInit(-1809438821).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3794801, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.184281
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogModuleManager: Display: Found up-to-date module file D:/repos/GWGame/GW_Game/Binaries/Win64/UE4Editor-GW_Game-2752.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-3794801
+LogInit: Engine Version: 4.18.2-3794801+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Dec  8 2017 02:04:53
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.01.05-00.19.17:672][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.05-00.19.17:672][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.05-00.19.17:685][  0]LogInit: Computer: DESKTOP-6NVMURH
+[2018.01.05-00.19.17:685][  0]LogInit: User: uzivatel1
+[2018.01.05-00.19.17:685][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.01.05-00.19.17:685][  0]LogInit: High frequency timer resolution =4.101562 MHz
+[2018.01.05-00.19.17:685][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.01.05-00.19.17:685][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.05-00.19.17:685][  0]LogMemory: Process Physical Memory: 272.59 MB used, 272.59 MB peak
+[2018.01.05-00.19.17:685][  0]LogMemory: Process Virtual Memory: 270.76 MB used, 270.76 MB peak
+[2018.01.05-00.19.17:685][  0]LogMemory: Physical Memory: 4403.52 MB used,  11938.54 MB free, 16342.06 MB total
+[2018.01.05-00.19.17:685][  0]LogMemory: Virtual Memory: 678.43 MB used,  11938.54 MB free, 134217728.00 MB total
+[2018.01.05-00.19.18:562][  0]LogInit: Using OS detected language (cs-CZ).
+[2018.01.05-00.19.18:562][  0]LogInit: Using OS detected locale (cs-CZ).
+[2018.01.05-00.19.18:568][  0]LogTextLocalizationManager: No localization for 'cs-CZ' exists, so 'en' will be used for the language.
+[2018.01.05-00.19.18:568][  0]LogTextLocalizationManager: No localization for 'cs-CZ' exists, so 'en' will be used for the locale.
+[2018.01.05-00.19.18:904][  0]LogInit: Setting process to per monitor DPI aware
+[2018.01.05-00.19.19:538][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.05-00.19.19:586][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.01.05-00.19.19:586][  0]LogD3D11RHI:       8096/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.01.05-00.19.19:591][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.01.05-00.19.19:591][  0]LogD3D11RHI:       0/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.01.05-00.19.19:591][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.05-00.19.19:596][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.05-00.19.19:596][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.01.05-00.19.19:596][  0]LogWindows: EnumDisplayDevices:
+[2018.01.05-00.19.19:596][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.01.05-00.19.19:596][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.01.05-00.19.19:596][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.01.05-00.19.19:596][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.01.05-00.19.19:596][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.01.05-00.19.19:596][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.01.05-00.19.19:596][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.01.05-00.19.19:596][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.01.05-00.19.19:596][  0]LogRHI: Texture pool is 5667 MB (70% of 8096 MB)
+[2018.01.05-00.19.19:620][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.05-00.19.19:666][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.01.05-00.19.19:714][  0]LogShaderCompilers: Guid format shader working directory is 27 characters bigger than the processId version (D:/repos/GWGame/GW_Game/Intermediate/Shaders/WorkingDirectory/22940/).
+[2018.01.05-00.19.19:714][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/uzivatel 1/AppData/Local/Temp/UnrealShaderWorkingDir/39A45E8D485BEDA3E1E40CBB3F8F414E/'.
+[2018.01.05-00.19.19:714][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.01.05-00.19.21:401][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.05-00.19.21:639][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.01.05-00.19.21:875][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.05-00.19.22:114][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.01.05-00.19.22:345][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.01.05-00.19.22:576][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.05-00.19.22:805][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.05-00.19.23:041][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.05-00.19.23:269][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.01.05-00.19.23:505][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.05-00.19.23:762][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.05-00.19.23:993][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.05-00.19.24:230][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.05-00.19.24:456][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.05-00.19.24:933][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.05-00.19.24:933][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.05-00.19.25:166][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.01.05-00.19.25:398][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.01.05-00.19.25:763][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.01.05-00.19.25:876][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.01.05-00.19.26:107][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.05-00.19.26:340][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.05-00.19.26:564][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.05-00.19.26:784][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.01.05-00.19.26:784][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.01.05-00.19.29:130][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.01.05-00.19.29:177][  0]LogDerivedDataCache: Loaded boot cache 0.05s 78MB C:/Users/uzivatel 1/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.01.05-00.19.29:178][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/uzivatel 1/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.01.05-00.19.29:178][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/repos/GWGame/GW_Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.05-00.19.29:178][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.05-00.19.29:178][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/repos/GWGame/GW_Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.05-00.19.29:178][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.05-00.19.29:189][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.05-00.19.29:204][  0]LogDerivedDataCache: Using Local data cache path C:/Users/uzivatel 1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.05-00.19.29:210][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.05-00.19.29:210][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.05-00.19.29:211][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.05-00.19.29:211][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.05-00.19.29:624][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.05-00.19.31:066][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.05-00.19.31:289][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.05-00.19.31:290][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.05-00.19.31:290][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.01.05-00.19.31:290][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.01.05-00.19.31:290][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.01.05-00.19.31:334][  0]LogNetVersion: GW_Game , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4001666234)
+[2018.01.05-00.19.31:692][  0]LogAssetRegistry: FAssetRegistry took 0.0271 seconds to start up
+[2018.01.05-00.19.32:616][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 1 prioritized culture(s) in 0.063205 seconds
+[2018.01.05-00.19.32:622][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
+[2018.01.05-00.19.32:622][  0]LogUObjectAllocator: 7372016 out of 0 bytes used by permanent object pool.
+[2018.01.05-00.19.32:622][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.05-00.19.32:979][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.05-00.19.41:979][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.05-00.19.42:123][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.05-00.19.45:072][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.05-00.19.46:741][  0]SourceControl: Source control is disabled
+[2018.01.05-00.19.46:741][  0]SourceControl: Source control is disabled
+[2018.01.05-00.19.46:980][  0]SourceControl: Source control is disabled
+[2018.01.05-00.19.47:218][  0]SourceControl: Source control is disabled
+[2018.01.05-00.19.50:820][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.01.05-00.19.52:018][  0]LogOcInput: OculusInput pre-init called
+[2018.01.05-00.19.53:094][  0]LogEngine: Initializing Engine...
+[2018.01.05-00.19.53:096][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.01.05-00.19.53:266][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.05-00.19.53:266][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.05-00.19.53:898][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.05-00.19.53:904][  0]LogInit: XAudio2 using 'U24E590-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.05-00.19.53:926][  0]LogInit: FAudioDevice initialized.
+[2018.01.05-00.19.53:997][  0]LogDerivedDataCache: Saved boot cache 0.07s 78MB C:/Users/uzivatel 1/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.01.05-00.19.54:006][  0]LogInit: Texture streaming: Enabled
+[2018.01.05-00.19.54:544][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.05-00.19.55:193][  0]LogInit: Transaction tracking system initialized
+[2018.01.05-00.19.56:794][  0]BlueprintLog: New page: Editor Load
+[2018.01.05-00.20.01:341][  0]LocalizationService: Localization service is disabled
+[2018.01.05-00.20.04:925][  0]LogConsoleResponse: Display: 
+[2018.01.05-00.20.05:211][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.05-00.20.05:211][  0]LogCook: Display: Mobile HDR setting 1
+[2018.01.05-00.20.05:211][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.01.05-00.20.05:924][  0]LogFileCache: Scanning file cache for directory 'D:/repos/GWGame/GW_Game/Content/' took 0.02s
+[2018.01.05-00.20.10:733][  0]SourceControl: Source control is disabled
+[2018.01.05-00.20.10:733][  0]Cmd: MAP LOAD FILE="D:/repos/GWGame/GW_Game/Content/_Levels/BattleGround.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.05-00.20.10:734][  0]LightingResults: New page: Lighting Build
+[2018.01.05-00.20.10:944][  0]MapCheck: New page: Map Check
+[2018.01.05-00.20.10:944][  0]LightingResults: New page: Lighting Build
+[2018.01.05-00.20.11:293][  0]LogAIModule: Creating AISystem for world BattleGround
+[2018.01.05-00.20.11:335][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.05-00.20.11:343][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.05-00.20.11:500][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 156.778ms to complete.
+[2018.01.05-00.20.11:500][  0]LogFileHelpers: Loading map 'BattleGround' took 0.767
+[2018.01.05-00.20.11:878][  0]LogCollectionManager: Loaded 0 collections in 0.001447 seconds
+[2018.01.05-00.20.12:129][  0]LogFileCache: Scanning file cache for directory 'D:/repos/GWGame/GW_Game/Saved/Collections/' took 0.01s
+[2018.01.05-00.20.12:129][  0]LogFileCache: Scanning file cache for directory 'D:/repos/GWGame/GW_Game/Content/Developers/uzivatel1/Collections/' took 0.01s
+[2018.01.05-00.20.12:129][  0]LogFileCache: Scanning file cache for directory 'D:/repos/GWGame/GW_Game/Content/Collections/' took 0.01s
+[2018.01.05-00.20.12:129][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.01.05-00.20.12:136][  0]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 2371 classes and 524 folders.
+[2018.01.05-00.20.12:483][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0016 seconds. Added 0 classes and 0 folders.
+[2018.01.05-00.20.12:566][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0016 seconds. Added 0 classes and 0 folders.
+[2018.01.05-00.20.12:723][  0]LogSlate: Took 0.000311 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.05-00.20.12:725][  0]LogSlate: Took 0.000259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.05-00.20.12:725][  0]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.05-00.20.12:729][  0]LogSlate: Took 0.000326 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.01.05-00.20.12:813][  0]LogRenderer: Reallocating scene render targets to support 1088x756 Format 10 NumSamples 1 (Frame:1).
+[2018.01.05-00.20.13:158][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0016 seconds. Added 1 classes and 2 folders.
+[2018.01.05-00.20.13:158][  0]LogLoad: (Engine Initialization) Total time: 62.41 seconds
+[2018.01.05-00.20.13:158][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.01.05-00.20.13:158][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.01.05-00.20.13:525][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.01.05-00.20.13:843][  1]LogAssetRegistry: Asset discovery search completed in 42.1745 seconds
+[2018.01.05-00.20.13:844][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.01.05-00.20.13:844][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000118 seconds (updated 0 objects)
+[2018.01.05-00.20.25:021][398]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.05-00.20.25:057][398]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.01.05-00.20.25:057][398]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.05-00.20.25:058][398]PIE: New page: PIE session: BattleGround (Jan 5, 2018, 2:20:25 AM)
+[2018.01.05-00.20.25:058][398]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_BattleGround
+[2018.01.05-00.20.25:069][398]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011290s)
+[2018.01.05-00.20.25:070][398]LogAIModule: Creating AISystem for world BattleGround
+[2018.01.05-00.20.25:070][398]LogPlayLevel: PIE: World Init took: (0.000620s)
+[2018.01.05-00.20.25:070][398]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/BattleGround.BattleGround to /Game/_Levels/UEDPIE_0_BattleGround.BattleGround (0.012316s)
+[2018.01.05-00.20.25:079][398]LogInit: XAudio2 using 'U24E590-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.05-00.20.25:085][398]LogInit: FAudioDevice initialized.
+[2018.01.05-00.20.25:138][398]LogLoad: Game class is 'AssaultGameMode_BP_C'
+[2018.01.05-00.20.25:141][398]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2018.01.05-01.20.25
+[2018.01.05-00.20.25:142][398]LogWorld: Bringing up level for play took: 0.002126
+[2018.01.05-00.20.25:352][398]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0016 seconds. Added 11 classes and 0 folders.
+[2018.01.05-00.20.25:353][398]LogTemp: Warning: AIController can't find player tank
+[2018.01.05-00.20.25:353][398]LogTemp: Warning: AIController can't find player tank
+[2018.01.05-00.20.25:353][398]LogTemp: Warning: AIController can't find player tank
+[2018.01.05-00.20.25:353][398]LogTemp: Warning: PlayerController not possessing a tank
+[2018.01.05-00.20.25:354][398]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_BattleGround 1.234
+[2018.01.05-00.20.25:354][398]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.01.05-00.20.26:436][512]LogTemp: Warning: AimAsRotator: P=-19.223412 Y=11.969913 R=0.000000
+[2018.01.05-00.20.26:436][512]LogTemp: Warning: AimAsRotator: P=3.870170 Y=-157.655518 R=0.000000
+[2018.01.05-00.20.26:436][512]LogTemp: Warning: AimAsRotator: P=4.436509 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:436][512]LogTemp: Warning: AimAsRotator: P=4.888422 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:443][513]LogTemp: Warning: AimAsRotator: P=3.868521 Y=-157.654861 R=0.000000
+[2018.01.05-00.20.26:443][513]LogTemp: Warning: AimAsRotator: P=4.434581 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:443][513]LogTemp: Warning: AimAsRotator: P=4.886755 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:452][514]LogTemp: Warning: AimAsRotator: P=3.864556 Y=-157.654205 R=0.000000
+[2018.01.05-00.20.26:452][514]LogTemp: Warning: AimAsRotator: P=4.430724 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:452][514]LogTemp: Warning: AimAsRotator: P=4.883506 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:460][515]LogTemp: Warning: AimAsRotator: P=3.858294 Y=-157.653580 R=0.000000
+[2018.01.05-00.20.26:460][515]LogTemp: Warning: AimAsRotator: P=4.424908 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:460][515]LogTemp: Warning: AimAsRotator: P=4.878543 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:468][516]LogTemp: Warning: AimAsRotator: P=3.849669 Y=-157.652954 R=0.000000
+[2018.01.05-00.20.26:469][516]LogTemp: Warning: AimAsRotator: P=4.417174 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:469][516]LogTemp: Warning: AimAsRotator: P=4.872030 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:477][517]LogTemp: Warning: AimAsRotator: P=3.838749 Y=-157.652328 R=0.000000
+[2018.01.05-00.20.26:477][517]LogTemp: Warning: AimAsRotator: P=4.407534 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:477][517]LogTemp: Warning: AimAsRotator: P=4.863771 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:485][518]LogTemp: Warning: AimAsRotator: P=3.825538 Y=-157.651718 R=0.000000
+[2018.01.05-00.20.26:485][518]LogTemp: Warning: AimAsRotator: P=4.395905 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:485][518]LogTemp: Warning: AimAsRotator: P=4.853928 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:493][519]LogTemp: Warning: AimAsRotator: P=3.809961 Y=-157.651093 R=0.000000
+[2018.01.05-00.20.26:493][519]LogTemp: Warning: AimAsRotator: P=4.382366 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:493][519]LogTemp: Warning: AimAsRotator: P=4.842425 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:502][520]LogTemp: Warning: AimAsRotator: P=3.792096 Y=-157.650482 R=0.000000
+[2018.01.05-00.20.26:502][520]LogTemp: Warning: AimAsRotator: P=4.366922 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:502][520]LogTemp: Warning: AimAsRotator: P=4.829316 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:510][521]LogTemp: Warning: AimAsRotator: P=3.771882 Y=-157.649887 R=0.000000
+[2018.01.05-00.20.26:510][521]LogTemp: Warning: AimAsRotator: P=4.349531 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:510][521]LogTemp: Warning: AimAsRotator: P=4.814524 Y=-130.820526 R=0.000000
+[2018.01.05-00.20.26:518][522]LogTemp: Warning: AimAsRotator: P=3.749340 Y=-157.649277 R=0.000000
+[2018.01.05-00.20.26:518][522]LogTemp: Warning: AimAsRotator: P=4.330168 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:518][522]LogTemp: Warning: AimAsRotator: P=4.798097 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:526][523]LogTemp: Warning: AimAsRotator: P=3.724535 Y=-157.648697 R=0.000000
+[2018.01.05-00.20.26:527][523]LogTemp: Warning: AimAsRotator: P=4.308950 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:527][523]LogTemp: Warning: AimAsRotator: P=4.780041 Y=-130.820526 R=0.000000
+[2018.01.05-00.20.26:535][524]LogTemp: Warning: AimAsRotator: P=3.697339 Y=-157.648102 R=0.000000
+[2018.01.05-00.20.26:535][524]LogTemp: Warning: AimAsRotator: P=4.285755 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:535][524]LogTemp: Warning: AimAsRotator: P=4.760336 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:543][525]LogTemp: Warning: AimAsRotator: P=3.667841 Y=-157.647537 R=0.000000
+[2018.01.05-00.20.26:543][525]LogTemp: Warning: AimAsRotator: P=4.260622 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:543][525]LogTemp: Warning: AimAsRotator: P=4.738985 Y=-130.820526 R=0.000000
+[2018.01.05-00.20.26:552][526]LogTemp: Warning: AimAsRotator: P=3.636096 Y=-157.646957 R=0.000000
+[2018.01.05-00.20.26:552][526]LogTemp: Warning: AimAsRotator: P=4.233541 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:552][526]LogTemp: Warning: AimAsRotator: P=4.715987 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:560][527]LogTemp: Warning: AimAsRotator: P=3.601989 Y=-157.646393 R=0.000000
+[2018.01.05-00.20.26:560][527]LogTemp: Warning: AimAsRotator: P=4.204600 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:560][527]LogTemp: Warning: AimAsRotator: P=4.691406 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:568][528]LogTemp: Warning: AimAsRotator: P=3.565482 Y=-157.645844 R=0.000000
+[2018.01.05-00.20.26:568][528]LogTemp: Warning: AimAsRotator: P=4.173658 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:568][528]LogTemp: Warning: AimAsRotator: P=4.665129 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:576][529]LogTemp: Warning: AimAsRotator: P=3.526792 Y=-157.645294 R=0.000000
+[2018.01.05-00.20.26:577][529]LogTemp: Warning: AimAsRotator: P=4.140845 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:577][529]LogTemp: Warning: AimAsRotator: P=4.637238 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:585][530]LogTemp: Warning: AimAsRotator: P=3.485698 Y=-157.644745 R=0.000000
+[2018.01.05-00.20.26:585][530]LogTemp: Warning: AimAsRotator: P=4.106019 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:585][530]LogTemp: Warning: AimAsRotator: P=4.607681 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:593][531]LogTemp: Warning: AimAsRotator: P=3.442354 Y=-157.644211 R=0.000000
+[2018.01.05-00.20.26:593][531]LogTemp: Warning: AimAsRotator: P=4.069328 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:593][531]LogTemp: Warning: AimAsRotator: P=4.576472 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:602][532]LogTemp: Warning: AimAsRotator: P=3.396613 Y=-157.643692 R=0.000000
+[2018.01.05-00.20.26:602][532]LogTemp: Warning: AimAsRotator: P=4.030673 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:602][532]LogTemp: Warning: AimAsRotator: P=4.543668 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:610][533]LogTemp: Warning: AimAsRotator: P=3.348563 Y=-157.643173 R=0.000000
+[2018.01.05-00.20.26:610][533]LogTemp: Warning: AimAsRotator: P=3.990097 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:610][533]LogTemp: Warning: AimAsRotator: P=4.509189 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:618][534]LogTemp: Warning: AimAsRotator: P=3.298229 Y=-157.642670 R=0.000000
+[2018.01.05-00.20.26:618][534]LogTemp: Warning: AimAsRotator: P=3.947596 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:618][534]LogTemp: Warning: AimAsRotator: P=4.473064 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:626][535]LogTemp: Warning: AimAsRotator: P=3.245596 Y=-157.642151 R=0.000000
+[2018.01.05-00.20.26:627][535]LogTemp: Warning: AimAsRotator: P=3.903159 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:627][535]LogTemp: Warning: AimAsRotator: P=4.435325 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:635][536]LogTemp: Warning: AimAsRotator: P=3.190618 Y=-157.641647 R=0.000000
+[2018.01.05-00.20.26:635][536]LogTemp: Warning: AimAsRotator: P=3.856800 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:635][536]LogTemp: Warning: AimAsRotator: P=4.395928 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:643][537]LogTemp: Warning: AimAsRotator: P=3.133302 Y=-157.641174 R=0.000000
+[2018.01.05-00.20.26:643][537]LogTemp: Warning: AimAsRotator: P=3.808529 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:643][537]LogTemp: Warning: AimAsRotator: P=4.354926 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:651][538]LogTemp: Warning: AimAsRotator: P=3.073618 Y=-157.640686 R=0.000000
+[2018.01.05-00.20.26:651][538]LogTemp: Warning: AimAsRotator: P=3.758302 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:652][538]LogTemp: Warning: AimAsRotator: P=4.312271 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:660][539]LogTemp: Warning: AimAsRotator: P=3.011734 Y=-157.640213 R=0.000000
+[2018.01.05-00.20.26:660][539]LogTemp: Warning: AimAsRotator: P=3.706149 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:660][539]LogTemp: Warning: AimAsRotator: P=4.267962 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:668][540]LogTemp: Warning: AimAsRotator: P=2.947474 Y=-157.639740 R=0.000000
+[2018.01.05-00.20.26:668][540]LogTemp: Warning: AimAsRotator: P=3.652045 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:669][540]LogTemp: Warning: AimAsRotator: P=4.222023 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:677][541]LogTemp: Warning: AimAsRotator: P=2.880897 Y=-157.639297 R=0.000000
+[2018.01.05-00.20.26:677][541]LogTemp: Warning: AimAsRotator: P=3.596045 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:677][541]LogTemp: Warning: AimAsRotator: P=4.174447 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:685][542]LogTemp: Warning: AimAsRotator: P=2.811982 Y=-157.638840 R=0.000000
+[2018.01.05-00.20.26:685][542]LogTemp: Warning: AimAsRotator: P=3.538088 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:685][542]LogTemp: Warning: AimAsRotator: P=4.125228 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:693][543]LogTemp: Warning: AimAsRotator: P=2.740816 Y=-157.638412 R=0.000000
+[2018.01.05-00.20.26:693][543]LogTemp: Warning: AimAsRotator: P=3.478255 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:694][543]LogTemp: Warning: AimAsRotator: P=4.074384 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:702][544]LogTemp: Warning: AimAsRotator: P=2.667296 Y=-157.638000 R=0.000000
+[2018.01.05-00.20.26:702][544]LogTemp: Warning: AimAsRotator: P=3.416446 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:702][544]LogTemp: Warning: AimAsRotator: P=4.021852 Y=-130.820526 R=0.000000
+[2018.01.05-00.20.26:710][545]LogTemp: Warning: AimAsRotator: P=2.591460 Y=-157.637558 R=0.000000
+[2018.01.05-00.20.26:710][545]LogTemp: Warning: AimAsRotator: P=3.352707 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:710][545]LogTemp: Warning: AimAsRotator: P=3.967723 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:718][546]LogTemp: Warning: AimAsRotator: P=2.513301 Y=-157.637146 R=0.000000
+[2018.01.05-00.20.26:718][546]LogTemp: Warning: AimAsRotator: P=3.287050 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:718][546]LogTemp: Warning: AimAsRotator: P=3.911955 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:727][547]LogTemp: Warning: AimAsRotator: P=2.432809 Y=-157.636749 R=0.000000
+[2018.01.05-00.20.26:727][547]LogTemp: Warning: AimAsRotator: P=3.219421 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:727][547]LogTemp: Warning: AimAsRotator: P=3.854532 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:735][548]LogTemp: Warning: AimAsRotator: P=2.350048 Y=-157.636353 R=0.000000
+[2018.01.05-00.20.26:735][548]LogTemp: Warning: AimAsRotator: P=3.149924 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:735][548]LogTemp: Warning: AimAsRotator: P=3.795485 Y=-130.820526 R=0.000000
+[2018.01.05-00.20.26:743][549]LogTemp: Warning: AimAsRotator: P=2.264906 Y=-157.635971 R=0.000000
+[2018.01.05-00.20.26:744][549]LogTemp: Warning: AimAsRotator: P=3.078497 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:744][549]LogTemp: Warning: AimAsRotator: P=3.734823 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:752][550]LogTemp: Warning: AimAsRotator: P=2.177528 Y=-157.635605 R=0.000000
+[2018.01.05-00.20.26:752][550]LogTemp: Warning: AimAsRotator: P=3.005209 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:752][550]LogTemp: Warning: AimAsRotator: P=3.672522 Y=-130.820526 R=0.000000
+[2018.01.05-00.20.26:760][551]LogTemp: Warning: AimAsRotator: P=2.087781 Y=-157.635239 R=0.000000
+[2018.01.05-00.20.26:760][551]LogTemp: Warning: AimAsRotator: P=2.929850 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:760][551]LogTemp: Warning: AimAsRotator: P=3.608580 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:768][552]LogTemp: Warning: AimAsRotator: P=1.995755 Y=-157.634888 R=0.000000
+[2018.01.05-00.20.26:768][552]LogTemp: Warning: AimAsRotator: P=2.852687 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:768][552]LogTemp: Warning: AimAsRotator: P=3.542969 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:777][553]LogTemp: Warning: AimAsRotator: P=1.901499 Y=-157.634552 R=0.000000
+[2018.01.05-00.20.26:777][553]LogTemp: Warning: AimAsRotator: P=2.773498 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:777][553]LogTemp: Warning: AimAsRotator: P=3.475740 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:785][554]LogTemp: Warning: AimAsRotator: P=1.804832 Y=-157.634216 R=0.000000
+[2018.01.05-00.20.26:785][554]LogTemp: Warning: AimAsRotator: P=2.692407 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:785][554]LogTemp: Warning: AimAsRotator: P=3.406862 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:793][555]LogTemp: Warning: AimAsRotator: P=1.705824 Y=-157.633881 R=0.000000
+[2018.01.05-00.20.26:793][555]LogTemp: Warning: AimAsRotator: P=2.609473 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:793][555]LogTemp: Warning: AimAsRotator: P=3.336382 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:801][556]LogTemp: Warning: AimAsRotator: P=1.604491 Y=-157.633575 R=0.000000
+[2018.01.05-00.20.26:801][556]LogTemp: Warning: AimAsRotator: P=2.524556 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:802][556]LogTemp: Warning: AimAsRotator: P=3.264263 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:810][557]LogTemp: Warning: AimAsRotator: P=1.500908 Y=-157.633270 R=0.000000
+[2018.01.05-00.20.26:810][557]LogTemp: Warning: AimAsRotator: P=2.437786 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:810][557]LogTemp: Warning: AimAsRotator: P=3.190489 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:818][558]LogTemp: Warning: AimAsRotator: P=1.395014 Y=-157.632965 R=0.000000
+[2018.01.05-00.20.26:819][558]LogTemp: Warning: AimAsRotator: P=2.348955 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:819][558]LogTemp: Warning: AimAsRotator: P=3.115074 Y=-130.820526 R=0.000000
+[2018.01.05-00.20.26:827][559]LogTemp: Warning: AimAsRotator: P=1.286874 Y=-157.632690 R=0.000000
+[2018.01.05-00.20.26:827][559]LogTemp: Warning: AimAsRotator: P=2.258368 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:827][559]LogTemp: Warning: AimAsRotator: P=3.038101 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:835][560]LogTemp: Warning: AimAsRotator: P=1.176479 Y=-157.632431 R=0.000000
+[2018.01.05-00.20.26:835][560]LogTemp: Warning: AimAsRotator: P=2.165755 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:835][560]LogTemp: Warning: AimAsRotator: P=2.959445 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:843][561]LogTemp: Warning: AimAsRotator: P=1.063704 Y=-157.632156 R=0.000000
+[2018.01.05-00.20.26:843][561]LogTemp: Warning: AimAsRotator: P=2.071240 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:843][561]LogTemp: Warning: AimAsRotator: P=2.879077 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:852][562]LogTemp: Warning: AimAsRotator: P=0.948674 Y=-157.631912 R=0.000000
+[2018.01.05-00.20.26:852][562]LogTemp: Warning: AimAsRotator: P=1.974759 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:852][562]LogTemp: Warning: AimAsRotator: P=2.797181 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:860][563]LogTemp: Warning: AimAsRotator: P=0.831312 Y=-157.631653 R=0.000000
+[2018.01.05-00.20.26:860][563]LogTemp: Warning: AimAsRotator: P=1.876444 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:860][563]LogTemp: Warning: AimAsRotator: P=2.713616 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:868][564]LogTemp: Warning: AimAsRotator: P=0.711617 Y=-157.631424 R=0.000000
+[2018.01.05-00.20.26:868][564]LogTemp: Warning: AimAsRotator: P=1.776223 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:868][564]LogTemp: Warning: AimAsRotator: P=2.628458 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:877][565]LogTemp: Warning: AimAsRotator: P=0.589559 Y=-157.631195 R=0.000000
+[2018.01.05-00.20.26:877][565]LogTemp: Warning: AimAsRotator: P=1.674118 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:877][565]LogTemp: Warning: AimAsRotator: P=2.541669 Y=-130.820526 R=0.000000
+[2018.01.05-00.20.26:885][566]LogTemp: Warning: AimAsRotator: P=0.465258 Y=-157.630997 R=0.000000
+[2018.01.05-00.20.26:885][566]LogTemp: Warning: AimAsRotator: P=1.570025 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:885][566]LogTemp: Warning: AimAsRotator: P=2.453284 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:893][567]LogTemp: Warning: AimAsRotator: P=0.338666 Y=-157.630783 R=0.000000
+[2018.01.05-00.20.26:893][567]LogTemp: Warning: AimAsRotator: P=1.464078 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:893][567]LogTemp: Warning: AimAsRotator: P=2.363209 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:902][568]LogTemp: Warning: AimAsRotator: P=0.210519 Y=-157.630615 R=0.000000
+[2018.01.05-00.20.26:902][568]LogTemp: Warning: AimAsRotator: P=1.356068 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:902][568]LogTemp: Warning: AimAsRotator: P=2.271562 Y=-130.820526 R=0.000000
+[2018.01.05-00.20.26:911][569]LogTemp: Warning: AimAsRotator: P=0.079752 Y=-157.630432 R=0.000000
+[2018.01.05-00.20.26:911][569]LogTemp: Warning: AimAsRotator: P=1.246364 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:911][569]LogTemp: Warning: AimAsRotator: P=2.178236 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:918][570]LogTemp: Warning: AimAsRotator: P=-0.055476 Y=-157.630234 R=0.000000
+[2018.01.05-00.20.26:918][570]LogTemp: Warning: AimAsRotator: P=1.134744 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:918][570]LogTemp: Warning: AimAsRotator: P=2.083301 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:927][571]LogTemp: Warning: AimAsRotator: P=-0.189488 Y=-157.630081 R=0.000000
+[2018.01.05-00.20.26:927][571]LogTemp: Warning: AimAsRotator: P=1.021081 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:927][571]LogTemp: Warning: AimAsRotator: P=1.986732 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:935][572]LogTemp: Warning: AimAsRotator: P=-0.328205 Y=-157.629959 R=0.000000
+[2018.01.05-00.20.26:935][572]LogTemp: Warning: AimAsRotator: P=0.905624 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:935][572]LogTemp: Warning: AimAsRotator: P=1.888605 Y=-130.820526 R=0.000000
+[2018.01.05-00.20.26:943][573]LogTemp: Warning: AimAsRotator: P=-0.468116 Y=-157.629822 R=0.000000
+[2018.01.05-00.20.26:944][573]LogTemp: Warning: AimAsRotator: P=0.788232 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:944][573]LogTemp: Warning: AimAsRotator: P=1.788835 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:951][574]LogTemp: Warning: AimAsRotator: P=-0.610588 Y=-157.629700 R=0.000000
+[2018.01.05-00.20.26:952][574]LogTemp: Warning: AimAsRotator: P=0.668807 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:952][574]LogTemp: Warning: AimAsRotator: P=1.687371 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:960][575]LogTemp: Warning: AimAsRotator: P=-0.755262 Y=-157.629578 R=0.000000
+[2018.01.05-00.20.26:960][575]LogTemp: Warning: AimAsRotator: P=0.547888 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:960][575]LogTemp: Warning: AimAsRotator: P=1.584407 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:968][576]LogTemp: Warning: AimAsRotator: P=-0.902332 Y=-157.629471 R=0.000000
+[2018.01.05-00.20.26:969][576]LogTemp: Warning: AimAsRotator: P=0.424679 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:969][576]LogTemp: Warning: AimAsRotator: P=1.479766 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:977][577]LogTemp: Warning: AimAsRotator: P=-1.051674 Y=-157.629379 R=0.000000
+[2018.01.05-00.20.26:977][577]LogTemp: Warning: AimAsRotator: P=0.299437 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:977][577]LogTemp: Warning: AimAsRotator: P=1.373588 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.26:985][578]LogTemp: Warning: AimAsRotator: P=-1.202959 Y=-157.629303 R=0.000000
+[2018.01.05-00.20.26:985][578]LogTemp: Warning: AimAsRotator: P=0.172483 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:985][578]LogTemp: Warning: AimAsRotator: P=1.265727 Y=-130.820526 R=0.000000
+[2018.01.05-00.20.26:993][579]LogTemp: Warning: AimAsRotator: P=-1.356825 Y=-157.629227 R=0.000000
+[2018.01.05-00.20.26:993][579]LogTemp: Warning: AimAsRotator: P=0.045296 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.26:993][579]LogTemp: Warning: AimAsRotator: P=1.156244 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.27:002][580]LogTemp: Warning: AimAsRotator: P=-1.512692 Y=-157.629181 R=0.000000
+[2018.01.05-00.20.27:002][580]LogTemp: Warning: AimAsRotator: P=-0.085944 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.27:002][580]LogTemp: Warning: AimAsRotator: P=1.045215 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.27:010][581]LogTemp: Warning: AimAsRotator: P=-1.670989 Y=-157.629120 R=0.000000
+[2018.01.05-00.20.27:010][581]LogTemp: Warning: AimAsRotator: P=-0.219582 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.27:010][581]LogTemp: Warning: AimAsRotator: P=0.932639 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.27:018][582]LogTemp: Warning: AimAsRotator: P=-1.831369 Y=-157.629074 R=0.000000
+[2018.01.05-00.20.27:018][582]LogTemp: Warning: AimAsRotator: P=-0.353197 Y=-141.971100 R=0.000000
+[2018.01.05-00.20.27:018][582]LogTemp: Warning: AimAsRotator: P=0.818250 Y=-130.820511 R=0.000000
+[2018.01.05-00.20.27:027][583]LogTemp: Warning: AimAsRotator: P=-1.782454 Y=-157.629440 R=0.000000
+[2018.01.05-00.20.27:027][583]LogTemp: Warning: AimAsRotator: P=-0.312841 Y=-141.971313 R=0.000000
+[2018.01.05-00.20.27:027][583]LogTemp: Warning: AimAsRotator: P=0.853118 Y=-130.820648 R=0.000000
+[2018.01.05-00.20.27:035][584]LogTemp: Warning: AimAsRotator: P=-1.736065 Y=-157.629761 R=0.000000
+[2018.01.05-00.20.27:035][584]LogTemp: Warning: AimAsRotator: P=-0.273284 Y=-141.971542 R=0.000000
+[2018.01.05-00.20.27:035][584]LogTemp: Warning: AimAsRotator: P=0.886154 Y=-130.820770 R=0.000000
+[2018.01.05-00.20.27:043][585]LogTemp: Warning: AimAsRotator: P=-1.691806 Y=-157.630096 R=0.000000
+[2018.01.05-00.20.27:043][585]LogTemp: Warning: AimAsRotator: P=-0.236671 Y=-141.971725 R=0.000000
+[2018.01.05-00.20.27:044][585]LogTemp: Warning: AimAsRotator: P=0.917666 Y=-130.820877 R=0.000000
+[2018.01.05-00.20.27:052][586]LogTemp: Warning: AimAsRotator: P=-1.649909 Y=-157.630463 R=0.000000
+[2018.01.05-00.20.27:052][586]LogTemp: Warning: AimAsRotator: P=-0.201556 Y=-141.971939 R=0.000000
+[2018.01.05-00.20.27:052][586]LogTemp: Warning: AimAsRotator: P=0.947375 Y=-130.820999 R=0.000000
+[2018.01.05-00.20.27:060][587]LogTemp: Warning: AimAsRotator: P=-1.610366 Y=-157.630829 R=0.000000
+[2018.01.05-00.20.27:060][587]LogTemp: Warning: AimAsRotator: P=-0.168877 Y=-141.972137 R=0.000000
+[2018.01.05-00.20.27:060][587]LogTemp: Warning: AimAsRotator: P=0.975444 Y=-130.821106 R=0.000000
+[2018.01.05-00.20.27:068][588]LogTemp: Warning: AimAsRotator: P=-1.573160 Y=-157.631165 R=0.000000
+[2018.01.05-00.20.27:068][588]LogTemp: Warning: AimAsRotator: P=-0.137391 Y=-141.972351 R=0.000000
+[2018.01.05-00.20.27:068][588]LogTemp: Warning: AimAsRotator: P=1.002011 Y=-130.821228 R=0.000000
+[2018.01.05-00.20.27:076][589]LogTemp: Warning: AimAsRotator: P=-1.538059 Y=-157.631516 R=0.000000
+[2018.01.05-00.20.27:076][589]LogTemp: Warning: AimAsRotator: P=-0.108143 Y=-141.972549 R=0.000000
+[2018.01.05-00.20.27:077][589]LogTemp: Warning: AimAsRotator: P=1.026893 Y=-130.821335 R=0.000000
+[2018.01.05-00.20.27:085][590]LogTemp: Warning: AimAsRotator: P=-1.505483 Y=-157.631866 R=0.000000
+[2018.01.05-00.20.27:085][590]LogTemp: Warning: AimAsRotator: P=-0.081028 Y=-141.972748 R=0.000000
+[2018.01.05-00.20.27:085][590]LogTemp: Warning: AimAsRotator: P=1.050210 Y=-130.821442 R=0.000000
+[2018.01.05-00.20.27:093][591]LogTemp: Warning: AimAsRotator: P=-1.475042 Y=-157.632202 R=0.000000
+[2018.01.05-00.20.27:093][591]LogTemp: Warning: AimAsRotator: P=-0.055476 Y=-141.972961 R=0.000000
+[2018.01.05-00.20.27:093][591]LogTemp: Warning: AimAsRotator: P=1.071777 Y=-130.821564 R=0.000000
+[2018.01.05-00.20.27:101][592]LogTemp: Warning: AimAsRotator: P=-1.446943 Y=-157.632568 R=0.000000
+[2018.01.05-00.20.27:101][592]LogTemp: Warning: AimAsRotator: P=-0.035086 Y=-141.973160 R=0.000000
+[2018.01.05-00.20.27:102][592]LogTemp: Warning: AimAsRotator: P=1.091885 Y=-130.821686 R=0.000000
+[2018.01.05-00.20.27:110][593]LogTemp: Warning: AimAsRotator: P=-1.421179 Y=-157.632919 R=0.000000
+[2018.01.05-00.20.27:110][593]LogTemp: Warning: AimAsRotator: P=0.000000 Y=-141.973373 R=0.000000
+[2018.01.05-00.20.27:110][593]LogTemp: Warning: AimAsRotator: P=1.110152 Y=-130.821808 R=0.000000
+[2018.01.05-00.20.27:118][594]LogTemp: Warning: AimAsRotator: P=-1.397733 Y=-157.633255 R=0.000000
+[2018.01.05-00.20.27:119][594]LogTemp: Warning: AimAsRotator: P=0.000000 Y=-141.973572 R=0.000000
+[2018.01.05-00.20.27:119][594]LogTemp: Warning: AimAsRotator: P=1.126940 Y=-130.821915 R=0.000000
+[2018.01.05-00.20.27:126][595]LogTemp: Warning: AimAsRotator: P=-1.376573 Y=-157.633606 R=0.000000
+[2018.01.05-00.20.27:126][595]LogTemp: Warning: AimAsRotator: P=0.028648 Y=-141.973785 R=0.000000
+[2018.01.05-00.20.27:127][595]LogTemp: Warning: AimAsRotator: P=1.141955 Y=-130.822021 R=0.000000
+[2018.01.05-00.20.27:135][596]LogTemp: Warning: AimAsRotator: P=-1.357656 Y=-157.633957 R=0.000000
+[2018.01.05-00.20.27:135][596]LogTemp: Warning: AimAsRotator: P=0.045296 Y=-141.973999 R=0.000000
+[2018.01.05-00.20.27:135][596]LogTemp: Warning: AimAsRotator: P=1.155356 Y=-130.822128 R=0.000000
+[2018.01.05-00.20.27:143][597]LogTemp: Warning: AimAsRotator: P=-1.341000 Y=-157.634293 R=0.000000
+[2018.01.05-00.20.27:144][597]LogTemp: Warning: AimAsRotator: P=0.055476 Y=-141.974182 R=0.000000
+[2018.01.05-00.20.27:144][597]LogTemp: Warning: AimAsRotator: P=1.167197 Y=-130.822235 R=0.000000
+[2018.01.05-00.20.27:152][598]LogTemp: Warning: AimAsRotator: P=-1.326766 Y=-157.634659 R=0.000000
+[2018.01.05-00.20.27:152][598]LogTemp: Warning: AimAsRotator: P=0.068695 Y=-141.974396 R=0.000000
+[2018.01.05-00.20.27:152][598]LogTemp: Warning: AimAsRotator: P=1.177351 Y=-130.822357 R=0.000000
+[2018.01.05-00.20.27:160][599]LogTemp: Warning: AimAsRotator: P=-1.314801 Y=-157.634995 R=0.000000
+[2018.01.05-00.20.27:160][599]LogTemp: Warning: AimAsRotator: P=0.079752 Y=-141.974594 R=0.000000
+[2018.01.05-00.20.27:160][599]LogTemp: Warning: AimAsRotator: P=1.185775 Y=-130.822479 R=0.000000
+[2018.01.05-00.20.27:168][600]LogTemp: Warning: AimAsRotator: P=-1.305086 Y=-157.635345 R=0.000000
+[2018.01.05-00.20.27:169][600]LogTemp: Warning: AimAsRotator: P=0.085944 Y=-141.974808 R=0.000000
+[2018.01.05-00.20.27:169][600]LogTemp: Warning: AimAsRotator: P=1.192678 Y=-130.822601 R=0.000000
+[2018.01.05-00.20.27:177][601]LogTemp: Warning: AimAsRotator: P=-1.297753 Y=-157.635696 R=0.000000
+[2018.01.05-00.20.27:177][601]LogTemp: Warning: AimAsRotator: P=0.092830 Y=-141.975006 R=0.000000
+[2018.01.05-00.20.27:177][601]LogTemp: Warning: AimAsRotator: P=1.197915 Y=-130.822708 R=0.000000
+[2018.01.05-00.20.27:185][602]LogTemp: Warning: AimAsRotator: P=-1.292761 Y=-157.636032 R=0.000000
+[2018.01.05-00.20.27:185][602]LogTemp: Warning: AimAsRotator: P=0.097150 Y=-141.975220 R=0.000000
+[2018.01.05-00.20.27:185][602]LogTemp: Warning: AimAsRotator: P=1.201508 Y=-130.822830 R=0.000000
+[2018.01.05-00.20.27:193][603]LogTemp: Warning: AimAsRotator: P=-1.290060 Y=-157.636383 R=0.000000
+[2018.01.05-00.20.27:193][603]LogTemp: Warning: AimAsRotator: P=0.099239 Y=-141.975418 R=0.000000
+[2018.01.05-00.20.27:194][603]LogTemp: Warning: AimAsRotator: P=1.203470 Y=-130.822937 R=0.000000
+[2018.01.05-00.20.27:201][604]LogTemp: Warning: AimAsRotator: P=-1.289423 Y=-157.636734 R=0.000000
+[2018.01.05-00.20.27:201][604]LogTemp: Warning: AimAsRotator: P=0.101286 Y=-141.975616 R=0.000000
+[2018.01.05-00.20.27:202][604]LogTemp: Warning: AimAsRotator: P=1.203811 Y=-130.823044 R=0.000000
+[2018.01.05-00.20.27:210][605]LogTemp: Warning: AimAsRotator: P=-1.291411 Y=-157.637070 R=0.000000
+[2018.01.05-00.20.27:210][605]LogTemp: Warning: AimAsRotator: P=0.099239 Y=-141.975830 R=0.000000
+[2018.01.05-00.20.27:210][605]LogTemp: Warning: AimAsRotator: P=1.202446 Y=-130.823151 R=0.000000
+[2018.01.05-00.20.27:218][606]LogTemp: Warning: AimAsRotator: P=-1.295458 Y=-157.637421 R=0.000000
+[2018.01.05-00.20.27:218][606]LogTemp: Warning: AimAsRotator: P=0.095014 Y=-141.976028 R=0.000000
+[2018.01.05-00.20.27:218][606]LogTemp: Warning: AimAsRotator: P=1.199371 Y=-130.823273 R=0.000000
+[2018.01.05-00.20.27:227][607]LogTemp: Warning: AimAsRotator: P=-1.301937 Y=-157.637772 R=0.000000
+[2018.01.05-00.20.27:227][607]LogTemp: Warning: AimAsRotator: P=0.090593 Y=-141.976242 R=0.000000
+[2018.01.05-00.20.27:227][607]LogTemp: Warning: AimAsRotator: P=1.194827 Y=-130.823380 R=0.000000
+[2018.01.05-00.20.27:235][608]LogTemp: Warning: AimAsRotator: P=-1.310658 Y=-157.638107 R=0.000000
+[2018.01.05-00.20.27:235][608]LogTemp: Warning: AimAsRotator: P=0.081028 Y=-141.976440 R=0.000000
+[2018.01.05-00.20.27:235][608]LogTemp: Warning: AimAsRotator: P=1.188541 Y=-130.823502 R=0.000000
+[2018.01.05-00.20.27:243][609]LogTemp: Warning: AimAsRotator: P=-1.321807 Y=-157.638458 R=0.000000
+[2018.01.05-00.20.27:243][609]LogTemp: Warning: AimAsRotator: P=0.074429 Y=-141.976654 R=0.000000
+[2018.01.05-00.20.27:243][609]LogTemp: Warning: AimAsRotator: P=1.180832 Y=-130.823624 R=0.000000
+[2018.01.05-00.20.27:252][610]LogTemp: Warning: AimAsRotator: P=-1.335017 Y=-157.638809 R=0.000000
+[2018.01.05-00.20.27:252][610]LogTemp: Warning: AimAsRotator: P=0.062437 Y=-141.976852 R=0.000000
+[2018.01.05-00.20.27:252][610]LogTemp: Warning: AimAsRotator: P=1.171146 Y=-130.823730 R=0.000000
+[2018.01.05-00.20.27:260][611]LogTemp: Warning: AimAsRotator: P=-1.350760 Y=-157.639145 R=0.000000
+[2018.01.05-00.20.27:260][611]LogTemp: Warning: AimAsRotator: P=0.047507 Y=-141.977051 R=0.000000
+[2018.01.05-00.20.27:260][611]LogTemp: Warning: AimAsRotator: P=1.160142 Y=-130.823837 R=0.000000
+[2018.01.05-00.20.27:268][612]LogTemp: Warning: AimAsRotator: P=-1.368723 Y=-157.639496 R=0.000000
+[2018.01.05-00.20.27:269][612]LogTemp: Warning: AimAsRotator: P=0.035086 Y=-141.977264 R=0.000000
+[2018.01.05-00.20.27:269][612]LogTemp: Warning: AimAsRotator: P=1.147424 Y=-130.823959 R=0.000000
+[2018.01.05-00.20.27:277][613]LogTemp: Warning: AimAsRotator: P=-1.388894 Y=-157.639847 R=0.000000
+[2018.01.05-00.20.27:277][613]LogTemp: Warning: AimAsRotator: P=0.020257 Y=-141.977463 R=0.000000
+[2018.01.05-00.20.27:277][613]LogTemp: Warning: AimAsRotator: P=1.132843 Y=-130.824066 R=0.000000
+[2018.01.05-00.20.27:285][614]LogTemp: Warning: AimAsRotator: P=-1.411469 Y=-157.640198 R=0.000000
+[2018.01.05-00.20.27:285][614]LogTemp: Warning: AimAsRotator: P=0.000000 Y=-141.977676 R=0.000000
+[2018.01.05-00.20.27:285][614]LogTemp: Warning: AimAsRotator: P=1.116787 Y=-130.824173 R=0.000000
+[2018.01.05-00.20.27:293][615]LogTemp: Warning: AimAsRotator: P=-1.436336 Y=-157.640533 R=0.000000
+[2018.01.05-00.20.27:293][615]LogTemp: Warning: AimAsRotator: P=-0.020257 Y=-141.977875 R=0.000000
+[2018.01.05-00.20.27:293][615]LogTemp: Warning: AimAsRotator: P=1.099191 Y=-130.824295 R=0.000000
+[2018.01.05-00.20.27:302][616]LogTemp: Warning: AimAsRotator: P=-1.463447 Y=-157.640884 R=0.000000
+[2018.01.05-00.20.27:302][616]LogTemp: Warning: AimAsRotator: P=-0.045296 Y=-141.978073 R=0.000000
+[2018.01.05-00.20.27:302][616]LogTemp: Warning: AimAsRotator: P=1.079789 Y=-130.824417 R=0.000000
+[2018.01.05-00.20.27:310][617]LogTemp: Warning: AimAsRotator: P=-1.492955 Y=-157.641235 R=0.000000
+[2018.01.05-00.20.27:310][617]LogTemp: Warning: AimAsRotator: P=-0.071620 Y=-141.978287 R=0.000000
+[2018.01.05-00.20.27:310][617]LogTemp: Warning: AimAsRotator: P=1.058773 Y=-130.824524 R=0.000000
+[2018.01.05-00.20.27:318][618]LogTemp: Warning: AimAsRotator: P=-1.524654 Y=-157.641571 R=0.000000
+[2018.01.05-00.20.27:318][618]LogTemp: Warning: AimAsRotator: P=-0.097150 Y=-141.978485 R=0.000000
+[2018.01.05-00.20.27:318][618]LogTemp: Warning: AimAsRotator: P=1.036144 Y=-130.824646 R=0.000000
+[2018.01.05-00.20.27:326][619]LogTemp: Warning: AimAsRotator: P=-1.558674 Y=-157.641937 R=0.000000
+[2018.01.05-00.20.27:327][619]LogTemp: Warning: AimAsRotator: P=-0.124873 Y=-141.978699 R=0.000000
+[2018.01.05-00.20.27:327][619]LogTemp: Warning: AimAsRotator: P=1.011895 Y=-130.824753 R=0.000000
+[2018.01.05-00.20.27:335][620]LogTemp: Warning: AimAsRotator: P=-1.594996 Y=-157.642273 R=0.000000
+[2018.01.05-00.20.27:335][620]LogTemp: Warning: AimAsRotator: P=-0.155598 Y=-141.978882 R=0.000000
+[2018.01.05-00.20.27:335][620]LogTemp: Warning: AimAsRotator: P=0.986011 Y=-130.824875 R=0.000000
+[2018.01.05-00.20.27:343][621]LogTemp: Warning: AimAsRotator: P=-1.633591 Y=-157.642609 R=0.000000
+[2018.01.05-00.20.27:343][621]LogTemp: Warning: AimAsRotator: P=-0.187857 Y=-141.979111 R=0.000000
+[2018.01.05-00.20.27:343][621]LogTemp: Warning: AimAsRotator: P=0.958679 Y=-130.824982 R=0.000000
+[2018.01.05-00.20.27:352][622]LogTemp: Warning: AimAsRotator: P=-1.674486 Y=-157.642960 R=0.000000
+[2018.01.05-00.20.27:352][622]LogTemp: Warning: AimAsRotator: P=-0.221906 Y=-141.979294 R=0.000000
+[2018.01.05-00.20.27:352][622]LogTemp: Warning: AimAsRotator: P=0.929443 Y=-130.825089 R=0.000000
+[2018.01.05-00.20.27:360][623]LogTemp: Warning: AimAsRotator: P=-1.717698 Y=-157.643311 R=0.000000
+[2018.01.05-00.20.27:360][623]LogTemp: Warning: AimAsRotator: P=-0.258626 Y=-141.979523 R=0.000000
+[2018.01.05-00.20.27:360][623]LogTemp: Warning: AimAsRotator: P=0.898686 Y=-130.825211 R=0.000000
+[2018.01.05-00.20.27:368][624]LogTemp: Warning: AimAsRotator: P=-1.763171 Y=-157.643646 R=0.000000
+[2018.01.05-00.20.27:368][624]LogTemp: Warning: AimAsRotator: P=-0.296683 Y=-141.979706 R=0.000000
+[2018.01.05-00.20.27:368][624]LogTemp: Warning: AimAsRotator: P=0.866247 Y=-130.825333 R=0.000000
+[2018.01.05-00.20.27:377][625]LogTemp: Warning: AimAsRotator: P=-1.810964 Y=-157.644012 R=0.000000
+[2018.01.05-00.20.27:377][625]LogTemp: Warning: AimAsRotator: P=-0.336843 Y=-141.979919 R=0.000000
+[2018.01.05-00.20.27:377][625]LogTemp: Warning: AimAsRotator: P=0.832175 Y=-130.825439 R=0.000000
+[2018.01.05-00.20.27:385][626]LogTemp: Warning: AimAsRotator: P=-1.861117 Y=-157.644333 R=0.000000
+[2018.01.05-00.20.27:385][626]LogTemp: Warning: AimAsRotator: P=-0.378437 Y=-141.980118 R=0.000000
+[2018.01.05-00.20.27:385][626]LogTemp: Warning: AimAsRotator: P=0.796648 Y=-130.825546 R=0.000000
+[2018.01.05-00.20.27:393][627]LogTemp: Warning: AimAsRotator: P=-1.871788 Y=-157.644714 R=0.000000
+[2018.01.05-00.20.27:393][627]LogTemp: Warning: AimAsRotator: P=-0.387544 Y=-141.980331 R=0.000000
+[2018.01.05-00.20.27:393][627]LogTemp: Warning: AimAsRotator: P=0.789013 Y=-130.825684 R=0.000000
+[2018.01.05-00.20.27:402][628]LogTemp: Warning: AimAsRotator: P=-1.873871 Y=-157.645065 R=0.000000
+[2018.01.05-00.20.27:402][628]LogTemp: Warning: AimAsRotator: P=-0.389656 Y=-141.980545 R=0.000000
+[2018.01.05-00.20.27:402][628]LogTemp: Warning: AimAsRotator: P=0.787581 Y=-130.825775 R=0.000000
+[2018.01.05-00.20.27:410][629]LogTemp: Warning: AimAsRotator: P=-1.874364 Y=-157.645401 R=0.000000
+[2018.01.05-00.20.27:410][629]LogTemp: Warning: AimAsRotator: P=-0.389657 Y=-141.980743 R=0.000000
+[2018.01.05-00.20.27:410][629]LogTemp: Warning: AimAsRotator: P=0.787060 Y=-130.825897 R=0.000000
+[2018.01.05-00.20.27:418][630]LogTemp: Warning: AimAsRotator: P=-1.874473 Y=-157.645752 R=0.000000
+[2018.01.05-00.20.27:419][630]LogTemp: Warning: AimAsRotator: P=-0.390183 Y=-141.980942 R=0.000000
+[2018.01.05-00.20.27:419][630]LogTemp: Warning: AimAsRotator: P=0.787060 Y=-130.826004 R=0.000000
+[2018.01.05-00.20.27:427][631]LogTemp: Warning: AimAsRotator: P=-1.874583 Y=-157.646088 R=0.000000
+[2018.01.05-00.20.27:427][631]LogTemp: Warning: AimAsRotator: P=-0.390183 Y=-141.981140 R=0.000000
+[2018.01.05-00.20.27:427][631]LogTemp: Warning: AimAsRotator: P=0.786799 Y=-130.826126 R=0.000000
+[2018.01.05-00.20.27:435][632]LogTemp: Warning: AimAsRotator: P=-1.874583 Y=-157.646439 R=0.000000
+[2018.01.05-00.20.27:435][632]LogTemp: Warning: AimAsRotator: P=-0.390183 Y=-141.981354 R=0.000000
+[2018.01.05-00.20.27:435][632]LogTemp: Warning: AimAsRotator: P=0.786799 Y=-130.826233 R=0.000000
+[2018.01.05-00.20.27:443][633]LogTemp: Warning: AimAsRotator: P=-1.874693 Y=-157.646774 R=0.000000
+[2018.01.05-00.20.27:443][633]LogTemp: Warning: AimAsRotator: P=-0.390183 Y=-141.981537 R=0.000000
+[2018.01.05-00.20.27:444][633]LogTemp: Warning: AimAsRotator: P=0.786799 Y=-130.826340 R=0.000000
+[2018.01.05-00.20.27:452][634]LogTemp: Warning: AimAsRotator: P=-1.874693 Y=-157.647125 R=0.000000
+[2018.01.05-00.20.27:452][634]LogTemp: Warning: AimAsRotator: P=-0.390183 Y=-141.981750 R=0.000000
+[2018.01.05-00.20.27:452][634]LogTemp: Warning: AimAsRotator: P=0.786799 Y=-130.826447 R=0.000000
+[2018.01.05-00.20.27:460][635]LogTemp: Warning: AimAsRotator: P=-1.874693 Y=-157.647446 R=0.000000
+[2018.01.05-00.20.27:460][635]LogTemp: Warning: AimAsRotator: P=-0.390183 Y=-141.981949 R=0.000000
+[2018.01.05-00.20.27:460][635]LogTemp: Warning: AimAsRotator: P=0.786799 Y=-130.826553 R=0.000000
+[2018.01.05-00.20.27:469][636]LogTemp: Warning: AimAsRotator: P=-1.874802 Y=-157.647797 R=0.000000
+[2018.01.05-00.20.27:469][636]LogTemp: Warning: AimAsRotator: P=-0.390183 Y=-141.982147 R=0.000000
+[2018.01.05-00.20.27:469][636]LogTemp: Warning: AimAsRotator: P=0.786799 Y=-130.826675 R=0.000000
+[2018.01.05-00.20.27:477][637]LogTemp: Warning: AimAsRotator: P=-1.874802 Y=-157.648132 R=0.000000
+[2018.01.05-00.20.27:477][637]LogTemp: Warning: AimAsRotator: P=-0.390183 Y=-141.982346 R=0.000000
+[2018.01.05-00.20.27:477][637]LogTemp: Warning: AimAsRotator: P=0.786799 Y=-130.826782 R=0.000000
+[2018.01.05-00.20.27:485][638]LogTemp: Warning: AimAsRotator: P=-1.874912 Y=-157.648468 R=0.000000
+[2018.01.05-00.20.27:485][638]LogTemp: Warning: AimAsRotator: P=-0.390183 Y=-141.982544 R=0.000000
+[2018.01.05-00.20.27:485][638]LogTemp: Warning: AimAsRotator: P=0.786538 Y=-130.826904 R=0.000000
+[2018.01.05-00.20.27:493][639]LogTemp: Warning: AimAsRotator: P=-1.874911 Y=-157.648819 R=0.000000
+[2018.01.05-00.20.27:493][639]LogTemp: Warning: AimAsRotator: P=-0.390183 Y=-141.982742 R=0.000000
+[2018.01.05-00.20.27:494][639]LogTemp: Warning: AimAsRotator: P=0.786538 Y=-130.827011 R=0.000000
+[2018.01.05-00.20.27:502][640]LogTemp: Warning: AimAsRotator: P=-1.875021 Y=-157.649139 R=0.000000
+[2018.01.05-00.20.27:502][640]LogTemp: Warning: AimAsRotator: P=-0.390708 Y=-141.982941 R=0.000000
+[2018.01.05-00.20.27:502][640]LogTemp: Warning: AimAsRotator: P=0.786538 Y=-130.827133 R=0.000000
+[2018.01.05-00.20.27:510][641]LogTemp: Warning: AimAsRotator: P=-1.875021 Y=-157.649490 R=0.000000
+[2018.01.05-00.20.27:510][641]LogTemp: Warning: AimAsRotator: P=-0.390708 Y=-141.983139 R=0.000000
+[2018.01.05-00.20.27:510][641]LogTemp: Warning: AimAsRotator: P=0.786538 Y=-130.827225 R=0.000000
+[2018.01.05-00.20.27:518][642]LogTemp: Warning: AimAsRotator: P=-1.875021 Y=-157.649811 R=0.000000
+[2018.01.05-00.20.27:519][642]LogTemp: Warning: AimAsRotator: P=-0.390708 Y=-141.983337 R=0.000000
+[2018.01.05-00.20.27:519][642]LogTemp: Warning: AimAsRotator: P=0.786538 Y=-130.827332 R=0.000000
+[2018.01.05-00.20.27:527][643]LogTemp: Warning: AimAsRotator: P=-1.875131 Y=-157.650162 R=0.000000
+[2018.01.05-00.20.27:527][643]LogTemp: Warning: AimAsRotator: P=-0.390708 Y=-141.983536 R=0.000000
+[2018.01.05-00.20.27:527][643]LogTemp: Warning: AimAsRotator: P=0.786538 Y=-130.827438 R=0.000000
+[2018.01.05-00.20.27:535][644]LogTemp: Warning: AimAsRotator: P=-1.875131 Y=-157.650482 R=0.000000
+[2018.01.05-00.20.27:535][644]LogTemp: Warning: AimAsRotator: P=-0.390708 Y=-141.983719 R=0.000000
+[2018.01.05-00.20.27:535][644]LogTemp: Warning: AimAsRotator: P=0.786277 Y=-130.827560 R=0.000000
+[2018.01.05-00.20.27:543][645]LogTemp: Warning: AimAsRotator: P=-1.875240 Y=-157.650818 R=0.000000
+[2018.01.05-00.20.27:543][645]LogTemp: Warning: AimAsRotator: P=-0.390708 Y=-141.983917 R=0.000000
+[2018.01.05-00.20.27:543][645]LogTemp: Warning: AimAsRotator: P=0.786277 Y=-130.827652 R=0.000000
+[2018.01.05-00.20.27:552][646]LogTemp: Warning: AimAsRotator: P=-1.875240 Y=-157.651138 R=0.000000
+[2018.01.05-00.20.27:552][646]LogTemp: Warning: AimAsRotator: P=-0.390708 Y=-141.984100 R=0.000000
+[2018.01.05-00.20.27:552][646]LogTemp: Warning: AimAsRotator: P=0.786277 Y=-130.827774 R=0.000000
+[2018.01.05-00.20.27:560][647]LogTemp: Warning: AimAsRotator: P=-1.875240 Y=-157.651474 R=0.000000
+[2018.01.05-00.20.27:560][647]LogTemp: Warning: AimAsRotator: P=-0.390708 Y=-141.984299 R=0.000000
+[2018.01.05-00.20.27:561][647]LogTemp: Warning: AimAsRotator: P=0.786278 Y=-130.827866 R=0.000000
+[2018.01.05-00.20.27:568][648]LogTemp: Warning: AimAsRotator: P=-1.875240 Y=-157.651794 R=0.000000
+[2018.01.05-00.20.27:568][648]LogTemp: Warning: AimAsRotator: P=-0.390708 Y=-141.984482 R=0.000000
+[2018.01.05-00.20.27:569][648]LogTemp: Warning: AimAsRotator: P=0.786278 Y=-130.827972 R=0.000000
+[2018.01.05-00.20.27:577][649]LogTemp: Warning: AimAsRotator: P=-1.875295 Y=-157.652115 R=0.000000
+[2018.01.05-00.20.27:577][649]LogTemp: Warning: AimAsRotator: P=-0.390708 Y=-141.984680 R=0.000000
+[2018.01.05-00.20.27:577][649]LogTemp: Warning: AimAsRotator: P=0.786277 Y=-130.828079 R=0.000000
+[2018.01.05-00.20.27:585][650]LogTemp: Warning: AimAsRotator: P=-1.875295 Y=-157.652435 R=0.000000
+[2018.01.05-00.20.27:585][650]LogTemp: Warning: AimAsRotator: P=-0.390708 Y=-141.984879 R=0.000000
+[2018.01.05-00.20.27:585][650]LogTemp: Warning: AimAsRotator: P=0.786277 Y=-130.828186 R=0.000000
+[2018.01.05-00.20.27:593][651]LogTemp: Warning: AimAsRotator: P=-1.875404 Y=-157.652756 R=0.000000
+[2018.01.05-00.20.27:593][651]LogTemp: Warning: AimAsRotator: P=-0.390708 Y=-141.985062 R=0.000000
+[2018.01.05-00.20.27:593][651]LogTemp: Warning: AimAsRotator: P=0.786016 Y=-130.828278 R=0.000000
+[2018.01.05-00.20.27:602][652]LogTemp: Warning: AimAsRotator: P=-1.875404 Y=-157.653061 R=0.000000
+[2018.01.05-00.20.27:602][652]LogTemp: Warning: AimAsRotator: P=-0.390708 Y=-141.985260 R=0.000000
+[2018.01.05-00.20.27:602][652]LogTemp: Warning: AimAsRotator: P=0.786016 Y=-130.828384 R=0.000000
+[2018.01.05-00.20.27:610][653]LogTemp: Warning: AimAsRotator: P=-1.875514 Y=-157.653381 R=0.000000
+[2018.01.05-00.20.27:610][653]LogTemp: Warning: AimAsRotator: P=-0.391233 Y=-141.985428 R=0.000000
+[2018.01.05-00.20.27:610][653]LogTemp: Warning: AimAsRotator: P=0.786016 Y=-130.828491 R=0.000000
+[2018.01.05-00.20.27:618][654]LogTemp: Warning: AimAsRotator: P=-1.875514 Y=-157.653702 R=0.000000
+[2018.01.05-00.20.27:619][654]LogTemp: Warning: AimAsRotator: P=-0.391233 Y=-141.985611 R=0.000000
+[2018.01.05-00.20.27:619][654]LogTemp: Warning: AimAsRotator: P=0.786016 Y=-130.828598 R=0.000000
+[2018.01.05-00.20.27:627][655]LogTemp: Warning: AimAsRotator: P=-1.875514 Y=-157.654007 R=0.000000
+[2018.01.05-00.20.27:627][655]LogTemp: Warning: AimAsRotator: P=-0.391233 Y=-141.985794 R=0.000000
+[2018.01.05-00.20.27:627][655]LogTemp: Warning: AimAsRotator: P=0.786016 Y=-130.828705 R=0.000000
+[2018.01.05-00.20.27:635][656]LogTemp: Warning: AimAsRotator: P=-1.875514 Y=-157.654327 R=0.000000
+[2018.01.05-00.20.27:635][656]LogTemp: Warning: AimAsRotator: P=-0.391233 Y=-141.985977 R=0.000000
+[2018.01.05-00.20.27:635][656]LogTemp: Warning: AimAsRotator: P=0.786016 Y=-130.828796 R=0.000000
+[2018.01.05-00.20.27:643][657]LogTemp: Warning: AimAsRotator: P=-1.875623 Y=-157.654617 R=0.000000
+[2018.01.05-00.20.27:643][657]LogTemp: Warning: AimAsRotator: P=-0.391233 Y=-141.986160 R=0.000000
+[2018.01.05-00.20.27:644][657]LogTemp: Warning: AimAsRotator: P=0.785755 Y=-130.828888 R=0.000000
+[2018.01.05-00.20.27:652][658]LogTemp: Warning: AimAsRotator: P=-1.875623 Y=-157.654922 R=0.000000
+[2018.01.05-00.20.27:652][658]LogTemp: Warning: AimAsRotator: P=-0.391233 Y=-141.986328 R=0.000000
+[2018.01.05-00.20.27:652][658]LogTemp: Warning: AimAsRotator: P=0.785755 Y=-130.828995 R=0.000000
+[2018.01.05-00.20.27:660][659]LogTemp: Warning: AimAsRotator: P=-1.875733 Y=-157.655243 R=0.000000
+[2018.01.05-00.20.27:660][659]LogTemp: Warning: AimAsRotator: P=-0.391233 Y=-141.986511 R=0.000000
+[2018.01.05-00.20.27:660][659]LogTemp: Warning: AimAsRotator: P=0.785755 Y=-130.829102 R=0.000000
+[2018.01.05-00.20.27:668][660]LogTemp: Warning: AimAsRotator: P=-1.875733 Y=-157.655518 R=0.000000
+[2018.01.05-00.20.27:668][660]LogTemp: Warning: AimAsRotator: P=-0.391233 Y=-141.986694 R=0.000000
+[2018.01.05-00.20.27:668][660]LogTemp: Warning: AimAsRotator: P=0.785755 Y=-130.829193 R=0.000000
+[2018.01.05-00.20.27:677][661]LogTemp: Warning: AimAsRotator: P=-1.875733 Y=-157.655823 R=0.000000
+[2018.01.05-00.20.27:677][661]LogTemp: Warning: AimAsRotator: P=-0.391233 Y=-141.986862 R=0.000000
+[2018.01.05-00.20.27:677][661]LogTemp: Warning: AimAsRotator: P=0.785755 Y=-130.829285 R=0.000000
+[2018.01.05-00.20.27:685][662]LogTemp: Warning: AimAsRotator: P=-1.875733 Y=-157.656128 R=0.000000
+[2018.01.05-00.20.27:685][662]LogTemp: Warning: AimAsRotator: P=-0.391233 Y=-141.987030 R=0.000000
+[2018.01.05-00.20.27:685][662]LogTemp: Warning: AimAsRotator: P=0.785755 Y=-130.829391 R=0.000000
+[2018.01.05-00.20.27:693][663]LogTemp: Warning: AimAsRotator: P=-1.875843 Y=-157.656418 R=0.000000
+[2018.01.05-00.20.27:694][663]LogTemp: Warning: AimAsRotator: P=-0.391233 Y=-141.987213 R=0.000000
+[2018.01.05-00.20.27:694][663]LogTemp: Warning: AimAsRotator: P=0.785755 Y=-130.829483 R=0.000000
+[2018.01.05-00.20.27:702][664]LogTemp: Warning: AimAsRotator: P=-1.875843 Y=-157.656693 R=0.000000
+[2018.01.05-00.20.27:702][664]LogTemp: Warning: AimAsRotator: P=-0.391233 Y=-141.987381 R=0.000000
+[2018.01.05-00.20.27:702][664]LogTemp: Warning: AimAsRotator: P=0.785755 Y=-130.829575 R=0.000000
+[2018.01.05-00.20.27:710][665]LogTemp: Warning: AimAsRotator: P=-1.875952 Y=-157.656982 R=0.000000
+[2018.01.05-00.20.27:710][665]LogTemp: Warning: AimAsRotator: P=-0.391233 Y=-141.987549 R=0.000000
+[2018.01.05-00.20.27:710][665]LogTemp: Warning: AimAsRotator: P=0.785494 Y=-130.829666 R=0.000000
+[2018.01.05-00.20.27:718][666]LogTemp: Warning: AimAsRotator: P=-1.875952 Y=-157.657257 R=0.000000
+[2018.01.05-00.20.27:718][666]LogTemp: Warning: AimAsRotator: P=-0.391757 Y=-141.987717 R=0.000000
+[2018.01.05-00.20.27:719][666]LogTemp: Warning: AimAsRotator: P=0.785494 Y=-130.829758 R=0.000000
+[2018.01.05-00.20.27:727][667]LogTemp: Warning: AimAsRotator: P=-1.875952 Y=-157.657547 R=0.000000
+[2018.01.05-00.20.27:727][667]LogTemp: Warning: AimAsRotator: P=-0.391757 Y=-141.987885 R=0.000000
+[2018.01.05-00.20.27:727][667]LogTemp: Warning: AimAsRotator: P=0.785494 Y=-130.829849 R=0.000000
+[2018.01.05-00.20.27:735][668]LogTemp: Warning: AimAsRotator: P=-1.875952 Y=-157.657822 R=0.000000
+[2018.01.05-00.20.27:735][668]LogTemp: Warning: AimAsRotator: P=-0.391757 Y=-141.988037 R=0.000000
+[2018.01.05-00.20.27:735][668]LogTemp: Warning: AimAsRotator: P=0.785494 Y=-130.829941 R=0.000000
+[2018.01.05-00.20.27:743][669]LogTemp: Warning: AimAsRotator: P=-1.876061 Y=-157.658096 R=0.000000
+[2018.01.05-00.20.27:743][669]LogTemp: Warning: AimAsRotator: P=-0.391757 Y=-141.988205 R=0.000000
+[2018.01.05-00.20.27:743][669]LogTemp: Warning: AimAsRotator: P=0.785494 Y=-130.830032 R=0.000000
+[2018.01.05-00.20.27:751][670]LogTemp: Warning: AimAsRotator: P=-1.876061 Y=-157.658356 R=0.000000
+[2018.01.05-00.20.27:752][670]LogTemp: Warning: AimAsRotator: P=-0.391757 Y=-141.988358 R=0.000000
+[2018.01.05-00.20.27:752][670]LogTemp: Warning: AimAsRotator: P=0.785494 Y=-130.830124 R=0.000000
+[2018.01.05-00.20.27:760][671]LogTemp: Warning: AimAsRotator: P=-1.876061 Y=-157.658630 R=0.000000
+[2018.01.05-00.20.27:760][671]LogTemp: Warning: AimAsRotator: P=-0.391757 Y=-141.988510 R=0.000000
+[2018.01.05-00.20.27:760][671]LogTemp: Warning: AimAsRotator: P=0.785494 Y=-130.830200 R=0.000000
+[2018.01.05-00.20.27:769][672]LogTemp: Warning: AimAsRotator: P=-1.876171 Y=-157.658890 R=0.000000
+[2018.01.05-00.20.27:769][672]LogTemp: Warning: AimAsRotator: P=-0.391757 Y=-141.988663 R=0.000000
+[2018.01.05-00.20.27:769][672]LogTemp: Warning: AimAsRotator: P=0.785494 Y=-130.830292 R=0.000000
+[2018.01.05-00.20.27:776][673]LogTemp: Warning: AimAsRotator: P=-1.876171 Y=-157.659149 R=0.000000
+[2018.01.05-00.20.27:777][673]LogTemp: Warning: AimAsRotator: P=-0.391757 Y=-141.988800 R=0.000000
+[2018.01.05-00.20.27:777][673]LogTemp: Warning: AimAsRotator: P=0.785233 Y=-130.830383 R=0.000000
+[2018.01.05-00.20.27:785][674]LogTemp: Warning: AimAsRotator: P=-1.876171 Y=-157.659409 R=0.000000
+[2018.01.05-00.20.27:785][674]LogTemp: Warning: AimAsRotator: P=-0.391757 Y=-141.988968 R=0.000000
+[2018.01.05-00.20.27:785][674]LogTemp: Warning: AimAsRotator: P=0.785233 Y=-130.830444 R=0.000000
+[2018.01.05-00.20.27:794][675]LogTemp: Warning: AimAsRotator: P=-1.876280 Y=-157.659653 R=0.000000
+[2018.01.05-00.20.27:794][675]LogTemp: Warning: AimAsRotator: P=-0.391757 Y=-141.989105 R=0.000000
+[2018.01.05-00.20.27:794][675]LogTemp: Warning: AimAsRotator: P=0.785233 Y=-130.830551 R=0.000000
+[2018.01.05-00.20.27:802][676]LogTemp: Warning: AimAsRotator: P=-1.876280 Y=-157.659897 R=0.000000
+[2018.01.05-00.20.27:802][676]LogTemp: Warning: AimAsRotator: P=-0.391757 Y=-141.989258 R=0.000000
+[2018.01.05-00.20.27:802][676]LogTemp: Warning: AimAsRotator: P=0.785233 Y=-130.830627 R=0.000000
+[2018.01.05-00.20.27:810][677]LogTemp: Warning: AimAsRotator: P=-1.876280 Y=-157.660141 R=0.000000
+[2018.01.05-00.20.27:810][677]LogTemp: Warning: AimAsRotator: P=-0.391757 Y=-141.989410 R=0.000000
+[2018.01.05-00.20.27:810][677]LogTemp: Warning: AimAsRotator: P=0.785233 Y=-130.830688 R=0.000000
+[2018.01.05-00.20.27:818][678]LogTemp: Warning: AimAsRotator: P=-1.876280 Y=-157.660385 R=0.000000
+[2018.01.05-00.20.27:818][678]LogTemp: Warning: AimAsRotator: P=-0.391757 Y=-141.989548 R=0.000000
+[2018.01.05-00.20.27:819][678]LogTemp: Warning: AimAsRotator: P=0.785233 Y=-130.830780 R=0.000000
+[2018.01.05-00.20.27:827][679]LogTemp: Warning: AimAsRotator: P=-1.876335 Y=-157.660614 R=0.000000
+[2018.01.05-00.20.27:827][679]LogTemp: Warning: AimAsRotator: P=-0.391757 Y=-141.989685 R=0.000000
+[2018.01.05-00.20.27:827][679]LogTemp: Warning: AimAsRotator: P=0.785233 Y=-130.830841 R=0.000000
+[2018.01.05-00.20.27:835][680]LogTemp: Warning: AimAsRotator: P=-1.876335 Y=-157.660858 R=0.000000
+[2018.01.05-00.20.27:835][680]LogTemp: Warning: AimAsRotator: P=-0.391757 Y=-141.989822 R=0.000000
+[2018.01.05-00.20.27:835][680]LogTemp: Warning: AimAsRotator: P=0.785233 Y=-130.830933 R=0.000000
+[2018.01.05-00.20.27:843][681]LogTemp: Warning: AimAsRotator: P=-1.876335 Y=-157.661087 R=0.000000
+[2018.01.05-00.20.27:844][681]LogTemp: Warning: AimAsRotator: P=-0.391757 Y=-141.989960 R=0.000000
+[2018.01.05-00.20.27:844][681]LogTemp: Warning: AimAsRotator: P=0.785233 Y=-130.831009 R=0.000000
+[2018.01.05-00.20.27:852][682]LogTemp: Warning: AimAsRotator: P=-1.876335 Y=-157.661301 R=0.000000
+[2018.01.05-00.20.27:852][682]LogTemp: Warning: AimAsRotator: P=-0.391757 Y=-141.990097 R=0.000000
+[2018.01.05-00.20.27:852][682]LogTemp: Warning: AimAsRotator: P=0.785233 Y=-130.831085 R=0.000000
+[2018.01.05-00.20.27:860][683]LogTemp: Warning: AimAsRotator: P=-1.876335 Y=-157.661514 R=0.000000
+[2018.01.05-00.20.27:860][683]LogTemp: Warning: AimAsRotator: P=-0.391757 Y=-141.990219 R=0.000000
+[2018.01.05-00.20.27:860][683]LogTemp: Warning: AimAsRotator: P=0.785102 Y=-130.831146 R=0.000000
+[2018.01.05-00.20.27:868][684]LogTemp: Warning: AimAsRotator: P=-1.876444 Y=-157.661743 R=0.000000
+[2018.01.05-00.20.27:868][684]LogTemp: Warning: AimAsRotator: P=-0.392280 Y=-141.990341 R=0.000000
+[2018.01.05-00.20.27:868][684]LogTemp: Warning: AimAsRotator: P=0.785102 Y=-130.831207 R=0.000000
+[2018.01.05-00.20.27:876][685]LogTemp: Warning: AimAsRotator: P=-1.876444 Y=-157.661957 R=0.000000
+[2018.01.05-00.20.27:877][685]LogTemp: Warning: AimAsRotator: P=-0.392280 Y=-141.990463 R=0.000000
+[2018.01.05-00.20.27:877][685]LogTemp: Warning: AimAsRotator: P=0.785102 Y=-130.831284 R=0.000000
+[2018.01.05-00.20.27:885][686]LogTemp: Warning: AimAsRotator: P=-1.876444 Y=-157.662170 R=0.000000
+[2018.01.05-00.20.27:885][686]LogTemp: Warning: AimAsRotator: P=-0.392280 Y=-141.990585 R=0.000000
+[2018.01.05-00.20.27:885][686]LogTemp: Warning: AimAsRotator: P=0.785102 Y=-130.831360 R=0.000000
+[2018.01.05-00.20.27:893][687]LogTemp: Warning: AimAsRotator: P=-1.876444 Y=-157.662369 R=0.000000
+[2018.01.05-00.20.27:893][687]LogTemp: Warning: AimAsRotator: P=-0.392280 Y=-141.990707 R=0.000000
+[2018.01.05-00.20.27:893][687]LogTemp: Warning: AimAsRotator: P=0.785102 Y=-130.831421 R=0.000000
+[2018.01.05-00.20.27:902][688]LogTemp: Warning: AimAsRotator: P=-1.876554 Y=-157.662552 R=0.000000
+[2018.01.05-00.20.27:902][688]LogTemp: Warning: AimAsRotator: P=-0.392280 Y=-141.990829 R=0.000000
+[2018.01.05-00.20.27:902][688]LogTemp: Warning: AimAsRotator: P=0.785102 Y=-130.831482 R=0.000000
+[2018.01.05-00.20.27:910][689]LogTemp: Warning: AimAsRotator: P=-1.876554 Y=-157.662750 R=0.000000
+[2018.01.05-00.20.27:910][689]LogTemp: Warning: AimAsRotator: P=-0.392280 Y=-141.990936 R=0.000000
+[2018.01.05-00.20.27:910][689]LogTemp: Warning: AimAsRotator: P=0.785102 Y=-130.831558 R=0.000000
+[2018.01.05-00.20.27:918][690]LogTemp: Warning: AimAsRotator: P=-1.876554 Y=-157.662949 R=0.000000
+[2018.01.05-00.20.27:919][690]LogTemp: Warning: AimAsRotator: P=-0.392280 Y=-141.991043 R=0.000000
+[2018.01.05-00.20.27:919][690]LogTemp: Warning: AimAsRotator: P=0.785102 Y=-130.831604 R=0.000000
+[2018.01.05-00.20.27:926][691]LogTemp: Warning: AimAsRotator: P=-1.876554 Y=-157.663132 R=0.000000
+[2018.01.05-00.20.27:927][691]LogTemp: Warning: AimAsRotator: P=-0.392280 Y=-141.991150 R=0.000000
+[2018.01.05-00.20.27:927][691]LogTemp: Warning: AimAsRotator: P=0.785102 Y=-130.831665 R=0.000000
+[2018.01.05-00.20.27:935][692]LogTemp: Warning: AimAsRotator: P=-1.876554 Y=-157.663315 R=0.000000
+[2018.01.05-00.20.27:935][692]LogTemp: Warning: AimAsRotator: P=-0.392280 Y=-141.991272 R=0.000000
+[2018.01.05-00.20.27:935][692]LogTemp: Warning: AimAsRotator: P=0.785102 Y=-130.831726 R=0.000000
+[2018.01.05-00.20.27:943][693]LogTemp: Warning: AimAsRotator: P=-1.876663 Y=-157.663483 R=0.000000
+[2018.01.05-00.20.27:944][693]LogTemp: Warning: AimAsRotator: P=-0.392280 Y=-141.991379 R=0.000000
+[2018.01.05-00.20.27:944][693]LogTemp: Warning: AimAsRotator: P=0.785102 Y=-130.831787 R=0.000000
+[2018.01.05-00.20.27:952][694]LogTemp: Warning: AimAsRotator: P=-1.876663 Y=-157.663666 R=0.000000
+[2018.01.05-00.20.27:952][694]LogTemp: Warning: AimAsRotator: P=-0.392280 Y=-141.991470 R=0.000000
+[2018.01.05-00.20.27:952][694]LogTemp: Warning: AimAsRotator: P=0.784841 Y=-130.831848 R=0.000000
+[2018.01.05-00.20.27:960][695]LogTemp: Warning: AimAsRotator: P=-1.876663 Y=-157.663834 R=0.000000
+[2018.01.05-00.20.27:960][695]LogTemp: Warning: AimAsRotator: P=-0.392280 Y=-141.991577 R=0.000000
+[2018.01.05-00.20.27:960][695]LogTemp: Warning: AimAsRotator: P=0.784841 Y=-130.831894 R=0.000000
+[2018.01.05-00.20.27:968][696]LogTemp: Warning: AimAsRotator: P=-1.876663 Y=-157.663986 R=0.000000
+[2018.01.05-00.20.27:968][696]LogTemp: Warning: AimAsRotator: P=-0.392280 Y=-141.991653 R=0.000000
+[2018.01.05-00.20.27:968][696]LogTemp: Warning: AimAsRotator: P=0.784841 Y=-130.831955 R=0.000000
+[2018.01.05-00.20.27:977][697]LogTemp: Warning: AimAsRotator: P=-1.876663 Y=-157.664139 R=0.000000
+[2018.01.05-00.20.27:977][697]LogTemp: Warning: AimAsRotator: P=-0.392280 Y=-141.991760 R=0.000000
+[2018.01.05-00.20.27:977][697]LogTemp: Warning: AimAsRotator: P=0.784841 Y=-130.832001 R=0.000000
+[2018.01.05-00.20.27:985][698]LogTemp: Warning: AimAsRotator: P=-1.876663 Y=-157.664307 R=0.000000
+[2018.01.05-00.20.27:985][698]LogTemp: Warning: AimAsRotator: P=-0.392280 Y=-141.991852 R=0.000000
+[2018.01.05-00.20.27:985][698]LogTemp: Warning: AimAsRotator: P=0.784841 Y=-130.832047 R=0.000000
+[2018.01.05-00.20.27:994][699]LogTemp: Warning: AimAsRotator: P=-1.876773 Y=-157.664444 R=0.000000
+[2018.01.05-00.20.27:994][699]LogTemp: Warning: AimAsRotator: P=-0.392280 Y=-141.991928 R=0.000000
+[2018.01.05-00.20.27:994][699]LogTemp: Warning: AimAsRotator: P=0.784841 Y=-130.832108 R=0.000000
+[2018.01.05-00.20.28:002][700]LogTemp: Warning: AimAsRotator: P=-1.876773 Y=-157.664597 R=0.000000
+[2018.01.05-00.20.28:002][700]LogTemp: Warning: AimAsRotator: P=-0.392280 Y=-141.992020 R=0.000000
+[2018.01.05-00.20.28:002][700]LogTemp: Warning: AimAsRotator: P=0.784841 Y=-130.832153 R=0.000000
+[2018.01.05-00.20.28:010][701]LogTemp: Warning: AimAsRotator: P=-1.876773 Y=-157.664734 R=0.000000
+[2018.01.05-00.20.28:010][701]LogTemp: Warning: AimAsRotator: P=-0.392280 Y=-141.992096 R=0.000000
+[2018.01.05-00.20.28:010][701]LogTemp: Warning: AimAsRotator: P=0.784841 Y=-130.832184 R=0.000000
+[2018.01.05-00.20.28:018][702]LogTemp: Warning: AimAsRotator: P=-1.876773 Y=-157.664871 R=0.000000
+[2018.01.05-00.20.28:018][702]LogTemp: Warning: AimAsRotator: P=-0.392280 Y=-141.992188 R=0.000000
+[2018.01.05-00.20.28:018][702]LogTemp: Warning: AimAsRotator: P=0.784841 Y=-130.832245 R=0.000000
+[2018.01.05-00.20.28:027][703]LogTemp: Warning: AimAsRotator: P=-1.876773 Y=-157.664993 R=0.000000
+[2018.01.05-00.20.28:027][703]LogTemp: Warning: AimAsRotator: P=-0.392280 Y=-141.992249 R=0.000000
+[2018.01.05-00.20.28:027][703]LogTemp: Warning: AimAsRotator: P=0.784841 Y=-130.832275 R=0.000000
+[2018.01.05-00.20.28:035][704]LogTemp: Warning: AimAsRotator: P=-1.876773 Y=-157.665115 R=0.000000
+[2018.01.05-00.20.28:035][704]LogTemp: Warning: AimAsRotator: P=-0.392280 Y=-141.992325 R=0.000000
+[2018.01.05-00.20.28:035][704]LogTemp: Warning: AimAsRotator: P=0.784841 Y=-130.832321 R=0.000000
+[2018.01.05-00.20.28:043][705]LogTemp: Warning: AimAsRotator: P=-1.876773 Y=-157.665237 R=0.000000
+[2018.01.05-00.20.28:043][705]LogTemp: Warning: AimAsRotator: P=-0.392280 Y=-141.992401 R=0.000000
+[2018.01.05-00.20.28:043][705]LogTemp: Warning: AimAsRotator: P=0.784841 Y=-130.832352 R=0.000000
+[2018.01.05-00.20.28:052][706]LogTemp: Warning: AimAsRotator: P=-1.876882 Y=-157.665344 R=0.000000
+[2018.01.05-00.20.28:052][706]LogTemp: Warning: AimAsRotator: P=-0.392280 Y=-141.992462 R=0.000000
+[2018.01.05-00.20.28:052][706]LogTemp: Warning: AimAsRotator: P=0.784841 Y=-130.832397 R=0.000000
+[2018.01.05-00.20.28:060][707]LogTemp: Warning: AimAsRotator: P=-1.876882 Y=-157.665451 R=0.000000
+[2018.01.05-00.20.28:060][707]LogTemp: Warning: AimAsRotator: P=-0.392280 Y=-141.992523 R=0.000000
+[2018.01.05-00.20.28:060][707]LogTemp: Warning: AimAsRotator: P=0.784841 Y=-130.832428 R=0.000000
+[2018.01.05-00.20.28:068][708]LogTemp: Warning: AimAsRotator: P=-1.876882 Y=-157.665558 R=0.000000
+[2018.01.05-00.20.28:069][708]LogTemp: Warning: AimAsRotator: P=-0.392280 Y=-141.992584 R=0.000000
+[2018.01.05-00.20.28:069][708]LogTemp: Warning: AimAsRotator: P=0.784841 Y=-130.832458 R=0.000000
+[2018.01.05-00.20.28:077][709]LogTemp: Warning: AimAsRotator: P=-1.876882 Y=-157.665665 R=0.000000
+[2018.01.05-00.20.28:077][709]LogTemp: Warning: AimAsRotator: P=-0.392280 Y=-141.992645 R=0.000000
+[2018.01.05-00.20.28:077][709]LogTemp: Warning: AimAsRotator: P=0.784841 Y=-130.832504 R=0.000000
+[2018.01.05-00.20.28:085][710]LogTemp: Warning: AimAsRotator: P=-1.876882 Y=-157.665756 R=0.000000
+[2018.01.05-00.20.28:085][710]LogTemp: Warning: AimAsRotator: P=-0.392280 Y=-141.992706 R=0.000000
+[2018.01.05-00.20.28:085][710]LogTemp: Warning: AimAsRotator: P=0.784841 Y=-130.832520 R=0.000000
+[2018.01.05-00.20.28:093][711]LogTemp: Warning: AimAsRotator: P=41.262722 Y=-60.988144 R=0.000000
+[2018.01.05-00.20.28:094][711]LogTemp: Warning: AimAsRotator: P=-1.876882 Y=-157.665833 R=0.000000
+[2018.01.05-00.20.28:094][711]LogTemp: Warning: AimAsRotator: P=-0.392280 Y=-141.992752 R=0.000000
+[2018.01.05-00.20.28:094][711]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832550 R=0.000000
+[2018.01.05-00.20.28:102][712]LogTemp: Warning: AimAsRotator: P=30.548685 Y=-61.424938 R=0.000000
+[2018.01.05-00.20.28:102][712]LogTemp: Warning: AimAsRotator: P=-1.876882 Y=-157.665924 R=0.000000
+[2018.01.05-00.20.28:102][712]LogTemp: Warning: AimAsRotator: P=-0.392280 Y=-141.992798 R=0.000000
+[2018.01.05-00.20.28:102][712]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832581 R=0.000000
+[2018.01.05-00.20.28:110][713]LogTemp: Warning: AimAsRotator: P=25.768440 Y=-61.919350 R=0.000000
+[2018.01.05-00.20.28:110][713]LogTemp: Warning: AimAsRotator: P=-1.876882 Y=-157.666000 R=0.000000
+[2018.01.05-00.20.28:110][713]LogTemp: Warning: AimAsRotator: P=-0.392280 Y=-141.992844 R=0.000000
+[2018.01.05-00.20.28:110][713]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832611 R=0.000000
+[2018.01.05-00.20.28:118][714]LogTemp: Warning: AimAsRotator: P=22.468157 Y=-62.358879 R=0.000000
+[2018.01.05-00.20.28:119][714]LogTemp: Warning: AimAsRotator: P=-1.876882 Y=-157.666077 R=0.000000
+[2018.01.05-00.20.28:119][714]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.992889 R=0.000000
+[2018.01.05-00.20.28:119][714]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832626 R=0.000000
+[2018.01.05-00.20.28:126][715]LogTemp: Warning: AimAsRotator: P=33.454754 Y=172.443390 R=0.000000
+[2018.01.05-00.20.28:127][715]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666138 R=0.000000
+[2018.01.05-00.20.28:127][715]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.992935 R=0.000000
+[2018.01.05-00.20.28:127][715]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832642 R=0.000000
+[2018.01.05-00.20.28:135][716]LogTemp: Warning: AimAsRotator: P=33.466290 Y=172.264023 R=0.000000
+[2018.01.05-00.20.28:135][716]LogTemp: Warning: AimAsRotator: P=-1.876882 Y=-157.666199 R=0.000000
+[2018.01.05-00.20.28:135][716]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.992966 R=0.000000
+[2018.01.05-00.20.28:135][716]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832672 R=0.000000
+[2018.01.05-00.20.28:143][717]LogTemp: Warning: AimAsRotator: P=33.501873 Y=172.158844 R=0.000000
+[2018.01.05-00.20.28:143][717]LogTemp: Warning: AimAsRotator: P=-1.876882 Y=-157.666245 R=0.000000
+[2018.01.05-00.20.28:144][717]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.992996 R=0.000000
+[2018.01.05-00.20.28:144][717]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832687 R=0.000000
+[2018.01.05-00.20.28:152][718]LogTemp: Warning: AimAsRotator: P=33.546143 Y=172.061508 R=0.000000
+[2018.01.05-00.20.28:152][718]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666306 R=0.000000
+[2018.01.05-00.20.28:152][718]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993027 R=0.000000
+[2018.01.05-00.20.28:152][718]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832703 R=0.000000
+[2018.01.05-00.20.28:160][719]LogTemp: Warning: AimAsRotator: P=33.594704 Y=171.976471 R=0.000000
+[2018.01.05-00.20.28:160][719]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666351 R=0.000000
+[2018.01.05-00.20.28:160][719]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993057 R=0.000000
+[2018.01.05-00.20.28:160][719]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832718 R=0.000000
+[2018.01.05-00.20.28:168][720]LogTemp: Warning: AimAsRotator: P=33.650337 Y=171.897537 R=0.000000
+[2018.01.05-00.20.28:169][720]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666382 R=0.000000
+[2018.01.05-00.20.28:169][720]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:169][720]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:177][721]LogTemp: Warning: AimAsRotator: P=33.700558 Y=171.832291 R=0.000000
+[2018.01.05-00.20.28:177][721]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666428 R=0.000000
+[2018.01.05-00.20.28:177][721]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:177][721]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832748 R=0.000000
+[2018.01.05-00.20.28:185][722]LogTemp: Warning: AimAsRotator: P=33.762825 Y=171.766815 R=0.000000
+[2018.01.05-00.20.28:185][722]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666473 R=0.000000
+[2018.01.05-00.20.28:185][722]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993118 R=0.000000
+[2018.01.05-00.20.28:185][722]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832764 R=0.000000
+[2018.01.05-00.20.28:193][723]LogTemp: Warning: AimAsRotator: P=33.819378 Y=171.713181 R=0.000000
+[2018.01.05-00.20.28:193][723]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666473 R=0.000000
+[2018.01.05-00.20.28:193][723]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993118 R=0.000000
+[2018.01.05-00.20.28:194][723]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832764 R=0.000000
+[2018.01.05-00.20.28:202][724]LogTemp: Warning: AimAsRotator: P=33.879719 Y=171.663513 R=0.000000
+[2018.01.05-00.20.28:202][724]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666489 R=0.000000
+[2018.01.05-00.20.28:202][724]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993134 R=0.000000
+[2018.01.05-00.20.28:202][724]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832779 R=0.000000
+[2018.01.05-00.20.28:210][725]LogTemp: Warning: AimAsRotator: P=33.940636 Y=171.621109 R=0.000000
+[2018.01.05-00.20.28:210][725]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666504 R=0.000000
+[2018.01.05-00.20.28:210][725]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993149 R=0.000000
+[2018.01.05-00.20.28:210][725]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832779 R=0.000000
+[2018.01.05-00.20.28:218][726]LogTemp: Warning: AimAsRotator: P=33.995762 Y=171.588821 R=0.000000
+[2018.01.05-00.20.28:218][726]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666519 R=0.000000
+[2018.01.05-00.20.28:219][726]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993149 R=0.000000
+[2018.01.05-00.20.28:219][726]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832779 R=0.000000
+[2018.01.05-00.20.28:226][727]LogTemp: Warning: AimAsRotator: P=34.056515 Y=171.560837 R=0.000000
+[2018.01.05-00.20.28:227][727]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666519 R=0.000000
+[2018.01.05-00.20.28:227][727]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993149 R=0.000000
+[2018.01.05-00.20.28:227][727]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832779 R=0.000000
+[2018.01.05-00.20.28:235][728]LogTemp: Warning: AimAsRotator: P=34.106419 Y=171.543106 R=0.000000
+[2018.01.05-00.20.28:235][728]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666519 R=0.000000
+[2018.01.05-00.20.28:235][728]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993149 R=0.000000
+[2018.01.05-00.20.28:235][728]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832779 R=0.000000
+[2018.01.05-00.20.28:243][729]LogTemp: Warning: AimAsRotator: P=34.157463 Y=171.538849 R=0.000000
+[2018.01.05-00.20.28:244][729]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666519 R=0.000000
+[2018.01.05-00.20.28:244][729]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993149 R=0.000000
+[2018.01.05-00.20.28:244][729]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832779 R=0.000000
+[2018.01.05-00.20.28:252][730]LogTemp: Warning: AimAsRotator: P=34.205906 Y=171.545135 R=0.000000
+[2018.01.05-00.20.28:252][730]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666489 R=0.000000
+[2018.01.05-00.20.28:252][730]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993134 R=0.000000
+[2018.01.05-00.20.28:252][730]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832779 R=0.000000
+[2018.01.05-00.20.28:260][731]LogTemp: Warning: AimAsRotator: P=34.257019 Y=171.562424 R=0.000000
+[2018.01.05-00.20.28:260][731]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666473 R=0.000000
+[2018.01.05-00.20.28:260][731]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993118 R=0.000000
+[2018.01.05-00.20.28:260][731]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832764 R=0.000000
+[2018.01.05-00.20.28:268][732]LogTemp: Warning: AimAsRotator: P=34.306538 Y=171.590607 R=0.000000
+[2018.01.05-00.20.28:268][732]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666473 R=0.000000
+[2018.01.05-00.20.28:269][732]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993118 R=0.000000
+[2018.01.05-00.20.28:269][732]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832764 R=0.000000
+[2018.01.05-00.20.28:277][733]LogTemp: Warning: AimAsRotator: P=34.360046 Y=171.646439 R=0.000000
+[2018.01.05-00.20.28:277][733]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666428 R=0.000000
+[2018.01.05-00.20.28:277][733]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:277][733]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832748 R=0.000000
+[2018.01.05-00.20.28:285][734]LogTemp: Warning: AimAsRotator: P=34.410599 Y=171.768921 R=0.000000
+[2018.01.05-00.20.28:285][734]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:285][734]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:285][734]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:294][735]LogTemp: Warning: AimAsRotator: P=5.611115 Y=-73.776459 R=0.000000
+[2018.01.05-00.20.28:294][735]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:294][735]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:294][735]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:301][736]LogTemp: Warning: AimAsRotator: P=5.490809 Y=-74.122490 R=0.000000
+[2018.01.05-00.20.28:302][736]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:302][736]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:302][736]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:310][737]LogTemp: Warning: AimAsRotator: P=5.501063 Y=-74.351677 R=0.000000
+[2018.01.05-00.20.28:310][737]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:310][737]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:310][737]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:318][738]LogTemp: Warning: AimAsRotator: P=5.509275 Y=-74.582291 R=0.000000
+[2018.01.05-00.20.28:319][738]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:319][738]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:319][738]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:327][739]LogTemp: Warning: AimAsRotator: P=5.519665 Y=-74.812271 R=0.000000
+[2018.01.05-00.20.28:327][739]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:327][739]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:327][739]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:335][740]LogTemp: Warning: AimAsRotator: P=5.524917 Y=-74.926720 R=0.000000
+[2018.01.05-00.20.28:335][740]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:335][740]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:335][740]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:343][741]LogTemp: Warning: AimAsRotator: P=5.531583 Y=-75.100555 R=0.000000
+[2018.01.05-00.20.28:343][741]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:344][741]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:344][741]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:352][742]LogTemp: Warning: AimAsRotator: P=5.539061 Y=-75.272240 R=0.000000
+[2018.01.05-00.20.28:352][742]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:352][742]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:352][742]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:360][743]LogTemp: Warning: AimAsRotator: P=5.545748 Y=-75.447159 R=0.000000
+[2018.01.05-00.20.28:360][743]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:360][743]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:360][743]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:368][744]LogTemp: Warning: AimAsRotator: P=5.552576 Y=-75.619469 R=0.000000
+[2018.01.05-00.20.28:368][744]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:369][744]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:369][744]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:377][745]LogTemp: Warning: AimAsRotator: P=5.692269 Y=-75.793060 R=0.000000
+[2018.01.05-00.20.28:377][745]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:377][745]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:377][745]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:385][746]LogTemp: Warning: AimAsRotator: P=5.702873 Y=-76.024338 R=0.000000
+[2018.01.05-00.20.28:385][746]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:385][746]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:385][746]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:393][747]LogTemp: Warning: AimAsRotator: P=5.712009 Y=-76.256630 R=0.000000
+[2018.01.05-00.20.28:393][747]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:393][747]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:393][747]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:401][748]LogTemp: Warning: AimAsRotator: P=5.722686 Y=-76.487808 R=0.000000
+[2018.01.05-00.20.28:402][748]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:402][748]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:402][748]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:410][749]LogTemp: Warning: AimAsRotator: P=5.598496 Y=-76.781548 R=0.000000
+[2018.01.05-00.20.28:410][749]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:410][749]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:410][749]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:418][750]LogTemp: Warning: AimAsRotator: P=5.609108 Y=-77.012726 R=0.000000
+[2018.01.05-00.20.28:418][750]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:418][750]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:418][750]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:427][751]LogTemp: Warning: AimAsRotator: P=5.491579 Y=-77.363068 R=0.000000
+[2018.01.05-00.20.28:427][751]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:427][751]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:427][751]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:435][752]LogTemp: Warning: AimAsRotator: P=5.396906 Y=-77.703629 R=0.000000
+[2018.01.05-00.20.28:435][752]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:435][752]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:435][752]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:443][753]LogTemp: Warning: AimAsRotator: P=5.308848 Y=-78.101250 R=0.000000
+[2018.01.05-00.20.28:443][753]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:443][753]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:443][753]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:452][754]LogTemp: Warning: AimAsRotator: P=5.219205 Y=-78.500793 R=0.000000
+[2018.01.05-00.20.28:452][754]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:452][754]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:452][754]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:460][755]LogTemp: Warning: AimAsRotator: P=5.030760 Y=-78.949219 R=0.000000
+[2018.01.05-00.20.28:460][755]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:461][755]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:461][755]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:468][756]LogTemp: Warning: AimAsRotator: P=4.849444 Y=-79.437866 R=0.000000
+[2018.01.05-00.20.28:469][756]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:469][756]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:469][756]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:477][757]LogTemp: Warning: AimAsRotator: P=4.772056 Y=-79.954552 R=0.000000
+[2018.01.05-00.20.28:477][757]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:477][757]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:477][757]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:485][758]LogTemp: Warning: AimAsRotator: P=4.599758 Y=-80.522949 R=0.000000
+[2018.01.05-00.20.28:485][758]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:485][758]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:485][758]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:493][759]LogTemp: Warning: AimAsRotator: P=4.432049 Y=-81.090080 R=0.000000
+[2018.01.05-00.20.28:493][759]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:493][759]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:494][759]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:502][760]LogTemp: Warning: AimAsRotator: P=4.273002 Y=-81.775818 R=0.000000
+[2018.01.05-00.20.28:502][760]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:502][760]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:502][760]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:510][761]LogTemp: Warning: AimAsRotator: P=4.115985 Y=-82.402290 R=0.000000
+[2018.01.05-00.20.28:510][761]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:510][761]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:510][761]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:518][762]LogTemp: Warning: AimAsRotator: P=3.965025 Y=-83.087502 R=0.000000
+[2018.01.05-00.20.28:519][762]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:519][762]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:519][762]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:527][763]LogTemp: Warning: AimAsRotator: P=3.815062 Y=-83.774078 R=0.000000
+[2018.01.05-00.20.28:527][763]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:527][763]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:527][763]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:535][764]LogTemp: Warning: AimAsRotator: P=3.672045 Y=-84.458321 R=0.000000
+[2018.01.05-00.20.28:535][764]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:535][764]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:535][764]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:543][765]LogTemp: Warning: AimAsRotator: P=3.532473 Y=-85.201721 R=0.000000
+[2018.01.05-00.20.28:544][765]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:544][765]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:544][765]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:552][766]LogTemp: Warning: AimAsRotator: P=3.473876 Y=-85.895935 R=0.000000
+[2018.01.05-00.20.28:552][766]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:552][766]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:552][766]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:560][767]LogTemp: Warning: AimAsRotator: P=3.419815 Y=-86.647629 R=0.000000
+[2018.01.05-00.20.28:560][767]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:561][767]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:561][767]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:568][768]LogTemp: Warning: AimAsRotator: P=3.389735 Y=-87.345024 R=0.000000
+[2018.01.05-00.20.28:568][768]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:568][768]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:569][768]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:577][769]LogTemp: Warning: AimAsRotator: P=3.334934 Y=-88.098305 R=0.000000
+[2018.01.05-00.20.28:577][769]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:577][769]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:577][769]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:585][770]LogTemp: Warning: AimAsRotator: P=3.284140 Y=-88.968445 R=0.000000
+[2018.01.05-00.20.28:585][770]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:585][770]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:585][770]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:593][771]LogTemp: Warning: AimAsRotator: P=3.160609 Y=-89.945969 R=0.000000
+[2018.01.05-00.20.28:593][771]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:594][771]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:594][771]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:602][772]LogTemp: Warning: AimAsRotator: P=3.117318 Y=-90.988571 R=0.000000
+[2018.01.05-00.20.28:602][772]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:602][772]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:602][772]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:610][773]LogTemp: Warning: AimAsRotator: P=3.005790 Y=-92.197395 R=0.000000
+[2018.01.05-00.20.28:610][773]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:610][773]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:610][773]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:618][774]LogTemp: Warning: AimAsRotator: P=2.896692 Y=-93.462425 R=0.000000
+[2018.01.05-00.20.28:619][774]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:619][774]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:619][774]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:627][775]LogTemp: Warning: AimAsRotator: P=2.722688 Y=-94.831322 R=0.000000
+[2018.01.05-00.20.28:627][775]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:627][775]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:627][775]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:635][776]LogTemp: Warning: AimAsRotator: P=2.487626 Y=-96.305679 R=0.000000
+[2018.01.05-00.20.28:635][776]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:635][776]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:635][776]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:643][777]LogTemp: Warning: AimAsRotator: P=2.135964 Y=-97.929482 R=0.000000
+[2018.01.05-00.20.28:644][777]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:644][777]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:644][777]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:651][778]LogTemp: Warning: AimAsRotator: P=1.800903 Y=-99.490334 R=0.000000
+[2018.01.05-00.20.28:652][778]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:652][778]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:652][778]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:660][779]LogTemp: Warning: AimAsRotator: P=1.484682 Y=-101.042824 R=0.000000
+[2018.01.05-00.20.28:660][779]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:660][779]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:660][779]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:669][780]LogTemp: Warning: AimAsRotator: P=1.184823 Y=-102.646683 R=0.000000
+[2018.01.05-00.20.28:669][780]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:669][780]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:669][780]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:677][781]LogTemp: Warning: AimAsRotator: P=0.897315 Y=-104.188705 R=0.000000
+[2018.01.05-00.20.28:677][781]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:677][781]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:677][781]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:685][782]LogTemp: Warning: AimAsRotator: P=0.622733 Y=-105.722832 R=0.000000
+[2018.01.05-00.20.28:685][782]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:685][782]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:685][782]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:694][783]LogTemp: Warning: AimAsRotator: P=0.405905 Y=-107.088341 R=0.000000
+[2018.01.05-00.20.28:694][783]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:694][783]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:694][783]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:702][784]LogTemp: Warning: AimAsRotator: P=0.242241 Y=-108.288109 R=0.000000
+[2018.01.05-00.20.28:702][784]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:702][784]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:702][784]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:710][785]LogTemp: Warning: AimAsRotator: P=0.124873 Y=-109.269585 R=0.000000
+[2018.01.05-00.20.28:710][785]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:710][785]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:710][785]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:718][786]LogTemp: Warning: AimAsRotator: P=0.051646 Y=-110.089851 R=0.000000
+[2018.01.05-00.20.28:718][786]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:718][786]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:718][786]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:726][787]LogTemp: Warning: AimAsRotator: P=-0.071620 Y=-110.729965 R=0.000000
+[2018.01.05-00.20.28:727][787]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:727][787]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:727][787]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:735][788]LogTemp: Warning: AimAsRotator: P=-0.149547 Y=-111.210503 R=0.000000
+[2018.01.05-00.20.28:735][788]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:735][788]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:735][788]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:743][789]LogTemp: Warning: AimAsRotator: P=-0.234056 Y=-111.467804 R=0.000000
+[2018.01.05-00.20.28:743][789]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:744][789]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:744][789]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:752][790]LogTemp: Warning: AimAsRotator: P=-0.275528 Y=-111.624153 R=0.000000
+[2018.01.05-00.20.28:752][790]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:752][790]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:752][790]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:760][791]LogTemp: Warning: AimAsRotator: P=-0.275528 Y=-111.624153 R=0.000000
+[2018.01.05-00.20.28:760][791]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:760][791]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:760][791]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:768][792]LogTemp: Warning: AimAsRotator: P=-0.275528 Y=-111.624153 R=0.000000
+[2018.01.05-00.20.28:768][792]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:769][792]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:769][792]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:776][793]LogTemp: Warning: AimAsRotator: P=-0.275528 Y=-111.624153 R=0.000000
+[2018.01.05-00.20.28:777][793]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:777][793]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:777][793]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:785][794]LogTemp: Warning: AimAsRotator: P=-0.275528 Y=-111.624153 R=0.000000
+[2018.01.05-00.20.28:785][794]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:785][794]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:785][794]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:793][795]LogTemp: Warning: AimAsRotator: P=-0.275528 Y=-111.624153 R=0.000000
+[2018.01.05-00.20.28:793][795]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:793][795]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:793][795]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:801][796]LogTemp: Warning: AimAsRotator: P=-0.275528 Y=-111.624153 R=0.000000
+[2018.01.05-00.20.28:802][796]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:802][796]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:802][796]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:810][797]LogTemp: Warning: AimAsRotator: P=-0.275528 Y=-111.624153 R=0.000000
+[2018.01.05-00.20.28:810][797]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:810][797]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:810][797]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:818][798]LogTemp: Warning: AimAsRotator: P=-0.275528 Y=-111.624153 R=0.000000
+[2018.01.05-00.20.28:818][798]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:819][798]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:819][798]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:827][799]LogTemp: Warning: AimAsRotator: P=-0.275528 Y=-111.624153 R=0.000000
+[2018.01.05-00.20.28:827][799]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:827][799]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:827][799]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:835][800]LogTemp: Warning: AimAsRotator: P=-0.275528 Y=-111.624153 R=0.000000
+[2018.01.05-00.20.28:835][800]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:835][800]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:835][800]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:843][801]LogTemp: Warning: AimAsRotator: P=-0.275528 Y=-111.624153 R=0.000000
+[2018.01.05-00.20.28:843][801]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:843][801]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:843][801]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:851][802]LogTemp: Warning: AimAsRotator: P=-0.326952 Y=-111.674866 R=0.000000
+[2018.01.05-00.20.28:852][802]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:852][802]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:852][802]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:860][803]LogTemp: Warning: AimAsRotator: P=-0.324432 Y=-111.740097 R=0.000000
+[2018.01.05-00.20.28:860][803]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:860][803]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:860][803]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:868][804]LogTemp: Warning: AimAsRotator: P=-0.375989 Y=-111.791451 R=0.000000
+[2018.01.05-00.20.28:868][804]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:868][804]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:869][804]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:877][805]LogTemp: Warning: AimAsRotator: P=-0.375989 Y=-111.791451 R=0.000000
+[2018.01.05-00.20.28:877][805]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:877][805]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:877][805]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:885][806]LogTemp: Warning: AimAsRotator: P=-0.428288 Y=-111.777390 R=0.000000
+[2018.01.05-00.20.28:885][806]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:885][806]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:885][806]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:893][807]LogTemp: Warning: AimAsRotator: P=-0.431628 Y=-111.665359 R=0.000000
+[2018.01.05-00.20.28:893][807]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:893][807]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:893][807]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:902][808]LogTemp: Warning: AimAsRotator: P=-0.485332 Y=-111.605576 R=0.000000
+[2018.01.05-00.20.28:902][808]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:902][808]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:902][808]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:910][809]LogTemp: Warning: AimAsRotator: P=-0.533659 Y=-111.482918 R=0.000000
+[2018.01.05-00.20.28:910][809]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:910][809]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:910][809]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:918][810]LogTemp: Warning: AimAsRotator: P=-0.624543 Y=-111.403160 R=0.000000
+[2018.01.05-00.20.28:919][810]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:919][810]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:919][810]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:927][811]LogTemp: Warning: AimAsRotator: P=-0.631080 Y=-111.179474 R=0.000000
+[2018.01.05-00.20.28:927][811]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:927][811]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:927][811]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:935][812]LogTemp: Warning: AimAsRotator: P=-0.691286 Y=-110.896690 R=0.000000
+[2018.01.05-00.20.28:935][812]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:935][812]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:935][812]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:943][813]LogTemp: Warning: AimAsRotator: P=-0.742521 Y=-110.661079 R=0.000000
+[2018.01.05-00.20.28:944][813]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:944][813]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:944][813]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:952][814]LogTemp: Warning: AimAsRotator: P=-0.752404 Y=-110.324013 R=0.000000
+[2018.01.05-00.20.28:952][814]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:952][814]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:952][814]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:960][815]LogTemp: Warning: AimAsRotator: P=-0.765114 Y=-109.931030 R=0.000000
+[2018.01.05-00.20.28:960][815]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:960][815]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:961][815]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:968][816]LogTemp: Warning: AimAsRotator: P=-0.827477 Y=-109.570282 R=0.000000
+[2018.01.05-00.20.28:969][816]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:969][816]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:969][816]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:977][817]LogTemp: Warning: AimAsRotator: P=-0.845265 Y=-109.005684 R=0.000000
+[2018.01.05-00.20.28:977][817]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:977][817]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:977][817]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:985][818]LogTemp: Warning: AimAsRotator: P=-0.865891 Y=-108.383263 R=0.000000
+[2018.01.05-00.20.28:985][818]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:985][818]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:985][818]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.28:993][819]LogTemp: Warning: AimAsRotator: P=-0.889736 Y=-107.645943 R=0.000000
+[2018.01.05-00.20.28:993][819]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.28:993][819]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.28:994][819]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.29:002][820]LogTemp: Warning: AimAsRotator: P=-0.918002 Y=-106.793571 R=0.000000
+[2018.01.05-00.20.29:002][820]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.29:002][820]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.29:002][820]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.29:010][821]LogTemp: Warning: AimAsRotator: P=-1.002932 Y=-105.763901 R=0.000000
+[2018.01.05-00.20.29:010][821]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.29:010][821]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.29:010][821]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.29:018][822]LogTemp: Warning: AimAsRotator: P=-1.084814 Y=-104.668037 R=0.000000
+[2018.01.05-00.20.29:019][822]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.29:019][822]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.29:019][822]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.29:027][823]LogTemp: Warning: AimAsRotator: P=-1.171672 Y=-103.452766 R=0.000000
+[2018.01.05-00.20.29:027][823]LogTemp: Warning: AimAsRotator: P=-1.876991 Y=-157.666397 R=0.000000
+[2018.01.05-00.20.29:027][823]LogTemp: Warning: AimAsRotator: P=-0.392542 Y=-141.993088 R=0.000000
+[2018.01.05-00.20.29:027][823]LogTemp: Warning: AimAsRotator: P=0.784579 Y=-130.832733 R=0.000000
+[2018.01.05-00.20.29:028][823]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.01.05-00.20.29:056][823]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.01.05-00.20.30:808][ 26]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.01.05-00.20.30:935][ 27]Cmd: QUIT_EDITOR
+[2018.01.05-00.20.31:051][ 27]LogExit: Preparing to exit.
+[2018.01.05-00.20.31:178][ 27]LogExit: Editor shut down
+[2018.01.05-00.20.31:179][ 27]LogExit: Transaction tracking system shut down
+[2018.01.05-00.20.31:349][ 27]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.01.05-00.20.31:349][ 27]LogDirectoryWatcher: A directory notification for 'D:/repos/GWGame/GW_Game/Content/' was aborted.
+[2018.01.05-00.20.31:349][ 27]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.01.05-00.20.31:349][ 27]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.01.05-00.20.31:349][ 27]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.01.05-00.20.31:349][ 27]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.01.05-00.20.31:350][ 27]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.01.05-00.20.31:376][ 27]LogExit: Object subsystem successfully closed.
+[2018.01.05-00.20.31:395][ 27]LogD3D11RHI: Shutdown
+[2018.01.05-00.20.31:395][ 27]LogD3D11RHI: CleanupD3DDevice
+[2018.01.05-00.20.31:396][ 27]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.01.05-00.20.31:460][ 27]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (552)
+[2018.01.05-00.20.31:460][ 27]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (550)
+[2018.01.05-00.20.31:460][ 27]LogModuleManager: Shutting down and abandoning module DesktopPlatform (548)
+[2018.01.05-00.20.31:460][ 27]LogModuleManager: Shutting down and abandoning module AddContentDialog (546)
+[2018.01.05-00.20.31:460][ 27]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
+[2018.01.05-00.20.31:461][ 27]LogModuleManager: Shutting down and abandoning module WidgetCarousel (545)
+[2018.01.05-00.20.31:461][ 27]LogModuleManager: Shutting down and abandoning module EditorWidgets (542)
+[2018.01.05-00.20.31:461][ 27]LogModuleManager: Shutting down and abandoning module CollectionManager (540)
+[2018.01.05-00.20.31:461][ 27]LogDirectoryWatcher: A directory notification for 'D:/repos/GWGame/GW_Game/Content/Collections/' was aborted.
+[2018.01.05-00.20.31:461][ 27]LogDirectoryWatcher: A directory notification for 'D:/repos/GWGame/GW_Game/Content/Developers/uzivatel1/Collections/' was aborted.
+[2018.01.05-00.20.31:461][ 27]LogDirectoryWatcher: A directory notification for 'D:/repos/GWGame/GW_Game/Saved/Collections/' was aborted.
+[2018.01.05-00.20.31:461][ 27]LogModuleManager: Shutting down and abandoning module SceneOutliner (538)
+[2018.01.05-00.20.31:461][ 27]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
+[2018.01.05-00.20.31:461][ 27]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
+[2018.01.05-00.20.31:461][ 27]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
+[2018.01.05-00.20.31:461][ 27]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
+[2018.01.05-00.20.31:461][ 27]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
+[2018.01.05-00.20.31:461][ 27]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
+[2018.01.05-00.20.31:461][ 27]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
+[2018.01.05-00.20.31:461][ 27]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
+[2018.01.05-00.20.31:461][ 27]LogModuleManager: Shutting down and abandoning module BspMode (520)
+[2018.01.05-00.20.31:461][ 27]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
+[2018.01.05-00.20.31:461][ 27]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
+[2018.01.05-00.20.31:461][ 27]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
+[2018.01.05-00.20.31:462][ 27]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
+[2018.01.05-00.20.31:462][ 27]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
+[2018.01.05-00.20.31:462][ 27]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
+[2018.01.05-00.20.31:462][ 27]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
+[2018.01.05-00.20.31:462][ 27]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
+[2018.01.05-00.20.31:462][ 27]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
+[2018.01.05-00.20.31:462][ 27]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
+[2018.01.05-00.20.31:462][ 27]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
+[2018.01.05-00.20.31:462][ 27]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
+[2018.01.05-00.20.31:462][ 27]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
+[2018.01.05-00.20.31:462][ 27]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
+[2018.01.05-00.20.31:462][ 27]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2018.01.05-00.20.31:462][ 27]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
+[2018.01.05-00.20.31:462][ 27]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
+[2018.01.05-00.20.31:462][ 27]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
+[2018.01.05-00.20.31:462][ 27]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
+[2018.01.05-00.20.31:462][ 27]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
+[2018.01.05-00.20.31:462][ 27]LogModuleManager: Shutting down and abandoning module SessionServices (478)
+[2018.01.05-00.20.31:462][ 27]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
+[2018.01.05-00.20.31:462][ 27]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
+[2018.01.05-00.20.31:462][ 27]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
+[2018.01.05-00.20.31:462][ 27]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
+[2018.01.05-00.20.31:462][ 27]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
+[2018.01.05-00.20.31:462][ 27]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
+[2018.01.05-00.20.31:462][ 27]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
+[2018.01.05-00.20.31:463][ 27]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
+[2018.01.05-00.20.31:463][ 27]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
+[2018.01.05-00.20.31:463][ 27]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
+[2018.01.05-00.20.31:463][ 27]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
+[2018.01.05-00.20.32:205][ 27]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
+[2018.01.05-00.20.32:205][ 27]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
+[2018.01.05-00.20.32:205][ 27]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
+[2018.01.05-00.20.32:205][ 27]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
+[2018.01.05-00.20.32:205][ 27]LogModuleManager: Shutting down and abandoning module MergeActors (446)
+[2018.01.05-00.20.32:205][ 27]LogModuleManager: Shutting down and abandoning module SizeMap (444)
+[2018.01.05-00.20.32:205][ 27]LogModuleManager: Shutting down and abandoning module TreeMap (442)
+[2018.01.05-00.20.32:205][ 27]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
+[2018.01.05-00.20.32:205][ 27]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
+[2018.01.05-00.20.32:205][ 27]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
+[2018.01.05-00.20.32:205][ 27]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
+[2018.01.05-00.20.32:205][ 27]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
+[2018.01.05-00.20.32:205][ 27]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
+[2018.01.05-00.20.32:205][ 27]LogModuleManager: Shutting down and abandoning module XmlParser (428)
+[2018.01.05-00.20.32:205][ 27]LogModuleManager: Shutting down and abandoning module Blutility (426)
+[2018.01.05-00.20.32:205][ 27]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
+[2018.01.05-00.20.32:205][ 27]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
+[2018.01.05-00.20.32:205][ 27]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
+[2018.01.05-00.20.32:205][ 27]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
+[2018.01.05-00.20.32:205][ 27]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
+[2018.01.05-00.20.32:205][ 27]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
+[2018.01.05-00.20.32:205][ 27]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
+[2018.01.05-00.20.32:205][ 27]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
+[2018.01.05-00.20.32:205][ 27]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
+[2018.01.05-00.20.32:269][ 27]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2018.01.05-00.20.32:269][ 27]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
+[2018.01.05-00.20.32:269][ 27]LogModuleManager: Shutting down and abandoning module Layers (402)
+[2018.01.05-00.20.32:269][ 27]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
+[2018.01.05-00.20.32:269][ 27]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
+[2018.01.05-00.20.32:269][ 27]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
+[2018.01.05-00.20.32:269][ 27]LogModuleManager: Shutting down and abandoning module Persona (394)
+[2018.01.05-00.20.32:269][ 27]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
+[2018.01.05-00.20.32:269][ 27]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
+[2018.01.05-00.20.32:269][ 27]LogModuleManager: Shutting down and abandoning module Kismet (388)
+[2018.01.05-00.20.32:270][ 27]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2018.01.05-00.20.32:270][ 27]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2018.01.05-00.20.32:270][ 27]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
+[2018.01.05-00.20.32:270][ 27]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
+[2018.01.05-00.20.32:270][ 27]LogModuleManager: Shutting down and abandoning module OutputLog (378)
+[2018.01.05-00.20.32:270][ 27]LogModuleManager: Shutting down and abandoning module GammaUI (376)
+[2018.01.05-00.20.32:270][ 27]LogModuleManager: Shutting down and abandoning module Documentation (374)
+[2018.01.05-00.20.32:270][ 27]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
+[2018.01.05-00.20.32:270][ 27]LogModuleManager: Shutting down and abandoning module MovieScene (370)
+[2018.01.05-00.20.32:270][ 27]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
+[2018.01.05-00.20.32:270][ 27]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
+[2018.01.05-00.20.32:270][ 27]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
+[2018.01.05-00.20.32:270][ 27]LogModuleManager: Shutting down and abandoning module PortalServices (362)
+[2018.01.05-00.20.32:270][ 27]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
+[2018.01.05-00.20.32:270][ 27]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
+[2018.01.05-00.20.32:270][ 27]LogModuleManager: Shutting down and abandoning module AIModule (356)
+[2018.01.05-00.20.32:270][ 27]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
+[2018.01.05-00.20.32:270][ 27]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
+[2018.01.05-00.20.32:270][ 27]LogModuleManager: Shutting down and abandoning module ProfilerService (350)
+[2018.01.05-00.20.32:355][ 27]LogModuleManager: Shutting down and abandoning module TaskGraph (348)
+[2018.01.05-00.20.32:355][ 27]LogModuleManager: Shutting down and abandoning module SteamVRController (346)
+[2018.01.05-00.20.32:355][ 27]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (344)
+[2018.01.05-00.20.32:355][ 27]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (342)
+[2018.01.05-00.20.32:355][ 27]LogModuleManager: Shutting down and abandoning module OculusInput (340)
+[2018.01.05-00.20.32:355][ 27]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (338)
+[2018.01.05-00.20.32:355][ 27]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (336)
+[2018.01.05-00.20.32:355][ 27]LogModuleManager: Shutting down and abandoning module CableComponent (334)
+[2018.01.05-00.20.32:355][ 27]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (332)
+[2018.01.05-00.20.32:355][ 27]LogModuleManager: Shutting down and abandoning module AndroidPermission (330)
+[2018.01.05-00.20.32:355][ 27]LogModuleManager: Shutting down and abandoning module ActorSequence (326)
+[2018.01.05-00.20.32:355][ 27]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (324)
+[2018.01.05-00.20.32:355][ 27]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (322)
+[2018.01.05-00.20.32:355][ 27]LogModuleManager: Shutting down and abandoning module MediaCompositing (320)
+[2018.01.05-00.20.32:355][ 27]LogModuleManager: Shutting down and abandoning module HTML5Networking (318)
+[2018.01.05-00.20.32:355][ 27]LogModuleManager: Shutting down and abandoning module AlembicImporter (316)
+[2018.01.05-00.20.32:355][ 27]LogModuleManager: Shutting down and abandoning module AlembicLibrary (315)
+[2018.01.05-00.20.32:355][ 27]LogModuleManager: Shutting down and abandoning module GeometryCache (314)
+[2018.01.05-00.20.32:355][ 27]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (313)
+[2018.01.05-00.20.32:355][ 27]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (308)
+[2018.01.05-00.20.32:355][ 27]LogModuleManager: Shutting down and abandoning module PluginBrowser (306)
+[2018.01.05-00.20.32:355][ 27]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (304)
+[2018.01.05-00.20.32:355][ 27]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (302)
+[2018.01.05-00.20.32:355][ 27]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (300)
+[2018.01.05-00.20.32:355][ 27]LogModuleManager: Shutting down and abandoning module UObjectPlugin (298)
+[2018.01.05-00.20.32:355][ 27]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (296)
+[2018.01.05-00.20.32:355][ 27]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (294)
+[2018.01.05-00.20.32:356][ 27]LogModuleManager: Shutting down and abandoning module GitSourceControl (292)
+[2018.01.05-00.20.32:356][ 27]LogModuleManager: Shutting down and abandoning module SourceControl (291)
+[2018.01.05-00.20.32:356][ 27]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (288)
+[2018.01.05-00.20.32:356][ 27]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (286)
+[2018.01.05-00.20.32:356][ 27]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (284)
+[2018.01.05-00.20.32:356][ 27]LogModuleManager: Shutting down and abandoning module Paper2DEditor (282)
+[2018.01.05-00.20.32:356][ 27]LogModuleManager: Shutting down and abandoning module MeshPaint (281)
+[2018.01.05-00.20.32:356][ 27]LogModuleManager: Shutting down and abandoning module LevelEditor (279)
+[2018.01.05-00.20.32:356][ 27]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (278)
+[2018.01.05-00.20.32:356][ 27]LogModuleManager: Shutting down and abandoning module MainFrame (276)
+[2018.01.05-00.20.32:356][ 27]LogModuleManager: Shutting down and abandoning module HotReload (275)
+[2018.01.05-00.20.32:356][ 27]LogDirectoryWatcher: A directory notification for 'D:/repos/GWGame/GW_Game/Binaries/Win64' was aborted.
+[2018.01.05-00.20.32:357][ 27]LogModuleManager: Shutting down and abandoning module GW_Game (270)
+[2018.01.05-00.20.32:357][ 27]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
+[2018.01.05-00.20.32:357][ 27]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
+[2018.01.05-00.20.32:357][ 27]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
+[2018.01.05-00.20.32:357][ 27]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
+[2018.01.05-00.20.32:357][ 27]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
+[2018.01.05-00.20.32:357][ 27]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
+[2018.01.05-00.20.32:357][ 27]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
+[2018.01.05-00.20.32:357][ 27]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2018.01.05-00.20.32:458][ 27]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2018.01.05-00.20.32:559][ 27]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2018.01.05-00.20.32:559][ 27]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2018.01.05-00.20.32:559][ 27]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2018.01.05-00.20.32:559][ 27]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2018.01.05-00.20.32:559][ 27]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2018.01.05-00.20.32:559][ 27]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2018.01.05-00.20.32:559][ 27]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2018.01.05-00.20.32:559][ 27]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2018.01.05-00.20.32:559][ 27]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2018.01.05-00.20.32:559][ 27]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2018.01.05-00.20.32:583][ 27]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2018.01.05-00.20.32:583][ 27]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2018.01.05-00.20.32:583][ 27]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2018.01.05-00.20.32:583][ 27]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2018.01.05-00.20.32:583][ 27]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2018.01.05-00.20.32:583][ 27]LogModuleManager: Shutting down and abandoning module Media (221)
+[2018.01.05-00.20.32:592][ 27]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2018.01.05-00.20.32:592][ 27]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2018.01.05-00.20.32:592][ 27]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2018.01.05-00.20.32:592][ 27]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2018.01.05-00.20.32:592][ 27]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2018.01.05-00.20.32:592][ 27]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2018.01.05-00.20.32:592][ 27]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2018.01.05-00.20.32:592][ 27]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2018.01.05-00.20.32:592][ 27]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2018.01.05-00.20.32:592][ 27]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2018.01.05-00.20.32:592][ 27]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2018.01.05-00.20.32:592][ 27]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2018.01.05-00.20.32:593][ 27]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2018.01.05-00.20.32:593][ 27]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2018.01.05-00.20.32:593][ 27]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2018.01.05-00.20.32:593][ 27]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2018.01.05-00.20.32:597][ 27]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2018.01.05-00.20.32:597][ 27]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2018.01.05-00.20.32:597][ 27]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2018.01.05-00.20.32:597][ 27]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2018.01.05-00.20.32:597][ 27]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2018.01.05-00.20.32:597][ 27]LogModuleManager: Shutting down and abandoning module Core (172)
+[2018.01.05-00.20.32:597][ 27]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2018.01.05-00.20.32:597][ 27]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2018.01.05-00.20.32:597][ 27]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.01.05-00.20.32:598][ 27]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2018.01.05-00.20.32:598][ 27]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2018.01.05-00.20.32:598][ 27]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2018.01.05-00.20.32:598][ 27]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2018.01.05-00.20.32:598][ 27]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2018.01.05-00.20.32:598][ 27]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2018.01.05-00.20.32:598][ 27]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2018.01.05-00.20.32:598][ 27]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2018.01.05-00.20.32:743][ 27]LogDerivedDataCache: Shutdown
+[2018.01.05-00.20.32:743][ 27]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2018.01.05-00.20.32:743][ 27]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.01.05-00.20.32:744][ 27]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.01.05-00.20.32:744][ 27]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.01.05-00.20.32:744][ 27]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2382AC56-4D1F-2DAC-C67B-348990E137DC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.2-3794801%2B%2B%2BUE4%2BRelease-4.18&UserID=cc42ddc2440a28282bc68e8490f26174%7C4ceece949fa540afa05284edb250037f%7C0bebcf97-a808-44ca-9c7d-125cb113877c&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.01.05-00.20.32:744][ 27]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.01.05-00.20.33:257][ 27]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.01.05-00.20.33:259][ 27]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.01.05-00.20.33:259][ 27]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.01.05-00.20.33:259][ 27]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.01.05-00.20.33:259][ 27]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.01.05-00.20.33:259][ 27]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.01.05-00.20.33:259][ 27]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.01.05-00.20.33:259][ 27]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.01.05-00.20.33:260][ 27]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.01.05-00.20.33:260][ 27]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.01.05-00.20.33:260][ 27]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.01.05-00.20.33:260][ 27]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.01.05-00.20.33:260][ 27]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.01.05-00.20.33:260][ 27]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.01.05-00.20.33:260][ 27]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.01.05-00.20.33:260][ 27]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.01.05-00.20.33:260][ 27]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.01.05-00.20.33:260][ 27]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.01.05-00.20.33:260][ 27]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.01.05-00.20.33:266][ 27]LogExit: Exiting.
+[2018.01.05-00.20.33:281][ 27]Log file closed, 01/05/18 01:20:33

@@ -18,8 +18,9 @@ void EmptyLinkFunctionForGeneratedCodeAssault() {}
 	ENGINE_API UClass* Z_Construct_UClass_APawn();
 	UPackage* Z_Construct_UPackage__Script_GW_Game();
 	GW_GAME_API UFunction* Z_Construct_UFunction_AAssault_SetBarrelReference();
-	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
+	GW_GAME_API UClass* Z_Construct_UClass_UTankBarrel_NoRegister();
 	GW_GAME_API UFunction* Z_Construct_UFunction_AAssault_SetTurretReference();
+	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 // End Cross Module References
 	void AAssault::StaticRegisterNativesAAssault()
 	{
@@ -34,7 +35,7 @@ void EmptyLinkFunctionForGeneratedCodeAssault() {}
 	{
 		struct Assault_eventSetBarrelReference_Parms
 		{
-			UStaticMeshComponent* BarrelToSet;
+			UTankBarrel* BarrelToSet;
 		};
 		static UFunction* ReturnFunction = nullptr;
 		if (!ReturnFunction)
@@ -44,7 +45,7 @@ void EmptyLinkFunctionForGeneratedCodeAssault() {}
 				{ "EditInline", "true" },
 			};
 #endif
-			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_BarrelToSet = { UE4CodeGen_Private::EPropertyClass::Object, "BarrelToSet", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000080080, 1, nullptr, STRUCT_OFFSET(Assault_eventSetBarrelReference_Parms, BarrelToSet), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(NewProp_BarrelToSet_MetaData, ARRAY_COUNT(NewProp_BarrelToSet_MetaData)) };
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_BarrelToSet = { UE4CodeGen_Private::EPropertyClass::Object, "BarrelToSet", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000080080, 1, nullptr, STRUCT_OFFSET(Assault_eventSetBarrelReference_Parms, BarrelToSet), Z_Construct_UClass_UTankBarrel_NoRegister, METADATA_PARAMS(NewProp_BarrelToSet_MetaData, ARRAY_COUNT(NewProp_BarrelToSet_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_BarrelToSet,
 			};
@@ -102,7 +103,7 @@ void EmptyLinkFunctionForGeneratedCodeAssault() {}
 				(UObject* (*)())Z_Construct_UPackage__Script_GW_Game,
 			};
 			static const FClassFunctionLinkInfo FuncInfo[] = {
-				{ &Z_Construct_UFunction_AAssault_SetBarrelReference, "SetBarrelReference" }, // 3649220242
+				{ &Z_Construct_UFunction_AAssault_SetBarrelReference, "SetBarrelReference" }, // 3856352282
 				{ &Z_Construct_UFunction_AAssault_SetTurretReference, "SetTurretReference" }, // 1956086593
 			};
 #if WITH_METADATA
@@ -140,7 +141,7 @@ void EmptyLinkFunctionForGeneratedCodeAssault() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAssault, 1422416074);
+	IMPLEMENT_CLASS(AAssault, 1166063427);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AAssault(Z_Construct_UClass_AAssault, &AAssault::StaticClass, TEXT("/Script/GW_Game"), TEXT("AAssault"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AAssault);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

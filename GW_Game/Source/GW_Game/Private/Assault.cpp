@@ -2,7 +2,6 @@
 
 #include "Assault.h"
 
-
 // Sets default values
 AAssault::AAssault()
 {
@@ -38,7 +37,7 @@ void AAssault::AimAt(FVector HitLocation)
 	TankAimingComponent->AimAt(HitLocation, LaunchSpeed);
 }
 
-void AAssault::SetBarrelReference(UStaticMeshComponent* BarrelToSet)
+void AAssault::SetBarrelReference(UTankBarrel* BarrelToSet)
 {
 	TankAimingComponent->SetBarrelReference(BarrelToSet);
 }
