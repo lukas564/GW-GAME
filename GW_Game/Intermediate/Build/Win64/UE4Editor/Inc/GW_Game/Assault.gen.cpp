@@ -20,7 +20,7 @@ void EmptyLinkFunctionForGeneratedCodeAssault() {}
 	GW_GAME_API UFunction* Z_Construct_UFunction_AAssault_SetBarrelReference();
 	GW_GAME_API UClass* Z_Construct_UClass_UTankBarrel_NoRegister();
 	GW_GAME_API UFunction* Z_Construct_UFunction_AAssault_SetTurretReference();
-	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
+	GW_GAME_API UClass* Z_Construct_UClass_UTankTurret_NoRegister();
 // End Cross Module References
 	void AAssault::StaticRegisterNativesAAssault()
 	{
@@ -64,7 +64,7 @@ void EmptyLinkFunctionForGeneratedCodeAssault() {}
 	{
 		struct Assault_eventSetTurretReference_Parms
 		{
-			UStaticMeshComponent* TurretToSet;
+			UTankTurret* TurretToSet;
 		};
 		static UFunction* ReturnFunction = nullptr;
 		if (!ReturnFunction)
@@ -74,7 +74,7 @@ void EmptyLinkFunctionForGeneratedCodeAssault() {}
 				{ "EditInline", "true" },
 			};
 #endif
-			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_TurretToSet = { UE4CodeGen_Private::EPropertyClass::Object, "TurretToSet", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000080080, 1, nullptr, STRUCT_OFFSET(Assault_eventSetTurretReference_Parms, TurretToSet), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(NewProp_TurretToSet_MetaData, ARRAY_COUNT(NewProp_TurretToSet_MetaData)) };
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_TurretToSet = { UE4CodeGen_Private::EPropertyClass::Object, "TurretToSet", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000080080, 1, nullptr, STRUCT_OFFSET(Assault_eventSetTurretReference_Parms, TurretToSet), Z_Construct_UClass_UTankTurret_NoRegister, METADATA_PARAMS(NewProp_TurretToSet_MetaData, ARRAY_COUNT(NewProp_TurretToSet_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_TurretToSet,
 			};
@@ -104,7 +104,7 @@ void EmptyLinkFunctionForGeneratedCodeAssault() {}
 			};
 			static const FClassFunctionLinkInfo FuncInfo[] = {
 				{ &Z_Construct_UFunction_AAssault_SetBarrelReference, "SetBarrelReference" }, // 3856352282
-				{ &Z_Construct_UFunction_AAssault_SetTurretReference, "SetTurretReference" }, // 1956086593
+				{ &Z_Construct_UFunction_AAssault_SetTurretReference, "SetTurretReference" }, // 442334389
 			};
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
@@ -141,7 +141,7 @@ void EmptyLinkFunctionForGeneratedCodeAssault() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAssault, 1166063427);
+	IMPLEMENT_CLASS(AAssault, 1153530353);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AAssault(Z_Construct_UClass_AAssault, &AAssault::StaticClass, TEXT("/Script/GW_Game"), TEXT("AAssault"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AAssault);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -1,7 +1,6 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 //#include "GW_Game.h"
 #include "AssaultPlayerController.h"
-
 void AAssaultPlayerController::BeginPlay()
 {
 	Super::BeginPlay();
@@ -55,7 +54,7 @@ bool AAssaultPlayerController::GetSightRayHitLocation(FVector& HitLocation) cons
 	return true;
 }
 
-bool AAssaultPlayerController::GetLookVectorHitLocation(FVector LookDirection, FVector& OUTHitLocation) const
+bool AAssaultPlayerController::GetLookVectorHitLocation(FVector LookDirection, FVector& HitLocation) const
 {
 	FHitResult HitResult;
 	auto StartLocation = PlayerCameraManager->GetCameraLocation();
@@ -66,7 +65,7 @@ bool AAssaultPlayerController::GetLookVectorHitLocation(FVector LookDirection, F
 		EndLocation,
 		ECollisionChannel::ECC_Visibility))
 	{
-		OUTHitLocation = HitResult.Location;
+		HitLocation = HitResult.Location;
 		return true;
 	}
 	return false;

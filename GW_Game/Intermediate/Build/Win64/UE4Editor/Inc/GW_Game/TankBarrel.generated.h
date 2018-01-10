@@ -63,8 +63,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTankBarrel); \
 
 #define GW_Game_Source_GW_Game_Public_TankBarrel_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__MaxDegreesPerSecond() { return STRUCT_OFFSET(UTankBarrel, MaxDegreesPerSecond); } \
-	FORCEINLINE static uint32 __PPO__MinDegrees() { return STRUCT_OFFSET(UTankBarrel, MinDegrees); } \
-	FORCEINLINE static uint32 __PPO__MaxDegrees() { return STRUCT_OFFSET(UTankBarrel, MaxDegrees); }
+	FORCEINLINE static uint32 __PPO__MaxElevationDegrees() { return STRUCT_OFFSET(UTankBarrel, MaxElevationDegrees); } \
+	FORCEINLINE static uint32 __PPO__MinElevationDegrees() { return STRUCT_OFFSET(UTankBarrel, MinElevationDegrees); }
 
 
 #define GW_Game_Source_GW_Game_Public_TankBarrel_h_12_PROLOG

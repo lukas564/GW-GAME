@@ -44,19 +44,19 @@ void EmptyLinkFunctionForGeneratedCodeTankBarrel() {}
 			};
 #endif
 #if WITH_METADATA
-			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MaxDegrees_MetaData[] = {
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MinElevationDegrees_MetaData[] = {
 				{ "Category", "Setup" },
 				{ "ModuleRelativePath", "Public/TankBarrel.h" },
 			};
 #endif
-			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MaxDegrees = { UE4CodeGen_Private::EPropertyClass::Float, "MaxDegrees", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000000001, 1, nullptr, STRUCT_OFFSET(UTankBarrel, MaxDegrees), METADATA_PARAMS(NewProp_MaxDegrees_MetaData, ARRAY_COUNT(NewProp_MaxDegrees_MetaData)) };
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MinElevationDegrees = { UE4CodeGen_Private::EPropertyClass::Float, "MinElevationDegrees", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000000001, 1, nullptr, STRUCT_OFFSET(UTankBarrel, MinElevationDegrees), METADATA_PARAMS(NewProp_MinElevationDegrees_MetaData, ARRAY_COUNT(NewProp_MinElevationDegrees_MetaData)) };
 #if WITH_METADATA
-			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MinDegrees_MetaData[] = {
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MaxElevationDegrees_MetaData[] = {
 				{ "Category", "Setup" },
 				{ "ModuleRelativePath", "Public/TankBarrel.h" },
 			};
 #endif
-			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MinDegrees = { UE4CodeGen_Private::EPropertyClass::Float, "MinDegrees", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000000001, 1, nullptr, STRUCT_OFFSET(UTankBarrel, MinDegrees), METADATA_PARAMS(NewProp_MinDegrees_MetaData, ARRAY_COUNT(NewProp_MinDegrees_MetaData)) };
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MaxElevationDegrees = { UE4CodeGen_Private::EPropertyClass::Float, "MaxElevationDegrees", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000000001, 1, nullptr, STRUCT_OFFSET(UTankBarrel, MaxElevationDegrees), METADATA_PARAMS(NewProp_MaxElevationDegrees_MetaData, ARRAY_COUNT(NewProp_MaxElevationDegrees_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MaxDegreesPerSecond_MetaData[] = {
 				{ "Category", "Setup" },
@@ -65,8 +65,8 @@ void EmptyLinkFunctionForGeneratedCodeTankBarrel() {}
 #endif
 			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MaxDegreesPerSecond = { UE4CodeGen_Private::EPropertyClass::Float, "MaxDegreesPerSecond", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000000001, 1, nullptr, STRUCT_OFFSET(UTankBarrel, MaxDegreesPerSecond), METADATA_PARAMS(NewProp_MaxDegreesPerSecond_MetaData, ARRAY_COUNT(NewProp_MaxDegreesPerSecond_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MaxDegrees,
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MinDegrees,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MinElevationDegrees,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MaxElevationDegrees,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MaxDegreesPerSecond,
 			};
 			static const FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -87,7 +87,7 @@ void EmptyLinkFunctionForGeneratedCodeTankBarrel() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UTankBarrel, 1987165682);
+	IMPLEMENT_CLASS(UTankBarrel, 489733225);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UTankBarrel(Z_Construct_UClass_UTankBarrel, &UTankBarrel::StaticClass, TEXT("/Script/GW_Game"), TEXT("UTankBarrel"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UTankBarrel);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
