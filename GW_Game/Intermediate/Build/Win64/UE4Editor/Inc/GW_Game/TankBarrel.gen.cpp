@@ -38,7 +38,7 @@ void EmptyLinkFunctionForGeneratedCodeTankBarrel() {}
 			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 				{ "BlueprintSpawnableComponent", "" },
 				{ "ClassGroupNames", "Custom" },
-				{ "HideCategories", "Collision Object Activation Components|Activation Trigger" },
+				{ "HideCategories", "Object Activation Components|Activation Trigger" },
 				{ "IncludePath", "TankBarrel.h" },
 				{ "ModuleRelativePath", "Public/TankBarrel.h" },
 			};
@@ -87,7 +87,7 @@ void EmptyLinkFunctionForGeneratedCodeTankBarrel() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UTankBarrel, 489733225);
+	IMPLEMENT_CLASS(UTankBarrel, 2136658348);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UTankBarrel(Z_Construct_UClass_UTankBarrel, &UTankBarrel::StaticClass, TEXT("/Script/GW_Game"), TEXT("UTankBarrel"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UTankBarrel);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
