@@ -49,7 +49,7 @@ void EmptyLinkFunctionForGeneratedCodeTankTurret() {}
 				{ "ModuleRelativePath", "Public/TankTurret.h" },
 			};
 #endif
-			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MaxDegreesPerSecond = { UE4CodeGen_Private::EPropertyClass::Float, "MaxDegreesPerSecond", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000000001, 1, nullptr, STRUCT_OFFSET(UTankTurret, MaxDegreesPerSecond), METADATA_PARAMS(NewProp_MaxDegreesPerSecond_MetaData, ARRAY_COUNT(NewProp_MaxDegreesPerSecond_MetaData)) };
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MaxDegreesPerSecond = { UE4CodeGen_Private::EPropertyClass::Float, "MaxDegreesPerSecond", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000010001, 1, nullptr, STRUCT_OFFSET(UTankTurret, MaxDegreesPerSecond), METADATA_PARAMS(NewProp_MaxDegreesPerSecond_MetaData, ARRAY_COUNT(NewProp_MaxDegreesPerSecond_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MaxDegreesPerSecond,
 			};
@@ -71,7 +71,7 @@ void EmptyLinkFunctionForGeneratedCodeTankTurret() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UTankTurret, 4013616709);
+	IMPLEMENT_CLASS(UTankTurret, 2916834202);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UTankTurret(Z_Construct_UClass_UTankTurret, &UTankTurret::StaticClass, TEXT("/Script/GW_Game"), TEXT("UTankTurret"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UTankTurret);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -6,7 +6,6 @@
 #include "TankAIController.generated.h"
 
 class AAssault;
-
 /**
  * 
  */
@@ -16,8 +15,6 @@ class GW_GAME_API ATankAIController : public AAIController
 	GENERATED_BODY()
 	
 private:
-	AAssault* GetControlledTank() const;
-	AAssault* GetPlayerTank() const;
 	virtual void Tick (float DeltaTime) override;
 	virtual void BeginPlay() override;
 };
