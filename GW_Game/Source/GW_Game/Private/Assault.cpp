@@ -1,5 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 #include "Assault.h"
+#include "TankBarrel.h"
+#include "Projectile.h"
 #include "TankAimingComponent.h"
 
 // Sets default values
@@ -14,6 +16,7 @@ AAssault::AAssault()
 void AAssault::SetBarrelReference(UTankBarrel* BarrelToSet)
 {
 	TankAimingComponent->SetBarrelReference(BarrelToSet);
+	Barrel = BarrelToSet;
 }
 
 void AAssault::SetTurretReference(UTankTurret* TurretToSet)
@@ -38,4 +41,22 @@ void AAssault::SetupPlayerInputComponent(UInputComponent* InputComponent)
 void AAssault::AimAt(FVector HitLocation)
 {
 	TankAimingComponent->AimAt(HitLocation, LaunchSpeed);
+}
+
+void AAssault::Fire()
+{
+	bool isReloaded = (FPlatformTime::Seconds() - LastFireTime) > ReloadTimeInSeconds;
+	if (Barrel && isReloaded)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("FEUER FREI!"))
+		// Spawn a projectile at the socket location on the barrel
+		auto Projectile = GetWorld()->SpawnActor<AProjectile>(
+			ProjectileBlueprint,
+			Barrel->GetSocketLocation(FName("Projectile")),
+			Barrel->GetSocketRotation(FName("Projectile"))
+			);
+
+		Projectile->LaunchProjectile(LaunchSpeed);
+		LastFireTime = FPlatformTime::Seconds();
+	}
 }
