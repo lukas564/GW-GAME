@@ -17,6 +17,14 @@ class UTankBarrel;
 
 #define GW_Game_Source_GW_Game_Public_Assault_h_17_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execCooldown) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=this->Cooldown(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execFire) \
 	{ \
 		P_FINISH; \
@@ -45,6 +53,14 @@ class UTankBarrel;
 
 
 #define GW_Game_Source_GW_Game_Public_Assault_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execCooldown) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=this->Cooldown(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execFire) \
 	{ \
@@ -120,7 +136,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AAssault); \
 #define GW_Game_Source_GW_Game_Public_Assault_h_17_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__ProjectileBlueprint() { return STRUCT_OFFSET(AAssault, ProjectileBlueprint); } \
 	FORCEINLINE static uint32 __PPO__LaunchSpeed() { return STRUCT_OFFSET(AAssault, LaunchSpeed); } \
-	FORCEINLINE static uint32 __PPO__ReloadTimeInSeconds() { return STRUCT_OFFSET(AAssault, ReloadTimeInSeconds); }
+	FORCEINLINE static uint32 __PPO__ReloadTimeInSeconds() { return STRUCT_OFFSET(AAssault, ReloadTimeInSeconds); } \
+	FORCEINLINE static uint32 __PPO__CooldownTimeInSeconds() { return STRUCT_OFFSET(AAssault, CooldownTimeInSeconds); }
 
 
 #define GW_Game_Source_GW_Game_Public_Assault_h_14_PROLOG

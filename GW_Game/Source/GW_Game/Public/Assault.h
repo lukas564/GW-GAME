@@ -27,6 +27,9 @@ public:
 	UFUNCTION(BlueprintCallable, Category = Firing)
 		void Fire();
 
+	UFUNCTION(BlueprintCallable, Category = Ability)
+		bool Cooldown();
+
 protected:
 	UTankAimingComponent* TankAimingComponent = nullptr;
 
@@ -49,8 +52,12 @@ private:
 	UPROPERTY(EditDefaultsOnly, Category = Firing)
 		float ReloadTimeInSeconds = 3;
 
+	UPROPERTY(EditDefaultsOnly, Category = Ability)
+		float CooldownTimeInSeconds = 3;
+
 	// Local barrel reference for spawning projectile
 	UTankBarrel* Barrel = nullptr;
 
 	double LastFireTime = 0;
+	double LastAbilityUse = 0;
 };
