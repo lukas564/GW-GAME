@@ -426,6 +426,7 @@
 		<ClCompile Include="..\..\Source\GW_Game\Private\TankAIController.cpp" />
 		<ClCompile Include="..\..\Source\GW_Game\Private\TankAimingComponent.cpp" />
 		<ClCompile Include="..\..\Source\GW_Game\Private\TankBarrel.cpp" />
+		<ClCompile Include="..\..\Source\GW_Game\Private\TankMovementComponent.cpp" />
 		<ClCompile Include="..\..\Source\GW_Game\Private\TankTurret.cpp" />
 		<ClInclude Include="..\..\Source\GW_Game\Public\Assault.h" />
 		<ClInclude Include="..\..\Source\GW_Game\Public\AssaultPlayerController.h" />
@@ -434,6 +435,7 @@
 		<ClInclude Include="..\..\Source\GW_Game\Public\TankAIController.h" />
 		<ClInclude Include="..\..\Source\GW_Game\Public\TankAimingComponent.h" />
 		<ClInclude Include="..\..\Source\GW_Game\Public\TankBarrel.h" />
+		<ClInclude Include="..\..\Source\GW_Game\Public\TankMovementComponent.h" />
 		<ClInclude Include="..\..\Source\GW_Game\Public\TankTurret.h" />
 	</ItemGroup>
 	<PropertyGroup>

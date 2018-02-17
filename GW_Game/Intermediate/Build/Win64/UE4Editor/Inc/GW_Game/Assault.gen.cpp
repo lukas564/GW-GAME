@@ -25,6 +25,7 @@ void EmptyLinkFunctionForGeneratedCodeAssault() {}
 	GW_GAME_API UClass* Z_Construct_UClass_UTankTurret_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	GW_GAME_API UClass* Z_Construct_UClass_AProjectile_NoRegister();
+	GW_GAME_API UClass* Z_Construct_UClass_UTankMovementComponent_NoRegister();
 // End Cross Module References
 	void AAssault::StaticRegisterNativesAAssault()
 	{
@@ -190,11 +191,20 @@ void EmptyLinkFunctionForGeneratedCodeAssault() {}
 			};
 #endif
 			static const UE4CodeGen_Private::FClassPropertyParams NewProp_ProjectileBlueprint = { UE4CodeGen_Private::EPropertyClass::Class, "ProjectileBlueprint", RF_Public|RF_Transient|RF_MarkAsNative, 0x0044000000010001, 1, nullptr, STRUCT_OFFSET(AAssault, ProjectileBlueprint), Z_Construct_UClass_AProjectile_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(NewProp_ProjectileBlueprint_MetaData, ARRAY_COUNT(NewProp_ProjectileBlueprint_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TankMovementComponent_MetaData[] = {
+				{ "Category", "Assault" },
+				{ "EditInline", "true" },
+				{ "ModuleRelativePath", "Public/Assault.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_TankMovementComponent = { UE4CodeGen_Private::EPropertyClass::Object, "TankMovementComponent", RF_Public|RF_Transient|RF_MarkAsNative, 0x002008000008001c, 1, nullptr, STRUCT_OFFSET(AAssault, TankMovementComponent), Z_Construct_UClass_UTankMovementComponent_NoRegister, METADATA_PARAMS(NewProp_TankMovementComponent_MetaData, ARRAY_COUNT(NewProp_TankMovementComponent_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_CooldownTimeInSeconds,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_ReloadTimeInSeconds,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_LaunchSpeed,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_ProjectileBlueprint,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_TankMovementComponent,
 			};
 			static const FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 				TCppClassTypeTraits<AAssault>::IsAbstract,
@@ -214,7 +224,7 @@ void EmptyLinkFunctionForGeneratedCodeAssault() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAssault, 1864434084);
+	IMPLEMENT_CLASS(AAssault, 1288206052);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AAssault(Z_Construct_UClass_AAssault, &AAssault::StaticClass, TEXT("/Script/GW_Game"), TEXT("AAssault"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AAssault);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

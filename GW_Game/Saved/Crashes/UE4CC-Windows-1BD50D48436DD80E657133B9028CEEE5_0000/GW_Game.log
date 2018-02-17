@@ -1,0 +1,1119 @@
+﻿Log file open, 02/17/18 21:41:56
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: GW_Game
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(697232757) SRandInit(697232757).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3794801, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.149976
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogModuleManager: Display: Found up-to-date module file D:/repos/GWGame/GW_Game/Binaries/Win64/UE4Editor-GW_Game.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-3794801
+LogInit: Engine Version: 4.18.2-3794801+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Dec  8 2017 02:04:53
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.02.17-20.41.57:678][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.17-20.41.57:678][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.17-20.41.57:688][  0]LogInit: Computer: DESKTOP-6NVMURH
+[2018.02.17-20.41.57:688][  0]LogInit: User: uzivatel1
+[2018.02.17-20.41.57:688][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.02.17-20.41.57:688][  0]LogInit: High frequency timer resolution =4.101564 MHz
+[2018.02.17-20.41.57:688][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.02.17-20.41.57:688][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.17-20.41.57:688][  0]LogMemory: Process Physical Memory: 272.36 MB used, 272.36 MB peak
+[2018.02.17-20.41.57:688][  0]LogMemory: Process Virtual Memory: 269.76 MB used, 269.76 MB peak
+[2018.02.17-20.41.57:688][  0]LogMemory: Physical Memory: 4872.31 MB used,  11469.75 MB free, 16342.06 MB total
+[2018.02.17-20.41.57:688][  0]LogMemory: Virtual Memory: 682.18 MB used,  11469.75 MB free, 134217728.00 MB total
+[2018.02.17-20.41.57:787][  0]LogInit: Using OS detected language (cs-CZ).
+[2018.02.17-20.41.57:787][  0]LogInit: Using OS detected locale (cs-CZ).
+[2018.02.17-20.41.57:789][  0]LogTextLocalizationManager: No localization for 'cs-CZ' exists, so 'en' will be used for the language.
+[2018.02.17-20.41.57:789][  0]LogTextLocalizationManager: No localization for 'cs-CZ' exists, so 'en' will be used for the locale.
+[2018.02.17-20.41.58:078][  0]LogInit: Setting process to per monitor DPI aware
+[2018.02.17-20.41.58:241][  0]LogD3D11RHI: D3D11 adapters:
+[2018.02.17-20.41.58:275][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.02.17-20.41.58:275][  0]LogD3D11RHI:       8096/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.02.17-20.41.58:276][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.02.17-20.41.58:276][  0]LogD3D11RHI:       0/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.02.17-20.41.58:276][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.02.17-20.41.58:281][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.02.17-20.41.58:281][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.02.17-20.41.58:281][  0]LogWindows: EnumDisplayDevices:
+[2018.02.17-20.41.58:281][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.02.17-20.41.58:282][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.02.17-20.41.58:282][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.02.17-20.41.58:282][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.02.17-20.41.58:282][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.02.17-20.41.58:282][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.02.17-20.41.58:282][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.02.17-20.41.58:282][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.02.17-20.41.58:282][  0]LogRHI: Texture pool is 5667 MB (70% of 8096 MB)
+[2018.02.17-20.41.58:297][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.17-20.41.58:354][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.02.17-20.41.58:401][  0]LogShaderCompilers: Guid format shader working directory is 27 characters bigger than the processId version (D:/repos/GWGame/GW_Game/Intermediate/Shaders/WorkingDirectory/10172/).
+[2018.02.17-20.41.58:401][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/uzivatel 1/AppData/Local/Temp/UnrealShaderWorkingDir/BBA2BF7A41899EE44260D6BED1B77C45/'.
+[2018.02.17-20.41.58:401][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.02.17-20.41.59:025][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.02.17-20.41.59:059][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.02.17-20.41.59:094][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.02.17-20.41.59:130][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.02.17-20.41.59:166][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.02.17-20.41.59:201][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.17-20.41.59:236][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.17-20.41.59:271][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.17-20.41.59:302][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.02.17-20.41.59:337][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.02.17-20.41.59:371][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.02.17-20.41.59:406][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.02.17-20.41.59:442][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.02.17-20.41.59:478][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.02.17-20.41.59:548][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.02.17-20.41.59:548][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.02.17-20.41.59:583][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.02.17-20.41.59:611][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.02.17-20.41.59:682][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.02.17-20.41.59:700][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.02.17-20.41.59:735][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.02.17-20.41.59:769][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.02.17-20.41.59:806][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.02.17-20.41.59:842][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.02.17-20.41.59:842][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.02.17-20.42.00:155][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.02.17-20.42.00:208][  0]LogDerivedDataCache: Loaded boot cache 0.05s 78MB C:/Users/uzivatel 1/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.02.17-20.42.00:208][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/uzivatel 1/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.02.17-20.42.00:208][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/repos/GWGame/GW_Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.17-20.42.00:208][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.17-20.42.00:208][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/repos/GWGame/GW_Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.17-20.42.00:208][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.17-20.42.00:220][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.17-20.42.00:232][  0]LogDerivedDataCache: Using Local data cache path C:/Users/uzivatel 1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.17-20.42.00:239][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.02.17-20.42.00:239][  0]LogSlate: Using Freetype 2.6.0
+[2018.02.17-20.42.00:240][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.17-20.42.00:240][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.17-20.42.00:491][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.17-20.42.00:717][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.02.17-20.42.00:744][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.02.17-20.42.00:744][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.02.17-20.42.00:744][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.02.17-20.42.00:744][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.02.17-20.42.00:744][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.02.17-20.42.00:763][  0]LogNetVersion: GW_Game , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4001666234)
+[2018.02.17-20.42.00:887][  0]LogAssetRegistry: FAssetRegistry took 0.0255 seconds to start up
+[2018.02.17-20.42.01:220][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 1 prioritized culture(s) in 0.022705 seconds
+[2018.02.17-20.42.01:225][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
+[2018.02.17-20.42.01:225][  0]LogUObjectAllocator: 7372024 out of 0 bytes used by permanent object pool.
+[2018.02.17-20.42.01:225][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.02.17-20.42.01:263][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.17-20.42.03:177][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.02.17-20.42.03:208][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.17-20.42.03:735][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.02.17-20.42.04:029][  0]SourceControl: Source control is disabled
+[2018.02.17-20.42.04:029][  0]SourceControl: Source control is disabled
+[2018.02.17-20.42.04:065][  0]SourceControl: Source control is disabled
+[2018.02.17-20.42.04:102][  0]SourceControl: Source control is disabled
+[2018.02.17-20.42.04:665][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.02.17-20.42.04:856][  0]LogOcInput: OculusInput pre-init called
+[2018.02.17-20.42.05:045][  0]LogEngine: Initializing Engine...
+[2018.02.17-20.42.05:046][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.02.17-20.42.05:200][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.02.17-20.42.05:200][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.02.17-20.42.05:290][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.02.17-20.42.05:295][  0]LogInit: XAudio2 using 'U24E590-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.17-20.42.05:313][  0]LogInit: FAudioDevice initialized.
+[2018.02.17-20.42.05:380][  0]LogDerivedDataCache: Saved boot cache 0.07s 78MB C:/Users/uzivatel 1/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.02.17-20.42.05:389][  0]LogInit: Texture streaming: Enabled
+[2018.02.17-20.42.05:454][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.02.17-20.42.05:454][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={045A5820-4DD5-5C81-0F20-87AC6B14EF09}
+[2018.02.17-20.42.05:541][  0]LogInit: Transaction tracking system initialized
+[2018.02.17-20.42.05:752][  0]BlueprintLog: New page: Editor Load
+[2018.02.17-20.42.06:360][  0]LocalizationService: Localization service is disabled
+[2018.02.17-20.42.06:879][  0]LogConsoleResponse: Display: 
+[2018.02.17-20.42.07:008][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.02.17-20.42.07:008][  0]LogCook: Display: Mobile HDR setting 1
+[2018.02.17-20.42.07:008][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.02.17-20.42.07:132][  0]LogFileCache: Scanning file cache for directory 'D:/repos/GWGame/GW_Game/Content/' took 0.01s
+[2018.02.17-20.42.07:819][  0]SourceControl: Source control is disabled
+[2018.02.17-20.42.07:820][  0]Cmd: MAP LOAD FILE="D:/repos/GWGame/GW_Game/Content/_Levels/BattleGround.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.17-20.42.07:820][  0]LightingResults: New page: Lighting Build
+[2018.02.17-20.42.07:848][  0]MapCheck: New page: Map Check
+[2018.02.17-20.42.07:848][  0]LightingResults: New page: Lighting Build
+[2018.02.17-20.42.08:165][  0]LogAIModule: Creating AISystem for world BattleGround
+[2018.02.17-20.42.08:183][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.17-20.42.08:192][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.17-20.42.08:227][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 34.448ms to complete.
+[2018.02.17-20.42.08:227][  0]LogFileHelpers: Loading map 'BattleGround' took 0.407
+[2018.02.17-20.42.08:286][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.02.17-20.42.08:339][  0]LogCollectionManager: Loaded 0 collections in 0.001103 seconds
+[2018.02.17-20.42.08:402][  0]LogFileCache: Scanning file cache for directory 'D:/repos/GWGame/GW_Game/Saved/Collections/' took 0.01s
+[2018.02.17-20.42.08:402][  0]LogFileCache: Scanning file cache for directory 'D:/repos/GWGame/GW_Game/Content/Developers/uzivatel1/Collections/' took 0.01s
+[2018.02.17-20.42.08:402][  0]LogFileCache: Scanning file cache for directory 'D:/repos/GWGame/GW_Game/Content/Collections/' took 0.01s
+[2018.02.17-20.42.08:402][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.02.17-20.42.08:408][  0]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 2374 classes and 524 folders.
+[2018.02.17-20.42.08:453][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.02.17-20.42.08:477][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.02.17-20.42.08:572][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.02.17-20.42.08:572][  0]LogLoad: (Engine Initialization) Total time: 12.68 seconds
+[2018.02.17-20.42.08:572][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.02.17-20.42.08:573][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.02.17-20.42.08:594][  0]LogAssetRegistry: Asset discovery search completed in 7.7297 seconds
+[2018.02.17-20.42.08:595][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.02.17-20.42.08:595][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000049 seconds (updated 0 objects)
+[2018.02.17-20.42.08:596][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.02.17-20.42.08:602][  0]LogSlate: Took 0.000132 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.17-20.42.08:603][  0]LogSlate: Took 0.000094 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.02.17-20.42.08:603][  0]LogSlate: Took 0.000085 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.02.17-20.42.08:607][  0]LogSlate: Took 0.000081 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.02.17-20.42.08:712][  0]LogRenderer: Reallocating scene render targets to support 720x476 Format 10 NumSamples 1 (Frame:1).
+[2018.02.17-20.42.10:442][  6]LogRenderer: Reallocating scene render targets to support 1088x756 Format 10 NumSamples 1 (Frame:3).
+[2018.02.17-20.42.11:393][ 98]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.17-20.42.11:420][ 98]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.02.17-20.42.11:421][ 98]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.17-20.42.11:421][ 98]PIE: New page: PIE session: BattleGround (Feb 17, 2018, 10:42:11 PM)
+[2018.02.17-20.42.11:421][ 98]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_BattleGround
+[2018.02.17-20.42.11:433][ 98]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011217s)
+[2018.02.17-20.42.11:433][ 98]LogAIModule: Creating AISystem for world BattleGround
+[2018.02.17-20.42.11:434][ 98]LogPlayLevel: PIE: World Init took: (0.000814s)
+[2018.02.17-20.42.11:434][ 98]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/BattleGround.BattleGround to /Game/_Levels/UEDPIE_0_BattleGround.BattleGround (0.012501s)
+[2018.02.17-20.42.11:442][ 98]LogInit: XAudio2 using 'U24E590-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.17-20.42.11:448][ 98]LogInit: FAudioDevice initialized.
+[2018.02.17-20.42.11:494][ 98]LogLoad: Game class is 'AssaultGameMode_BP_C'
+[2018.02.17-20.42.11:497][ 98]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2018.02.17-21.42.11
+[2018.02.17-20.42.11:497][ 98]LogWorld: Bringing up level for play took: 0.001447
+[2018.02.17-20.42.11:526][ 98]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2018.02.17-20.42.11:527][ 98]LogTemp: Warning: PlayerController not possessing a tank
+[2018.02.17-20.42.11:527][ 98]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_BattleGround 0.458
+[2018.02.17-20.42.11:528][ 98]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.02.17-20.42.13:152][289]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:160][290]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:168][291]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:176][292]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:185][293]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:193][294]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:201][295]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:209][296]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:218][297]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:226][298]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:234][299]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:243][300]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:251][301]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:260][302]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:268][303]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:276][304]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:285][305]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:293][306]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:301][307]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:310][308]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:318][309]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:326][310]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:334][311]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:343][312]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:351][313]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:360][314]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:368][315]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:376][316]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:385][317]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:393][318]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:401][319]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:410][320]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:418][321]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:426][322]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:435][323]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:443][324]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:451][325]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:460][326]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:468][327]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:476][328]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:484][329]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:493][330]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:501][331]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:510][332]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:518][333]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:526][334]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:535][335]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:543][336]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:551][337]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:560][338]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:568][339]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:576][340]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:584][341]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:593][342]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:601][343]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:610][344]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:618][345]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:626][346]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:634][347]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:643][348]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:651][349]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:660][350]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:668][351]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:676][352]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:685][353]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:693][354]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:701][355]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:709][356]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:718][357]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:726][358]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:734][359]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:743][360]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:751][361]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:760][362]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:768][363]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:776][364]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:785][365]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:793][366]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:801][367]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:810][368]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:818][369]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:826][370]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:835][371]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:843][372]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:851][373]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:859][374]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:868][375]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:876][376]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:884][377]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:893][378]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:901][379]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:910][380]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:918][381]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:926][382]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:934][383]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:943][384]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:951][385]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:960][386]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:968][387]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:976][388]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:984][389]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.13:993][390]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:001][391]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:009][392]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:018][393]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:026][394]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:035][395]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:043][396]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:051][397]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:060][398]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:068][399]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:076][400]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:084][401]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:093][402]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:101][403]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:110][404]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:118][405]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:126][406]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:134][407]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:143][408]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:151][409]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:160][410]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:168][411]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:176][412]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:184][413]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:193][414]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:201][415]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:209][416]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:218][417]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:226][418]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:234][419]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:243][420]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:251][421]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:260][422]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:268][423]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:276][424]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:285][425]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:293][426]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:301][427]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:310][428]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:318][429]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:326][430]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:334][431]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:343][432]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:351][433]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:360][434]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:368][435]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:376][436]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:384][437]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:393][438]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:401][439]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:410][440]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:418][441]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:426][442]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:435][443]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:443][444]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:451][445]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:460][446]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:468][447]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:476][448]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:484][449]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:493][450]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:501][451]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:509][452]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:518][453]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:526][454]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:534][455]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:543][456]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:551][457]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:560][458]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:568][459]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:576][460]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:585][461]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:593][462]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:601][463]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:609][464]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:618][465]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:626][466]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:635][467]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:643][468]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:651][469]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:660][470]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:668][471]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:676][472]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:685][473]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:693][474]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:701][475]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:709][476]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:718][477]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:726][478]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:734][479]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:743][480]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:751][481]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:760][482]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:768][483]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:776][484]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:785][485]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:793][486]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:801][487]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:809][488]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:818][489]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:826][490]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:834][491]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:843][492]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:851][493]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:860][494]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:868][495]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:876][496]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:885][497]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:893][498]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:901][499]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:910][500]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:918][501]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:926][502]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:934][503]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:943][504]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:951][505]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:959][506]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:968][507]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:976][508]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:984][509]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.14:993][510]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:001][511]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:010][512]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:018][513]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:026][514]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:034][515]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:043][516]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:051][517]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:060][518]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:068][519]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:076][520]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:085][521]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:093][522]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:101][523]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:109][524]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:118][525]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:126][526]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:134][527]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:143][528]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:151][529]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:160][530]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:168][531]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:176][532]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:185][533]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:193][534]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:201][535]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:210][536]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:218][537]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:226][538]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:235][539]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:243][540]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:251][541]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:260][542]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:268][543]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:276][544]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:284][545]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:293][546]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:301][547]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:310][548]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:318][549]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:326][550]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:335][551]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:343][552]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:351][553]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:360][554]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:368][555]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:376][556]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:385][557]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:393][558]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:401][559]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:410][560]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:418][561]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:426][562]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:435][563]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:443][564]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:451][565]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:460][566]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:468][567]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:476][568]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:485][569]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:493][570]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:501][571]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:510][572]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:518][573]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:526][574]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:534][575]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:543][576]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:551][577]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:560][578]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:568][579]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:576][580]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:584][581]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:593][582]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:601][583]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:609][584]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:618][585]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:626][586]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:634][587]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:643][588]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:651][589]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:659][590]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:668][591]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:676][592]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:684][593]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:693][594]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:701][595]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:709][596]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:718][597]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:726][598]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:735][599]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:743][600]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:751][601]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:760][602]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:768][603]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:776][604]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:785][605]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:793][606]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:801][607]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:809][608]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:818][609]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:826][610]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:835][611]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:843][612]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:851][613]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:860][614]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:868][615]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:876][616]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:885][617]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:893][618]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:901][619]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:909][620]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:918][621]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:926][622]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:935][623]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:943][624]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:951][625]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:959][626]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:968][627]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:976][628]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:985][629]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.15:993][630]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:001][631]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:010][632]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:018][633]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:026][634]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:035][635]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:043][636]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:051][637]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:059][638]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:068][639]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:076][640]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:084][641]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:093][642]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:101][643]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:109][644]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:118][645]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:126][646]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:135][647]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:143][648]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:151][649]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:159][650]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:168][651]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:176][652]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:185][653]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:193][654]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:201][655]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:209][656]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:218][657]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:226][658]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:235][659]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:243][660]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:251][661]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:260][662]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:268][663]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:276][664]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:284][665]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:293][666]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:301][667]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:309][668]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:318][669]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:326][670]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:335][671]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:343][672]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:351][673]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:359][674]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:368][675]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:376][676]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:385][677]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:393][678]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:401][679]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:410][680]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:418][681]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:426][682]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:435][683]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:443][684]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:451][685]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:460][686]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:468][687]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:476][688]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:484][689]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:493][690]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:501][691]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:510][692]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:518][693]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:526][694]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:534][695]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:543][696]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:552][697]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:560][698]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:568][699]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:576][700]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:585][701]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:593][702]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:601][703]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:609][704]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:618][705]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:626][706]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:634][707]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:643][708]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:651][709]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:659][710]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:668][711]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:676][712]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:685][713]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:693][714]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:701][715]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:709][716]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:718][717]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:726][718]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:735][719]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:743][720]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:751][721]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:759][722]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:768][723]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:776][724]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:785][725]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:793][726]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:801][727]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:810][728]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:818][729]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:826][730]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:834][731]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:843][732]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:851][733]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:859][734]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:868][735]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:876][736]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:885][737]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:893][738]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:901][739]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:910][740]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:918][741]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:926][742]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:935][743]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:943][744]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:951][745]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:959][746]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:968][747]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:976][748]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:984][749]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.16:993][750]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:001][751]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:009][752]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:018][753]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:026][754]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:035][755]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:043][756]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:051][757]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:059][758]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:068][759]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:076][760]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:085][761]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:093][762]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:101][763]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:110][764]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:118][765]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:126][766]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:135][767]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:143][768]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:151][769]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:159][770]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:168][771]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:176][772]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:185][773]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:193][774]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:201][775]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:210][776]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:218][777]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:226][778]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:235][779]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:243][780]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:251][781]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:260][782]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:268][783]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:276][784]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:284][785]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:293][786]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:301][787]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:310][788]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:318][789]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:326][790]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:335][791]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:343][792]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:351][793]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:359][794]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:368][795]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:376][796]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:384][797]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:393][798]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:401][799]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:409][800]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:418][801]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:426][802]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:435][803]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:443][804]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:451][805]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:460][806]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:468][807]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:476][808]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:484][809]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:493][810]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:501][811]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:510][812]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:518][813]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:526][814]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:535][815]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:543][816]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:551][817]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:559][818]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:568][819]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:576][820]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:584][821]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:593][822]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:601][823]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:609][824]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:618][825]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:626][826]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:634][827]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:643][828]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:651][829]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:660][830]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:668][831]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:676][832]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:684][833]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:693][834]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:701][835]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:709][836]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:718][837]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:726][838]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:735][839]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:743][840]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:751][841]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:759][842]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:768][843]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:776][844]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:785][845]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:793][846]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:801][847]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:810][848]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:818][849]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:826][850]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:835][851]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:843][852]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:851][853]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:860][854]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:868][855]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:876][856]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:885][857]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:893][858]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:901][859]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:909][860]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:918][861]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:926][862]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:934][863]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:943][864]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:951][865]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:960][866]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:968][867]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:976][868]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:984][869]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.17:993][870]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:001][871]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:009][872]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:018][873]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:026][874]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:035][875]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:043][876]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:051][877]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:059][878]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:068][879]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:076][880]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:085][881]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:093][882]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:101][883]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:110][884]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:118][885]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:126][886]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:134][887]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:143][888]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:151][889]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:159][890]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:168][891]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:176][892]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:185][893]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:193][894]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:201][895]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:210][896]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:218][897]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:226][898]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:235][899]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:243][900]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:251][901]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:259][902]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:268][903]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:276][904]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:285][905]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:293][906]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:301][907]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:310][908]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:318][909]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:326][910]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:335][911]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:343][912]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:351][913]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:360][914]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:368][915]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:376][916]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:384][917]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:393][918]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:401][919]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:409][920]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:418][921]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:426][922]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:435][923]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:443][924]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:451][925]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:460][926]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:468][927]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:476][928]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:485][929]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:493][930]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:501][931]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:509][932]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:518][933]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:526][934]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:534][935]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:543][936]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:551][937]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:560][938]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:568][939]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:576][940]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:585][941]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:593][942]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:601][943]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:610][944]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:618][945]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:626][946]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:634][947]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:643][948]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:651][949]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:659][950]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:668][951]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:676][952]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:685][953]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:693][954]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:701][955]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:710][956]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:718][957]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:726][958]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:735][959]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:743][960]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:751][961]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:760][962]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:768][963]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:776][964]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:785][965]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:793][966]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:801][967]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:809][968]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:818][969]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:826][970]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:834][971]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:843][972]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:851][973]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:859][974]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:868][975]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:876][976]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:885][977]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:893][978]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:901][979]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:910][980]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:918][981]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:926][982]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:935][983]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:943][984]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:952][985]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:960][986]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:968][987]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:976][988]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:985][989]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.18:993][990]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.19:001][991]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.19:010][992]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.19:018][993]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.19:026][994]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.19:035][995]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.19:043][996]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.19:051][997]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.19:059][998]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.19:068][999]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.19:076][  0]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.19:085][  1]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.19:093][  2]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.19:101][  3]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.19:110][  4]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.19:118][  5]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.19:126][  6]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.19:135][  7]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.19:143][  8]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.19:151][  9]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.19:159][ 10]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.19:168][ 11]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.19:176][ 12]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.19:185][ 13]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.19:193][ 14]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.19:201][ 15]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.19:210][ 16]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.19:218][ 17]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.19:226][ 18]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.19:234][ 19]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.19:243][ 20]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.19:251][ 21]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.19:259][ 22]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.19:268][ 23]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.19:276][ 24]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.19:285][ 25]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.19:293][ 26]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.19:301][ 27]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.19:309][ 28]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.19:318][ 29]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.19:326][ 30]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.19:334][ 31]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.19:343][ 32]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.19:351][ 33]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.19:359][ 34]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.19:368][ 35]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.19:376][ 36]LogTemp: Warning: Intend to move forward throw: 0.000000
+[2018.02.17-20.42.19:385][ 37]LogSpawn: Warning: SpawnActor failed because no class was specified

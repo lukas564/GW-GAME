@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\GW_Game.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{0B46DCEB-257C-4D38-B8D3-79247BA53F0B}</UniqueIdentifier>
+			<UniqueIdentifier>{6F3DC6EB-E134-4AB6-95D5-EAAAC885FC4B}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\GW_Game.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{B6AEB7EB-F3CC-4AA3-916A-9B967171DE86}</UniqueIdentifier>
+			<UniqueIdentifier>{9B20D16A-EEA3-4D15-81FE-CD07B4AF170A}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -28,7 +28,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\GW_Game">
-			<UniqueIdentifier>{5CD669F6-6CAB-4055-9253-C246F486BC0A}</UniqueIdentifier>
+			<UniqueIdentifier>{580A7945-8480-4855-96C6-864AC11FD8FE}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\GW_Game\GW_Game.Build.cs">
 			<Filter>Source\GW_Game</Filter>
@@ -46,7 +46,7 @@
 			<Filter>Source\GW_Game</Filter>
 		</ClInclude >
 		<Filter Include="Source\GW_Game\Private">
-			<UniqueIdentifier>{B0A0A86D-25BA-4946-8509-776245DD8384}</UniqueIdentifier>
+			<UniqueIdentifier>{6CE32C22-9D03-4B11-BCD8-43EA442D2358}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\GW_Game\Private\Assault.cpp">
 			<Filter>Source\GW_Game\Private</Filter>
@@ -69,11 +69,14 @@
 		<ClCompile Include="..\..\Source\GW_Game\Private\TankBarrel.cpp">
 			<Filter>Source\GW_Game\Private</Filter>
 		</ClCompile >
+		<ClCompile Include="..\..\Source\GW_Game\Private\TankMovementComponent.cpp">
+			<Filter>Source\GW_Game\Private</Filter>
+		</ClCompile >
 		<ClCompile Include="..\..\Source\GW_Game\Private\TankTurret.cpp">
 			<Filter>Source\GW_Game\Private</Filter>
 		</ClCompile >
 		<Filter Include="Source\GW_Game\Public">
-			<UniqueIdentifier>{C49E4390-0BE7-45FD-9F7E-FB428BDFDABA}</UniqueIdentifier>
+			<UniqueIdentifier>{7E54D47C-39E2-4019-9954-1D35B9A08314}</UniqueIdentifier>
 		</Filter>
 		<ClInclude Include="..\..\Source\GW_Game\Public\Assault.h">
 			<Filter>Source\GW_Game\Public</Filter>
@@ -94,6 +97,9 @@
 			<Filter>Source\GW_Game\Public</Filter>
 		</ClInclude >
 		<ClInclude Include="..\..\Source\GW_Game\Public\TankBarrel.h">
+			<Filter>Source\GW_Game\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\GW_Game\Public\TankMovementComponent.h">
 			<Filter>Source\GW_Game\Public</Filter>
 		</ClInclude >
 		<ClInclude Include="..\..\Source\GW_Game\Public\TankTurret.h">

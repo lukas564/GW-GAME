@@ -24,10 +24,10 @@
 /wd4838
 /w44668
 /I "C:\Program Files\Epic Games\UE_4.18\Engine\Source"
-/I C:\Users\palic\Documents\GW-GAME\GW_Game\Source
-/I C:\Users\palic\Documents\GW-GAME\GW_Game\Source\GW_Game\Public
-/I C:\Users\palic\Documents\GW-GAME\GW_Game\Intermediate\Build\Win64\UE4Editor\Inc\GW_Game
-/I C:\Users\palic\Documents\GW-GAME\GW_Game\Source\GW_Game
+/I D:\repos\GWGame\GW_Game\Source
+/I D:\repos\GWGame\GW_Game\Source\GW_Game\Public
+/I D:\repos\GWGame\GW_Game\Intermediate\Build\Win64\UE4Editor\Inc\GW_Game
+/I D:\repos\GWGame\GW_Game\Source\GW_Game
 /I "C:\Program Files\Epic Games\UE_4.18\Engine\Source\Runtime\Core\Public"
 /I "C:\Program Files\Epic Games\UE_4.18\Engine\Source\Runtime\Core\Public\Internationalization"
 /I "C:\Program Files\Epic Games\UE_4.18\Engine\Source\Runtime\Core\Public\Async"
@@ -360,9 +360,9 @@
 /FI"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Yu"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Fp"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\palic\Documents\GW-GAME\GW_Game\Source\GW_Game\Private\MovementPoint.cpp"
-/FI"C:\Users\palic\Documents\GW-GAME\GW_Game\Intermediate\Build\Win64\UE4Editor\Development\GW_Game\Definitions.GW_Game.h"
-/Fo"C:\Users\palic\Documents\GW-GAME\GW_Game\Intermediate\Build\Win64\UE4Editor\Development\GW_Game\MovementPoint.cpp.obj"
+"D:\repos\GWGame\GW_Game\Source\GW_Game\Private\MovementPoint.cpp"
+/FI"D:\repos\GWGame\GW_Game\Intermediate\Build\Win64\UE4Editor\Development\GW_Game\Definitions.GW_Game.h"
+/Fo"D:\repos\GWGame\GW_Game\Intermediate\Build\Win64\UE4Editor\Development\GW_Game\MovementPoint.cpp.obj"
 /TP
 /GR-
 /W4

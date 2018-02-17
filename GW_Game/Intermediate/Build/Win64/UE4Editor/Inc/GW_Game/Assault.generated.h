@@ -134,6 +134,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AAssault); \
 
 
 #define GW_Game_Source_GW_Game_Public_Assault_h_17_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__TankMovementComponent() { return STRUCT_OFFSET(AAssault, TankMovementComponent); } \
 	FORCEINLINE static uint32 __PPO__ProjectileBlueprint() { return STRUCT_OFFSET(AAssault, ProjectileBlueprint); } \
 	FORCEINLINE static uint32 __PPO__LaunchSpeed() { return STRUCT_OFFSET(AAssault, LaunchSpeed); } \
 	FORCEINLINE static uint32 __PPO__ReloadTimeInSeconds() { return STRUCT_OFFSET(AAssault, ReloadTimeInSeconds); } \
