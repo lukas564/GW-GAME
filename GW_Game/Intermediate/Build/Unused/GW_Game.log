@@ -3,17 +3,7 @@
   Compiling game modules for hot reload
   Parsing headers for GW_GameEditor
     Running UnrealHeaderTool "D:\repos\GWGame\GW_Game\GW_Game.uproject" "D:\repos\GWGame\GW_Game\Intermediate\Build\Win64\GW_GameEditor\Development\GW_GameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for GW_GameEditor in 6,7868985 seconds
-  Performing 8 actions (4 in parallel)
-  Assault.gen.cpp
-  AssaultPlayerController.gen.cpp
-  TankAIController.cpp
-  AssaultPlayerController.cpp
-  Assault.cpp
-  TankAIController.gen.cpp
-  [7/8] Link UE4Editor-GW_Game-1783.dll
-  [8/8] Link UE4Editor-GW_Game-1783.lib
-     Creating library D:\repos\GWGame\GW_Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-GW_Game-1783.suppressed.lib and object D:\repos\GWGame\GW_Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-GW_Game-1783.suppressed.exp
-     Creating library D:\repos\GWGame\GW_Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-GW_Game-1783.lib and object D:\repos\GWGame\GW_Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-GW_Game-1783.exp
-  Deploying GW_GameEditor Win64 Development...
-  Total build time: 25,50 seconds (Local executor: 2,02 seconds)
+  Reflection code generated for GW_GameEditor in 6,2525012 seconds
+  Performing 25 actions (4 in parallel)
+  SharedPCH.Engine.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): warning MSB5021: "cmd" and its child processes are being terminated in order to cancel the build.
