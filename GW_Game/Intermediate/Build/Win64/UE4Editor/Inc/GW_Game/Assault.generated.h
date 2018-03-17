@@ -13,29 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define GW_GAME_Assault_generated_h
 
-#define GW_Game_Source_GW_Game_Public_Assault_h_17_RPC_WRAPPERS \
- \
-	DECLARE_FUNCTION(execFire) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		this->Fire(); \
-		P_NATIVE_END; \
-	}
-
-
-#define GW_Game_Source_GW_Game_Public_Assault_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
- \
-	DECLARE_FUNCTION(execFire) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		this->Fire(); \
-		P_NATIVE_END; \
-	}
-
-
-#define GW_Game_Source_GW_Game_Public_Assault_h_17_INCLASS_NO_PURE_DECLS \
+#define GW_Game_Source_GW_Game_Public_Assault_h_8_RPC_WRAPPERS
+#define GW_Game_Source_GW_Game_Public_Assault_h_8_RPC_WRAPPERS_NO_PURE_DECLS
+#define GW_Game_Source_GW_Game_Public_Assault_h_8_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAAssault(); \
 	friend GW_GAME_API class UClass* Z_Construct_UClass_AAssault(); \
@@ -45,7 +25,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define GW_Game_Source_GW_Game_Public_Assault_h_17_INCLASS \
+#define GW_Game_Source_GW_Game_Public_Assault_h_8_INCLASS \
 private: \
 	static void StaticRegisterNativesAAssault(); \
 	friend GW_GAME_API class UClass* Z_Construct_UClass_AAssault(); \
@@ -55,7 +35,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define GW_Game_Source_GW_Game_Public_Assault_h_17_STANDARD_CONSTRUCTORS \
+#define GW_Game_Source_GW_Game_Public_Assault_h_8_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AAssault(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AAssault) \
@@ -68,7 +48,7 @@ private: \
 public:
 
 
-#define GW_Game_Source_GW_Game_Public_Assault_h_17_ENHANCED_CONSTRUCTORS \
+#define GW_Game_Source_GW_Game_Public_Assault_h_8_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AAssault(AAssault&&); \
@@ -79,33 +59,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AAssault); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AAssault)
 
 
-#define GW_Game_Source_GW_Game_Public_Assault_h_17_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__TankAimingComponent() { return STRUCT_OFFSET(AAssault, TankAimingComponent); } \
-	FORCEINLINE static uint32 __PPO__TankMovementComponent() { return STRUCT_OFFSET(AAssault, TankMovementComponent); } \
-	FORCEINLINE static uint32 __PPO__ProjectileBlueprint() { return STRUCT_OFFSET(AAssault, ProjectileBlueprint); } \
-	FORCEINLINE static uint32 __PPO__LaunchSpeed() { return STRUCT_OFFSET(AAssault, LaunchSpeed); } \
-	FORCEINLINE static uint32 __PPO__ReloadTimeInSeconds() { return STRUCT_OFFSET(AAssault, ReloadTimeInSeconds); }
-
-
-#define GW_Game_Source_GW_Game_Public_Assault_h_14_PROLOG
-#define GW_Game_Source_GW_Game_Public_Assault_h_17_GENERATED_BODY_LEGACY \
+#define GW_Game_Source_GW_Game_Public_Assault_h_8_PRIVATE_PROPERTY_OFFSET
+#define GW_Game_Source_GW_Game_Public_Assault_h_5_PROLOG
+#define GW_Game_Source_GW_Game_Public_Assault_h_8_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GW_Game_Source_GW_Game_Public_Assault_h_17_PRIVATE_PROPERTY_OFFSET \
-	GW_Game_Source_GW_Game_Public_Assault_h_17_RPC_WRAPPERS \
-	GW_Game_Source_GW_Game_Public_Assault_h_17_INCLASS \
-	GW_Game_Source_GW_Game_Public_Assault_h_17_STANDARD_CONSTRUCTORS \
+	GW_Game_Source_GW_Game_Public_Assault_h_8_PRIVATE_PROPERTY_OFFSET \
+	GW_Game_Source_GW_Game_Public_Assault_h_8_RPC_WRAPPERS \
+	GW_Game_Source_GW_Game_Public_Assault_h_8_INCLASS \
+	GW_Game_Source_GW_Game_Public_Assault_h_8_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define GW_Game_Source_GW_Game_Public_Assault_h_17_GENERATED_BODY \
+#define GW_Game_Source_GW_Game_Public_Assault_h_8_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GW_Game_Source_GW_Game_Public_Assault_h_17_PRIVATE_PROPERTY_OFFSET \
-	GW_Game_Source_GW_Game_Public_Assault_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
-	GW_Game_Source_GW_Game_Public_Assault_h_17_INCLASS_NO_PURE_DECLS \
-	GW_Game_Source_GW_Game_Public_Assault_h_17_ENHANCED_CONSTRUCTORS \
+	GW_Game_Source_GW_Game_Public_Assault_h_8_PRIVATE_PROPERTY_OFFSET \
+	GW_Game_Source_GW_Game_Public_Assault_h_8_RPC_WRAPPERS_NO_PURE_DECLS \
+	GW_Game_Source_GW_Game_Public_Assault_h_8_INCLASS_NO_PURE_DECLS \
+	GW_Game_Source_GW_Game_Public_Assault_h_8_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

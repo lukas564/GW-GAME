@@ -17,35 +17,9 @@ void EmptyLinkFunctionForGeneratedCodeAssault() {}
 	GW_GAME_API UClass* Z_Construct_UClass_AAssault();
 	ENGINE_API UClass* Z_Construct_UClass_APawn();
 	UPackage* Z_Construct_UPackage__Script_GW_Game();
-	GW_GAME_API UFunction* Z_Construct_UFunction_AAssault_Fire();
-	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
-	GW_GAME_API UClass* Z_Construct_UClass_AProjectile_NoRegister();
-	GW_GAME_API UClass* Z_Construct_UClass_UTankMovementComponent_NoRegister();
-	GW_GAME_API UClass* Z_Construct_UClass_UTankAimingComponent_NoRegister();
 // End Cross Module References
 	void AAssault::StaticRegisterNativesAAssault()
 	{
-		UClass* Class = AAssault::StaticClass();
-		static const FNameNativePtrPair Funcs[] = {
-			{ "Fire", (Native)&AAssault::execFire },
-		};
-		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
-	}
-	UFunction* Z_Construct_UFunction_AAssault_Fire()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-#if WITH_METADATA
-			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-				{ "Category", "Firing" },
-				{ "ModuleRelativePath", "Public/Assault.h" },
-			};
-#endif
-			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_AAssault, "Fire", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
-		}
-		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_AAssault_NoRegister()
 	{
@@ -60,9 +34,6 @@ void EmptyLinkFunctionForGeneratedCodeAssault() {}
 				(UObject* (*)())Z_Construct_UClass_APawn,
 				(UObject* (*)())Z_Construct_UPackage__Script_GW_Game,
 			};
-			static const FClassFunctionLinkInfo FuncInfo[] = {
-				{ &Z_Construct_UFunction_AAssault_Fire, "Fire" }, // 3123087607
-			};
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 				{ "HideCategories", "Navigation" },
@@ -70,50 +41,6 @@ void EmptyLinkFunctionForGeneratedCodeAssault() {}
 				{ "ModuleRelativePath", "Public/Assault.h" },
 			};
 #endif
-#if WITH_METADATA
-			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ReloadTimeInSeconds_MetaData[] = {
-				{ "Category", "Firing" },
-				{ "ModuleRelativePath", "Public/Assault.h" },
-			};
-#endif
-			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_ReloadTimeInSeconds = { UE4CodeGen_Private::EPropertyClass::Float, "ReloadTimeInSeconds", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000010001, 1, nullptr, STRUCT_OFFSET(AAssault, ReloadTimeInSeconds), METADATA_PARAMS(NewProp_ReloadTimeInSeconds_MetaData, ARRAY_COUNT(NewProp_ReloadTimeInSeconds_MetaData)) };
-#if WITH_METADATA
-			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_LaunchSpeed_MetaData[] = {
-				{ "Category", "Firing" },
-				{ "ModuleRelativePath", "Public/Assault.h" },
-			};
-#endif
-			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_LaunchSpeed = { UE4CodeGen_Private::EPropertyClass::Float, "LaunchSpeed", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000010001, 1, nullptr, STRUCT_OFFSET(AAssault, LaunchSpeed), METADATA_PARAMS(NewProp_LaunchSpeed_MetaData, ARRAY_COUNT(NewProp_LaunchSpeed_MetaData)) };
-#if WITH_METADATA
-			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ProjectileBlueprint_MetaData[] = {
-				{ "Category", "Setup" },
-				{ "ModuleRelativePath", "Public/Assault.h" },
-			};
-#endif
-			static const UE4CodeGen_Private::FClassPropertyParams NewProp_ProjectileBlueprint = { UE4CodeGen_Private::EPropertyClass::Class, "ProjectileBlueprint", RF_Public|RF_Transient|RF_MarkAsNative, 0x0044000000010001, 1, nullptr, STRUCT_OFFSET(AAssault, ProjectileBlueprint), Z_Construct_UClass_AProjectile_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(NewProp_ProjectileBlueprint_MetaData, ARRAY_COUNT(NewProp_ProjectileBlueprint_MetaData)) };
-#if WITH_METADATA
-			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TankMovementComponent_MetaData[] = {
-				{ "Category", "Assault" },
-				{ "EditInline", "true" },
-				{ "ModuleRelativePath", "Public/Assault.h" },
-			};
-#endif
-			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_TankMovementComponent = { UE4CodeGen_Private::EPropertyClass::Object, "TankMovementComponent", RF_Public|RF_Transient|RF_MarkAsNative, 0x002008000008001c, 1, nullptr, STRUCT_OFFSET(AAssault, TankMovementComponent), Z_Construct_UClass_UTankMovementComponent_NoRegister, METADATA_PARAMS(NewProp_TankMovementComponent_MetaData, ARRAY_COUNT(NewProp_TankMovementComponent_MetaData)) };
-#if WITH_METADATA
-			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TankAimingComponent_MetaData[] = {
-				{ "Category", "Assault" },
-				{ "EditInline", "true" },
-				{ "ModuleRelativePath", "Public/Assault.h" },
-			};
-#endif
-			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_TankAimingComponent = { UE4CodeGen_Private::EPropertyClass::Object, "TankAimingComponent", RF_Public|RF_Transient|RF_MarkAsNative, 0x002008000008001c, 1, nullptr, STRUCT_OFFSET(AAssault, TankAimingComponent), Z_Construct_UClass_UTankAimingComponent_NoRegister, METADATA_PARAMS(NewProp_TankAimingComponent_MetaData, ARRAY_COUNT(NewProp_TankAimingComponent_MetaData)) };
-			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_ReloadTimeInSeconds,
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_LaunchSpeed,
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_ProjectileBlueprint,
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_TankMovementComponent,
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_TankAimingComponent,
-			};
 			static const FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 				TCppClassTypeTraits<AAssault>::IsAbstract,
 			};
@@ -121,8 +48,8 @@ void EmptyLinkFunctionForGeneratedCodeAssault() {}
 				&AAssault::StaticClass,
 				DependentSingletons, ARRAY_COUNT(DependentSingletons),
 				0x00900080u,
-				FuncInfo, ARRAY_COUNT(FuncInfo),
-				PropPointers, ARRAY_COUNT(PropPointers),
+				nullptr, 0,
+				nullptr, 0,
 				nullptr,
 				&StaticCppClassTypeInfo,
 				nullptr, 0,
@@ -132,7 +59,7 @@ void EmptyLinkFunctionForGeneratedCodeAssault() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAssault, 1066819765);
+	IMPLEMENT_CLASS(AAssault, 1802925678);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AAssault(Z_Construct_UClass_AAssault, &AAssault::StaticClass, TEXT("/Script/GW_Game"), TEXT("AAssault"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AAssault);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
