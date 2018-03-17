@@ -14,9 +14,11 @@ class GW_GAME_API AAssaultPlayerController : public APlayerController
 {
 	GENERATED_BODY()
 	
-public:
+protected:
+	UFUNCTION(BlueprintCallable, Category = "Setup")
 	AAssault* GetControlledTank() const;
-	
+
+public:
 	virtual void BeginPlay() override;
 	virtual void Tick(float DeltaTime) override;
 

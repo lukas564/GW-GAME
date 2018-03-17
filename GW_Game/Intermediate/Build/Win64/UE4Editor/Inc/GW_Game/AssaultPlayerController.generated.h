@@ -8,13 +8,34 @@
 #include "ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AAssault;
 #ifdef GW_GAME_AssaultPlayerController_generated_h
 #error "AssaultPlayerController.generated.h already included, missing '#pragma once' in AssaultPlayerController.h"
 #endif
 #define GW_GAME_AssaultPlayerController_generated_h
 
-#define GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_15_RPC_WRAPPERS
-#define GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_15_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetControlledTank) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(AAssault**)Z_Param__Result=this->GetControlledTank(); \
+		P_NATIVE_END; \
+	}
+
+
+#define GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetControlledTank) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(AAssault**)Z_Param__Result=this->GetControlledTank(); \
+		P_NATIVE_END; \
+	}
+
+
 #define GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAAssaultPlayerController(); \

@@ -59,9 +59,3 @@ void AAssault::Fire()
 		LastFireTime = FPlatformTime::Seconds();
 	}
 }
-
-bool AAssault::Cooldown()
-{
-	bool isCooled = (FPlatformTime::Seconds() - LastAbilityUse) > CooldownTimeInSeconds;
-	return isCooled;
-}

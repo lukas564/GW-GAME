@@ -1,9 +1,6 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
   Creating makefile for hot reloading GW_GameEditor (modules to compile have changed)
   Compiling game modules for hot reload
-  Parsing headers for GW_GameEditor
-    Running UnrealHeaderTool "D:\repos\GWGame\GW_Game\GW_Game.uproject" "D:\repos\GWGame\GW_Game\Intermediate\Build\Win64\GW_GameEditor\Development\GW_GameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for GW_GameEditor in 6,2525012 seconds
-  Performing 25 actions (4 in parallel)
-  SharedPCH.Engine.cpp
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): warning MSB5021: "cmd" and its child processes are being terminated in order to cancel the build.
+  Target is up to date
+  Deploying GW_GameEditor Win64 Development...
+  Total build time: 4,28 seconds (NoActionsToExecute executor: 0,00 seconds)
