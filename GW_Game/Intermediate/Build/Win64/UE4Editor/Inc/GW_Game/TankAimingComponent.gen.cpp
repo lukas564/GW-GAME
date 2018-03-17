@@ -18,6 +18,9 @@ void EmptyLinkFunctionForGeneratedCodeTankAimingComponent() {}
 	GW_GAME_API UClass* Z_Construct_UClass_UTankAimingComponent_NoRegister();
 	GW_GAME_API UClass* Z_Construct_UClass_UTankAimingComponent();
 	ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
+	GW_GAME_API UFunction* Z_Construct_UFunction_UTankAimingComponent_Initialise();
+	GW_GAME_API UClass* Z_Construct_UClass_UTankTurret_NoRegister();
+	GW_GAME_API UClass* Z_Construct_UClass_UTankBarrel_NoRegister();
 // End Cross Module References
 	static UEnum* EFiringState_StaticEnum()
 	{
@@ -68,6 +71,48 @@ void EmptyLinkFunctionForGeneratedCodeTankAimingComponent() {}
 	}
 	void UTankAimingComponent::StaticRegisterNativesUTankAimingComponent()
 	{
+		UClass* Class = UTankAimingComponent::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "Initialise", (Native)&UTankAimingComponent::execInitialise },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	UFunction* Z_Construct_UFunction_UTankAimingComponent_Initialise()
+	{
+		struct TankAimingComponent_eventInitialise_Parms
+		{
+			UTankBarrel* BarrelToSet;
+			UTankTurret* TurretToSet;
+		};
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TurretToSet_MetaData[] = {
+				{ "EditInline", "true" },
+			};
+#endif
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_TurretToSet = { UE4CodeGen_Private::EPropertyClass::Object, "TurretToSet", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000080080, 1, nullptr, STRUCT_OFFSET(TankAimingComponent_eventInitialise_Parms, TurretToSet), Z_Construct_UClass_UTankTurret_NoRegister, METADATA_PARAMS(NewProp_TurretToSet_MetaData, ARRAY_COUNT(NewProp_TurretToSet_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BarrelToSet_MetaData[] = {
+				{ "EditInline", "true" },
+			};
+#endif
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_BarrelToSet = { UE4CodeGen_Private::EPropertyClass::Object, "BarrelToSet", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000080080, 1, nullptr, STRUCT_OFFSET(TankAimingComponent_eventInitialise_Parms, BarrelToSet), Z_Construct_UClass_UTankBarrel_NoRegister, METADATA_PARAMS(NewProp_BarrelToSet_MetaData, ARRAY_COUNT(NewProp_BarrelToSet_MetaData)) };
+			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_TurretToSet,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_BarrelToSet,
+			};
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+				{ "Category", "Setup" },
+				{ "ModuleRelativePath", "Public/TankAimingComponent.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_UTankAimingComponent, "Initialise", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(TankAimingComponent_eventInitialise_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_UTankAimingComponent_NoRegister()
 	{
@@ -81,6 +126,9 @@ void EmptyLinkFunctionForGeneratedCodeTankAimingComponent() {}
 			static UObject* (*const DependentSingletons[])() = {
 				(UObject* (*)())Z_Construct_UClass_UActorComponent,
 				(UObject* (*)())Z_Construct_UPackage__Script_GW_Game,
+			};
+			static const FClassFunctionLinkInfo FuncInfo[] = {
+				{ &Z_Construct_UFunction_UTankAimingComponent_Initialise, "Initialise" }, // 2827243007
 			};
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
@@ -109,7 +157,7 @@ void EmptyLinkFunctionForGeneratedCodeTankAimingComponent() {}
 				&UTankAimingComponent::StaticClass,
 				DependentSingletons, ARRAY_COUNT(DependentSingletons),
 				0x00B00080u,
-				nullptr, 0,
+				FuncInfo, ARRAY_COUNT(FuncInfo),
 				PropPointers, ARRAY_COUNT(PropPointers),
 				nullptr,
 				&StaticCppClassTypeInfo,
@@ -120,7 +168,7 @@ void EmptyLinkFunctionForGeneratedCodeTankAimingComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UTankAimingComponent, 3213538110);
+	IMPLEMENT_CLASS(UTankAimingComponent, 2898265043);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UTankAimingComponent(Z_Construct_UClass_UTankAimingComponent, &UTankAimingComponent::StaticClass, TEXT("/Script/GW_Game"), TEXT("UTankAimingComponent"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UTankAimingComponent);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

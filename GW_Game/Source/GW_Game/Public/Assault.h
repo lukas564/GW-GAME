@@ -16,12 +16,6 @@ class GW_GAME_API AAssault : public APawn
 {
 	GENERATED_BODY()
 public:
-	UFUNCTION(BlueprintCallable, Category = Setup)
-		void SetBarrelReference(UTankBarrel* BarrelToSet);
-
-	UFUNCTION(BlueprintCallable, Category = Setup)
-		void SetTurretReference(UTankTurret* TurretToSet);
-
 	void AimAt(FVector HitLocation);
 
 	UFUNCTION(BlueprintCallable, Category = Firing)
@@ -51,9 +45,6 @@ private:
 
 	UPROPERTY(EditDefaultsOnly, Category = Firing)
 		float ReloadTimeInSeconds = 3;
-
-	UPROPERTY(EditDefaultsOnly, Category = Ability)
-		float CooldownTimeInSeconds = 3;
 
 	// Local barrel reference for spawning projectile
 	UTankBarrel* Barrel = nullptr;

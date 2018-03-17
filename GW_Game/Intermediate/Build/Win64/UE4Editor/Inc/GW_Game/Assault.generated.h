@@ -8,8 +8,6 @@
 #include "ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-class UTankTurret;
-class UTankBarrel;
 #ifdef GW_GAME_Assault_generated_h
 #error "Assault.generated.h already included, missing '#pragma once' in Assault.h"
 #endif
@@ -23,24 +21,6 @@ class UTankBarrel;
 		P_NATIVE_BEGIN; \
 		this->Fire(); \
 		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execSetTurretReference) \
-	{ \
-		P_GET_OBJECT(UTankTurret,Z_Param_TurretToSet); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		this->SetTurretReference(Z_Param_TurretToSet); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execSetBarrelReference) \
-	{ \
-		P_GET_OBJECT(UTankBarrel,Z_Param_BarrelToSet); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		this->SetBarrelReference(Z_Param_BarrelToSet); \
-		P_NATIVE_END; \
 	}
 
 
@@ -51,24 +31,6 @@ class UTankBarrel;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		this->Fire(); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execSetTurretReference) \
-	{ \
-		P_GET_OBJECT(UTankTurret,Z_Param_TurretToSet); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		this->SetTurretReference(Z_Param_TurretToSet); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execSetBarrelReference) \
-	{ \
-		P_GET_OBJECT(UTankBarrel,Z_Param_BarrelToSet); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		this->SetBarrelReference(Z_Param_BarrelToSet); \
 		P_NATIVE_END; \
 	}
 
@@ -122,8 +84,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AAssault); \
 	FORCEINLINE static uint32 __PPO__TankMovementComponent() { return STRUCT_OFFSET(AAssault, TankMovementComponent); } \
 	FORCEINLINE static uint32 __PPO__ProjectileBlueprint() { return STRUCT_OFFSET(AAssault, ProjectileBlueprint); } \
 	FORCEINLINE static uint32 __PPO__LaunchSpeed() { return STRUCT_OFFSET(AAssault, LaunchSpeed); } \
-	FORCEINLINE static uint32 __PPO__ReloadTimeInSeconds() { return STRUCT_OFFSET(AAssault, ReloadTimeInSeconds); } \
-	FORCEINLINE static uint32 __PPO__CooldownTimeInSeconds() { return STRUCT_OFFSET(AAssault, CooldownTimeInSeconds); }
+	FORCEINLINE static uint32 __PPO__ReloadTimeInSeconds() { return STRUCT_OFFSET(AAssault, ReloadTimeInSeconds); }
 
 
 #define GW_Game_Source_GW_Game_Public_Assault_h_14_PROLOG

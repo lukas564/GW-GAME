@@ -18,10 +18,6 @@ void EmptyLinkFunctionForGeneratedCodeAssault() {}
 	ENGINE_API UClass* Z_Construct_UClass_APawn();
 	UPackage* Z_Construct_UPackage__Script_GW_Game();
 	GW_GAME_API UFunction* Z_Construct_UFunction_AAssault_Fire();
-	GW_GAME_API UFunction* Z_Construct_UFunction_AAssault_SetBarrelReference();
-	GW_GAME_API UClass* Z_Construct_UClass_UTankBarrel_NoRegister();
-	GW_GAME_API UFunction* Z_Construct_UFunction_AAssault_SetTurretReference();
-	GW_GAME_API UClass* Z_Construct_UClass_UTankTurret_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	GW_GAME_API UClass* Z_Construct_UClass_AProjectile_NoRegister();
 	GW_GAME_API UClass* Z_Construct_UClass_UTankMovementComponent_NoRegister();
@@ -32,8 +28,6 @@ void EmptyLinkFunctionForGeneratedCodeAssault() {}
 		UClass* Class = AAssault::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "Fire", (Native)&AAssault::execFire },
-			{ "SetBarrelReference", (Native)&AAssault::execSetBarrelReference },
-			{ "SetTurretReference", (Native)&AAssault::execSetTurretReference },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}
@@ -53,64 +47,6 @@ void EmptyLinkFunctionForGeneratedCodeAssault() {}
 		}
 		return ReturnFunction;
 	}
-	UFunction* Z_Construct_UFunction_AAssault_SetBarrelReference()
-	{
-		struct Assault_eventSetBarrelReference_Parms
-		{
-			UTankBarrel* BarrelToSet;
-		};
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-#if WITH_METADATA
-			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BarrelToSet_MetaData[] = {
-				{ "EditInline", "true" },
-			};
-#endif
-			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_BarrelToSet = { UE4CodeGen_Private::EPropertyClass::Object, "BarrelToSet", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000080080, 1, nullptr, STRUCT_OFFSET(Assault_eventSetBarrelReference_Parms, BarrelToSet), Z_Construct_UClass_UTankBarrel_NoRegister, METADATA_PARAMS(NewProp_BarrelToSet_MetaData, ARRAY_COUNT(NewProp_BarrelToSet_MetaData)) };
-			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_BarrelToSet,
-			};
-#if WITH_METADATA
-			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-				{ "Category", "Setup" },
-				{ "ModuleRelativePath", "Public/Assault.h" },
-			};
-#endif
-			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_AAssault, "SetBarrelReference", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(Assault_eventSetBarrelReference_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
-		}
-		return ReturnFunction;
-	}
-	UFunction* Z_Construct_UFunction_AAssault_SetTurretReference()
-	{
-		struct Assault_eventSetTurretReference_Parms
-		{
-			UTankTurret* TurretToSet;
-		};
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-#if WITH_METADATA
-			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TurretToSet_MetaData[] = {
-				{ "EditInline", "true" },
-			};
-#endif
-			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_TurretToSet = { UE4CodeGen_Private::EPropertyClass::Object, "TurretToSet", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000080080, 1, nullptr, STRUCT_OFFSET(Assault_eventSetTurretReference_Parms, TurretToSet), Z_Construct_UClass_UTankTurret_NoRegister, METADATA_PARAMS(NewProp_TurretToSet_MetaData, ARRAY_COUNT(NewProp_TurretToSet_MetaData)) };
-			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_TurretToSet,
-			};
-#if WITH_METADATA
-			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-				{ "Category", "Setup" },
-				{ "ModuleRelativePath", "Public/Assault.h" },
-			};
-#endif
-			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_AAssault, "SetTurretReference", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(Assault_eventSetTurretReference_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
-		}
-		return ReturnFunction;
-	}
 	UClass* Z_Construct_UClass_AAssault_NoRegister()
 	{
 		return AAssault::StaticClass();
@@ -126,8 +62,6 @@ void EmptyLinkFunctionForGeneratedCodeAssault() {}
 			};
 			static const FClassFunctionLinkInfo FuncInfo[] = {
 				{ &Z_Construct_UFunction_AAssault_Fire, "Fire" }, // 3123087607
-				{ &Z_Construct_UFunction_AAssault_SetBarrelReference, "SetBarrelReference" }, // 3856352282
-				{ &Z_Construct_UFunction_AAssault_SetTurretReference, "SetTurretReference" }, // 442334389
 			};
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
@@ -136,13 +70,6 @@ void EmptyLinkFunctionForGeneratedCodeAssault() {}
 				{ "ModuleRelativePath", "Public/Assault.h" },
 			};
 #endif
-#if WITH_METADATA
-			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CooldownTimeInSeconds_MetaData[] = {
-				{ "Category", "Ability" },
-				{ "ModuleRelativePath", "Public/Assault.h" },
-			};
-#endif
-			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_CooldownTimeInSeconds = { UE4CodeGen_Private::EPropertyClass::Float, "CooldownTimeInSeconds", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000010001, 1, nullptr, STRUCT_OFFSET(AAssault, CooldownTimeInSeconds), METADATA_PARAMS(NewProp_CooldownTimeInSeconds_MetaData, ARRAY_COUNT(NewProp_CooldownTimeInSeconds_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ReloadTimeInSeconds_MetaData[] = {
 				{ "Category", "Firing" },
@@ -181,7 +108,6 @@ void EmptyLinkFunctionForGeneratedCodeAssault() {}
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_TankAimingComponent = { UE4CodeGen_Private::EPropertyClass::Object, "TankAimingComponent", RF_Public|RF_Transient|RF_MarkAsNative, 0x002008000008001c, 1, nullptr, STRUCT_OFFSET(AAssault, TankAimingComponent), Z_Construct_UClass_UTankAimingComponent_NoRegister, METADATA_PARAMS(NewProp_TankAimingComponent_MetaData, ARRAY_COUNT(NewProp_TankAimingComponent_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_CooldownTimeInSeconds,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_ReloadTimeInSeconds,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_LaunchSpeed,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_ProjectileBlueprint,
@@ -206,7 +132,7 @@ void EmptyLinkFunctionForGeneratedCodeAssault() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAssault, 1755911203);
+	IMPLEMENT_CLASS(AAssault, 1066819765);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AAssault(Z_Construct_UClass_AAssault, &AAssault::StaticClass, TEXT("/Script/GW_Game"), TEXT("AAssault"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AAssault);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

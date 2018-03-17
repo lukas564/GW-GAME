@@ -5,7 +5,8 @@
 #include "CoreMinimal.h"
 #include "GameFramework/PlayerController.h"
 #include "AssaultPlayerController.generated.h"
-
+class AAssault;
+class UTankAimingComponent;
 /**
  * 
  */
@@ -17,6 +18,9 @@ class GW_GAME_API AAssaultPlayerController : public APlayerController
 protected:
 	UFUNCTION(BlueprintCallable, Category = "Setup")
 	AAssault* GetControlledTank() const;
+
+	UFUNCTION(BlueprintImplementableEvent, Category = "Setup")
+		void FoundAimingComponent(UTankAimingComponent* AimRef);
 
 public:
 	virtual void BeginPlay() override;

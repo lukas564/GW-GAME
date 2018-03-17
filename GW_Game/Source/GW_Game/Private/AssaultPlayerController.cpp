@@ -1,19 +1,15 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 //#include "GW_Game.h"
 #include "AssaultPlayerController.h"
+#include "TankAimingComponent.h"
 void AAssaultPlayerController::BeginPlay()
 {
 	Super::BeginPlay();
 
 	auto ControlledTank = GetControlledTank();
-	if (!ControlledTank)
-	{
-		UE_LOG(LogTemp, Warning, TEXT("PlayerController not possessing a tank"))
-	}
-	else
-	{
-		UE_LOG(LogTemp, Warning, TEXT("PlayerController possessing: %s"), *(ControlledTank->GetName()))
-	}
+	auto AimingComponent = GetControlledTank()->FindComponentByClass<UTankAimingComponent>();
+	if (!ensure(AimingComponent)) { return; }
+	FoundAimingComponent(AimingComponent);
 }
 
 void AAssaultPlayerController::Tick(float DeltaTime)
@@ -29,7 +25,7 @@ AAssault* AAssaultPlayerController::GetControlledTank() const
 
 void AAssaultPlayerController::AimTowardsCrosshair()
 {
-	if (!GetControlledTank()) { return; }
+	if (!ensure(GetControlledTank())) { return; }
 
 	FVector HitLocation; // Out parameter
 	if (GetSightRayHitLocation(HitLocation))

@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeGW_Game_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/GW_Game",
 				PKG_CompiledIn | 0x00000000,
-				0xBA3BBB47,
-				0x2598A95F,
+				0x66450901,
+				0xFF1F5CA8,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};

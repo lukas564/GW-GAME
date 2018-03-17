@@ -22,16 +22,15 @@ class GW_GAME_API UTankAimingComponent : public UActorComponent
 	GENERATED_BODY()
 protected:
 	UPROPERTY(BlueprintReadOnly, Category = "State")
-		EFiringState FiringState = EFiringState::Reloading;
+		EFiringState FiringState = EFiringState::Aiming;
 public:
 	// Sets default values for this component's properties
 	UTankAimingComponent();
 
+	UFUNCTION(BlueprintCallable, Category = "Setup")
+		void Initialise(UTankBarrel* BarrelToSet, UTankTurret* TurretToSet);
+
 	void AimAt(FVector HitLocation, float LaunchSpeed);
-
-	void SetBarrelReference(UTankBarrel* BarrelToSet);
-
-	void SetTurretReference(UTankTurret* TurretToSet);
 
 private:
 	UTankBarrel * Barrel = nullptr;
