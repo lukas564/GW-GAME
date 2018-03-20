@@ -21,4 +21,12 @@ public:
 	UPROPERTY(EditDefaultsOnly)
 	float MovementPointMaxDrivingForce = 400000;
 	
+private:
+	UMovementPoint();
+	virtual void BeginPlay() override;
+	void ApplySidewaysForce();
+	UFUNCTION()
+	void OnHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComponent, FVector NormalImpulse, const FHitResult& Hit);
+	float CurrentThrottle = 0;
+	void DrivePoint();
 };

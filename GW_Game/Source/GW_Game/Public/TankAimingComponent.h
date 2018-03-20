@@ -24,8 +24,11 @@ class GW_GAME_API UTankAimingComponent : public UActorComponent
 	GENERATED_BODY()
 protected:
 	UPROPERTY(BlueprintReadOnly, Category = "State")
-		EFiringState FiringState = EFiringState::Aiming;
+		EFiringState FiringState = EFiringState::Reloading;
 public:
+
+	virtual void BeginPlay() override;
+
 	UFUNCTION(BlueprintCallable, Category = "Setup")
 		void Initialise(UTankBarrel* BarrelToSet, UTankTurret* TurretToSet);
 
@@ -36,12 +39,17 @@ public:
 
 private:
 	UTankAimingComponent();
+
+	virtual void TickComponent(float DeltaTime, enum ELevelTick TickType, FActorComponentTickFunction *ThisTickFunction) override;
+
+	bool IsBarrelMoving();
+
 	void MoveBarrelTowards(FVector AimDirection);
 	UTankBarrel * Barrel = nullptr;
 	UTankTurret* Turret = nullptr;
 
 	UPROPERTY(EditDefaultsOnly, Category = Firing)
-	float LaunchSpeed = 4000;
+		float LaunchSpeed = 4000;
 
 	UPROPERTY(EditDefaultsOnly, Category = Setup)
 		TSubclassOf<AProjectile> ProjectileBlueprint;
@@ -50,4 +58,6 @@ private:
 		float ReloadTimeInSeconds = 3;
 
 	double LastFireTime = 0;
+
+	FVector AimDirection;
 };

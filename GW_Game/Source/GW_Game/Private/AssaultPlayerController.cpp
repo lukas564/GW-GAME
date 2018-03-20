@@ -18,6 +18,7 @@ void AAssaultPlayerController::Tick(float DeltaTime)
 
 void AAssaultPlayerController::AimTowardsCrosshair()
 {
+	if (!GetPawn()) { return; }
 	auto AimingComponent = GetPawn()->FindComponentByClass<UTankAimingComponent>();
 	if (!ensure(AimingComponent)) { return; }
 	FVector HitLocation; // Out parameter
