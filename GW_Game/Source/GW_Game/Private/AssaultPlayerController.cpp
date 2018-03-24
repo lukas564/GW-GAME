@@ -5,16 +5,20 @@
 void AAssaultPlayerController::BeginPlay()
 {
 	Super::BeginPlay();
-	if (!ensure (GetPawn()) { return; })
-	auto AimingComponent = GetPawn()->FindComponentByClass<UTankAimingComponent>();
-	if (!ensure(AimingComponent)) { return; }
-	FoundAimingComponent(AimingComponent);
 }
 
 void AAssaultPlayerController::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 		AimTowardsCrosshair();
+		if (CharacterNotSelected) 
+		{
+			if (!ensure(GetPawn())) { return; }
+			auto AimingComponent = GetPawn()->FindComponentByClass<UTankAimingComponent>();
+			if (!ensure(AimingComponent)) { return; }
+			FoundAimingComponent(AimingComponent);
+			CharacterNotSelected = false;
+		}
 }
 
 void AAssaultPlayerController::AimTowardsCrosshair()

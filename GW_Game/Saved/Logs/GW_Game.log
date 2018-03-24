@@ -1,4 +1,4 @@
-﻿Log file open, 03/24/18 16:14:09
+﻿Log file open, 03/24/18 17:02:22
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: GW_Game
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-666026062) SRandInit(-666026062).
+LogInit: Display: RandInit(-1686218825) SRandInit(-1686218825).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3794801, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.157735
+LogStats: Stats thread started at 0.155703
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -77,7 +77,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogModuleManager: Display: Found up-to-date module file D:/repos/GWGame/GW_Game/Binaries/Win64/UE4Editor-GW_Game-5205.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file D:/repos/GWGame/GW_Game/Binaries/Win64/UE4Editor-GW_Game-2932.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
@@ -197,198 +197,591 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.03.24-15.14.10:978][  0]LogInit: Selected Device Profile: [Windows]
-[2018.03.24-15.14.10:978][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.03.24-15.14.10:987][  0]LogInit: Computer: DESKTOP-6NVMURH
-[2018.03.24-15.14.10:987][  0]LogInit: User: uzivatel1
-[2018.03.24-15.14.10:987][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.03.24-15.14.10:987][  0]LogInit: High frequency timer resolution =4.101564 MHz
-[2018.03.24-15.14.10:987][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2018.03.24-15.14.10:987][  0]LogMemory: Platform Memory Stats for Windows
-[2018.03.24-15.14.10:987][  0]LogMemory: Process Physical Memory: 272.27 MB used, 272.27 MB peak
-[2018.03.24-15.14.10:987][  0]LogMemory: Process Virtual Memory: 269.78 MB used, 269.78 MB peak
-[2018.03.24-15.14.10:987][  0]LogMemory: Physical Memory: 4828.36 MB used,  11513.70 MB free, 16342.06 MB total
-[2018.03.24-15.14.10:987][  0]LogMemory: Virtual Memory: 682.18 MB used,  11513.70 MB free, 134217728.00 MB total
-[2018.03.24-15.14.11:191][  0]LogInit: Using OS detected language (cs-CZ).
-[2018.03.24-15.14.11:191][  0]LogInit: Using OS detected locale (cs-CZ).
-[2018.03.24-15.14.11:195][  0]LogTextLocalizationManager: No localization for 'cs-CZ' exists, so 'en' will be used for the language.
-[2018.03.24-15.14.11:195][  0]LogTextLocalizationManager: No localization for 'cs-CZ' exists, so 'en' will be used for the locale.
-[2018.03.24-15.14.11:481][  0]LogInit: Setting process to per monitor DPI aware
-[2018.03.24-15.14.11:811][  0]LogD3D11RHI: D3D11 adapters:
-[2018.03.24-15.14.11:844][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2018.03.24-15.14.11:844][  0]LogD3D11RHI:       8096/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.03.24-15.14.11:846][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.03.24-15.14.11:846][  0]LogD3D11RHI:       0/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.03.24-15.14.11:846][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.03.24-15.14.11:850][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.03.24-15.14.11:850][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2018.03.24-15.14.11:850][  0]LogWindows: EnumDisplayDevices:
-[2018.03.24-15.14.11:850][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2018.03.24-15.14.11:850][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.03.24-15.14.11:850][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.03.24-15.14.11:850][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.03.24-15.14.11:850][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.03.24-15.14.11:850][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2018.03.24-15.14.11:850][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.03.24-15.14.11:850][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.03.24-15.14.11:850][  0]LogRHI: Texture pool is 5667 MB (70% of 8096 MB)
-[2018.03.24-15.14.11:867][  0]LogD3D11RHI: Async texture creation enabled
-[2018.03.24-15.14.11:881][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.03.24-15.14.11:929][  0]LogShaderCompilers: Guid format shader working directory is 27 characters bigger than the processId version (D:/repos/GWGame/GW_Game/Intermediate/Shaders/WorkingDirectory/12584/).
-[2018.03.24-15.14.11:929][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/uzivatel 1/AppData/Local/Temp/UnrealShaderWorkingDir/CF0525124C128D577301CBBE6229D943/'.
-[2018.03.24-15.14.11:929][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.03.24-15.14.12:784][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.03.24-15.14.12:849][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.03.24-15.14.12:913][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.03.24-15.14.12:977][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.03.24-15.14.13:043][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.03.24-15.14.13:110][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.03.24-15.14.13:175][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.03.24-15.14.13:240][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.03.24-15.14.13:300][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.03.24-15.14.13:363][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.03.24-15.14.13:427][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.03.24-15.14.13:492][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.03.24-15.14.13:557][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.03.24-15.14.13:622][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.03.24-15.14.13:753][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.03.24-15.14.13:753][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.03.24-15.14.13:818][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.03.24-15.14.13:874][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.03.24-15.14.13:986][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.03.24-15.14.14:018][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.03.24-15.14.14:081][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.03.24-15.14.14:145][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.03.24-15.14.14:209][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.03.24-15.14.14:273][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.03.24-15.14.14:273][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.03.24-15.14.14:885][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.03.24-15.14.14:935][  0]LogDerivedDataCache: Loaded boot cache 0.05s 78MB C:/Users/uzivatel 1/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.03.24-15.14.14:935][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/uzivatel 1/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.03.24-15.14.14:935][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/repos/GWGame/GW_Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.03.24-15.14.14:935][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.03.24-15.14.14:935][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/repos/GWGame/GW_Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.03.24-15.14.14:935][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.03.24-15.14.14:947][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.03.24-15.14.14:959][  0]LogDerivedDataCache: Using Local data cache path C:/Users/uzivatel 1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.03.24-15.14.14:965][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.03.24-15.14.14:966][  0]LogSlate: Using Freetype 2.6.0
-[2018.03.24-15.14.14:967][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.03.24-15.14.14:967][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.03.24-15.14.15:280][  0]LogInit: Selected Device Profile: [Windows]
-[2018.03.24-15.14.15:661][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.03.24-15.14.15:718][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.03.24-15.14.15:718][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.03.24-15.14.15:718][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.03.24-15.14.15:718][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.03.24-15.14.15:718][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.03.24-15.14.15:739][  0]LogNetVersion: GW_Game , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4001666234)
-[2018.03.24-15.14.15:898][  0]LogAssetRegistry: FAssetRegistry took 0.0249 seconds to start up
-[2018.03.24-15.14.16:294][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 1 prioritized culture(s) in 0.018413 seconds
-[2018.03.24-15.14.16:298][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
-[2018.03.24-15.14.16:298][  0]LogUObjectAllocator: 7372024 out of 0 bytes used by permanent object pool.
-[2018.03.24-15.14.16:298][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.03.24-15.14.16:371][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.03.24-15.14.19:682][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.03.24-15.14.19:727][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.03.24-15.14.20:622][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.03.24-15.14.21:124][  0]SourceControl: Source control is disabled
-[2018.03.24-15.14.21:124][  0]SourceControl: Source control is disabled
-[2018.03.24-15.14.21:191][  0]SourceControl: Source control is disabled
-[2018.03.24-15.14.21:257][  0]SourceControl: Source control is disabled
-[2018.03.24-15.14.22:261][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.03.24-15.14.22:599][  0]LogOcInput: OculusInput pre-init called
-[2018.03.24-15.14.22:925][  0]LogEngine: Initializing Engine...
-[2018.03.24-15.14.22:926][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.03.24-15.14.23:080][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.03.24-15.14.23:080][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.03.24-15.14.23:253][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.03.24-15.14.23:259][  0]LogInit: XAudio2 using 'U24E590-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.03.24-15.14.23:275][  0]LogInit: FAudioDevice initialized.
-[2018.03.24-15.14.23:344][  0]LogDerivedDataCache: Saved boot cache 0.07s 78MB C:/Users/uzivatel 1/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.03.24-15.14.23:350][  0]LogInit: Texture streaming: Enabled
-[2018.03.24-15.14.23:483][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.03.24-15.14.23:483][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={245D0D2C-4DA7-D949-0A58-33A9FE331737}
-[2018.03.24-15.14.23:655][  0]LogInit: Transaction tracking system initialized
-[2018.03.24-15.14.24:080][  0]BlueprintLog: New page: Editor Load
-[2018.03.24-15.14.25:284][  0]LocalizationService: Localization service is disabled
-[2018.03.24-15.14.26:266][  0]LogConsoleResponse: Display: 
-[2018.03.24-15.14.26:434][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.03.24-15.14.26:434][  0]LogCook: Display: Mobile HDR setting 1
-[2018.03.24-15.14.26:434][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.03.24-15.14.27:222][  0]LogFileCache: Scanning file cache for directory 'D:/repos/GWGame/GW_Game/Content/' took 0.01s
-[2018.03.24-15.14.27:941][  0]SourceControl: Source control is disabled
-[2018.03.24-15.14.27:941][  0]Cmd: MAP LOAD FILE="D:/repos/GWGame/GW_Game/Content/_Levels/BattleGround.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.03.24-15.14.27:942][  0]LightingResults: New page: Lighting Build
-[2018.03.24-15.14.27:999][  0]MapCheck: New page: Map Check
-[2018.03.24-15.14.27:999][  0]LightingResults: New page: Lighting Build
-[2018.03.24-15.14.28:502][  0]LogAIModule: Creating AISystem for world BattleGround
-[2018.03.24-15.14.28:536][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.03.24-15.14.28:552][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.03.24-15.14.28:648][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 95.713ms to complete.
-[2018.03.24-15.14.28:648][  0]LogFileHelpers: Loading map 'BattleGround' took 0.706
-[2018.03.24-15.14.28:790][  0]LogCollectionManager: Loaded 0 collections in 0.000967 seconds
-[2018.03.24-15.14.28:881][  0]LogFileCache: Scanning file cache for directory 'D:/repos/GWGame/GW_Game/Saved/Collections/' took 0.01s
-[2018.03.24-15.14.28:881][  0]LogFileCache: Scanning file cache for directory 'D:/repos/GWGame/GW_Game/Content/Developers/uzivatel1/Collections/' took 0.01s
-[2018.03.24-15.14.28:881][  0]LogFileCache: Scanning file cache for directory 'D:/repos/GWGame/GW_Game/Content/Collections/' took 0.01s
-[2018.03.24-15.14.28:881][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.03.24-15.14.28:887][  0]LogContentBrowser: Native class hierarchy populated in 0.0061 seconds. Added 2374 classes and 524 folders.
-[2018.03.24-15.14.28:975][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2018.03.24-15.14.29:010][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2018.03.24-15.14.29:068][  0]LogSlate: Took 0.000433 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.03.24-15.14.29:071][  0]LogSlate: Took 0.000453 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.03.24-15.14.29:072][  0]LogSlate: Took 0.000352 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.03.24-15.14.29:073][  0]LogSlate: Took 0.000308 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2018.03.24-15.14.29:148][  0]LogRenderer: Reallocating scene render targets to support 1532x756 Format 10 NumSamples 1 (Frame:1).
-[2018.03.24-15.14.29:327][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2018.03.24-15.14.29:327][  0]LogLoad: (Engine Initialization) Total time: 20.61 seconds
-[2018.03.24-15.14.29:327][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.03.24-15.14.29:327][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.03.24-15.14.29:690][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.03.24-15.14.30:011][  1]LogAssetRegistry: Asset discovery search completed in 14.1356 seconds
-[2018.03.24-15.14.30:013][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.03.24-15.14.30:013][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000165 seconds (updated 0 objects)
-[2018.03.24-15.14.48:574][596]LogTemp: Repeating last play command: Selected Viewport
-[2018.03.24-15.14.48:594][596]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
-[2018.03.24-15.14.48:595][596]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.03.24-15.14.48:595][596]PIE: New page: PIE session: BattleGround (Mar 24, 2018, 5:14:48 PM)
-[2018.03.24-15.14.48:595][596]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_BattleGround
-[2018.03.24-15.14.48:777][596]LogPlayLevel: PIE: StaticDuplicateObject took: (0.181207s)
-[2018.03.24-15.14.48:778][596]LogAIModule: Creating AISystem for world BattleGround
-[2018.03.24-15.14.48:778][596]LogPlayLevel: PIE: World Init took: (0.001059s)
-[2018.03.24-15.14.48:778][596]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/BattleGround.BattleGround to /Game/_Levels/UEDPIE_0_BattleGround.BattleGround (0.183015s)
-[2018.03.24-15.14.48:787][596]LogInit: XAudio2 using 'U24E590-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.03.24-15.14.48:793][596]LogInit: FAudioDevice initialized.
-[2018.03.24-15.14.48:854][596]LogLoad: Game class is 'AssaultGameMode_BP_C'
-[2018.03.24-15.14.48:865][596]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2018.03.24-16.14.48
-[2018.03.24-15.14.48:865][596]LogWorld: Bringing up level for play took: 0.009235
-[2018.03.24-15.14.48:924][596]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
-[2018.03.24-15.30.25:294][596]LogWindows: Error: === Critical error: ===
-[2018.03.24-15.30.25:294][596]LogWindows: Error: 
-[2018.03.24-15.30.25:294][596]LogWindows: Error: Fatal error!
-[2018.03.24-15.30.25:294][596]LogWindows: Error: 
-[2018.03.24-15.30.25:294][596]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x00000000
-[2018.03.24-15.30.25:294][596]LogWindows: Error: 
-[2018.03.24-15.30.25:294][596]LogWindows: Error: [Callstack] 0x000000002E602F8F UE4Editor-GW_Game-5205.dll!AAssaultPlayerController::BeginPlay() [d:\repos\gwgame\gw_game\source\gw_game\private\assaultplayercontroller.cpp:8]
-[2018.03.24-15.30.25:294][596]LogWindows: Error: [Callstack] 0x000000004DC5CAEB UE4Editor-Engine.dll!UnknownFunction []
-[2018.03.24-15.30.25:294][596]LogWindows: Error: [Callstack] 0x000000004EE55790 UE4Editor-Engine.dll!UnknownFunction []
-[2018.03.24-15.30.25:294][596]LogWindows: Error: [Callstack] 0x000000004E3ADAC1 UE4Editor-Engine.dll!UnknownFunction []
-[2018.03.24-15.30.25:294][596]LogWindows: Error: [Callstack] 0x000000004EE406AE UE4Editor-Engine.dll!UnknownFunction []
-[2018.03.24-15.30.25:295][596]LogWindows: Error: [Callstack] 0x000000004E3D04CE UE4Editor-Engine.dll!UnknownFunction []
-[2018.03.24-15.30.25:295][596]LogWindows: Error: [Callstack] 0x000000004393B235 UE4Editor-UnrealEd.dll!UnknownFunction []
-[2018.03.24-15.30.25:295][596]LogWindows: Error: [Callstack] 0x000000004396556E UE4Editor-UnrealEd.dll!UnknownFunction []
-[2018.03.24-15.30.25:295][596]LogWindows: Error: [Callstack] 0x000000004398192F UE4Editor-UnrealEd.dll!UnknownFunction []
-[2018.03.24-15.30.25:295][596]LogWindows: Error: [Callstack] 0x00000000433D6024 UE4Editor-UnrealEd.dll!UnknownFunction []
-[2018.03.24-15.30.25:295][596]LogWindows: Error: [Callstack] 0x0000000043C84AC6 UE4Editor-UnrealEd.dll!UnknownFunction []
-[2018.03.24-15.30.25:295][596]LogWindows: Error: [Callstack] 0x000000008C235A26 UE4Editor.exe!UnknownFunction []
-[2018.03.24-15.30.25:295][596]LogWindows: Error: [Callstack] 0x000000008C245430 UE4Editor.exe!UnknownFunction []
-[2018.03.24-15.30.25:295][596]LogWindows: Error: [Callstack] 0x000000008C2454AA UE4Editor.exe!UnknownFunction []
-[2018.03.24-15.30.25:295][596]LogWindows: Error: [Callstack] 0x000000008C252379 UE4Editor.exe!UnknownFunction []
-[2018.03.24-15.30.25:295][596]LogWindows: Error: [Callstack] 0x000000008C253D57 UE4Editor.exe!UnknownFunction []
-[2018.03.24-15.30.25:295][596]LogWindows: Error: [Callstack] 0x0000000092B81FE4 KERNEL32.DLL!UnknownFunction []
-[2018.03.24-15.30.25:295][596]LogWindows: Error: [Callstack] 0x000000009330EFC1 ntdll.dll!UnknownFunction []
-[2018.03.24-15.30.25:295][596]LogWindows: Error: [Callstack] 0x000000009330EFC1 ntdll.dll!UnknownFunction []
-[2018.03.24-15.30.25:295][596]LogWindows: Error: 
-[2018.03.24-15.30.25:312][596]LogExit: Executing StaticShutdownAfterError
-[2018.03.24-15.30.25:315][596]LogWindows: FPlatformMisc::RequestExit(1)
-[2018.03.24-15.30.25:316][596]Log file closed, 03/24/18 16:30:25
+[2018.03.24-16.02.23:864][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.24-16.02.23:864][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.24-16.02.23:873][  0]LogInit: Computer: DESKTOP-6NVMURH
+[2018.03.24-16.02.23:873][  0]LogInit: User: uzivatel1
+[2018.03.24-16.02.23:873][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.03.24-16.02.23:873][  0]LogInit: High frequency timer resolution =4.101564 MHz
+[2018.03.24-16.02.23:873][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.03.24-16.02.23:873][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.24-16.02.23:873][  0]LogMemory: Process Physical Memory: 272.24 MB used, 272.24 MB peak
+[2018.03.24-16.02.23:873][  0]LogMemory: Process Virtual Memory: 269.78 MB used, 269.78 MB peak
+[2018.03.24-16.02.23:873][  0]LogMemory: Physical Memory: 5870.11 MB used,  10471.96 MB free, 16342.06 MB total
+[2018.03.24-16.02.23:873][  0]LogMemory: Virtual Memory: 682.18 MB used,  10471.96 MB free, 134217728.00 MB total
+[2018.03.24-16.02.24:087][  0]LogInit: Using OS detected language (cs-CZ).
+[2018.03.24-16.02.24:087][  0]LogInit: Using OS detected locale (cs-CZ).
+[2018.03.24-16.02.24:090][  0]LogTextLocalizationManager: No localization for 'cs-CZ' exists, so 'en' will be used for the language.
+[2018.03.24-16.02.24:091][  0]LogTextLocalizationManager: No localization for 'cs-CZ' exists, so 'en' will be used for the locale.
+[2018.03.24-16.02.24:384][  0]LogInit: Setting process to per monitor DPI aware
+[2018.03.24-16.02.24:761][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.24-16.02.24:800][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.03.24-16.02.24:800][  0]LogD3D11RHI:       8096/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.03.24-16.02.24:802][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.24-16.02.24:802][  0]LogD3D11RHI:       0/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.24-16.02.24:802][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.24-16.02.24:807][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.24-16.02.24:807][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.24-16.02.24:807][  0]LogWindows: EnumDisplayDevices:
+[2018.03.24-16.02.24:807][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.03.24-16.02.24:807][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.03.24-16.02.24:807][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.03.24-16.02.24:807][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.03.24-16.02.24:807][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.24-16.02.24:807][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.03.24-16.02.24:807][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.24-16.02.24:807][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.24-16.02.24:807][  0]LogRHI: Texture pool is 5667 MB (70% of 8096 MB)
+[2018.03.24-16.02.24:823][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.24-16.02.24:837][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.03.24-16.02.24:885][  0]LogShaderCompilers: Guid format shader working directory is 27 characters bigger than the processId version (D:/repos/GWGame/GW_Game/Intermediate/Shaders/WorkingDirectory/13032/).
+[2018.03.24-16.02.24:885][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/uzivatel 1/AppData/Local/Temp/UnrealShaderWorkingDir/7006F5CE474718751BE2118F9E63986B/'.
+[2018.03.24-16.02.24:885][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.24-16.02.25:773][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.24-16.02.25:837][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.24-16.02.25:902][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.24-16.02.25:967][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.24-16.02.26:033][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.24-16.02.26:099][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.24-16.02.26:164][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.24-16.02.26:233][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.24-16.02.26:302][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.24-16.02.26:372][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.24-16.02.26:437][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.24-16.02.26:500][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.24-16.02.26:565][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.24-16.02.26:630][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.24-16.02.26:758][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.24-16.02.26:758][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.24-16.02.26:822][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.24-16.02.26:878][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.24-16.02.26:991][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.24-16.02.27:023][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.24-16.02.27:088][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.24-16.02.27:151][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.24-16.02.27:216][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.24-16.02.27:280][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.24-16.02.27:280][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.24-16.02.27:903][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.24-16.02.27:954][  0]LogDerivedDataCache: Loaded boot cache 0.05s 78MB C:/Users/uzivatel 1/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.24-16.02.27:954][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/uzivatel 1/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.03.24-16.02.27:954][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/repos/GWGame/GW_Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.24-16.02.27:954][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.24-16.02.27:954][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/repos/GWGame/GW_Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.24-16.02.27:954][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.24-16.02.27:966][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.24-16.02.27:978][  0]LogDerivedDataCache: Using Local data cache path C:/Users/uzivatel 1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.24-16.02.27:984][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.24-16.02.27:984][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.24-16.02.27:985][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.24-16.02.27:986][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.24-16.02.28:314][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.24-16.02.28:695][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.24-16.02.28:752][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.24-16.02.28:752][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.24-16.02.28:752][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.24-16.02.28:752][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.24-16.02.28:752][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.24-16.02.28:776][  0]LogNetVersion: GW_Game , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4001666234)
+[2018.03.24-16.02.28:935][  0]LogAssetRegistry: FAssetRegistry took 0.0248 seconds to start up
+[2018.03.24-16.02.29:345][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 1 prioritized culture(s) in 0.022535 seconds
+[2018.03.24-16.02.29:350][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
+[2018.03.24-16.02.29:350][  0]LogUObjectAllocator: 7372024 out of 0 bytes used by permanent object pool.
+[2018.03.24-16.02.29:350][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.24-16.02.29:421][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.24-16.02.32:800][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.24-16.02.32:847][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.24-16.02.33:740][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.24-16.02.34:249][  0]SourceControl: Source control is disabled
+[2018.03.24-16.02.34:249][  0]SourceControl: Source control is disabled
+[2018.03.24-16.02.34:316][  0]SourceControl: Source control is disabled
+[2018.03.24-16.02.34:383][  0]SourceControl: Source control is disabled
+[2018.03.24-16.02.35:407][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.24-16.02.35:767][  0]LogOcInput: OculusInput pre-init called
+[2018.03.24-16.02.36:107][  0]LogEngine: Initializing Engine...
+[2018.03.24-16.02.36:109][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.03.24-16.02.36:268][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.24-16.02.36:268][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.24-16.02.36:444][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.24-16.02.36:450][  0]LogInit: XAudio2 using 'U24E590-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.24-16.02.36:468][  0]LogInit: FAudioDevice initialized.
+[2018.03.24-16.02.36:535][  0]LogDerivedDataCache: Saved boot cache 0.07s 78MB C:/Users/uzivatel 1/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.24-16.02.36:543][  0]LogInit: Texture streaming: Enabled
+[2018.03.24-16.02.36:677][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.24-16.02.36:677][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={8A3C553B-4268-897C-36DB-A394C846E55E}
+[2018.03.24-16.02.36:853][  0]LogInit: Transaction tracking system initialized
+[2018.03.24-16.02.37:282][  0]BlueprintLog: New page: Editor Load
+[2018.03.24-16.02.38:544][  0]LocalizationService: Localization service is disabled
+[2018.03.24-16.02.39:547][  0]LogConsoleResponse: Display: 
+[2018.03.24-16.02.39:735][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.24-16.02.39:735][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.24-16.02.39:735][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.24-16.02.40:374][  0]LogFileCache: Scanning file cache for directory 'D:/repos/GWGame/GW_Game/Content/' took 0.01s
+[2018.03.24-16.02.41:266][  0]SourceControl: Source control is disabled
+[2018.03.24-16.02.41:266][  0]Cmd: MAP LOAD FILE="D:/repos/GWGame/GW_Game/Content/_Levels/BattleGround.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.24-16.02.41:266][  0]LightingResults: New page: Lighting Build
+[2018.03.24-16.02.41:323][  0]MapCheck: New page: Map Check
+[2018.03.24-16.02.41:323][  0]LightingResults: New page: Lighting Build
+[2018.03.24-16.02.41:854][  0]LogAIModule: Creating AISystem for world BattleGround
+[2018.03.24-16.02.41:896][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.24-16.02.41:911][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.24-16.02.42:010][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 98.475ms to complete.
+[2018.03.24-16.02.42:010][  0]LogFileHelpers: Loading map 'BattleGround' took 0.744
+[2018.03.24-16.02.42:156][  0]LogCollectionManager: Loaded 0 collections in 0.000975 seconds
+[2018.03.24-16.02.42:249][  0]LogFileCache: Scanning file cache for directory 'D:/repos/GWGame/GW_Game/Saved/Collections/' took 0.01s
+[2018.03.24-16.02.42:249][  0]LogFileCache: Scanning file cache for directory 'D:/repos/GWGame/GW_Game/Content/Developers/uzivatel1/Collections/' took 0.01s
+[2018.03.24-16.02.42:249][  0]LogFileCache: Scanning file cache for directory 'D:/repos/GWGame/GW_Game/Content/Collections/' took 0.01s
+[2018.03.24-16.02.42:249][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.03.24-16.02.42:255][  0]LogContentBrowser: Native class hierarchy populated in 0.0061 seconds. Added 2374 classes and 524 folders.
+[2018.03.24-16.02.42:343][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.03.24-16.02.42:386][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.03.24-16.02.42:446][  0]LogSlate: Took 0.000478 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.24-16.02.42:449][  0]LogSlate: Took 0.000544 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.24-16.02.42:452][  0]LogSlate: Took 0.000338 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.24-16.02.42:452][  0]LogSlate: Took 0.000302 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.03.24-16.02.42:528][  0]LogRenderer: Reallocating scene render targets to support 1532x756 Format 10 NumSamples 1 (Frame:1).
+[2018.03.24-16.02.42:739][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.03.24-16.02.42:740][  0]LogLoad: (Engine Initialization) Total time: 21.30 seconds
+[2018.03.24-16.02.42:740][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.24-16.02.42:740][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.03.24-16.02.43:099][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.24-16.02.43:418][  1]LogAssetRegistry: Asset discovery search completed in 14.5042 seconds
+[2018.03.24-16.02.43:419][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.03.24-16.02.43:419][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000120 seconds (updated 0 objects)
+[2018.03.24-16.03.11:253][515]Candidate modules for hot reload:
+[2018.03.24-16.03.11:253][515]  GW_Game
+[2018.03.24-16.03.11:253][515]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe GW_Game -ModuleWithSuffix GW_Game 6867 Win64 Development -editorrecompile -canskiplink "D:/repos/GWGame/GW_Game/GW_Game.uproject" ]
+[2018.03.24-16.03.11:254][515]Warning: Starting HotReload took  0.0s.
+[2018.03.24-16.03.13:336][765]CompilerResultsLog: New page: Compilation - Mar 24, 2018, 6:03:13 PM
+[2018.03.24-16.03.13:336][765]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.03.24-16.03.13:336][765]CompilerResultsLog: Compiling game modules for hot reload
+[2018.03.24-16.03.13:336][765]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.03.24-16.03.13:336][765]CompilerResultsLog: AssaultPlayerController.cpp
+[2018.03.24-16.03.13:336][765]CompilerResultsLog: [2/3] Link UE4Editor-GW_Game-6867.dll
+[2018.03.24-16.03.13:336][765]CompilerResultsLog: [3/3] Link UE4Editor-GW_Game-6867.lib
+[2018.03.24-16.03.13:336][765]CompilerResultsLog:    Creating library D:\repos\GWGame\GW_Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-GW_Game-6867.lib and object D:\repos\GWGame\GW_Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-GW_Game-6867.exp
+[2018.03.24-16.03.13:337][765]CompilerResultsLog:    Creating library D:\repos\GWGame\GW_Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-GW_Game-6867.suppressed.lib and object D:\repos\GWGame\GW_Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-GW_Game-6867.suppressed.exp
+[2018.03.24-16.03.13:337][765]CompilerResultsLog: Total build time: 1,91 seconds (Local executor: 0,91 seconds)
+[2018.03.24-16.03.13:337][765]LogMainFrame: MainFrame: Module compiling took 2.086 seconds
+[2018.03.24-16.03.13:406][765]LogClass: EFiringState HotReload.
+[2018.03.24-16.03.13:408][765]LogContentBrowser: Native class hierarchy updated for 'GW_Game' in 0.0005 seconds. Added 10 classes and 3 folders.
+[2018.03.24-16.03.13:410][765]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2018.03.24-16.03.13:473][765]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 2375 classes and 526 folders.
+[2018.03.24-16.03.13:473][765]Display: HotReload took  2.2s.
+[2018.03.24-16.03.14:696][901]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.24-16.03.14:716][901]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.03.24-16.03.14:716][901]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.24-16.03.14:716][901]PIE: New page: PIE session: BattleGround (Mar 24, 2018, 6:03:14 PM)
+[2018.03.24-16.03.14:716][901]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_BattleGround
+[2018.03.24-16.03.14:895][901]LogPlayLevel: PIE: StaticDuplicateObject took: (0.178424s)
+[2018.03.24-16.03.14:896][901]LogAIModule: Creating AISystem for world BattleGround
+[2018.03.24-16.03.14:896][901]LogPlayLevel: PIE: World Init took: (0.000896s)
+[2018.03.24-16.03.14:896][901]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/BattleGround.BattleGround to /Game/_Levels/UEDPIE_0_BattleGround.BattleGround (0.179892s)
+[2018.03.24-16.03.14:904][901]LogInit: XAudio2 using 'U24E590-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.24-16.03.14:909][901]LogInit: FAudioDevice initialized.
+[2018.03.24-16.03.14:965][901]LogLoad: Game class is 'AssaultGameMode_BP_C'
+[2018.03.24-16.03.14:976][901]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2018.03.24-17.03.14
+[2018.03.24-16.03.14:977][901]LogWorld: Bringing up level for play took: 0.010166
+[2018.03.24-16.03.15:046][901]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2018.03.24-16.03.15:048][901]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_BattleGround 0.842
+[2018.03.24-16.03.15:048][901]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.03.24-16.03.23:211][878]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.03.24-16.03.23:251][878]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.03.24-16.03.24:428][ 15]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.24-16.03.24:437][ 15]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.03.24-16.03.24:438][ 15]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.24-16.03.24:438][ 15]PIE: New page: PIE session: BattleGround (Mar 24, 2018, 6:03:24 PM)
+[2018.03.24-16.03.24:438][ 15]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_BattleGround
+[2018.03.24-16.03.24:612][ 15]LogPlayLevel: PIE: StaticDuplicateObject took: (0.173996s)
+[2018.03.24-16.03.24:613][ 15]LogAIModule: Creating AISystem for world BattleGround
+[2018.03.24-16.03.24:613][ 15]LogPlayLevel: PIE: World Init took: (0.000704s)
+[2018.03.24-16.03.24:613][ 15]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/BattleGround.BattleGround to /Game/_Levels/UEDPIE_0_BattleGround.BattleGround (0.175274s)
+[2018.03.24-16.03.24:622][ 15]LogInit: XAudio2 using 'U24E590-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.24-16.03.24:626][ 15]LogInit: FAudioDevice initialized.
+[2018.03.24-16.03.24:651][ 15]LogLoad: Game class is 'AssaultGameMode_BP_C'
+[2018.03.24-16.03.24:662][ 15]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2018.03.24-17.03.24
+[2018.03.24-16.03.24:662][ 15]LogWorld: Bringing up level for play took: 0.010303
+[2018.03.24-16.03.24:664][ 15]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_BattleGround 0.458
+[2018.03.24-16.03.24:664][ 15]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.03.24-16.03.39:303][756]LogSlate: Took 0.001806 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.24-16.03.45:452][314]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.03.24-16.03.45:514][314]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.03.24-16.03.58:749][819]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.24-16.03.58:759][819]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.03.24-16.03.58:759][819]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.24-16.03.58:759][819]PIE: New page: PIE session: BattleGround (Mar 24, 2018, 6:03:58 PM)
+[2018.03.24-16.03.58:759][819]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_BattleGround
+[2018.03.24-16.03.58:936][819]LogPlayLevel: PIE: StaticDuplicateObject took: (0.176056s)
+[2018.03.24-16.03.58:936][819]LogAIModule: Creating AISystem for world BattleGround
+[2018.03.24-16.03.58:936][819]LogPlayLevel: PIE: World Init took: (0.000564s)
+[2018.03.24-16.03.58:937][819]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/BattleGround.BattleGround to /Game/_Levels/UEDPIE_0_BattleGround.BattleGround (0.177097s)
+[2018.03.24-16.03.58:945][819]LogInit: XAudio2 using 'U24E590-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.24-16.03.58:949][819]LogInit: FAudioDevice initialized.
+[2018.03.24-16.03.58:975][819]LogLoad: Game class is 'AssaultGameMode_BP_C'
+[2018.03.24-16.03.58:985][819]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2018.03.24-17.03.58
+[2018.03.24-16.03.58:985][819]LogWorld: Bringing up level for play took: 0.009291
+[2018.03.24-16.03.58:987][819]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_BattleGround 0.781
+[2018.03.24-16.03.58:987][819]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.03.24-16.04.03:813][396]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.03.24-16.04.03:851][396]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.03.24-16.04.53:731][870]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.24-16.04.53:740][870]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.03.24-16.04.53:741][870]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.24-16.04.53:741][870]PIE: New page: PIE session: BattleGround (Mar 24, 2018, 6:04:53 PM)
+[2018.03.24-16.04.53:741][870]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_BattleGround
+[2018.03.24-16.04.53:917][870]LogPlayLevel: PIE: StaticDuplicateObject took: (0.176188s)
+[2018.03.24-16.04.53:918][870]LogAIModule: Creating AISystem for world BattleGround
+[2018.03.24-16.04.53:918][870]LogPlayLevel: PIE: World Init took: (0.000658s)
+[2018.03.24-16.04.53:918][870]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/BattleGround.BattleGround to /Game/_Levels/UEDPIE_0_BattleGround.BattleGround (0.177299s)
+[2018.03.24-16.04.53:926][870]LogInit: XAudio2 using 'U24E590-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.24-16.04.53:931][870]LogInit: FAudioDevice initialized.
+[2018.03.24-16.04.53:957][870]LogLoad: Game class is 'AssaultGameMode_BP_C'
+[2018.03.24-16.04.53:967][870]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2018.03.24-17.04.53
+[2018.03.24-16.04.53:967][870]LogWorld: Bringing up level for play took: 0.009475
+[2018.03.24-16.04.53:969][870]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_BattleGround -0.237
+[2018.03.24-16.04.53:969][870]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.03.24-16.05.26:840][812]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.03.24-16.05.26:881][812]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.03.24-16.06.30:583][265]LogTexture: Display: Building textures: Texture2D_2 (G8, 128X128)
+[2018.03.24-16.06.30:932][300]LogMaterial: Missing cached shader map for material FoliageBrushSphereMaterial, compiling. 
+[2018.03.24-16.06.45:617][ 24]LogSlate: Took 0.000359 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.24-16.06.45:873][ 24]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2018.03.24-16.06.46:392][ 24]LogSlate: Took 0.000109 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.24-16.06.46:394][ 24]LogSlate: Took 0.001751 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.24-16.13.51:448][895]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Levels/BattleGround' took 0.018
+[2018.03.24-16.13.51:451][895]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/TankPlayerController_BP] ([1] browsable assets)...
+[2018.03.24-16.13.51:452][895]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/TankPlayerController_BP]
+[2018.03.24-16.13.51:452][895]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/TankPlayerController_BP" FILE="D:/repos/GWGame/GW_Game/Saved/Autosaves/Game/UI/TankPlayerController_BP_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.03.24-16.13.51:468][895]LogSavePackage: Save=9.74ms
+[2018.03.24-16.13.51:468][895]LogSavePackage: Moving 'D:/repos/GWGame/GW_Game/Saved/TankPlayerController_BP_Auto16095A8BB419483082C3A3D9E9DA40037.tmp' to 'D:/repos/GWGame/GW_Game/Saved/Autosaves/Game/UI/TankPlayerController_BP_Auto1.uasset'
+[2018.03.24-16.13.51:469][895]LogSavePackage: Display: Finished SavePackage D:/repos/GWGame/GW_Game/Saved/Autosaves/Game/UI/TankPlayerController_BP_Auto1.uasset
+[2018.03.24-16.13.51:470][895]LogFileHelpers: Auto-saving content packages took 0.021
+[2018.03.24-16.18.33:815][743]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.24-16.18.33:815][743]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.24-16.18.39:977][268]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.03.24-16.18.40:011][268]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.GWGame
+[2018.03.24-16.18.40:011][268]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.03.24-16.18.40:011][268]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.18
+[2018.03.24-16.18.40:011][268]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.03.24-16.18.40:013][268]LogTemp: BranchPath = DESKTOP-6NVMURH/C/Program Files/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = DESKTOP-6NVMURH/C/Program Files/Epic Games/UE_4.18/Engine/Binaries
+[2018.03.24-16.18.40:032][269]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\uzivatel 1\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.03.24-16.22.13:918][850]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.24-16.23.52:049][493]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Levels/BattleGround' took 0.016
+[2018.03.24-16.23.52:050][493]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/TankPlayerController_BP] ([1] browsable assets)...
+[2018.03.24-16.23.52:050][493]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/TankPlayerController_BP]
+[2018.03.24-16.23.52:050][493]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/TankPlayerController_BP" FILE="D:/repos/GWGame/GW_Game/Saved/Autosaves/Game/UI/TankPlayerController_BP_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.03.24-16.23.52:067][493]LogSavePackage: Save=9.53ms
+[2018.03.24-16.23.52:067][493]LogSavePackage: Moving 'D:/repos/GWGame/GW_Game/Saved/TankPlayerController_BP_Auto2019B3BE24780792F10E19380B0E4AB84.tmp' to 'D:/repos/GWGame/GW_Game/Saved/Autosaves/Game/UI/TankPlayerController_BP_Auto2.uasset'
+[2018.03.24-16.23.52:068][493]LogSavePackage: Display: Finished SavePackage D:/repos/GWGame/GW_Game/Saved/Autosaves/Game/UI/TankPlayerController_BP_Auto2.uasset
+[2018.03.24-16.23.52:068][493]LogFileHelpers: Auto-saving content packages took 0.018
+[2018.03.24-16.31.24:677][851]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.24-16.31.24:677][851]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.24-16.36.10:678][886]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2018.03.24-16.36.11:351][963]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.24-16.36.11:364][963]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.03.24-16.36.11:365][963]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.03.24-16.36.11:367][963]LogPlayLevel: [PlayLevel] Compiling TankPlayerController_BP before play...
+[2018.03.24-16.36.11:383][963]LogPlayLevel: PlayLevel: Blueprint regeneration took 18 ms (1 blueprints)
+[2018.03.24-16.36.11:384][963]PIE: New page: PIE session: BattleGround (Mar 24, 2018, 6:36:11 PM)
+[2018.03.24-16.36.11:384][963]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_BattleGround
+[2018.03.24-16.36.11:559][963]LogPlayLevel: PIE: StaticDuplicateObject took: (0.175380s)
+[2018.03.24-16.36.11:560][963]LogAIModule: Creating AISystem for world BattleGround
+[2018.03.24-16.36.11:560][963]LogPlayLevel: PIE: World Init took: (0.000883s)
+[2018.03.24-16.36.11:561][963]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/BattleGround.BattleGround to /Game/_Levels/UEDPIE_0_BattleGround.BattleGround (0.176770s)
+[2018.03.24-16.36.11:574][963]LogInit: XAudio2 using 'U24E590-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.24-16.36.11:579][963]LogInit: FAudioDevice initialized.
+[2018.03.24-16.36.11:606][963]LogLoad: Game class is 'AssaultGameMode_BP_C'
+[2018.03.24-16.36.11:616][963]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2018.03.24-17.36.11
+[2018.03.24-16.36.11:616][963]LogWorld: Bringing up level for play took: 0.009400
+[2018.03.24-16.36.11:618][963]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_BattleGround -0.588
+[2018.03.24-16.36.11:618][963]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.03.24-16.36.16:643][564]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.03.24-16.36.16:683][564]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.03.24-16.36.19:020][840]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.24-16.36.19:030][840]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.03.24-16.36.19:031][840]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.24-16.36.19:031][840]PIE: New page: PIE session: BattleGround (Mar 24, 2018, 6:36:19 PM)
+[2018.03.24-16.36.19:031][840]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_BattleGround
+[2018.03.24-16.36.19:206][840]LogPlayLevel: PIE: StaticDuplicateObject took: (0.174186s)
+[2018.03.24-16.36.19:206][840]LogAIModule: Creating AISystem for world BattleGround
+[2018.03.24-16.36.19:206][840]LogPlayLevel: PIE: World Init took: (0.000577s)
+[2018.03.24-16.36.19:207][840]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/BattleGround.BattleGround to /Game/_Levels/UEDPIE_0_BattleGround.BattleGround (0.175238s)
+[2018.03.24-16.36.19:220][840]LogInit: XAudio2 using 'U24E590-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.24-16.36.19:225][840]LogInit: FAudioDevice initialized.
+[2018.03.24-16.36.19:251][840]LogLoad: Game class is 'AssaultGameMode_BP_C'
+[2018.03.24-16.36.19:261][840]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2018.03.24-17.36.19
+[2018.03.24-16.36.19:261][840]LogWorld: Bringing up level for play took: 0.009471
+[2018.03.24-16.36.19:262][840]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_BattleGround 1.057
+[2018.03.24-16.36.19:263][840]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.03.24-16.37.07:793][661]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.03.24-16.37.07:828][661]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.03.24-16.38.18:337][355]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Levels/BattleGround' took 0.013
+[2018.03.24-16.38.18:338][355]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/TankPlayerController_BP] ([1] browsable assets)...
+[2018.03.24-16.38.18:338][355]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/TankPlayerController_BP]
+[2018.03.24-16.38.18:338][355]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/TankPlayerController_BP" FILE="D:/repos/GWGame/GW_Game/Saved/Autosaves/Game/UI/TankPlayerController_BP_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2018.03.24-16.38.18:354][355]LogSavePackage: Save=9.98ms
+[2018.03.24-16.38.18:354][355]LogSavePackage: Moving 'D:/repos/GWGame/GW_Game/Saved/TankPlayerController_BP_Auto35C3589574C34A25B17B53A99BAD1BAD9.tmp' to 'D:/repos/GWGame/GW_Game/Saved/Autosaves/Game/UI/TankPlayerController_BP_Auto3.uasset'
+[2018.03.24-16.38.18:355][355]LogSavePackage: Display: Finished SavePackage D:/repos/GWGame/GW_Game/Saved/Autosaves/Game/UI/TankPlayerController_BP_Auto3.uasset
+[2018.03.24-16.38.18:355][355]LogFileHelpers: Auto-saving content packages took 0.018
+[2018.03.24-16.55.32:981][459]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.24-16.55.32:982][459]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.24-16.55.34:653][645]Candidate modules for hot reload:
+[2018.03.24-16.55.34:653][645]  GW_Game
+[2018.03.24-16.55.34:653][645]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe GW_Game -ModuleWithSuffix GW_Game 8089 Win64 Development -editorrecompile -canskiplink "D:/repos/GWGame/GW_Game/GW_Game.uproject" ]
+[2018.03.24-16.55.34:655][645]Warning: Starting HotReload took  0.0s.
+[2018.03.24-16.55.45:445][940]CompilerResultsLog: New page: Compilation - Mar 24, 2018, 6:55:45 PM
+[2018.03.24-16.55.45:445][940]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.03.24-16.55.45:445][940]CompilerResultsLog: Creating makefile for hot reloading GW_Game (ini files are newer than UBTMakefile)
+[2018.03.24-16.55.45:446][940]CompilerResultsLog: Compiling game modules for hot reload
+[2018.03.24-16.55.45:446][940]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.03.24-16.55.45:446][940]CompilerResultsLog: AssaultPlayerController.cpp
+[2018.03.24-16.55.45:446][940]CompilerResultsLog: Error: D:\repos\GWGame\GW_Game\Source\GW_Game\Private\AssaultPlayerController.cpp(16) : error C2065: 'AimingComponent': undeclared identifier
+[2018.03.24-16.55.45:446][940]CompilerResultsLog: Error: D:\repos\GWGame\GW_Game\Source\GW_Game\Private\AssaultPlayerController.cpp(17) : error C2065: 'AimingComponent': undeclared identifier
+[2018.03.24-16.55.45:446][940]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\repos\GWGame\GW_Game\Binaries\Win64\UE4Editor-GW_Game-8089.dll
+[2018.03.24-16.55.45:446][940]CompilerResultsLog: Total build time: 10,61 seconds (Local executor: 0,00 seconds)
+[2018.03.24-16.55.45:446][940]LogMainFrame: MainFrame: Module compiling took 10.797 seconds
+[2018.03.24-16.55.45:447][940]Warning: HotReload failed, recompile failed
+[2018.03.24-16.56.20:474][896]Candidate modules for hot reload:
+[2018.03.24-16.56.20:474][896]  GW_Game
+[2018.03.24-16.56.20:474][896]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe GW_Game -ModuleWithSuffix GW_Game 7401 Win64 Development -editorrecompile -canskiplink "D:/repos/GWGame/GW_Game/GW_Game.uproject" ]
+[2018.03.24-16.56.20:475][896]Warning: Starting HotReload took  0.0s.
+[2018.03.24-16.56.22:586][149]CompilerResultsLog: New page: Compilation - Mar 24, 2018, 6:56:22 PM
+[2018.03.24-16.56.22:586][149]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.03.24-16.56.22:586][149]CompilerResultsLog: Compiling game modules for hot reload
+[2018.03.24-16.56.22:586][149]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.03.24-16.56.22:586][149]CompilerResultsLog: AssaultPlayerController.cpp
+[2018.03.24-16.56.22:586][149]CompilerResultsLog: [2/3] Link UE4Editor-GW_Game-7401.dll
+[2018.03.24-16.56.22:586][149]CompilerResultsLog: [3/3] Link UE4Editor-GW_Game-7401.lib
+[2018.03.24-16.56.22:586][149]CompilerResultsLog:    Creating library D:\repos\GWGame\GW_Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-GW_Game-7401.lib and object D:\repos\GWGame\GW_Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-GW_Game-7401.exp
+[2018.03.24-16.56.22:586][149]CompilerResultsLog:    Creating library D:\repos\GWGame\GW_Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-GW_Game-7401.suppressed.lib and object D:\repos\GWGame\GW_Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-GW_Game-7401.suppressed.exp
+[2018.03.24-16.56.22:587][149]CompilerResultsLog: Total build time: 1,94 seconds (Local executor: 0,91 seconds)
+[2018.03.24-16.56.22:587][149]LogMainFrame: MainFrame: Module compiling took 2.115 seconds
+[2018.03.24-16.56.22:674][149]LogClass: EFiringState HotReload.
+[2018.03.24-16.56.22:677][149]LogContentBrowser: Native class hierarchy updated for 'GW_Game' in 0.0005 seconds. Added 10 classes and 3 folders.
+[2018.03.24-16.56.22:679][149]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2018.03.24-16.56.22:889][149]LogContentBrowser: Native class hierarchy populated in 0.0065 seconds. Added 2375 classes and 526 folders.
+[2018.03.24-16.56.22:889][149]Display: HotReload took  2.4s.
+[2018.03.24-16.56.25:345][438]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.24-16.56.25:355][438]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.03.24-16.56.25:355][438]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.24-16.56.25:356][438]PIE: New page: PIE session: BattleGround (Mar 24, 2018, 6:56:25 PM)
+[2018.03.24-16.56.25:356][438]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_BattleGround
+[2018.03.24-16.56.25:527][438]LogPlayLevel: PIE: StaticDuplicateObject took: (0.170949s)
+[2018.03.24-16.56.25:528][438]LogAIModule: Creating AISystem for world BattleGround
+[2018.03.24-16.56.25:528][438]LogPlayLevel: PIE: World Init took: (0.000890s)
+[2018.03.24-16.56.25:528][438]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/BattleGround.BattleGround to /Game/_Levels/UEDPIE_0_BattleGround.BattleGround (0.172382s)
+[2018.03.24-16.56.25:565][438]LogInit: XAudio2 using 'U24E590-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.24-16.56.25:570][438]LogInit: FAudioDevice initialized.
+[2018.03.24-16.56.25:597][438]LogLoad: Game class is 'AssaultGameMode_BP_C'
+[2018.03.24-16.56.25:607][438]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2018.03.24-17.56.25
+[2018.03.24-16.56.25:608][438]LogWorld: Bringing up level for play took: 0.010383
+[2018.03.24-16.56.25:609][438]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_BattleGround -0.596
+[2018.03.24-16.56.25:610][438]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.03.24-16.56.25:942][438]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.332 s
+[2018.03.24-16.56.25:942][438]LogOutputDevice: Error: === Handled ensure: ===
+[2018.03.24-16.56.25:943][438]LogOutputDevice: Error: 
+[2018.03.24-16.56.25:943][438]LogOutputDevice: Error: Ensure condition failed: GetPawn() [File:D:\repos\GWGame\GW_Game\Source\GW_Game\Private\AssaultPlayerController.cpp] [Line: 14]
+[2018.03.24-16.56.25:943][438]LogOutputDevice: Error: 
+[2018.03.24-16.56.25:943][438]LogOutputDevice: Error: Stack: 
+[2018.03.24-16.56.25:943][438]LogOutputDevice: Error: [Callstack] 0x00000000594F2786 UE4Editor-Core.dll!UnknownFunction []
+[2018.03.24-16.56.25:943][438]LogOutputDevice: Error: [Callstack] 0x000000005929123A UE4Editor-Core.dll!UnknownFunction []
+[2018.03.24-16.56.25:943][438]LogOutputDevice: Error: [Callstack] 0x00000000592AB906 UE4Editor-Core.dll!UnknownFunction []
+[2018.03.24-16.56.25:943][438]LogOutputDevice: Error: [Callstack] 0x000000005EEA31E7 UE4Editor-GW_Game-7401.dll!AAssaultPlayerController::Tick() [d:\repos\gwgame\gw_game\source\gw_game\private\assaultplayercontroller.cpp:14]
+[2018.03.24-16.56.25:943][438]LogOutputDevice: Error: [Callstack] 0x000000004E3A643C UE4Editor-Engine.dll!UnknownFunction []
+[2018.03.24-16.56.25:943][438]LogOutputDevice: Error: [Callstack] 0x000000004D6758B6 UE4Editor-Engine.dll!UnknownFunction []
+[2018.03.24-16.56.25:943][438]LogOutputDevice: Error: [Callstack] 0x000000004E6C9BDB UE4Editor-Engine.dll!UnknownFunction []
+[2018.03.24-16.56.25:943][438]LogOutputDevice: Error: [Callstack] 0x000000004E6CDD0B UE4Editor-Engine.dll!UnknownFunction []
+[2018.03.24-16.56.25:943][438]LogOutputDevice: Error: [Callstack] 0x0000000059154845 UE4Editor-Core.dll!UnknownFunction []
+[2018.03.24-16.56.25:944][438]LogOutputDevice: Error: [Callstack] 0x0000000059154E2A UE4Editor-Core.dll!UnknownFunction []
+[2018.03.24-16.56.25:944][438]LogOutputDevice: Error: [Callstack] 0x000000005917589E UE4Editor-Core.dll!UnknownFunction []
+[2018.03.24-16.56.25:944][438]LogOutputDevice: Error: [Callstack] 0x000000004E6E7E11 UE4Editor-Engine.dll!UnknownFunction []
+[2018.03.24-16.56.25:944][438]LogOutputDevice: Error: [Callstack] 0x000000004E6EC632 UE4Editor-Engine.dll!UnknownFunction []
+[2018.03.24-16.56.25:944][438]LogOutputDevice: Error: [Callstack] 0x000000004DFDD104 UE4Editor-Engine.dll!UnknownFunction []
+[2018.03.24-16.56.25:944][438]LogOutputDevice: Error: [Callstack] 0x000000004DFE6448 UE4Editor-Engine.dll!UnknownFunction []
+[2018.03.24-16.56.25:944][438]LogOutputDevice: Error: [Callstack] 0x00000000433D6BA6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.03.24-16.56.25:944][438]LogOutputDevice: Error: [Callstack] 0x0000000043C84AC6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.03.24-16.56.25:944][438]LogOutputDevice: Error: [Callstack] 0x000000008C235A26 UE4Editor.exe!UnknownFunction []
+[2018.03.24-16.56.25:944][438]LogOutputDevice: Error: [Callstack] 0x000000008C245430 UE4Editor.exe!UnknownFunction []
+[2018.03.24-16.56.25:944][438]LogOutputDevice: Error: [Callstack] 0x000000008C2454AA UE4Editor.exe!UnknownFunction []
+[2018.03.24-16.56.25:944][438]LogOutputDevice: Error: [Callstack] 0x000000008C252379 UE4Editor.exe!UnknownFunction []
+[2018.03.24-16.56.25:944][438]LogOutputDevice: Error: [Callstack] 0x000000008C253D57 UE4Editor.exe!UnknownFunction []
+[2018.03.24-16.56.25:945][438]LogOutputDevice: Error: [Callstack] 0x0000000092B81FE4 KERNEL32.DLL!UnknownFunction []
+[2018.03.24-16.56.25:945][438]LogOutputDevice: Error: [Callstack] 0x000000009330EFC1 ntdll.dll!UnknownFunction []
+[2018.03.24-16.56.25:945][438]LogOutputDevice: Error: 
+[2018.03.24-16.56.25:950][438]LogStats:                SubmitErrorReport -  0.000 s
+[2018.03.24-16.56.26:243][438]LogStats:                    SendNewReport -  0.293 s
+[2018.03.24-16.56.26:243][438]LogStats:             FDebug::EnsureFailed -  0.632 s
+[2018.03.24-16.58.46:184][963]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.03.24-16.58.46:257][963]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.03.24-16.58.55:934][175]Candidate modules for hot reload:
+[2018.03.24-16.58.55:934][175]  GW_Game
+[2018.03.24-16.58.55:934][175]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe GW_Game -ModuleWithSuffix GW_Game 6674 Win64 Development -editorrecompile -canskiplink "D:/repos/GWGame/GW_Game/GW_Game.uproject" ]
+[2018.03.24-16.58.55:935][175]Warning: Starting HotReload took  0.0s.
+[2018.03.24-16.58.58:014][425]CompilerResultsLog: New page: Compilation - Mar 24, 2018, 6:58:58 PM
+[2018.03.24-16.58.58:015][425]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.03.24-16.58.58:015][425]CompilerResultsLog: Compiling game modules for hot reload
+[2018.03.24-16.58.58:015][425]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.03.24-16.58.58:015][425]CompilerResultsLog: AssaultPlayerController.cpp
+[2018.03.24-16.58.58:015][425]CompilerResultsLog: [2/3] Link UE4Editor-GW_Game-6674.dll
+[2018.03.24-16.58.58:015][425]CompilerResultsLog: [3/3] Link UE4Editor-GW_Game-6674.lib
+[2018.03.24-16.58.58:015][425]CompilerResultsLog:    Creating library D:\repos\GWGame\GW_Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-GW_Game-6674.lib and object D:\repos\GWGame\GW_Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-GW_Game-6674.exp
+[2018.03.24-16.58.58:015][425]CompilerResultsLog:    Creating library D:\repos\GWGame\GW_Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-GW_Game-6674.suppressed.lib and object D:\repos\GWGame\GW_Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-GW_Game-6674.suppressed.exp
+[2018.03.24-16.58.58:015][425]CompilerResultsLog: Total build time: 1,91 seconds (Local executor: 0,91 seconds)
+[2018.03.24-16.58.58:015][425]LogMainFrame: MainFrame: Module compiling took 2.085 seconds
+[2018.03.24-16.58.58:095][425]LogClass: EFiringState HotReload.
+[2018.03.24-16.58.58:097][425]LogContentBrowser: Native class hierarchy updated for 'GW_Game' in 0.0005 seconds. Added 10 classes and 3 folders.
+[2018.03.24-16.58.58:099][425]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2018.03.24-16.58.58:299][425]LogContentBrowser: Native class hierarchy populated in 0.0065 seconds. Added 2375 classes and 526 folders.
+[2018.03.24-16.58.58:299][425]Display: HotReload took  2.4s.
+[2018.03.24-16.58.59:408][546]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.24-16.58.59:417][546]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.03.24-16.58.59:418][546]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.24-16.58.59:418][546]PIE: New page: PIE session: BattleGround (Mar 24, 2018, 6:58:59 PM)
+[2018.03.24-16.58.59:418][546]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_BattleGround
+[2018.03.24-16.58.59:597][546]LogPlayLevel: PIE: StaticDuplicateObject took: (0.179225s)
+[2018.03.24-16.58.59:598][546]LogAIModule: Creating AISystem for world BattleGround
+[2018.03.24-16.58.59:598][546]LogPlayLevel: PIE: World Init took: (0.000699s)
+[2018.03.24-16.58.59:598][546]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/BattleGround.BattleGround to /Game/_Levels/UEDPIE_0_BattleGround.BattleGround (0.180414s)
+[2018.03.24-16.58.59:632][546]LogInit: XAudio2 using 'U24E590-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.24-16.58.59:637][546]LogInit: FAudioDevice initialized.
+[2018.03.24-16.58.59:665][546]LogLoad: Game class is 'AssaultGameMode_BP_C'
+[2018.03.24-16.58.59:675][546]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2018.03.24-17.58.59
+[2018.03.24-16.58.59:676][546]LogWorld: Bringing up level for play took: 0.009973
+[2018.03.24-16.58.59:759][546]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.083 s
+[2018.03.24-16.58.59:759][546]LogOutputDevice: Error: === Handled ensure: ===
+[2018.03.24-16.58.59:759][546]LogOutputDevice: Error: 
+[2018.03.24-16.58.59:759][546]LogOutputDevice: Error: Ensure condition failed: GetPawn() [File:D:\repos\GWGame\GW_Game\Source\GW_Game\Private\AssaultPlayerController.cpp] [Line: 8]
+[2018.03.24-16.58.59:759][546]LogOutputDevice: Error: 
+[2018.03.24-16.58.59:759][546]LogOutputDevice: Error: Stack: 
+[2018.03.24-16.58.59:759][546]LogOutputDevice: Error: [Callstack] 0x00000000594F2786 UE4Editor-Core.dll!UnknownFunction []
+[2018.03.24-16.58.59:759][546]LogOutputDevice: Error: [Callstack] 0x000000005929123A UE4Editor-Core.dll!UnknownFunction []
+[2018.03.24-16.58.59:759][546]LogOutputDevice: Error: [Callstack] 0x00000000592AB906 UE4Editor-Core.dll!UnknownFunction []
+[2018.03.24-16.58.59:760][546]LogOutputDevice: Error: [Callstack] 0x0000000064CA2FBF UE4Editor-GW_Game-6674.dll!AAssaultPlayerController::BeginPlay() [d:\repos\gwgame\gw_game\source\gw_game\private\assaultplayercontroller.cpp:8]
+[2018.03.24-16.58.59:760][546]LogOutputDevice: Error: [Callstack] 0x000000004D66CAEB UE4Editor-Engine.dll!UnknownFunction []
+[2018.03.24-16.58.59:760][546]LogOutputDevice: Error: [Callstack] 0x000000004E865790 UE4Editor-Engine.dll!UnknownFunction []
+[2018.03.24-16.58.59:760][546]LogOutputDevice: Error: [Callstack] 0x000000004DDBDAC1 UE4Editor-Engine.dll!UnknownFunction []
+[2018.03.24-16.58.59:760][546]LogOutputDevice: Error: [Callstack] 0x000000004E8506AE UE4Editor-Engine.dll!UnknownFunction []
+[2018.03.24-16.58.59:760][546]LogOutputDevice: Error: [Callstack] 0x000000004DDE04CE UE4Editor-Engine.dll!UnknownFunction []
+[2018.03.24-16.58.59:760][546]LogOutputDevice: Error: [Callstack] 0x000000004393B235 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.03.24-16.58.59:760][546]LogOutputDevice: Error: [Callstack] 0x000000004396556E UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.03.24-16.58.59:760][546]LogOutputDevice: Error: [Callstack] 0x000000004398192F UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.03.24-16.58.59:760][546]LogOutputDevice: Error: [Callstack] 0x00000000433D6024 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.03.24-16.58.59:760][546]LogOutputDevice: Error: [Callstack] 0x0000000043C84AC6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.03.24-16.58.59:760][546]LogOutputDevice: Error: [Callstack] 0x000000008C235A26 UE4Editor.exe!UnknownFunction []
+[2018.03.24-16.58.59:761][546]LogOutputDevice: Error: [Callstack] 0x000000008C245430 UE4Editor.exe!UnknownFunction []
+[2018.03.24-16.58.59:761][546]LogOutputDevice: Error: [Callstack] 0x000000008C2454AA UE4Editor.exe!UnknownFunction []
+[2018.03.24-16.58.59:761][546]LogOutputDevice: Error: [Callstack] 0x000000008C252379 UE4Editor.exe!UnknownFunction []
+[2018.03.24-16.58.59:761][546]LogOutputDevice: Error: [Callstack] 0x000000008C253D57 UE4Editor.exe!UnknownFunction []
+[2018.03.24-16.58.59:761][546]LogOutputDevice: Error: [Callstack] 0x0000000092B81FE4 KERNEL32.DLL!UnknownFunction []
+[2018.03.24-16.58.59:761][546]LogOutputDevice: Error: [Callstack] 0x000000009330EFC1 ntdll.dll!UnknownFunction []
+[2018.03.24-16.58.59:761][546]LogOutputDevice: Error: 
+[2018.03.24-16.58.59:762][546]LogStats:                SubmitErrorReport -  0.000 s
+[2018.03.24-16.58.59:997][546]LogStats:                    SendNewReport -  0.234 s
+[2018.03.24-16.58.59:997][546]LogStats:             FDebug::EnsureFailed -  0.321 s
+[2018.03.24-16.58.59:998][546]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_BattleGround -0.208
+[2018.03.24-16.58.59:998][546]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.03.24-16.59.15:409][393]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.03.24-16.59.15:449][393]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.03.24-17.01.46:716][381]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.24-17.01.46:726][381]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.03.24-17.01.46:726][381]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.24-17.01.46:726][381]PIE: New page: PIE session: BattleGround (Mar 24, 2018, 7:01:46 PM)
+[2018.03.24-17.01.46:727][381]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_BattleGround
+[2018.03.24-17.01.46:904][381]LogPlayLevel: PIE: StaticDuplicateObject took: (0.177549s)
+[2018.03.24-17.01.46:905][381]LogAIModule: Creating AISystem for world BattleGround
+[2018.03.24-17.01.46:905][381]LogPlayLevel: PIE: World Init took: (0.000845s)
+[2018.03.24-17.01.46:905][381]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/BattleGround.BattleGround to /Game/_Levels/UEDPIE_0_BattleGround.BattleGround (0.178887s)
+[2018.03.24-17.01.46:918][381]LogInit: XAudio2 using 'U24E590-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.24-17.01.46:923][381]LogInit: FAudioDevice initialized.
+[2018.03.24-17.01.46:952][381]LogLoad: Game class is 'AssaultGameMode_BP_C'
+[2018.03.24-17.01.46:962][381]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2018.03.24-18.01.46
+[2018.03.24-17.01.46:962][381]LogWorld: Bringing up level for play took: 0.009639
+[2018.03.24-17.01.46:964][381]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_BattleGround 0.759
+[2018.03.24-17.01.46:964][381]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.03.24-17.01.50:322][782]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.03.24-17.01.50:362][782]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.03.24-17.01.54:675][ 59]Candidate modules for hot reload:
+[2018.03.24-17.01.54:675][ 59]  GW_Game
+[2018.03.24-17.01.54:675][ 59]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe GW_Game -ModuleWithSuffix GW_Game 5174 Win64 Development -editorrecompile -canskiplink "D:/repos/GWGame/GW_Game/GW_Game.uproject" ]
+[2018.03.24-17.01.54:676][ 59]Warning: Starting HotReload took  0.0s.
+[2018.03.24-17.02.06:006][419]CompilerResultsLog: New page: Compilation - Mar 24, 2018, 7:02:06 PM
+[2018.03.24-17.02.06:006][419]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.03.24-17.02.06:006][419]CompilerResultsLog: Compiling game modules for hot reload
+[2018.03.24-17.02.06:006][419]CompilerResultsLog: Parsing headers for GW_GameEditor
+[2018.03.24-17.02.06:006][419]CompilerResultsLog:   Running UnrealHeaderTool "D:\repos\GWGame\GW_Game\GW_Game.uproject" "D:\repos\GWGame\GW_Game\Intermediate\Build\Win64\GW_GameEditor\Development\GW_GameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.03.24-17.02.06:007][419]CompilerResultsLog: Reflection code generated for GW_GameEditor in 7,7737046 seconds
+[2018.03.24-17.02.06:007][419]CompilerResultsLog: Performing 4 actions (4 in parallel)
+[2018.03.24-17.02.06:007][419]CompilerResultsLog: AssaultPlayerController.gen.cpp
+[2018.03.24-17.02.06:007][419]CompilerResultsLog: AssaultPlayerController.cpp
+[2018.03.24-17.02.06:007][419]CompilerResultsLog: [3/4] Link UE4Editor-GW_Game-5174.dll
+[2018.03.24-17.02.06:007][419]CompilerResultsLog: [4/4] Link UE4Editor-GW_Game-5174.lib
+[2018.03.24-17.02.06:007][419]CompilerResultsLog:    Creating library D:\repos\GWGame\GW_Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-GW_Game-5174.lib and object D:\repos\GWGame\GW_Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-GW_Game-5174.exp
+[2018.03.24-17.02.06:007][419]CompilerResultsLog:    Creating library D:\repos\GWGame\GW_Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-GW_Game-5174.suppressed.lib and object D:\repos\GWGame\GW_Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-GW_Game-5174.suppressed.exp
+[2018.03.24-17.02.06:007][419]CompilerResultsLog: Total build time: 11,14 seconds (Local executor: 2,12 seconds)
+[2018.03.24-17.02.06:007][419]LogMainFrame: MainFrame: Module compiling took 11.336 seconds
+[2018.03.24-17.02.06:209][419]LogClass: EFiringState HotReload.
+[2018.03.24-17.02.06:211][419]LogHotReload: Re-instancing AssaultPlayerController after hot-reload.
+[2018.03.24-17.02.06:279][419]LogContentBrowser: Native class hierarchy updated for 'GW_Game' in 0.0005 seconds. Added 10 classes and 3 folders.
+[2018.03.24-17.02.06:281][419]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2018.03.24-17.02.06:486][419]LogContentBrowser: Native class hierarchy populated in 0.0064 seconds. Added 2375 classes and 526 folders.
+[2018.03.24-17.02.06:486][419]Display: HotReload took 11.8s.
+[2018.03.24-17.02.07:673][548]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.24-17.02.07:682][548]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.03.24-17.02.07:683][548]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.24-17.02.07:683][548]PIE: New page: PIE session: BattleGround (Mar 24, 2018, 7:02:07 PM)
+[2018.03.24-17.02.07:683][548]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_BattleGround
+[2018.03.24-17.02.07:862][548]LogPlayLevel: PIE: StaticDuplicateObject took: (0.178857s)
+[2018.03.24-17.02.07:863][548]LogAIModule: Creating AISystem for world BattleGround
+[2018.03.24-17.02.07:863][548]LogPlayLevel: PIE: World Init took: (0.000810s)
+[2018.03.24-17.02.07:863][548]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/BattleGround.BattleGround to /Game/_Levels/UEDPIE_0_BattleGround.BattleGround (0.180209s)
+[2018.03.24-17.02.07:896][548]LogInit: XAudio2 using 'U24E590-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.24-17.02.07:900][548]LogInit: FAudioDevice initialized.
+[2018.03.24-17.02.07:930][548]LogLoad: Game class is 'AssaultGameMode_BP_C'
+[2018.03.24-17.02.07:939][548]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2018.03.24-18.02.07
+[2018.03.24-17.02.07:940][548]LogWorld: Bringing up level for play took: 0.009283
+[2018.03.24-17.02.07:941][548]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_BattleGround -0.264
+[2018.03.24-17.02.07:941][548]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.03.24-17.02.08:025][548]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.082 s
+[2018.03.24-17.02.08:025][548]LogOutputDevice: Error: === Handled ensure: ===
+[2018.03.24-17.02.08:025][548]LogOutputDevice: Error: 
+[2018.03.24-17.02.08:025][548]LogOutputDevice: Error: Ensure condition failed: GetPawn() [File:D:\repos\GWGame\GW_Game\Source\GW_Game\Private\AssaultPlayerController.cpp] [Line: 15]
+[2018.03.24-17.02.08:026][548]LogOutputDevice: Error: 
+[2018.03.24-17.02.08:026][548]LogOutputDevice: Error: Stack: 
+[2018.03.24-17.02.08:026][548]LogOutputDevice: Error: [Callstack] 0x00000000594F2786 UE4Editor-Core.dll!UnknownFunction []
+[2018.03.24-17.02.08:026][548]LogOutputDevice: Error: [Callstack] 0x000000005929123A UE4Editor-Core.dll!UnknownFunction []
+[2018.03.24-17.02.08:026][548]LogOutputDevice: Error: [Callstack] 0x00000000592AB906 UE4Editor-Core.dll!UnknownFunction []
+[2018.03.24-17.02.08:026][548]LogOutputDevice: Error: [Callstack] 0x0000000064C53204 UE4Editor-GW_Game-5174.dll!AAssaultPlayerController::Tick() [d:\repos\gwgame\gw_game\source\gw_game\private\assaultplayercontroller.cpp:15]
+[2018.03.24-17.02.08:026][548]LogOutputDevice: Error: [Callstack] 0x000000004E3A643C UE4Editor-Engine.dll!UnknownFunction []
+[2018.03.24-17.02.08:026][548]LogOutputDevice: Error: [Callstack] 0x000000004D6758B6 UE4Editor-Engine.dll!UnknownFunction []
+[2018.03.24-17.02.08:026][548]LogOutputDevice: Error: [Callstack] 0x000000004E6C9BDB UE4Editor-Engine.dll!UnknownFunction []
+[2018.03.24-17.02.08:026][548]LogOutputDevice: Error: [Callstack] 0x000000004E6CDD0B UE4Editor-Engine.dll!UnknownFunction []
+[2018.03.24-17.02.08:026][548]LogOutputDevice: Error: [Callstack] 0x0000000059154845 UE4Editor-Core.dll!UnknownFunction []
+[2018.03.24-17.02.08:026][548]LogOutputDevice: Error: [Callstack] 0x0000000059154E2A UE4Editor-Core.dll!UnknownFunction []
+[2018.03.24-17.02.08:026][548]LogOutputDevice: Error: [Callstack] 0x000000005917589E UE4Editor-Core.dll!UnknownFunction []
+[2018.03.24-17.02.08:026][548]LogOutputDevice: Error: [Callstack] 0x000000004E6E7E11 UE4Editor-Engine.dll!UnknownFunction []
+[2018.03.24-17.02.08:027][548]LogOutputDevice: Error: [Callstack] 0x000000004E6EC632 UE4Editor-Engine.dll!UnknownFunction []
+[2018.03.24-17.02.08:027][548]LogOutputDevice: Error: [Callstack] 0x000000004DFDD104 UE4Editor-Engine.dll!UnknownFunction []
+[2018.03.24-17.02.08:027][548]LogOutputDevice: Error: [Callstack] 0x000000004DFE6448 UE4Editor-Engine.dll!UnknownFunction []
+[2018.03.24-17.02.08:027][548]LogOutputDevice: Error: [Callstack] 0x00000000433D6BA6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.03.24-17.02.08:027][548]LogOutputDevice: Error: [Callstack] 0x0000000043C84AC6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.03.24-17.02.08:027][548]LogOutputDevice: Error: [Callstack] 0x000000008C235A26 UE4Editor.exe!UnknownFunction []
+[2018.03.24-17.02.08:027][548]LogOutputDevice: Error: [Callstack] 0x000000008C245430 UE4Editor.exe!UnknownFunction []
+[2018.03.24-17.02.08:027][548]LogOutputDevice: Error: [Callstack] 0x000000008C2454AA UE4Editor.exe!UnknownFunction []
+[2018.03.24-17.02.08:027][548]LogOutputDevice: Error: [Callstack] 0x000000008C252379 UE4Editor.exe!UnknownFunction []
+[2018.03.24-17.02.08:027][548]LogOutputDevice: Error: [Callstack] 0x000000008C253D57 UE4Editor.exe!UnknownFunction []
+[2018.03.24-17.02.08:027][548]LogOutputDevice: Error: [Callstack] 0x0000000092B81FE4 KERNEL32.DLL!UnknownFunction []
+[2018.03.24-17.02.08:027][548]LogOutputDevice: Error: [Callstack] 0x000000009330EFC1 ntdll.dll!UnknownFunction []
+[2018.03.24-17.02.08:028][548]LogOutputDevice: Error: 
+[2018.03.24-17.02.08:028][548]LogStats:                SubmitErrorReport -  0.000 s
+[2018.03.24-17.02.08:284][548]LogStats:                    SendNewReport -  0.256 s
+[2018.03.24-17.02.08:285][548]LogStats:             FDebug::EnsureFailed -  0.342 s
+[2018.03.24-17.02.18:762][803]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.03.24-17.02.18:801][803]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.03.24-17.02.43:693][972]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Levels/BattleGround' took 0.011
+[2018.03.24-17.02.43:695][972]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/TankPlayerController_BP] ([1] browsable assets)...
+[2018.03.24-17.02.43:695][972]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/TankPlayerController_BP]
+[2018.03.24-17.02.43:695][972]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/TankPlayerController_BP" FILE="D:/repos/GWGame/GW_Game/Saved/Autosaves/Game/UI/TankPlayerController_BP_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2018.03.24-17.02.43:729][972]LogSavePackage: Save=10.08ms
+[2018.03.24-17.02.43:729][972]LogSavePackage: Moving 'D:/repos/GWGame/GW_Game/Saved/TankPlayerController_BP_Auto4F638C98C413C8070E0440A9618FDE458.tmp' to 'D:/repos/GWGame/GW_Game/Saved/Autosaves/Game/UI/TankPlayerController_BP_Auto4.uasset'
+[2018.03.24-17.02.43:731][972]LogSavePackage: Display: Finished SavePackage D:/repos/GWGame/GW_Game/Saved/Autosaves/Game/UI/TankPlayerController_BP_Auto4.uasset
+[2018.03.24-17.02.43:731][972]LogFileHelpers: Auto-saving content packages took 0.037

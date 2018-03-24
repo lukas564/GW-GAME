@@ -26,7 +26,7 @@ public:
 
 private:
 	bool GetSightRayHitLocation(FVector& HitLocation) const;
-
+	bool CharacterNotSelected = true;
 	UPROPERTY (EditDefaultsOnly)
 	float CrossHairXLocation = 0.5;
 
