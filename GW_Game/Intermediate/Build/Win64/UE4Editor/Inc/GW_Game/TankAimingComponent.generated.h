@@ -119,10 +119,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTankAimingComponent); \
 
 #define GW_Game_Source_GW_Game_Public_TankAimingComponent_h_25_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__FiringState() { return STRUCT_OFFSET(UTankAimingComponent, FiringState); } \
-	FORCEINLINE static uint32 __PPO__LaunchSpeed() { return STRUCT_OFFSET(UTankAimingComponent, LaunchSpeed); } \
 	FORCEINLINE static uint32 __PPO__ProjectileBlueprint() { return STRUCT_OFFSET(UTankAimingComponent, ProjectileBlueprint); } \
 	FORCEINLINE static uint32 __PPO__ReloadTimeInSeconds() { return STRUCT_OFFSET(UTankAimingComponent, ReloadTimeInSeconds); } \
-	FORCEINLINE static uint32 __PPO__RoundsLeft() { return STRUCT_OFFSET(UTankAimingComponent, RoundsLeft); }
+	FORCEINLINE static uint32 __PPO__RoundsLeft() { return STRUCT_OFFSET(UTankAimingComponent, RoundsLeft); } \
+	FORCEINLINE static uint32 __PPO__LaunchSpeed() { return STRUCT_OFFSET(UTankAimingComponent, LaunchSpeed); }
 
 
 #define GW_Game_Source_GW_Game_Public_TankAimingComponent_h_22_PROLOG

@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define GW_GAME_Projectile_generated_h
 
-#define GW_Game_Source_GW_Game_Public_Projectile_h_11_RPC_WRAPPERS
-#define GW_Game_Source_GW_Game_Public_Projectile_h_11_RPC_WRAPPERS_NO_PURE_DECLS
-#define GW_Game_Source_GW_Game_Public_Projectile_h_11_INCLASS_NO_PURE_DECLS \
+#define GW_Game_Source_GW_Game_Public_Projectile_h_12_RPC_WRAPPERS
+#define GW_Game_Source_GW_Game_Public_Projectile_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define GW_Game_Source_GW_Game_Public_Projectile_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAProjectile(); \
 	friend GW_GAME_API class UClass* Z_Construct_UClass_AProjectile(); \
@@ -25,7 +25,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define GW_Game_Source_GW_Game_Public_Projectile_h_11_INCLASS \
+#define GW_Game_Source_GW_Game_Public_Projectile_h_12_INCLASS \
 private: \
 	static void StaticRegisterNativesAProjectile(); \
 	friend GW_GAME_API class UClass* Z_Construct_UClass_AProjectile(); \
@@ -35,7 +35,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define GW_Game_Source_GW_Game_Public_Projectile_h_11_STANDARD_CONSTRUCTORS \
+#define GW_Game_Source_GW_Game_Public_Projectile_h_12_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AProjectile(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AProjectile) \
@@ -48,7 +48,7 @@ private: \
 public:
 
 
-#define GW_Game_Source_GW_Game_Public_Projectile_h_11_ENHANCED_CONSTRUCTORS \
+#define GW_Game_Source_GW_Game_Public_Projectile_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AProjectile(AProjectile&&); \
@@ -59,26 +59,30 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AProjectile); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AProjectile)
 
 
-#define GW_Game_Source_GW_Game_Public_Projectile_h_11_PRIVATE_PROPERTY_OFFSET
-#define GW_Game_Source_GW_Game_Public_Projectile_h_8_PROLOG
-#define GW_Game_Source_GW_Game_Public_Projectile_h_11_GENERATED_BODY_LEGACY \
+#define GW_Game_Source_GW_Game_Public_Projectile_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__CollisionMesh() { return STRUCT_OFFSET(AProjectile, CollisionMesh); } \
+	FORCEINLINE static uint32 __PPO__LaunchBlast() { return STRUCT_OFFSET(AProjectile, LaunchBlast); }
+
+
+#define GW_Game_Source_GW_Game_Public_Projectile_h_9_PROLOG
+#define GW_Game_Source_GW_Game_Public_Projectile_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GW_Game_Source_GW_Game_Public_Projectile_h_11_PRIVATE_PROPERTY_OFFSET \
-	GW_Game_Source_GW_Game_Public_Projectile_h_11_RPC_WRAPPERS \
-	GW_Game_Source_GW_Game_Public_Projectile_h_11_INCLASS \
-	GW_Game_Source_GW_Game_Public_Projectile_h_11_STANDARD_CONSTRUCTORS \
+	GW_Game_Source_GW_Game_Public_Projectile_h_12_PRIVATE_PROPERTY_OFFSET \
+	GW_Game_Source_GW_Game_Public_Projectile_h_12_RPC_WRAPPERS \
+	GW_Game_Source_GW_Game_Public_Projectile_h_12_INCLASS \
+	GW_Game_Source_GW_Game_Public_Projectile_h_12_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define GW_Game_Source_GW_Game_Public_Projectile_h_11_GENERATED_BODY \
+#define GW_Game_Source_GW_Game_Public_Projectile_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GW_Game_Source_GW_Game_Public_Projectile_h_11_PRIVATE_PROPERTY_OFFSET \
-	GW_Game_Source_GW_Game_Public_Projectile_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
-	GW_Game_Source_GW_Game_Public_Projectile_h_11_INCLASS_NO_PURE_DECLS \
-	GW_Game_Source_GW_Game_Public_Projectile_h_11_ENHANCED_CONSTRUCTORS \
+	GW_Game_Source_GW_Game_Public_Projectile_h_12_PRIVATE_PROPERTY_OFFSET \
+	GW_Game_Source_GW_Game_Public_Projectile_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	GW_Game_Source_GW_Game_Public_Projectile_h_12_INCLASS_NO_PURE_DECLS \
+	GW_Game_Source_GW_Game_Public_Projectile_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

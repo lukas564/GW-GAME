@@ -2,6 +2,7 @@
 
 #pragma once
 #include "GameFramework/ProjectileMovementComponent.h"
+#include "Runtime/Engine/Classes/Particles/ParticleSystemComponent.h"
 #include "GameFramework/Actor.h"
 #include "Projectile.generated.h"
 
@@ -10,9 +11,6 @@ class GW_GAME_API AProjectile : public AActor
 {
 	GENERATED_BODY()
 public:
-	void LaunchProjectile(float Speed);
-	UProjectileMovementComponent* ProjectileMovement = nullptr;
-private:
 	// Sets default values for this actor's properties
 	AProjectile();
 
@@ -21,4 +19,15 @@ private:
 
 	// Called every frame
 	virtual void Tick(float DeltaSeconds) override;
+
+	void LaunchProjectile(float Speed);
+
+private:
+	UProjectileMovementComponent* ProjectileMovement = nullptr;
+
+	UPROPERTY(VisibleAnywhere, Category = "Components")
+	UStaticMeshComponent* CollisionMesh = nullptr;
+
+	UPROPERTY(VisibleAnywhere, Category = "Components")
+	UParticleSystemComponent* LaunchBlast = nullptr;
 };
