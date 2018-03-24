@@ -61,7 +61,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATankAIController); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ATankAIController)
 
 
-#define GW_Game_Source_GW_Game_Public_TankAIController_h_15_PRIVATE_PROPERTY_OFFSET
+#define GW_Game_Source_GW_Game_Public_TankAIController_h_15_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__AcceptanceRadius() { return STRUCT_OFFSET(ATankAIController, AcceptanceRadius); }
+
+
 #define GW_Game_Source_GW_Game_Public_TankAIController_h_12_PROLOG
 #define GW_Game_Source_GW_Game_Public_TankAIController_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

@@ -44,9 +44,9 @@ bool AAssaultPlayerController::GetSightRayHitLocation(FVector& HitLocation) cons
 	if (GetLookDirection(ScreenLocation, LookDirection))
 	{
 		// Line trace along the direction and see what we are hitting
-		GetLookVectorHitLocation(LookDirection, HitLocation);
+		return GetLookVectorHitLocation(LookDirection, HitLocation);
 	}
-	return true;
+	return false;
 }
 
 bool AAssaultPlayerController::GetLookVectorHitLocation(FVector LookDirection, FVector& HitLocation) const

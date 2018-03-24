@@ -17,6 +17,7 @@ class GW_GAME_API ATankAIController : public AAIController
 private:
 	virtual void Tick (float DeltaTime) override;
 	virtual void BeginPlay() override;
-	float AcceptanceRadius = 3000;
+	UPROPERTY(EditDefaultsOnly, Category = "Setup")
+	float AcceptanceRadius = 8000;
 
 };
