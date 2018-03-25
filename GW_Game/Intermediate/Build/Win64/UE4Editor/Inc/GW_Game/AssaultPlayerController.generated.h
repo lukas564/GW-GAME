@@ -14,8 +14,28 @@ class UTankAimingComponent;
 #endif
 #define GW_GAME_AssaultPlayerController_generated_h
 
-#define GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_15_RPC_WRAPPERS
-#define GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_15_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execPawnSpawned) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->PawnSpawned(); \
+		P_NATIVE_END; \
+	}
+
+
+#define GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execPawnSpawned) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->PawnSpawned(); \
+		P_NATIVE_END; \
+	}
+
+
 #define GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_15_EVENT_PARMS \
 	struct AssaultPlayerController_eventFoundAimingComponent_Parms \
 	{ \

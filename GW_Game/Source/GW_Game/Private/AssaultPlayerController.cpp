@@ -6,26 +6,22 @@ void AAssaultPlayerController::BeginPlay()
 {
 	Super::BeginPlay();
 }
+void AAssaultPlayerController::PawnSpawned()
+{
+	if (!ensure(GetPawn())) { return; }
+	AimingComponent = GetPawn()->FindComponentByClass<UTankAimingComponent>();
+	FoundAimingComponent(AimingComponent);
+}
 
 void AAssaultPlayerController::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-		AimTowardsCrosshair();
-		if (CharacterNotSelected) 
-		{
-			if (!ensure(GetPawn())) { return; }
-			auto AimingComponent = GetPawn()->FindComponentByClass<UTankAimingComponent>();
-			if (!ensure(AimingComponent)) { return; }
-			FoundAimingComponent(AimingComponent);
-			CharacterNotSelected = false;
-		}
+	if (!AimingComponent) { return; }
+	AimTowardsCrosshair();
 }
 
 void AAssaultPlayerController::AimTowardsCrosshair()
 {
-	if (!GetPawn()) { return; }
-	auto AimingComponent = GetPawn()->FindComponentByClass<UTankAimingComponent>();
-	if (!ensure(AimingComponent)) { return; }
 	FVector HitLocation; // Out parameter
 	if (GetSightRayHitLocation(HitLocation))
 	{

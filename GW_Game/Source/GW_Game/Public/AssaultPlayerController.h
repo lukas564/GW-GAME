@@ -23,7 +23,9 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	void AimTowardsCrosshair();
-
+	UTankAimingComponent* AimingComponent;
+	UFUNCTION(BlueprintCallable, Category = "Setup")
+	void PawnSpawned();
 private:
 	bool GetSightRayHitLocation(FVector& HitLocation) const;
 	bool CharacterNotSelected = true;
