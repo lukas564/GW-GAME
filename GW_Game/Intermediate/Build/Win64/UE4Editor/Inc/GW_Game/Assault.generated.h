@@ -59,7 +59,11 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AAssault); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AAssault)
 
 
-#define GW_Game_Source_GW_Game_Public_Assault_h_8_PRIVATE_PROPERTY_OFFSET
+#define GW_Game_Source_GW_Game_Public_Assault_h_8_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__StartingHealth() { return STRUCT_OFFSET(AAssault, StartingHealth); } \
+	FORCEINLINE static uint32 __PPO__CurrentHealth() { return STRUCT_OFFSET(AAssault, CurrentHealth); }
+
+
 #define GW_Game_Source_GW_Game_Public_Assault_h_5_PROLOG
 #define GW_Game_Source_GW_Game_Public_Assault_h_8_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

@@ -41,6 +41,24 @@ void EmptyLinkFunctionForGeneratedCodeAssault() {}
 				{ "ModuleRelativePath", "Public/Assault.h" },
 			};
 #endif
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CurrentHealth_MetaData[] = {
+				{ "Category", "Health" },
+				{ "ModuleRelativePath", "Public/Assault.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FIntPropertyParams NewProp_CurrentHealth = { UE4CodeGen_Private::EPropertyClass::Int, "CurrentHealth", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000020001, 1, nullptr, STRUCT_OFFSET(AAssault, CurrentHealth), METADATA_PARAMS(NewProp_CurrentHealth_MetaData, ARRAY_COUNT(NewProp_CurrentHealth_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_StartingHealth_MetaData[] = {
+				{ "Category", "Setup" },
+				{ "ModuleRelativePath", "Public/Assault.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FIntPropertyParams NewProp_StartingHealth = { UE4CodeGen_Private::EPropertyClass::Int, "StartingHealth", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000010001, 1, nullptr, STRUCT_OFFSET(AAssault, StartingHealth), METADATA_PARAMS(NewProp_StartingHealth_MetaData, ARRAY_COUNT(NewProp_StartingHealth_MetaData)) };
+			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_CurrentHealth,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_StartingHealth,
+			};
 			static const FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 				TCppClassTypeTraits<AAssault>::IsAbstract,
 			};
@@ -49,7 +67,7 @@ void EmptyLinkFunctionForGeneratedCodeAssault() {}
 				DependentSingletons, ARRAY_COUNT(DependentSingletons),
 				0x00900080u,
 				nullptr, 0,
-				nullptr, 0,
+				PropPointers, ARRAY_COUNT(PropPointers),
 				nullptr,
 				&StaticCppClassTypeInfo,
 				nullptr, 0,
@@ -59,7 +77,7 @@ void EmptyLinkFunctionForGeneratedCodeAssault() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAssault, 1802925678);
+	IMPLEMENT_CLASS(AAssault, 4234970356);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AAssault(Z_Construct_UClass_AAssault, &AAssault::StaticClass, TEXT("/Script/GW_Game"), TEXT("AAssault"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AAssault);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

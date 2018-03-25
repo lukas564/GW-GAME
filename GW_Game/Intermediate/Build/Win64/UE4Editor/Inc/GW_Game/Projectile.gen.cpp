@@ -22,6 +22,7 @@ void EmptyLinkFunctionForGeneratedCodeProjectile() {}
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_URadialForceComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UParticleSystemComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 // End Cross Module References
@@ -106,6 +107,28 @@ void EmptyLinkFunctionForGeneratedCodeProjectile() {}
 			};
 #endif
 #if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ProjectileDamage_MetaData[] = {
+				{ "Category", "Setup" },
+				{ "ModuleRelativePath", "Public/Projectile.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_ProjectileDamage = { UE4CodeGen_Private::EPropertyClass::Float, "ProjectileDamage", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000010001, 1, nullptr, STRUCT_OFFSET(AProjectile, ProjectileDamage), METADATA_PARAMS(NewProp_ProjectileDamage_MetaData, ARRAY_COUNT(NewProp_ProjectileDamage_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DestroyDelay_MetaData[] = {
+				{ "Category", "Setup" },
+				{ "ModuleRelativePath", "Public/Projectile.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_DestroyDelay = { UE4CodeGen_Private::EPropertyClass::Float, "DestroyDelay", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000010001, 1, nullptr, STRUCT_OFFSET(AProjectile, DestroyDelay), METADATA_PARAMS(NewProp_DestroyDelay_MetaData, ARRAY_COUNT(NewProp_DestroyDelay_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ExplosionForce_MetaData[] = {
+				{ "Category", "Components" },
+				{ "EditInline", "true" },
+				{ "ModuleRelativePath", "Public/Projectile.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ExplosionForce = { UE4CodeGen_Private::EPropertyClass::Object, "ExplosionForce", RF_Public|RF_Transient|RF_MarkAsNative, 0x00400000000a0009, 1, nullptr, STRUCT_OFFSET(AProjectile, ExplosionForce), Z_Construct_UClass_URadialForceComponent_NoRegister, METADATA_PARAMS(NewProp_ExplosionForce_MetaData, ARRAY_COUNT(NewProp_ExplosionForce_MetaData)) };
+#if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ImpactBlast_MetaData[] = {
 				{ "Category", "Components" },
 				{ "EditInline", "true" },
@@ -130,6 +153,9 @@ void EmptyLinkFunctionForGeneratedCodeProjectile() {}
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CollisionMesh = { UE4CodeGen_Private::EPropertyClass::Object, "CollisionMesh", RF_Public|RF_Transient|RF_MarkAsNative, 0x00400000000a0009, 1, nullptr, STRUCT_OFFSET(AProjectile, CollisionMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(NewProp_CollisionMesh_MetaData, ARRAY_COUNT(NewProp_CollisionMesh_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_ProjectileDamage,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_DestroyDelay,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_ExplosionForce,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_ImpactBlast,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_LaunchBlast,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_CollisionMesh,
@@ -152,7 +178,7 @@ void EmptyLinkFunctionForGeneratedCodeProjectile() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AProjectile, 2154437217);
+	IMPLEMENT_CLASS(AProjectile, 2278664694);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AProjectile(Z_Construct_UClass_AProjectile, &AProjectile::StaticClass, TEXT("/Script/GW_Game"), TEXT("AProjectile"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AProjectile);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
