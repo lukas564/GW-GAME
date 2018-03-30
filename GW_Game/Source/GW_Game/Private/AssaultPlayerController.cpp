@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 //#include "GW_Game.h"
 #include "AssaultPlayerController.h"
+#include "Assault.h"
 #include "TankAimingComponent.h"
 void AAssaultPlayerController::BeginPlay()
 {
@@ -54,7 +55,7 @@ bool AAssaultPlayerController::GetLookVectorHitLocation(FVector LookDirection, F
 		HitResult,
 		StartLocation,
 		EndLocation,
-		ECollisionChannel::ECC_Visibility))
+		ECollisionChannel::ECC_Camera))
 	{
 		HitLocation = HitResult.Location;
 		return true;
@@ -71,4 +72,21 @@ bool AAssaultPlayerController::GetLookDirection(FVector2D ScreenLocation, FVecto
 		CameraWorldLocation,
 		LookDirection
 	);
+}
+
+void AAssaultPlayerController::SetPawn(APawn* InPawn)
+{
+	Super::SetPawn(InPawn);
+	if (InPawn)
+	{
+		auto PossessedTank = Cast<AAssault>(InPawn);
+		if (!ensure(PossessedTank)) { return; }
+		PossessedTank->OnDeath.AddUniqueDynamic(this, &AAssaultPlayerController::OnPossessedTankDeath);
+
+	}
+}
+
+void AAssaultPlayerController::OnPossessedTankDeath()
+{
+	StartSpectatingOnly();
 }

@@ -32,6 +32,10 @@ private:
 	UPROPERTY (EditDefaultsOnly)
 	float CrossHairXLocation = 0.5;
 
+	virtual void SetPawn(APawn* InPawn) override;
+	UFUNCTION()
+	void OnPossessedTankDeath();
+
 	UPROPERTY (EditDefaultsOnly)
 	float CrossHairYLocation = 0.33333;
 

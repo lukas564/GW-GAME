@@ -16,6 +16,14 @@ class UTankAimingComponent;
 
 #define GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_15_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execOnPossessedTankDeath) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->OnPossessedTankDeath(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execPawnSpawned) \
 	{ \
 		P_FINISH; \
@@ -26,6 +34,14 @@ class UTankAimingComponent;
 
 
 #define GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnPossessedTankDeath) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->OnPossessedTankDeath(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execPawnSpawned) \
 	{ \

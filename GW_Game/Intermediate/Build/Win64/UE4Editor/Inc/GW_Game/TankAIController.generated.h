@@ -13,8 +13,28 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define GW_GAME_TankAIController_generated_h
 
-#define GW_Game_Source_GW_Game_Public_TankAIController_h_15_RPC_WRAPPERS
-#define GW_Game_Source_GW_Game_Public_TankAIController_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define GW_Game_Source_GW_Game_Public_TankAIController_h_15_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnPossessedTankDeath) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->OnPossessedTankDeath(); \
+		P_NATIVE_END; \
+	}
+
+
+#define GW_Game_Source_GW_Game_Public_TankAIController_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnPossessedTankDeath) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->OnPossessedTankDeath(); \
+		P_NATIVE_END; \
+	}
+
+
 #define GW_Game_Source_GW_Game_Public_TankAIController_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesATankAIController(); \

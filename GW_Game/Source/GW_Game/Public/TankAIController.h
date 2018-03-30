@@ -17,7 +17,10 @@ class GW_GAME_API ATankAIController : public AAIController
 private:
 	virtual void Tick (float DeltaTime) override;
 	virtual void BeginPlay() override;
+	virtual void SetPawn(APawn* InPawn) override;
+	UFUNCTION()
+	void OnPossessedTankDeath();
+protected:
 	UPROPERTY(EditDefaultsOnly, Category = "Setup")
 	float AcceptanceRadius = 8000;
-
 };

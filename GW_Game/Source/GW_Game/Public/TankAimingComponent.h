@@ -41,7 +41,6 @@ public:
 	EFiringState GetFiringState();
 	UFUNCTION(BlueprintCallable, Category = "Firing")
 		int32 GetRoundsLeft() const;
-
 private:
 	UTankAimingComponent();
 
