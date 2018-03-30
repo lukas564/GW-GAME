@@ -1,8 +1,9 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Copyright 2017-2018 Jan Kubala & Lukáš Palièka. All Rights Reserved.
 
 #include "TankAimingComponent.h"
 #include "TankBarrel.h"
 #include "TankTurret.h"
+#include "Assault.h"
 #include "Projectile.h"
 #include "Kismet/GameplayStatics.h" 
 
@@ -24,7 +25,7 @@ void UTankAimingComponent::BeginPlay()
 
 void UTankAimingComponent::TickComponent(float DeltaTime, enum ELevelTick TickType, FActorComponentTickFunction *ThisTickFunction)
 {
-	if(RoundsLeft <= 0)
+	if (RoundsLeft <= 0)
 	{
 		FiringState = EFiringState::OutOfAmmo;
 	}
@@ -32,7 +33,7 @@ void UTankAimingComponent::TickComponent(float DeltaTime, enum ELevelTick TickTy
 	{
 		FiringState = EFiringState::Reloading;
 	}
-	else if (IsBarrelMoving()) 
+	else if (IsBarrelMoving())
 	{
 		FiringState = EFiringState::Aiming;
 	}

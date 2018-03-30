@@ -1,8 +1,9 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-//#include "GW_Game.h"
+// Copyright 2017-2018 Jan Kubala & Lukáš Palièka. All Rights Reserved.
+
 #include "AssaultPlayerController.h"
 #include "Assault.h"
 #include "TankAimingComponent.h"
+
 void AAssaultPlayerController::BeginPlay()
 {
 	Super::BeginPlay();
@@ -23,7 +24,7 @@ void AAssaultPlayerController::Tick(float DeltaTime)
 
 void AAssaultPlayerController::AimTowardsCrosshair()
 {
-	FVector HitLocation; // Out parameter
+	FVector HitLocation;
 	if (GetSightRayHitLocation(HitLocation))
 	{
 		AimingComponent->AimAt(HitLocation);
@@ -32,15 +33,12 @@ void AAssaultPlayerController::AimTowardsCrosshair()
 
 bool AAssaultPlayerController::GetSightRayHitLocation(FVector& HitLocation) const
 {
-	// Find the crosshair position
 	int32 ViewportSizeX, ViewportSizeY;
 	GetViewportSize(ViewportSizeX, ViewportSizeY);
 	auto ScreenLocation = FVector2D(ViewportSizeX * CrossHairXLocation, ViewportSizeY * CrossHairYLocation);
-		// Deproject the screen position of the crosshair to a world direction
 	FVector LookDirection;
 	if (GetLookDirection(ScreenLocation, LookDirection))
 	{
-		// Line trace along the direction and see what we are hitting
 		return GetLookVectorHitLocation(LookDirection, HitLocation);
 	}
 	return false;

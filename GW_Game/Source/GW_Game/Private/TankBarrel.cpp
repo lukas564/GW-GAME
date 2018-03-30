@@ -1,6 +1,7 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Copyright 2017-2018 Jan Kubala & Lukáš Palièka. All Rights Reserved.
 
 #include "TankBarrel.h"
+
 void UTankBarrel::Elevate(float RelativeSpeed)
 {
 	RelativeSpeed = FMath::Clamp<float>(RelativeSpeed, -1, +1);
@@ -9,5 +10,3 @@ void UTankBarrel::Elevate(float RelativeSpeed)
 	auto Elevation = FMath::Clamp<float>(RawNewElevation, MinElevationDegrees, MaxElevationDegrees);
 	SetRelativeRotation(FRotator(Elevation, 0, 0));
 }
-
-

@@ -1,7 +1,9 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Copyright 2017-2018 Jan Kubala & Lukáš Palièka. All Rights Reserved.
+
 #include "TankAIController.h"
 #include "Assault.h"
 #include "TankAimingComponent.h"
+
 void ATankAIController::BeginPlay()
 {
 	Super::BeginPlay();
@@ -26,11 +28,11 @@ void ATankAIController::Tick(float DeltaTime)
 	auto ControlledTank = GetPawn();
 	if (!ensure(PlayerTank && ControlledTank)) { return; }
 
-		MoveToActor(PlayerTank, AcceptanceRadius);
-		auto AimingComponent = ControlledTank->FindComponentByClass<UTankAimingComponent>();
-		AimingComponent->AimAt(PlayerTank->GetActorLocation());
+	MoveToActor(PlayerTank, AcceptanceRadius);
+	auto AimingComponent = ControlledTank->FindComponentByClass<UTankAimingComponent>();
+	AimingComponent->AimAt(PlayerTank->GetActorLocation());
 
-		if(AimingComponent->GetFiringState() == EFiringState::Locked)
+	if (AimingComponent->GetFiringState() == EFiringState::Locked)
 		AimingComponent->Fire();
 }
 

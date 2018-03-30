@@ -1,3 +1,4 @@
+// Copyright 2017-2018 Jan Kubala & Lukáš Palièka. All Rights Reserved.
 #pragma once
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
@@ -9,20 +10,21 @@ UCLASS()
 class GW_GAME_API AAssault : public APawn
 {
 	GENERATED_BODY()
-	AAssault();
+		AAssault();
 
 public:
-		UFUNCTION(BlueprintPure, Category = "Health")
+	UFUNCTION(BlueprintPure, Category = "Health")
 		float GetHealthPercent() const;
-		virtual float TakeDamage(float DamageAmount, struct FDamageEvent const & DamageEvent, class AController * EventInstigator, AActor * DamageCauser) override;
-		FTankDelegate OnDeath;
+
+	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const & DamageEvent, class AController * EventInstigator, AActor * DamageCauser) override;
+	FTankDelegate OnDeath;
+
 private:
 	UPROPERTY(EditDefaultsOnly, Category = "Setup")
-	int32 StartingHealth = 100;
+		int32 StartingHealth = 100;
 
 	UPROPERTY(VisibleAnywhere, Category = "Health")
 		int32 CurrentHealth;
 
 	virtual void BeginPlay() override;
-
 };

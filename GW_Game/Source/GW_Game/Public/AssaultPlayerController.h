@@ -1,23 +1,17 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
+// Copyright 2017-2018 Jan Kubala & Lukáš Palièka. All Rights Reserved.
 #pragma once
+
 #include "Assault.h"
 #include "CoreMinimal.h"
 #include "GameFramework/PlayerController.h"
 #include "AssaultPlayerController.generated.h"
+
 class UTankAimingComponent;
-/**
- * 
- */
+
 UCLASS()
 class GW_GAME_API AAssaultPlayerController : public APlayerController
 {
 	GENERATED_BODY()
-	
-protected:
-	UFUNCTION(BlueprintImplementableEvent, Category = "Setup")
-		void FoundAimingComponent(UTankAimingComponent* AimRef);
-
 public:
 	virtual void BeginPlay() override;
 	virtual void Tick(float DeltaTime) override;
@@ -25,24 +19,28 @@ public:
 	void AimTowardsCrosshair();
 	UTankAimingComponent* AimingComponent;
 	UFUNCTION(BlueprintCallable, Category = "Setup")
-	void PawnSpawned();
+		void PawnSpawned();
 private:
-	bool GetSightRayHitLocation(FVector& HitLocation) const;
-	bool CharacterNotSelected = true;
-	UPROPERTY (EditDefaultsOnly)
-	float CrossHairXLocation = 0.5;
+	UPROPERTY(EditDefaultsOnly)
+		float CrossHairXLocation = 0.5;
 
 	virtual void SetPawn(APawn* InPawn) override;
 	UFUNCTION()
-	void OnPossessedTankDeath();
-
-	UPROPERTY (EditDefaultsOnly)
-	float CrossHairYLocation = 0.33333;
+		void OnPossessedTankDeath();
 
 	UPROPERTY(EditDefaultsOnly)
-	float LineTraceRange = 1000000;
+		float CrossHairYLocation = 0.33333;
 
+	UPROPERTY(EditDefaultsOnly)
+		float LineTraceRange = 1000000;
+
+	bool GetSightRayHitLocation(FVector& HitLocation) const;
 	bool GetLookDirection(FVector2D ScreenLocation, FVector& LookDirection) const;
-
 	bool GetLookVectorHitLocation(FVector LookDirection, FVector& HitLocation) const;
+	bool CharacterNotSelected = true;
+
+protected:
+	UFUNCTION(BlueprintImplementableEvent, Category = "Setup")
+		void FoundAimingComponent(UTankAimingComponent* AimRef);
+
 };
