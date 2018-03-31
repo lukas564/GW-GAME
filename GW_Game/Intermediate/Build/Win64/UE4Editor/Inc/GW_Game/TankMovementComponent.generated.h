@@ -14,7 +14,7 @@ class UMovementPoint;
 #endif
 #define GW_GAME_TankMovementComponent_generated_h
 
-#define GW_Game_Source_GW_Game_Public_TankMovementComponent_h_15_RPC_WRAPPERS \
+#define GW_Game_Source_GW_Game_Public_TankMovementComponent_h_13_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execIntendTurnRight) \
 	{ \
@@ -45,7 +45,7 @@ class UMovementPoint;
 	}
 
 
-#define GW_Game_Source_GW_Game_Public_TankMovementComponent_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+#define GW_Game_Source_GW_Game_Public_TankMovementComponent_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execIntendTurnRight) \
 	{ \
@@ -76,7 +76,7 @@ class UMovementPoint;
 	}
 
 
-#define GW_Game_Source_GW_Game_Public_TankMovementComponent_h_15_INCLASS_NO_PURE_DECLS \
+#define GW_Game_Source_GW_Game_Public_TankMovementComponent_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUTankMovementComponent(); \
 	friend GW_GAME_API class UClass* Z_Construct_UClass_UTankMovementComponent(); \
@@ -86,7 +86,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define GW_Game_Source_GW_Game_Public_TankMovementComponent_h_15_INCLASS \
+#define GW_Game_Source_GW_Game_Public_TankMovementComponent_h_13_INCLASS \
 private: \
 	static void StaticRegisterNativesUTankMovementComponent(); \
 	friend GW_GAME_API class UClass* Z_Construct_UClass_UTankMovementComponent(); \
@@ -96,7 +96,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define GW_Game_Source_GW_Game_Public_TankMovementComponent_h_15_STANDARD_CONSTRUCTORS \
+#define GW_Game_Source_GW_Game_Public_TankMovementComponent_h_13_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UTankMovementComponent(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UTankMovementComponent) \
@@ -109,7 +109,7 @@ private: \
 public:
 
 
-#define GW_Game_Source_GW_Game_Public_TankMovementComponent_h_15_ENHANCED_CONSTRUCTORS \
+#define GW_Game_Source_GW_Game_Public_TankMovementComponent_h_13_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UTankMovementComponent(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -122,26 +122,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTankMovementComponent); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UTankMovementComponent)
 
 
-#define GW_Game_Source_GW_Game_Public_TankMovementComponent_h_15_PRIVATE_PROPERTY_OFFSET
-#define GW_Game_Source_GW_Game_Public_TankMovementComponent_h_12_PROLOG
-#define GW_Game_Source_GW_Game_Public_TankMovementComponent_h_15_GENERATED_BODY_LEGACY \
+#define GW_Game_Source_GW_Game_Public_TankMovementComponent_h_13_PRIVATE_PROPERTY_OFFSET
+#define GW_Game_Source_GW_Game_Public_TankMovementComponent_h_10_PROLOG
+#define GW_Game_Source_GW_Game_Public_TankMovementComponent_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GW_Game_Source_GW_Game_Public_TankMovementComponent_h_15_PRIVATE_PROPERTY_OFFSET \
-	GW_Game_Source_GW_Game_Public_TankMovementComponent_h_15_RPC_WRAPPERS \
-	GW_Game_Source_GW_Game_Public_TankMovementComponent_h_15_INCLASS \
-	GW_Game_Source_GW_Game_Public_TankMovementComponent_h_15_STANDARD_CONSTRUCTORS \
+	GW_Game_Source_GW_Game_Public_TankMovementComponent_h_13_PRIVATE_PROPERTY_OFFSET \
+	GW_Game_Source_GW_Game_Public_TankMovementComponent_h_13_RPC_WRAPPERS \
+	GW_Game_Source_GW_Game_Public_TankMovementComponent_h_13_INCLASS \
+	GW_Game_Source_GW_Game_Public_TankMovementComponent_h_13_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define GW_Game_Source_GW_Game_Public_TankMovementComponent_h_15_GENERATED_BODY \
+#define GW_Game_Source_GW_Game_Public_TankMovementComponent_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GW_Game_Source_GW_Game_Public_TankMovementComponent_h_15_PRIVATE_PROPERTY_OFFSET \
-	GW_Game_Source_GW_Game_Public_TankMovementComponent_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	GW_Game_Source_GW_Game_Public_TankMovementComponent_h_15_INCLASS_NO_PURE_DECLS \
-	GW_Game_Source_GW_Game_Public_TankMovementComponent_h_15_ENHANCED_CONSTRUCTORS \
+	GW_Game_Source_GW_Game_Public_TankMovementComponent_h_13_PRIVATE_PROPERTY_OFFSET \
+	GW_Game_Source_GW_Game_Public_TankMovementComponent_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	GW_Game_Source_GW_Game_Public_TankMovementComponent_h_13_INCLASS_NO_PURE_DECLS \
+	GW_Game_Source_GW_Game_Public_TankMovementComponent_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

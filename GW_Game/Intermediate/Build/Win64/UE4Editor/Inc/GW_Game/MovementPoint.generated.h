@@ -17,7 +17,7 @@ struct FHitResult;
 #endif
 #define GW_GAME_MovementPoint_generated_h
 
-#define GW_Game_Source_GW_Game_Public_MovementPoint_h_15_RPC_WRAPPERS \
+#define GW_Game_Source_GW_Game_Public_MovementPoint_h_11_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execOnHit) \
 	{ \
@@ -42,7 +42,7 @@ struct FHitResult;
 	}
 
 
-#define GW_Game_Source_GW_Game_Public_MovementPoint_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+#define GW_Game_Source_GW_Game_Public_MovementPoint_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execOnHit) \
 	{ \
@@ -67,7 +67,7 @@ struct FHitResult;
 	}
 
 
-#define GW_Game_Source_GW_Game_Public_MovementPoint_h_15_INCLASS_NO_PURE_DECLS \
+#define GW_Game_Source_GW_Game_Public_MovementPoint_h_11_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUMovementPoint(); \
 	friend GW_GAME_API class UClass* Z_Construct_UClass_UMovementPoint(); \
@@ -77,7 +77,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define GW_Game_Source_GW_Game_Public_MovementPoint_h_15_INCLASS \
+#define GW_Game_Source_GW_Game_Public_MovementPoint_h_11_INCLASS \
 private: \
 	static void StaticRegisterNativesUMovementPoint(); \
 	friend GW_GAME_API class UClass* Z_Construct_UClass_UMovementPoint(); \
@@ -87,7 +87,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define GW_Game_Source_GW_Game_Public_MovementPoint_h_15_STANDARD_CONSTRUCTORS \
+#define GW_Game_Source_GW_Game_Public_MovementPoint_h_11_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UMovementPoint(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMovementPoint) \
@@ -100,7 +100,7 @@ private: \
 public:
 
 
-#define GW_Game_Source_GW_Game_Public_MovementPoint_h_15_ENHANCED_CONSTRUCTORS \
+#define GW_Game_Source_GW_Game_Public_MovementPoint_h_11_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UMovementPoint(UMovementPoint&&); \
@@ -111,26 +111,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMovementPoint); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UMovementPoint)
 
 
-#define GW_Game_Source_GW_Game_Public_MovementPoint_h_15_PRIVATE_PROPERTY_OFFSET
-#define GW_Game_Source_GW_Game_Public_MovementPoint_h_12_PROLOG
-#define GW_Game_Source_GW_Game_Public_MovementPoint_h_15_GENERATED_BODY_LEGACY \
+#define GW_Game_Source_GW_Game_Public_MovementPoint_h_11_PRIVATE_PROPERTY_OFFSET
+#define GW_Game_Source_GW_Game_Public_MovementPoint_h_8_PROLOG
+#define GW_Game_Source_GW_Game_Public_MovementPoint_h_11_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GW_Game_Source_GW_Game_Public_MovementPoint_h_15_PRIVATE_PROPERTY_OFFSET \
-	GW_Game_Source_GW_Game_Public_MovementPoint_h_15_RPC_WRAPPERS \
-	GW_Game_Source_GW_Game_Public_MovementPoint_h_15_INCLASS \
-	GW_Game_Source_GW_Game_Public_MovementPoint_h_15_STANDARD_CONSTRUCTORS \
+	GW_Game_Source_GW_Game_Public_MovementPoint_h_11_PRIVATE_PROPERTY_OFFSET \
+	GW_Game_Source_GW_Game_Public_MovementPoint_h_11_RPC_WRAPPERS \
+	GW_Game_Source_GW_Game_Public_MovementPoint_h_11_INCLASS \
+	GW_Game_Source_GW_Game_Public_MovementPoint_h_11_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define GW_Game_Source_GW_Game_Public_MovementPoint_h_15_GENERATED_BODY \
+#define GW_Game_Source_GW_Game_Public_MovementPoint_h_11_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GW_Game_Source_GW_Game_Public_MovementPoint_h_15_PRIVATE_PROPERTY_OFFSET \
-	GW_Game_Source_GW_Game_Public_MovementPoint_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	GW_Game_Source_GW_Game_Public_MovementPoint_h_15_INCLASS_NO_PURE_DECLS \
-	GW_Game_Source_GW_Game_Public_MovementPoint_h_15_ENHANCED_CONSTRUCTORS \
+	GW_Game_Source_GW_Game_Public_MovementPoint_h_11_PRIVATE_PROPERTY_OFFSET \
+	GW_Game_Source_GW_Game_Public_MovementPoint_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
+	GW_Game_Source_GW_Game_Public_MovementPoint_h_11_INCLASS_NO_PURE_DECLS \
+	GW_Game_Source_GW_Game_Public_MovementPoint_h_11_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

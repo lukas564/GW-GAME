@@ -131,7 +131,6 @@ void EmptyLinkFunctionForGeneratedCodeMovementPoint() {}
 				{ "HideCategories", "Object Activation Components|Activation Trigger" },
 				{ "IncludePath", "MovementPoint.h" },
 				{ "ModuleRelativePath", "Public/MovementPoint.h" },
-				{ "ToolTip", "Movement is used to set maximum driving force and to apply force to tank" },
 			};
 #endif
 #if WITH_METADATA
@@ -162,7 +161,7 @@ void EmptyLinkFunctionForGeneratedCodeMovementPoint() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UMovementPoint, 3786131415);
+	IMPLEMENT_CLASS(UMovementPoint, 4286425891);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UMovementPoint(Z_Construct_UClass_UMovementPoint, &UMovementPoint::StaticClass, TEXT("/Script/GW_Game"), TEXT("UMovementPoint"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UMovementPoint);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

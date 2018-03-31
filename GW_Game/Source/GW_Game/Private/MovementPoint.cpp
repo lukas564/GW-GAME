@@ -2,7 +2,8 @@
 
 #include "MovementPoint.h"
 
-UMovementPoint::UMovementPoint() {
+UMovementPoint::UMovementPoint() 
+{
 	PrimaryComponentTick.bCanEverTick = false;
 }
 
@@ -11,6 +12,7 @@ void UMovementPoint::BeginPlay()
 	OnComponentHit.AddDynamic(this, &UMovementPoint::OnHit);
 }
 
+/// Called on hit to prevent flying
 void UMovementPoint::OnHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComponent, FVector NormalImpulse, const FHitResult& Hit)
 {
 	DrivePoint();
@@ -18,6 +20,7 @@ void UMovementPoint::OnHit(UPrimitiveComponent* HitComponent, AActor* OtherActor
 	CurrentThrottle = 0;
 }
 
+/// Applies force to prevent drifting
 void UMovementPoint::ApplySidewaysForce()
 {
 	auto SlippageSpeed = FVector::DotProduct(GetRightVector(), GetComponentVelocity());
@@ -28,12 +31,15 @@ void UMovementPoint::ApplySidewaysForce()
 	TankRoot->AddForce(CorrectionForce);
 }
 
+/// Sets throttle from blueprint
 void UMovementPoint::SetThrottle(float Throttle)
 {
 	CurrentThrottle = FMath::Clamp<float>(CurrentThrottle + Throttle,-1, 1);
 }
 
-void UMovementPoint::DrivePoint() {
+/// Applies force on points
+void UMovementPoint::DrivePoint() 
+{
 	auto ForceApplied = GetForwardVector() * CurrentThrottle * MovementPointMaxDrivingForce;
 	auto ForceLocation = GetComponentLocation();
 	auto TankRoot = Cast<UPrimitiveComponent>(GetOwner()->GetRootComponent());

@@ -15,7 +15,7 @@ class UTankTurret;
 #endif
 #define GW_GAME_TankAimingComponent_generated_h
 
-#define GW_Game_Source_GW_Game_Public_TankAimingComponent_h_25_RPC_WRAPPERS \
+#define GW_Game_Source_GW_Game_Public_TankAimingComponent_h_24_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execGetRoundsLeft) \
 	{ \
@@ -44,7 +44,7 @@ class UTankTurret;
 	}
 
 
-#define GW_Game_Source_GW_Game_Public_TankAimingComponent_h_25_RPC_WRAPPERS_NO_PURE_DECLS \
+#define GW_Game_Source_GW_Game_Public_TankAimingComponent_h_24_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execGetRoundsLeft) \
 	{ \
@@ -73,7 +73,7 @@ class UTankTurret;
 	}
 
 
-#define GW_Game_Source_GW_Game_Public_TankAimingComponent_h_25_INCLASS_NO_PURE_DECLS \
+#define GW_Game_Source_GW_Game_Public_TankAimingComponent_h_24_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUTankAimingComponent(); \
 	friend GW_GAME_API class UClass* Z_Construct_UClass_UTankAimingComponent(); \
@@ -83,7 +83,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define GW_Game_Source_GW_Game_Public_TankAimingComponent_h_25_INCLASS \
+#define GW_Game_Source_GW_Game_Public_TankAimingComponent_h_24_INCLASS \
 private: \
 	static void StaticRegisterNativesUTankAimingComponent(); \
 	friend GW_GAME_API class UClass* Z_Construct_UClass_UTankAimingComponent(); \
@@ -93,7 +93,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define GW_Game_Source_GW_Game_Public_TankAimingComponent_h_25_STANDARD_CONSTRUCTORS \
+#define GW_Game_Source_GW_Game_Public_TankAimingComponent_h_24_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UTankAimingComponent(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UTankAimingComponent) \
@@ -106,7 +106,7 @@ private: \
 public:
 
 
-#define GW_Game_Source_GW_Game_Public_TankAimingComponent_h_25_ENHANCED_CONSTRUCTORS \
+#define GW_Game_Source_GW_Game_Public_TankAimingComponent_h_24_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UTankAimingComponent(UTankAimingComponent&&); \
@@ -117,33 +117,33 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTankAimingComponent); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UTankAimingComponent)
 
 
-#define GW_Game_Source_GW_Game_Public_TankAimingComponent_h_25_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__FiringState() { return STRUCT_OFFSET(UTankAimingComponent, FiringState); } \
+#define GW_Game_Source_GW_Game_Public_TankAimingComponent_h_24_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__ProjectileBlueprint() { return STRUCT_OFFSET(UTankAimingComponent, ProjectileBlueprint); } \
 	FORCEINLINE static uint32 __PPO__ReloadTimeInSeconds() { return STRUCT_OFFSET(UTankAimingComponent, ReloadTimeInSeconds); } \
 	FORCEINLINE static uint32 __PPO__RoundsLeft() { return STRUCT_OFFSET(UTankAimingComponent, RoundsLeft); } \
-	FORCEINLINE static uint32 __PPO__LaunchSpeed() { return STRUCT_OFFSET(UTankAimingComponent, LaunchSpeed); }
+	FORCEINLINE static uint32 __PPO__LaunchSpeed() { return STRUCT_OFFSET(UTankAimingComponent, LaunchSpeed); } \
+	FORCEINLINE static uint32 __PPO__FiringState() { return STRUCT_OFFSET(UTankAimingComponent, FiringState); }
 
 
-#define GW_Game_Source_GW_Game_Public_TankAimingComponent_h_22_PROLOG
-#define GW_Game_Source_GW_Game_Public_TankAimingComponent_h_25_GENERATED_BODY_LEGACY \
+#define GW_Game_Source_GW_Game_Public_TankAimingComponent_h_21_PROLOG
+#define GW_Game_Source_GW_Game_Public_TankAimingComponent_h_24_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GW_Game_Source_GW_Game_Public_TankAimingComponent_h_25_PRIVATE_PROPERTY_OFFSET \
-	GW_Game_Source_GW_Game_Public_TankAimingComponent_h_25_RPC_WRAPPERS \
-	GW_Game_Source_GW_Game_Public_TankAimingComponent_h_25_INCLASS \
-	GW_Game_Source_GW_Game_Public_TankAimingComponent_h_25_STANDARD_CONSTRUCTORS \
+	GW_Game_Source_GW_Game_Public_TankAimingComponent_h_24_PRIVATE_PROPERTY_OFFSET \
+	GW_Game_Source_GW_Game_Public_TankAimingComponent_h_24_RPC_WRAPPERS \
+	GW_Game_Source_GW_Game_Public_TankAimingComponent_h_24_INCLASS \
+	GW_Game_Source_GW_Game_Public_TankAimingComponent_h_24_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define GW_Game_Source_GW_Game_Public_TankAimingComponent_h_25_GENERATED_BODY \
+#define GW_Game_Source_GW_Game_Public_TankAimingComponent_h_24_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GW_Game_Source_GW_Game_Public_TankAimingComponent_h_25_PRIVATE_PROPERTY_OFFSET \
-	GW_Game_Source_GW_Game_Public_TankAimingComponent_h_25_RPC_WRAPPERS_NO_PURE_DECLS \
-	GW_Game_Source_GW_Game_Public_TankAimingComponent_h_25_INCLASS_NO_PURE_DECLS \
-	GW_Game_Source_GW_Game_Public_TankAimingComponent_h_25_ENHANCED_CONSTRUCTORS \
+	GW_Game_Source_GW_Game_Public_TankAimingComponent_h_24_PRIVATE_PROPERTY_OFFSET \
+	GW_Game_Source_GW_Game_Public_TankAimingComponent_h_24_RPC_WRAPPERS_NO_PURE_DECLS \
+	GW_Game_Source_GW_Game_Public_TankAimingComponent_h_24_INCLASS_NO_PURE_DECLS \
+	GW_Game_Source_GW_Game_Public_TankAimingComponent_h_24_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

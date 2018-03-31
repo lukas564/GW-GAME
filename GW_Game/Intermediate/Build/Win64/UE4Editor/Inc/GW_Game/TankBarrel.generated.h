@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define GW_GAME_TankBarrel_generated_h
 
-#define GW_Game_Source_GW_Game_Public_TankBarrel_h_15_RPC_WRAPPERS
-#define GW_Game_Source_GW_Game_Public_TankBarrel_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define GW_Game_Source_GW_Game_Public_TankBarrel_h_15_INCLASS_NO_PURE_DECLS \
+#define GW_Game_Source_GW_Game_Public_TankBarrel_h_12_RPC_WRAPPERS
+#define GW_Game_Source_GW_Game_Public_TankBarrel_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define GW_Game_Source_GW_Game_Public_TankBarrel_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUTankBarrel(); \
 	friend GW_GAME_API class UClass* Z_Construct_UClass_UTankBarrel(); \
@@ -25,7 +25,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define GW_Game_Source_GW_Game_Public_TankBarrel_h_15_INCLASS \
+#define GW_Game_Source_GW_Game_Public_TankBarrel_h_12_INCLASS \
 private: \
 	static void StaticRegisterNativesUTankBarrel(); \
 	friend GW_GAME_API class UClass* Z_Construct_UClass_UTankBarrel(); \
@@ -35,7 +35,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define GW_Game_Source_GW_Game_Public_TankBarrel_h_15_STANDARD_CONSTRUCTORS \
+#define GW_Game_Source_GW_Game_Public_TankBarrel_h_12_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UTankBarrel(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UTankBarrel) \
@@ -48,7 +48,7 @@ private: \
 public:
 
 
-#define GW_Game_Source_GW_Game_Public_TankBarrel_h_15_ENHANCED_CONSTRUCTORS \
+#define GW_Game_Source_GW_Game_Public_TankBarrel_h_12_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UTankBarrel(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -61,31 +61,31 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTankBarrel); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UTankBarrel)
 
 
-#define GW_Game_Source_GW_Game_Public_TankBarrel_h_15_PRIVATE_PROPERTY_OFFSET \
+#define GW_Game_Source_GW_Game_Public_TankBarrel_h_12_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__MaxDegreesPerSecond() { return STRUCT_OFFSET(UTankBarrel, MaxDegreesPerSecond); } \
 	FORCEINLINE static uint32 __PPO__MaxElevationDegrees() { return STRUCT_OFFSET(UTankBarrel, MaxElevationDegrees); } \
 	FORCEINLINE static uint32 __PPO__MinElevationDegrees() { return STRUCT_OFFSET(UTankBarrel, MinElevationDegrees); }
 
 
-#define GW_Game_Source_GW_Game_Public_TankBarrel_h_12_PROLOG
-#define GW_Game_Source_GW_Game_Public_TankBarrel_h_15_GENERATED_BODY_LEGACY \
+#define GW_Game_Source_GW_Game_Public_TankBarrel_h_9_PROLOG
+#define GW_Game_Source_GW_Game_Public_TankBarrel_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GW_Game_Source_GW_Game_Public_TankBarrel_h_15_PRIVATE_PROPERTY_OFFSET \
-	GW_Game_Source_GW_Game_Public_TankBarrel_h_15_RPC_WRAPPERS \
-	GW_Game_Source_GW_Game_Public_TankBarrel_h_15_INCLASS \
-	GW_Game_Source_GW_Game_Public_TankBarrel_h_15_STANDARD_CONSTRUCTORS \
+	GW_Game_Source_GW_Game_Public_TankBarrel_h_12_PRIVATE_PROPERTY_OFFSET \
+	GW_Game_Source_GW_Game_Public_TankBarrel_h_12_RPC_WRAPPERS \
+	GW_Game_Source_GW_Game_Public_TankBarrel_h_12_INCLASS \
+	GW_Game_Source_GW_Game_Public_TankBarrel_h_12_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define GW_Game_Source_GW_Game_Public_TankBarrel_h_15_GENERATED_BODY \
+#define GW_Game_Source_GW_Game_Public_TankBarrel_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GW_Game_Source_GW_Game_Public_TankBarrel_h_15_PRIVATE_PROPERTY_OFFSET \
-	GW_Game_Source_GW_Game_Public_TankBarrel_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	GW_Game_Source_GW_Game_Public_TankBarrel_h_15_INCLASS_NO_PURE_DECLS \
-	GW_Game_Source_GW_Game_Public_TankBarrel_h_15_ENHANCED_CONSTRUCTORS \
+	GW_Game_Source_GW_Game_Public_TankBarrel_h_12_PRIVATE_PROPERTY_OFFSET \
+	GW_Game_Source_GW_Game_Public_TankBarrel_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	GW_Game_Source_GW_Game_Public_TankBarrel_h_12_INCLASS_NO_PURE_DECLS \
+	GW_Game_Source_GW_Game_Public_TankBarrel_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

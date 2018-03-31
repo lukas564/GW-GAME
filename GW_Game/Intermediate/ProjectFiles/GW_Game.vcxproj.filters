@@ -1,112 +1,121 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<None Include="..\..\GW_Game.uproject" />
-		<Filter Include="Source">
-			<UniqueIdentifier>{9AEB7BA4-CC96-496C-9251-3FA7EEC65785}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\GW_Game.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<None Include="..\..\Source\GW_GameEditor.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<Filter Include="Config">
-			<UniqueIdentifier>{8B5B28F9-14F3-40ED-A44B-8E3ECA8A608D}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Config\DefaultEditor.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEngine.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultGame.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultInput.ini">
-			<Filter>Config</Filter>
-		</None >
-		<Filter Include="Source\GW_Game">
-			<UniqueIdentifier>{C5DF23CD-ADC3-4398-820E-CFCE6DDA4F08}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\GW_Game\GW_Game.Build.cs">
-			<Filter>Source\GW_Game</Filter>
-		</None >
-		<ClCompile Include="..\..\Source\GW_Game\GW_Game.cpp">
-			<Filter>Source\GW_Game</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\GW_Game\GW_Game.h">
-			<Filter>Source\GW_Game</Filter>
-		</ClInclude >
-		<None Include="..\..\Source\GW_Game\GW_Game.uproject">
-			<Filter>Source\GW_Game</Filter>
-		</None >
-		<ClCompile Include="..\..\Source\GW_Game\GW_GameGameModeBase.cpp">
-			<Filter>Source\GW_Game</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\GW_Game\GW_GameGameModeBase.h">
-			<Filter>Source\GW_Game</Filter>
-		</ClInclude >
-		<Filter Include="Source\GW_Game\Private">
-			<UniqueIdentifier>{08149E44-80B2-44D2-BD03-0F0961B21926}</UniqueIdentifier>
-		</Filter>
-		<ClCompile Include="..\..\Source\GW_Game\Private\Assault.cpp">
-			<Filter>Source\GW_Game\Private</Filter>
-		</ClCompile >
-		<ClCompile Include="..\..\Source\GW_Game\Private\AssaultPlayerController.cpp">
-			<Filter>Source\GW_Game\Private</Filter>
-		</ClCompile >
-		<ClCompile Include="..\..\Source\GW_Game\Private\MovementPoint.cpp">
-			<Filter>Source\GW_Game\Private</Filter>
-		</ClCompile >
-		<ClCompile Include="..\..\Source\GW_Game\Private\Projectile.cpp">
-			<Filter>Source\GW_Game\Private</Filter>
-		</ClCompile >
-		<ClCompile Include="..\..\Source\GW_Game\Private\TankAIController.cpp">
-			<Filter>Source\GW_Game\Private</Filter>
-		</ClCompile >
-		<ClCompile Include="..\..\Source\GW_Game\Private\TankAimingComponent.cpp">
-			<Filter>Source\GW_Game\Private</Filter>
-		</ClCompile >
-		<ClCompile Include="..\..\Source\GW_Game\Private\TankBarrel.cpp">
-			<Filter>Source\GW_Game\Private</Filter>
-		</ClCompile >
-		<ClCompile Include="..\..\Source\GW_Game\Private\TankMovementComponent.cpp">
-			<Filter>Source\GW_Game\Private</Filter>
-		</ClCompile >
-		<ClCompile Include="..\..\Source\GW_Game\Private\TankTurret.cpp">
-			<Filter>Source\GW_Game\Private</Filter>
-		</ClCompile >
-		<Filter Include="Source\GW_Game\Public">
-			<UniqueIdentifier>{EBDF873D-AF40-4100-9A55-8C47886316BC}</UniqueIdentifier>
-		</Filter>
-		<ClInclude Include="..\..\Source\GW_Game\Public\Assault.h">
-			<Filter>Source\GW_Game\Public</Filter>
-		</ClInclude >
-		<ClInclude Include="..\..\Source\GW_Game\Public\AssaultPlayerController.h">
-			<Filter>Source\GW_Game\Public</Filter>
-		</ClInclude >
-		<ClInclude Include="..\..\Source\GW_Game\Public\MovementPoint.h">
-			<Filter>Source\GW_Game\Public</Filter>
-		</ClInclude >
-		<ClInclude Include="..\..\Source\GW_Game\Public\Projectile.h">
-			<Filter>Source\GW_Game\Public</Filter>
-		</ClInclude >
-		<ClInclude Include="..\..\Source\GW_Game\Public\TankAIController.h">
-			<Filter>Source\GW_Game\Public</Filter>
-		</ClInclude >
-		<ClInclude Include="..\..\Source\GW_Game\Public\TankAimingComponent.h">
-			<Filter>Source\GW_Game\Public</Filter>
-		</ClInclude >
-		<ClInclude Include="..\..\Source\GW_Game\Public\TankBarrel.h">
-			<Filter>Source\GW_Game\Public</Filter>
-		</ClInclude >
-		<ClInclude Include="..\..\Source\GW_Game\Public\TankMovementComponent.h">
-			<Filter>Source\GW_Game\Public</Filter>
-		</ClInclude >
-		<ClInclude Include="..\..\Source\GW_Game\Public\TankTurret.h">
-			<Filter>Source\GW_Game\Public</Filter>
-		</ClInclude >
-	</ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\GW_Game.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{9AEB7BA4-CC96-496C-9251-3FA7EEC65785}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\GW_Game.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\GW_GameEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{8B5B28F9-14F3-40ED-A44B-8E3ECA8A608D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\GW_Game">
+      <UniqueIdentifier>{C5DF23CD-ADC3-4398-820E-CFCE6DDA4F08}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\GW_Game\GW_Game.Build.cs">
+      <Filter>Source\GW_Game</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\GW_Game\GW_Game.cpp">
+      <Filter>Source\GW_Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GW_Game\GW_Game.h">
+      <Filter>Source\GW_Game</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\GW_Game\GW_Game.uproject">
+      <Filter>Source\GW_Game</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\GW_Game\GW_GameGameModeBase.cpp">
+      <Filter>Source\GW_Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GW_Game\GW_GameGameModeBase.h">
+      <Filter>Source\GW_Game</Filter>
+    </ClInclude>
+    <Filter Include="Source\GW_Game\Private">
+      <UniqueIdentifier>{08149E44-80B2-44D2-BD03-0F0961B21926}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GW_Game\Private\Assault.cpp">
+      <Filter>Source\GW_Game\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GW_Game\Private\AssaultPlayerController.cpp">
+      <Filter>Source\GW_Game\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GW_Game\Private\MovementPoint.cpp">
+      <Filter>Source\GW_Game\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GW_Game\Private\Projectile.cpp">
+      <Filter>Source\GW_Game\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GW_Game\Private\TankAIController.cpp">
+      <Filter>Source\GW_Game\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GW_Game\Private\TankAimingComponent.cpp">
+      <Filter>Source\GW_Game\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GW_Game\Private\TankBarrel.cpp">
+      <Filter>Source\GW_Game\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GW_Game\Private\TankMovementComponent.cpp">
+      <Filter>Source\GW_Game\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GW_Game\Private\TankTurret.cpp">
+      <Filter>Source\GW_Game\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\GW_Game\Public">
+      <UniqueIdentifier>{EBDF873D-AF40-4100-9A55-8C47886316BC}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\GW_Game\Public\Assault.h">
+      <Filter>Source\GW_Game\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GW_Game\Public\AssaultPlayerController.h">
+      <Filter>Source\GW_Game\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GW_Game\Public\MovementPoint.h">
+      <Filter>Source\GW_Game\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GW_Game\Public\Projectile.h">
+      <Filter>Source\GW_Game\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GW_Game\Public\TankAIController.h">
+      <Filter>Source\GW_Game\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GW_Game\Public\TankAimingComponent.h">
+      <Filter>Source\GW_Game\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GW_Game\Public\TankBarrel.h">
+      <Filter>Source\GW_Game\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GW_Game\Public\TankMovementComponent.h">
+      <Filter>Source\GW_Game\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GW_Game\Public\TankTurret.h">
+      <Filter>Source\GW_Game\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\GW_Game\Public\OpenDoor.h">
+      <Filter>Source\GW_Game\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\GW_Game\Private\OpenDoor.cpp">
+      <Filter>Source\GW_Game\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

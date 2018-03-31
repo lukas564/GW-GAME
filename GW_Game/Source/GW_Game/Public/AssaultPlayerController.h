@@ -13,7 +13,6 @@ class GW_GAME_API AAssaultPlayerController : public APlayerController
 {
 	GENERATED_BODY()
 public:
-	virtual void BeginPlay() override;
 	virtual void Tick(float DeltaTime) override;
 
 	void AimTowardsCrosshair();
@@ -34,7 +33,7 @@ private:
 	UPROPERTY(EditDefaultsOnly)
 		float LineTraceRange = 1000000;
 
-	bool GetSightRayHitLocation(FVector& HitLocation) const;
+	bool GetSightRayHitLocation(FVector& OutHitLocation) const;
 	bool GetLookDirection(FVector2D ScreenLocation, FVector& LookDirection) const;
 	bool GetLookVectorHitLocation(FVector LookDirection, FVector& HitLocation) const;
 	bool CharacterNotSelected = true;

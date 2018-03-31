@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define GW_GAME_TankTurret_generated_h
 
-#define GW_Game_Source_GW_Game_Public_TankTurret_h_15_RPC_WRAPPERS
-#define GW_Game_Source_GW_Game_Public_TankTurret_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define GW_Game_Source_GW_Game_Public_TankTurret_h_15_INCLASS_NO_PURE_DECLS \
+#define GW_Game_Source_GW_Game_Public_TankTurret_h_11_RPC_WRAPPERS
+#define GW_Game_Source_GW_Game_Public_TankTurret_h_11_RPC_WRAPPERS_NO_PURE_DECLS
+#define GW_Game_Source_GW_Game_Public_TankTurret_h_11_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUTankTurret(); \
 	friend GW_GAME_API class UClass* Z_Construct_UClass_UTankTurret(); \
@@ -25,7 +25,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define GW_Game_Source_GW_Game_Public_TankTurret_h_15_INCLASS \
+#define GW_Game_Source_GW_Game_Public_TankTurret_h_11_INCLASS \
 private: \
 	static void StaticRegisterNativesUTankTurret(); \
 	friend GW_GAME_API class UClass* Z_Construct_UClass_UTankTurret(); \
@@ -35,7 +35,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define GW_Game_Source_GW_Game_Public_TankTurret_h_15_STANDARD_CONSTRUCTORS \
+#define GW_Game_Source_GW_Game_Public_TankTurret_h_11_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UTankTurret(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UTankTurret) \
@@ -48,7 +48,7 @@ private: \
 public:
 
 
-#define GW_Game_Source_GW_Game_Public_TankTurret_h_15_ENHANCED_CONSTRUCTORS \
+#define GW_Game_Source_GW_Game_Public_TankTurret_h_11_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UTankTurret(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -61,29 +61,29 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTankTurret); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UTankTurret)
 
 
-#define GW_Game_Source_GW_Game_Public_TankTurret_h_15_PRIVATE_PROPERTY_OFFSET \
+#define GW_Game_Source_GW_Game_Public_TankTurret_h_11_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__MaxDegreesPerSecond() { return STRUCT_OFFSET(UTankTurret, MaxDegreesPerSecond); }
 
 
-#define GW_Game_Source_GW_Game_Public_TankTurret_h_12_PROLOG
-#define GW_Game_Source_GW_Game_Public_TankTurret_h_15_GENERATED_BODY_LEGACY \
+#define GW_Game_Source_GW_Game_Public_TankTurret_h_8_PROLOG
+#define GW_Game_Source_GW_Game_Public_TankTurret_h_11_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GW_Game_Source_GW_Game_Public_TankTurret_h_15_PRIVATE_PROPERTY_OFFSET \
-	GW_Game_Source_GW_Game_Public_TankTurret_h_15_RPC_WRAPPERS \
-	GW_Game_Source_GW_Game_Public_TankTurret_h_15_INCLASS \
-	GW_Game_Source_GW_Game_Public_TankTurret_h_15_STANDARD_CONSTRUCTORS \
+	GW_Game_Source_GW_Game_Public_TankTurret_h_11_PRIVATE_PROPERTY_OFFSET \
+	GW_Game_Source_GW_Game_Public_TankTurret_h_11_RPC_WRAPPERS \
+	GW_Game_Source_GW_Game_Public_TankTurret_h_11_INCLASS \
+	GW_Game_Source_GW_Game_Public_TankTurret_h_11_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define GW_Game_Source_GW_Game_Public_TankTurret_h_15_GENERATED_BODY \
+#define GW_Game_Source_GW_Game_Public_TankTurret_h_11_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GW_Game_Source_GW_Game_Public_TankTurret_h_15_PRIVATE_PROPERTY_OFFSET \
-	GW_Game_Source_GW_Game_Public_TankTurret_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	GW_Game_Source_GW_Game_Public_TankTurret_h_15_INCLASS_NO_PURE_DECLS \
-	GW_Game_Source_GW_Game_Public_TankTurret_h_15_ENHANCED_CONSTRUCTORS \
+	GW_Game_Source_GW_Game_Public_TankTurret_h_11_PRIVATE_PROPERTY_OFFSET \
+	GW_Game_Source_GW_Game_Public_TankTurret_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
+	GW_Game_Source_GW_Game_Public_TankTurret_h_11_INCLASS_NO_PURE_DECLS \
+	GW_Game_Source_GW_Game_Public_TankTurret_h_11_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

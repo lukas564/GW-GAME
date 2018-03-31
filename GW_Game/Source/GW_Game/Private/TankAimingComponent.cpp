@@ -7,14 +7,10 @@
 #include "Projectile.h"
 #include "Kismet/GameplayStatics.h" 
 
-// Sets default values for this component's properties
+
 UTankAimingComponent::UTankAimingComponent()
 {
-	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
-	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
-
-	// ...
 }
 
 void UTankAimingComponent::BeginPlay()
@@ -23,6 +19,7 @@ void UTankAimingComponent::BeginPlay()
 	LastFireTime = FPlatformTime::Seconds();
 }
 
+/// Decide what firing state the tank is in
 void UTankAimingComponent::TickComponent(float DeltaTime, enum ELevelTick TickType, FActorComponentTickFunction *ThisTickFunction)
 {
 	if (RoundsLeft <= 0)
@@ -53,18 +50,22 @@ int32 UTankAimingComponent::GetRoundsLeft() const
 	return RoundsLeft;
 }
 
-bool UTankAimingComponent::IsBarrelMoving() {
+/// Helper method for determining FiringState
+bool UTankAimingComponent::IsBarrelMoving() 
+{
 	if (!ensure(Barrel)) { return false; }
 	auto BarrelForward = Barrel->GetForwardVector();
 	return !BarrelForward.Equals(AimDirection, 0.01);
 }
 
+/// References for Barrel and Turret (is set in the blueprint)
 void UTankAimingComponent::Initialise(UTankBarrel* BarrelToSet, UTankTurret* TurretToSet)
 {
 	Barrel = BarrelToSet;
 	Turret = TurretToSet;
 }
 
+/// Calculate how much the barrel needs to be lifted to hit designed position
 void UTankAimingComponent::AimAt(FVector HitLocation)
 {
 	if (!ensure(Barrel)) { return; }
@@ -85,11 +86,12 @@ void UTankAimingComponent::AimAt(FVector HitLocation)
 	if (bHaveAimSolution)
 	{
 		AimDirection = OutLaunchVelocity.GetSafeNormal();
-		MoveBarrelTowards(AimDirection);
+		MoveBarrelAndTurretTowards(AimDirection);
 	}
 }
 
-void UTankAimingComponent::MoveBarrelTowards(FVector AimDirection)
+/// Move barrel and turret by the difference between their forward vectors and AimDirection
+void UTankAimingComponent::MoveBarrelAndTurretTowards(FVector AimDirection)
 {
 	if (!ensure(Barrel) || !ensure(Turret)) { return; }
 	auto BarrelRotator = Barrel->GetForwardVector().Rotation();
@@ -107,6 +109,7 @@ void UTankAimingComponent::MoveBarrelTowards(FVector AimDirection)
 	}
 }
 
+/// Fire if reloaded and reloading logic
 void UTankAimingComponent::Fire()
 {
 	if (FiringState == EFiringState::Locked || FiringState == EFiringState::Aiming)

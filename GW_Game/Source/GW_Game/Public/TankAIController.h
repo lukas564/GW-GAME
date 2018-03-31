@@ -14,7 +14,7 @@ class GW_GAME_API ATankAIController : public AAIController
 
 private:
 	UFUNCTION()
-		void OnPossessedTankDeath(); ++
+		void OnPossessedTankDeath();
 		virtual void Tick(float DeltaTime) override;
 	virtual void BeginPlay() override;
 	virtual void SetPawn(APawn* InPawn) override;

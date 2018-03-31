@@ -4,10 +4,7 @@
 #include "Assault.h"
 #include "TankAimingComponent.h"
 
-void AAssaultPlayerController::BeginPlay()
-{
-	Super::BeginPlay();
-}
+///Function to prevent pawn related fucntions running before the pawn is spawned
 void AAssaultPlayerController::PawnSpawned()
 {
 	if (!ensure(GetPawn())) { return; }
@@ -31,7 +28,8 @@ void AAssaultPlayerController::AimTowardsCrosshair()
 	}
 }
 
-bool AAssaultPlayerController::GetSightRayHitLocation(FVector& HitLocation) const
+/// Get the 2D coordinates of the aiming dot on the screen
+bool AAssaultPlayerController::GetSightRayHitLocation(FVector& OutHitLocation) const
 {
 	int32 ViewportSizeX, ViewportSizeY;
 	GetViewportSize(ViewportSizeX, ViewportSizeY);
@@ -39,11 +37,24 @@ bool AAssaultPlayerController::GetSightRayHitLocation(FVector& HitLocation) cons
 	FVector LookDirection;
 	if (GetLookDirection(ScreenLocation, LookDirection))
 	{
-		return GetLookVectorHitLocation(LookDirection, HitLocation);
+		return GetLookVectorHitLocation(LookDirection, OutHitLocation);
 	}
 	return false;
 }
 
+/// Get the direction in which the player is looking
+bool AAssaultPlayerController::GetLookDirection(FVector2D ScreenLocation, FVector& LookDirection) const
+{
+	FVector CameraWorldLocation;
+	return DeprojectScreenPositionToWorld(
+		ScreenLocation.X,
+		ScreenLocation.Y,
+		CameraWorldLocation,
+		LookDirection
+	);
+}
+
+/// Linetrace along LookDierction and return where it hits
 bool AAssaultPlayerController::GetLookVectorHitLocation(FVector LookDirection, FVector& HitLocation) const
 {
 	FHitResult HitResult;
@@ -61,17 +72,7 @@ bool AAssaultPlayerController::GetLookVectorHitLocation(FVector LookDirection, F
 	return false;
 }
 
-bool AAssaultPlayerController::GetLookDirection(FVector2D ScreenLocation, FVector& LookDirection) const
-{
-	FVector CameraWorldLocation;
-	return DeprojectScreenPositionToWorld(
-		ScreenLocation.X,
-		ScreenLocation.Y,
-		CameraWorldLocation,
-		LookDirection
-	);
-}
-
+/// Set pawn for the multicast delegate
 void AAssaultPlayerController::SetPawn(APawn* InPawn)
 {
 	Super::SetPawn(InPawn);
@@ -84,6 +85,7 @@ void AAssaultPlayerController::SetPawn(APawn* InPawn)
 	}
 }
 
+/// Start spectating when the player is reported dead
 void AAssaultPlayerController::OnPossessedTankDeath()
 {
 	StartSpectatingOnly();

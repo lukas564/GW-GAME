@@ -18,7 +18,6 @@ void EmptyLinkFunctionForGeneratedCodeAssault() {}
 	GW_GAME_API UClass* Z_Construct_UClass_AAssault_NoRegister();
 	GW_GAME_API UClass* Z_Construct_UClass_AAssault();
 	ENGINE_API UClass* Z_Construct_UClass_APawn();
-	GW_GAME_API UFunction* Z_Construct_UFunction_AAssault_FireSound();
 	GW_GAME_API UFunction* Z_Construct_UFunction_AAssault_GetHealthPercent();
 // End Cross Module References
 	UFunction* Z_Construct_UDelegateFunction_GW_Game_TankDelegate__DelegateSignature()
@@ -36,11 +35,6 @@ void EmptyLinkFunctionForGeneratedCodeAssault() {}
 		}
 		return ReturnFunction;
 	}
-	static FName NAME_AAssault_FireSound = FName(TEXT("FireSound"));
-	void AAssault::FireSound()
-	{
-		ProcessEvent(FindFunctionChecked(NAME_AAssault_FireSound),NULL);
-	}
 	void AAssault::StaticRegisterNativesAAssault()
 	{
 		UClass* Class = AAssault::StaticClass();
@@ -48,22 +42,6 @@ void EmptyLinkFunctionForGeneratedCodeAssault() {}
 			{ "GetHealthPercent", (Native)&AAssault::execGetHealthPercent },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
-	}
-	UFunction* Z_Construct_UFunction_AAssault_FireSound()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-#if WITH_METADATA
-			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-				{ "Category", "Setup" },
-				{ "ModuleRelativePath", "Public/Assault.h" },
-			};
-#endif
-			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_AAssault, "FireSound", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x08020800, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
-		}
-		return ReturnFunction;
 	}
 	UFunction* Z_Construct_UFunction_AAssault_GetHealthPercent()
 	{
@@ -103,7 +81,6 @@ void EmptyLinkFunctionForGeneratedCodeAssault() {}
 				(UObject* (*)())Z_Construct_UPackage__Script_GW_Game,
 			};
 			static const FClassFunctionLinkInfo FuncInfo[] = {
-				{ &Z_Construct_UFunction_AAssault_FireSound, "FireSound" }, // 1340201714
 				{ &Z_Construct_UFunction_AAssault_GetHealthPercent, "GetHealthPercent" }, // 3485664693
 			};
 #if WITH_METADATA
@@ -149,7 +126,7 @@ void EmptyLinkFunctionForGeneratedCodeAssault() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAssault, 3784582633);
+	IMPLEMENT_CLASS(AAssault, 243822115);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AAssault(Z_Construct_UClass_AAssault, &AAssault::StaticClass, TEXT("/Script/GW_Game"), TEXT("AAssault"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AAssault);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

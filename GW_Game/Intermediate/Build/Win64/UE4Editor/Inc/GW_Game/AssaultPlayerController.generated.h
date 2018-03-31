@@ -14,7 +14,7 @@ class UTankAimingComponent;
 #endif
 #define GW_GAME_AssaultPlayerController_generated_h
 
-#define GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_15_RPC_WRAPPERS \
+#define GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_14_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execOnPossessedTankDeath) \
 	{ \
@@ -33,7 +33,7 @@ class UTankAimingComponent;
 	}
 
 
-#define GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+#define GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execOnPossessedTankDeath) \
 	{ \
@@ -52,15 +52,15 @@ class UTankAimingComponent;
 	}
 
 
-#define GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_15_EVENT_PARMS \
+#define GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_14_EVENT_PARMS \
 	struct AssaultPlayerController_eventFoundAimingComponent_Parms \
 	{ \
 		UTankAimingComponent* AimRef; \
 	};
 
 
-#define GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_15_CALLBACK_WRAPPERS
-#define GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_15_INCLASS_NO_PURE_DECLS \
+#define GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_14_CALLBACK_WRAPPERS
+#define GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAAssaultPlayerController(); \
 	friend GW_GAME_API class UClass* Z_Construct_UClass_AAssaultPlayerController(); \
@@ -70,7 +70,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_15_INCLASS \
+#define GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_14_INCLASS \
 private: \
 	static void StaticRegisterNativesAAssaultPlayerController(); \
 	friend GW_GAME_API class UClass* Z_Construct_UClass_AAssaultPlayerController(); \
@@ -80,7 +80,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_15_STANDARD_CONSTRUCTORS \
+#define GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AAssaultPlayerController(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AAssaultPlayerController) \
@@ -93,7 +93,7 @@ private: \
 public:
 
 
-#define GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_15_ENHANCED_CONSTRUCTORS \
+#define GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_14_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AAssaultPlayerController(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -106,36 +106,36 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AAssaultPlayerController); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AAssaultPlayerController)
 
 
-#define GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_15_PRIVATE_PROPERTY_OFFSET \
+#define GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_14_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CrossHairXLocation() { return STRUCT_OFFSET(AAssaultPlayerController, CrossHairXLocation); } \
 	FORCEINLINE static uint32 __PPO__CrossHairYLocation() { return STRUCT_OFFSET(AAssaultPlayerController, CrossHairYLocation); } \
 	FORCEINLINE static uint32 __PPO__LineTraceRange() { return STRUCT_OFFSET(AAssaultPlayerController, LineTraceRange); }
 
 
-#define GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_12_PROLOG \
-	GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_15_EVENT_PARMS
+#define GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_11_PROLOG \
+	GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_14_EVENT_PARMS
 
 
-#define GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_15_GENERATED_BODY_LEGACY \
+#define GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_15_PRIVATE_PROPERTY_OFFSET \
-	GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_15_RPC_WRAPPERS \
-	GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_15_CALLBACK_WRAPPERS \
-	GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_15_INCLASS \
-	GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_15_STANDARD_CONSTRUCTORS \
+	GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_14_PRIVATE_PROPERTY_OFFSET \
+	GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_14_RPC_WRAPPERS \
+	GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_14_CALLBACK_WRAPPERS \
+	GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_14_INCLASS \
+	GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_14_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_15_GENERATED_BODY \
+#define GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_15_PRIVATE_PROPERTY_OFFSET \
-	GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_15_CALLBACK_WRAPPERS \
-	GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_15_INCLASS_NO_PURE_DECLS \
-	GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_15_ENHANCED_CONSTRUCTORS \
+	GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_14_PRIVATE_PROPERTY_OFFSET \
+	GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_14_CALLBACK_WRAPPERS \
+	GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_14_INCLASS_NO_PURE_DECLS \
+	GW_Game_Source_GW_Game_Public_AssaultPlayerController_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

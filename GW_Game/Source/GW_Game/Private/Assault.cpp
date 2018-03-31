@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Copyright 2017-2018 Jan Kubala & Lukáš Palièka. All Rights Reserved.
 
 #include "Assault.h"
 #include "TankBarrel.h"
@@ -20,6 +20,7 @@ float AAssault::GetHealthPercent() const
 	return (float)CurrentHealth / (float)StartingHealth;
 }
 
+/// Unreal's function to apply damage, modified to apply right amount of damage and signal death
 float AAssault::TakeDamage(float DamageAmount, struct FDamageEvent const & DamageEvent, class AController * EventInstigator, AActor * DamageCauser)
 {
 	int32 DamagePoints = FPlatformMath::RoundToInt(DamageAmount);

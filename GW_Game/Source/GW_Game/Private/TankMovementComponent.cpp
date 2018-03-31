@@ -3,6 +3,7 @@
 #include "TankMovementComponent.h"
 #include "MovementPoint.h"
 
+/// References to points to apply force on
 void UTankMovementComponent::Initialise(UMovementPoint* LeftPointToSet, UMovementPoint* RightPointToSet)
 {
 	LeftPoint = LeftPointToSet;
@@ -21,6 +22,7 @@ void UTankMovementComponent::RequestDirectMove(const FVector& MoveVelocity, bool
 	IntendTurnRight(RightThrow);
 }
 
+/// Takes the amount of force from the blueprint to apply on movement points
 void UTankMovementComponent::IntendMoveForward(float Throw)
 {
 	if (!ensure(LeftPoint && RightPoint)) { return; }
@@ -28,6 +30,7 @@ void UTankMovementComponent::IntendMoveForward(float Throw)
 	RightPoint->SetThrottle(Throw);
 }
 
+/// Takes the amount of force from the blueprint to apply on movement points
 void UTankMovementComponent::IntendTurnRight(float Throw)
 {
 	if (!ensure(LeftPoint && RightPoint)) { return; }

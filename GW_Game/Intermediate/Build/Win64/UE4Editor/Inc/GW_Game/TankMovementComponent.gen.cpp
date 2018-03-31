@@ -141,7 +141,6 @@ void EmptyLinkFunctionForGeneratedCodeTankMovementComponent() {}
 				{ "ClassGroupNames", "Custom" },
 				{ "IncludePath", "TankMovementComponent.h" },
 				{ "ModuleRelativePath", "Public/TankMovementComponent.h" },
-				{ "ToolTip", "Responsible for driving movement points" },
 			};
 #endif
 			static const FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -162,7 +161,7 @@ void EmptyLinkFunctionForGeneratedCodeTankMovementComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UTankMovementComponent, 3467144459);
+	IMPLEMENT_CLASS(UTankMovementComponent, 3293783160);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UTankMovementComponent(Z_Construct_UClass_UTankMovementComponent, &UTankMovementComponent::StaticClass, TEXT("/Script/GW_Game"), TEXT("UTankMovementComponent"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UTankMovementComponent);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

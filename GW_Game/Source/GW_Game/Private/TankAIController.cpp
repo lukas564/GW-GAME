@@ -9,18 +9,6 @@ void ATankAIController::BeginPlay()
 	Super::BeginPlay();
 }
 
-void ATankAIController::SetPawn(APawn* InPawn)
-{
-	Super::SetPawn(InPawn);
-	if (InPawn)
-	{
-		auto PossessedTank = Cast<AAssault>(InPawn);
-		if (!ensure(PossessedTank)) { return; }
-		PossessedTank->OnDeath.AddUniqueDynamic(this, &ATankAIController::OnPossessedTankDeath);
-
-	}
-}
-
 void ATankAIController::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
@@ -36,6 +24,20 @@ void ATankAIController::Tick(float DeltaTime)
 		AimingComponent->Fire();
 }
 
+/// Set pawn for the multicast delegate
+void ATankAIController::SetPawn(APawn* InPawn)
+{
+	Super::SetPawn(InPawn);
+	if (InPawn)
+	{
+		auto PossessedTank = Cast<AAssault>(InPawn);
+		if (!ensure(PossessedTank)) { return; }
+		PossessedTank->OnDeath.AddUniqueDynamic(this, &ATankAIController::OnPossessedTankDeath);
+
+	}
+}
+
+/// Remove AIController from pawn when is reported dead
 void ATankAIController::OnPossessedTankDeath()
 {
 	if (!GetPawn()) { return; }
