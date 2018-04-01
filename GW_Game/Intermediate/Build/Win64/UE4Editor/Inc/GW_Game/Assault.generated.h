@@ -42,6 +42,8 @@ static inline void FTankDelegate_DelegateWrapper(const FMulticastScriptDelegate&
 	}
 
 
+#define GW_Game_Source_GW_Game_Public_Assault_h_12_EVENT_PARMS
+#define GW_Game_Source_GW_Game_Public_Assault_h_12_CALLBACK_WRAPPERS
 #define GW_Game_Source_GW_Game_Public_Assault_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAAssault(); \
@@ -91,12 +93,16 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AAssault); \
 	FORCEINLINE static uint32 __PPO__CurrentHealth() { return STRUCT_OFFSET(AAssault, CurrentHealth); }
 
 
-#define GW_Game_Source_GW_Game_Public_Assault_h_9_PROLOG
+#define GW_Game_Source_GW_Game_Public_Assault_h_9_PROLOG \
+	GW_Game_Source_GW_Game_Public_Assault_h_12_EVENT_PARMS
+
+
 #define GW_Game_Source_GW_Game_Public_Assault_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	GW_Game_Source_GW_Game_Public_Assault_h_12_PRIVATE_PROPERTY_OFFSET \
 	GW_Game_Source_GW_Game_Public_Assault_h_12_RPC_WRAPPERS \
+	GW_Game_Source_GW_Game_Public_Assault_h_12_CALLBACK_WRAPPERS \
 	GW_Game_Source_GW_Game_Public_Assault_h_12_INCLASS \
 	GW_Game_Source_GW_Game_Public_Assault_h_12_STANDARD_CONSTRUCTORS \
 public: \
@@ -108,6 +114,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	GW_Game_Source_GW_Game_Public_Assault_h_12_PRIVATE_PROPERTY_OFFSET \
 	GW_Game_Source_GW_Game_Public_Assault_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	GW_Game_Source_GW_Game_Public_Assault_h_12_CALLBACK_WRAPPERS \
 	GW_Game_Source_GW_Game_Public_Assault_h_12_INCLASS_NO_PURE_DECLS \
 	GW_Game_Source_GW_Game_Public_Assault_h_12_ENHANCED_CONSTRUCTORS \
 private: \

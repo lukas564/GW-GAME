@@ -16,6 +16,9 @@ public:
 	UFUNCTION(BlueprintPure, Category = "Health")
 		float GetHealthPercent() const;
 
+	UFUNCTION(BlueprintImplementableEvent, Category = "Health")
+		void TankOutOfAction();
+
 	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const & DamageEvent, class AController * EventInstigator, AActor * DamageCauser) override;
 	FTankDelegate OnDeath;
 

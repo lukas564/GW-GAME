@@ -15,10 +15,10 @@ class GW_GAME_API AAssaultPlayerController : public APlayerController
 public:
 	virtual void Tick(float DeltaTime) override;
 
+	virtual void BeginPlay() override;
+
 	void AimTowardsCrosshair();
 	UTankAimingComponent* AimingComponent;
-	UFUNCTION(BlueprintCallable, Category = "Setup")
-		void PawnSpawned();
 private:
 	UPROPERTY(EditDefaultsOnly)
 		float CrossHairXLocation = 0.5;

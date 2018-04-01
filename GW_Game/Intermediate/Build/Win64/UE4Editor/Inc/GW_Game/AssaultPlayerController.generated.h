@@ -22,14 +22,6 @@ class UTankAimingComponent;
 		P_NATIVE_BEGIN; \
 		this->OnPossessedTankDeath(); \
 		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execPawnSpawned) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		this->PawnSpawned(); \
-		P_NATIVE_END; \
 	}
 
 
@@ -40,14 +32,6 @@ class UTankAimingComponent;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		this->OnPossessedTankDeath(); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execPawnSpawned) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		this->PawnSpawned(); \
 		P_NATIVE_END; \
 	}
 

@@ -29,6 +29,7 @@ float AAssault::TakeDamage(float DamageAmount, struct FDamageEvent const & Damag
 	if (CurrentHealth <= 0)
 	{
 		OnDeath.Broadcast();
+		TankOutOfAction();
 	}
 	return DamageToApply;
 }

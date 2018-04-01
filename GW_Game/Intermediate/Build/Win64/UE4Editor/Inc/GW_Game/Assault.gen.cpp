@@ -19,6 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeAssault() {}
 	GW_GAME_API UClass* Z_Construct_UClass_AAssault();
 	ENGINE_API UClass* Z_Construct_UClass_APawn();
 	GW_GAME_API UFunction* Z_Construct_UFunction_AAssault_GetHealthPercent();
+	GW_GAME_API UFunction* Z_Construct_UFunction_AAssault_TankOutOfAction();
 // End Cross Module References
 	UFunction* Z_Construct_UDelegateFunction_GW_Game_TankDelegate__DelegateSignature()
 	{
@@ -34,6 +35,11 @@ void EmptyLinkFunctionForGeneratedCodeAssault() {}
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
 		}
 		return ReturnFunction;
+	}
+	static FName NAME_AAssault_TankOutOfAction = FName(TEXT("TankOutOfAction"));
+	void AAssault::TankOutOfAction()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_AAssault_TankOutOfAction),NULL);
 	}
 	void AAssault::StaticRegisterNativesAAssault()
 	{
@@ -67,6 +73,22 @@ void EmptyLinkFunctionForGeneratedCodeAssault() {}
 		}
 		return ReturnFunction;
 	}
+	UFunction* Z_Construct_UFunction_AAssault_TankOutOfAction()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+				{ "Category", "Health" },
+				{ "ModuleRelativePath", "Public/Assault.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_AAssault, "TankOutOfAction", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x08020800, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_AAssault_NoRegister()
 	{
 		return AAssault::StaticClass();
@@ -82,6 +104,7 @@ void EmptyLinkFunctionForGeneratedCodeAssault() {}
 			};
 			static const FClassFunctionLinkInfo FuncInfo[] = {
 				{ &Z_Construct_UFunction_AAssault_GetHealthPercent, "GetHealthPercent" }, // 3485664693
+				{ &Z_Construct_UFunction_AAssault_TankOutOfAction, "TankOutOfAction" }, // 2976105695
 			};
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
@@ -126,7 +149,7 @@ void EmptyLinkFunctionForGeneratedCodeAssault() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAssault, 243822115);
+	IMPLEMENT_CLASS(AAssault, 137229789);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AAssault(Z_Construct_UClass_AAssault, &AAssault::StaticClass, TEXT("/Script/GW_Game"), TEXT("AAssault"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AAssault);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -5,8 +5,9 @@
 #include "TankAimingComponent.h"
 
 ///Function to prevent pawn related fucntions running before the pawn is spawned
-void AAssaultPlayerController::PawnSpawned()
+void AAssaultPlayerController::BeginPlay()
 {
+	Super::BeginPlay();
 	if (!ensure(GetPawn())) { return; }
 	AimingComponent = GetPawn()->FindComponentByClass<UTankAimingComponent>();
 	FoundAimingComponent(AimingComponent);

@@ -20,7 +20,6 @@ void EmptyLinkFunctionForGeneratedCodeAssaultPlayerController() {}
 	GW_GAME_API UFunction* Z_Construct_UFunction_AAssaultPlayerController_FoundAimingComponent();
 	GW_GAME_API UClass* Z_Construct_UClass_UTankAimingComponent_NoRegister();
 	GW_GAME_API UFunction* Z_Construct_UFunction_AAssaultPlayerController_OnPossessedTankDeath();
-	GW_GAME_API UFunction* Z_Construct_UFunction_AAssaultPlayerController_PawnSpawned();
 // End Cross Module References
 	static FName NAME_AAssaultPlayerController_FoundAimingComponent = FName(TEXT("FoundAimingComponent"));
 	void AAssaultPlayerController::FoundAimingComponent(UTankAimingComponent* AimRef)
@@ -34,7 +33,6 @@ void EmptyLinkFunctionForGeneratedCodeAssaultPlayerController() {}
 		UClass* Class = AAssaultPlayerController::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "OnPossessedTankDeath", (Native)&AAssaultPlayerController::execOnPossessedTankDeath },
-			{ "PawnSpawned", (Native)&AAssaultPlayerController::execPawnSpawned },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}
@@ -78,22 +76,6 @@ void EmptyLinkFunctionForGeneratedCodeAssaultPlayerController() {}
 		}
 		return ReturnFunction;
 	}
-	UFunction* Z_Construct_UFunction_AAssaultPlayerController_PawnSpawned()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-#if WITH_METADATA
-			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-				{ "Category", "Setup" },
-				{ "ModuleRelativePath", "Public/AssaultPlayerController.h" },
-			};
-#endif
-			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_AAssaultPlayerController, "PawnSpawned", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
-		}
-		return ReturnFunction;
-	}
 	UClass* Z_Construct_UClass_AAssaultPlayerController_NoRegister()
 	{
 		return AAssaultPlayerController::StaticClass();
@@ -110,7 +92,6 @@ void EmptyLinkFunctionForGeneratedCodeAssaultPlayerController() {}
 			static const FClassFunctionLinkInfo FuncInfo[] = {
 				{ &Z_Construct_UFunction_AAssaultPlayerController_FoundAimingComponent, "FoundAimingComponent" }, // 795420292
 				{ &Z_Construct_UFunction_AAssaultPlayerController_OnPossessedTankDeath, "OnPossessedTankDeath" }, // 1808100930
-				{ &Z_Construct_UFunction_AAssaultPlayerController_PawnSpawned, "PawnSpawned" }, // 2032968660
 			};
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
@@ -163,7 +144,7 @@ void EmptyLinkFunctionForGeneratedCodeAssaultPlayerController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAssaultPlayerController, 551980169);
+	IMPLEMENT_CLASS(AAssaultPlayerController, 2310281178);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AAssaultPlayerController(Z_Construct_UClass_AAssaultPlayerController, &AAssaultPlayerController::StaticClass, TEXT("/Script/GW_Game"), TEXT("AAssaultPlayerController"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AAssaultPlayerController);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
