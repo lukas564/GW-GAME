@@ -1,7 +1,7 @@
 // Copyright 2017-2018 Jan Kubala & Lukáš Palièka. All Rights Reserved.
 
 #include "TankAIController.h"
-#include "Assault.h"
+#include "Tank.h"
 #include "TankAimingComponent.h"
 
 void ATankAIController::BeginPlay()
@@ -30,7 +30,7 @@ void ATankAIController::SetPawn(APawn* InPawn)
 	Super::SetPawn(InPawn);
 	if (InPawn)
 	{
-		auto PossessedTank = Cast<AAssault>(InPawn);
+		auto PossessedTank = Cast<ATank>(InPawn);
 		if (!ensure(PossessedTank)) { return; }
 		PossessedTank->OnDeath.AddUniqueDynamic(this, &ATankAIController::OnPossessedTankDeath);
 

@@ -1,87 +1,16 @@
-﻿  Cleaning GW_GameEditor Binaries...
-  Performing full C++ include scan (building a new target)
-  Using 'git status' to determine working set for adaptive non-unity build.
-  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for GW_GameEditor (no existing makefile)
-  Performing full C++ include scan (no include cache file)
+﻿  Using 'git status' to determine working set for adaptive non-unity build.
   Parsing headers for GW_GameEditor
     Running UnrealHeaderTool "D:\repos\GWGame\GW_Game\GW_Game.uproject" "D:\repos\GWGame\GW_Game\Intermediate\Build\Win64\GW_GameEditor\Development\GW_GameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for GW_GameEditor in 6,5733047 seconds
-  Deleting old hot reload file: "D:\repos\GWGame\GW_Game\Binaries\Win64\UE4Editor-GW_Game-118.dll".
-  Deleting old hot reload file: "D:\repos\GWGame\GW_Game\Binaries\Win64\UE4Editor-GW_Game-118.pdb".
-  Deleting old hot reload file: "D:\repos\GWGame\GW_Game\Binaries\Win64\UE4Editor-GW_Game-1275.dll".
-  Deleting old hot reload file: "D:\repos\GWGame\GW_Game\Binaries\Win64\UE4Editor-GW_Game-1275.pdb".
-  Deleting old hot reload file: "D:\repos\GWGame\GW_Game\Binaries\Win64\UE4Editor-GW_Game-1627.dll".
-  Deleting old hot reload file: "D:\repos\GWGame\GW_Game\Binaries\Win64\UE4Editor-GW_Game-1627.pdb".
-  Deleting old hot reload file: "D:\repos\GWGame\GW_Game\Binaries\Win64\UE4Editor-GW_Game-1652.dll".
-  Deleting old hot reload file: "D:\repos\GWGame\GW_Game\Binaries\Win64\UE4Editor-GW_Game-1652.pdb".
-  Deleting old hot reload file: "D:\repos\GWGame\GW_Game\Binaries\Win64\UE4Editor-GW_Game-1698.dll".
-  Deleting old hot reload file: "D:\repos\GWGame\GW_Game\Binaries\Win64\UE4Editor-GW_Game-1698.pdb".
-  Deleting old hot reload file: "D:\repos\GWGame\GW_Game\Binaries\Win64\UE4Editor-GW_Game-1957.dll".
-  Deleting old hot reload file: "D:\repos\GWGame\GW_Game\Binaries\Win64\UE4Editor-GW_Game-1957.pdb".
-  Deleting old hot reload file: "D:\repos\GWGame\GW_Game\Binaries\Win64\UE4Editor-GW_Game-2444.dll".
-  Deleting old hot reload file: "D:\repos\GWGame\GW_Game\Binaries\Win64\UE4Editor-GW_Game-2444.pdb".
-  Deleting old hot reload file: "D:\repos\GWGame\GW_Game\Binaries\Win64\UE4Editor-GW_Game-3100.dll".
-  Deleting old hot reload file: "D:\repos\GWGame\GW_Game\Binaries\Win64\UE4Editor-GW_Game-3100.pdb".
-  Deleting old hot reload file: "D:\repos\GWGame\GW_Game\Binaries\Win64\UE4Editor-GW_Game-3248.dll".
-  Deleting old hot reload file: "D:\repos\GWGame\GW_Game\Binaries\Win64\UE4Editor-GW_Game-3248.pdb".
-  Deleting old hot reload file: "D:\repos\GWGame\GW_Game\Binaries\Win64\UE4Editor-GW_Game-3991.dll".
-  Deleting old hot reload file: "D:\repos\GWGame\GW_Game\Binaries\Win64\UE4Editor-GW_Game-3991.pdb".
-  Deleting old hot reload file: "D:\repos\GWGame\GW_Game\Binaries\Win64\UE4Editor-GW_Game-4176.dll".
-  Deleting old hot reload file: "D:\repos\GWGame\GW_Game\Binaries\Win64\UE4Editor-GW_Game-4176.pdb".
-  Deleting old hot reload file: "D:\repos\GWGame\GW_Game\Binaries\Win64\UE4Editor-GW_Game-4269.dll".
-  Deleting old hot reload file: "D:\repos\GWGame\GW_Game\Binaries\Win64\UE4Editor-GW_Game-4269.pdb".
-  Deleting old hot reload file: "D:\repos\GWGame\GW_Game\Binaries\Win64\UE4Editor-GW_Game-4890.dll".
-  Deleting old hot reload file: "D:\repos\GWGame\GW_Game\Binaries\Win64\UE4Editor-GW_Game-4890.pdb".
-  Deleting old hot reload file: "D:\repos\GWGame\GW_Game\Binaries\Win64\UE4Editor-GW_Game-4978.dll".
-  Deleting old hot reload file: "D:\repos\GWGame\GW_Game\Binaries\Win64\UE4Editor-GW_Game-4978.pdb".
-  Deleting old hot reload file: "D:\repos\GWGame\GW_Game\Binaries\Win64\UE4Editor-GW_Game-5000.dll".
-  Deleting old hot reload file: "D:\repos\GWGame\GW_Game\Binaries\Win64\UE4Editor-GW_Game-5000.pdb".
-  Deleting old hot reload file: "D:\repos\GWGame\GW_Game\Binaries\Win64\UE4Editor-GW_Game-5208.dll".
-  Deleting old hot reload file: "D:\repos\GWGame\GW_Game\Binaries\Win64\UE4Editor-GW_Game-5208.pdb".
-  Deleting old hot reload file: "D:\repos\GWGame\GW_Game\Binaries\Win64\UE4Editor-GW_Game-6466.dll".
-  Deleting old hot reload file: "D:\repos\GWGame\GW_Game\Binaries\Win64\UE4Editor-GW_Game-6466.pdb".
-  Deleting old hot reload file: "D:\repos\GWGame\GW_Game\Binaries\Win64\UE4Editor-GW_Game-6759.dll".
-  Deleting old hot reload file: "D:\repos\GWGame\GW_Game\Binaries\Win64\UE4Editor-GW_Game-6759.pdb".
-  Deleting old hot reload file: "D:\repos\GWGame\GW_Game\Binaries\Win64\UE4Editor-GW_Game-802.dll".
-  Deleting old hot reload file: "D:\repos\GWGame\GW_Game\Binaries\Win64\UE4Editor-GW_Game-802.pdb".
-  Deleting old hot reload file: "D:\repos\GWGame\GW_Game\Binaries\Win64\UE4Editor-GW_Game-8254.dll".
-  Deleting old hot reload file: "D:\repos\GWGame\GW_Game\Binaries\Win64\UE4Editor-GW_Game-8254.pdb".
-  Deleting old hot reload file: "D:\repos\GWGame\GW_Game\Binaries\Win64\UE4Editor-GW_Game-8280.dll".
-  Deleting old hot reload file: "D:\repos\GWGame\GW_Game\Binaries\Win64\UE4Editor-GW_Game-8280.pdb".
-  Deleting old hot reload file: "D:\repos\GWGame\GW_Game\Binaries\Win64\UE4Editor-GW_Game-9602.dll".
-  Deleting old hot reload file: "D:\repos\GWGame\GW_Game\Binaries\Win64\UE4Editor-GW_Game-9602.pdb".
-  Deleting old hot reload file: "D:\repos\GWGame\GW_Game\Binaries\Win64\UE4Editor-GW_Game-978.dll".
-  Deleting old hot reload file: "D:\repos\GWGame\GW_Game\Binaries\Win64\UE4Editor-GW_Game-978.pdb".
-  Performing 27 actions (4 in parallel)
-  [2/27] Resource PCLaunch.rc
-  [3/27] Resource ModuleVersionResource.rc.inl
-  SharedPCH.Engine.cpp
-  TankBarrel.gen.cpp
-  Assault.gen.cpp
-  TankAIController.gen.cpp
-  TankAimingComponent.gen.cpp
-  Projectile.gen.cpp
-  MovementPoint.gen.cpp
-  GW_GameGameModeBase.gen.cpp
-  AssaultPlayerController.gen.cpp
+  Reflection code generated for GW_GameEditor in 6,5346209 seconds
+  Performing 7 actions (4 in parallel)
   GW_Game.init.gen.cpp
-  TankTurret.cpp
-  TankBarrel.cpp
-  TankMovementComponent.cpp
-  TankAIController.cpp
+  Tank.cpp
   TankAimingComponent.cpp
+  Projectile.gen.cpp
   Projectile.cpp
-  MovementPoint.cpp
-  AssaultPlayerController.cpp
-  Assault.cpp
-  GW_GameGameModeBase.cpp
-  GW_Game.cpp
-  TankMovementComponent.gen.cpp
-  TankTurret.gen.cpp
-  [26/27] Link UE4Editor-GW_Game.dll
-  [27/27] Link UE4Editor-GW_Game.lib
+  [6/7] Link UE4Editor-GW_Game.dll
+  [7/7] Link UE4Editor-GW_Game.lib
      Creating library D:\repos\GWGame\GW_Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-GW_Game.lib and object D:\repos\GWGame\GW_Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-GW_Game.exp
      Creating library D:\repos\GWGame\GW_Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-GW_Game.suppressed.lib and object D:\repos\GWGame\GW_Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-GW_Game.suppressed.exp
   Deploying GW_GameEditor Win64 Development...
-  Total build time: 41,98 seconds (Local executor: 22,78 seconds)
+  Total build time: 9,88 seconds (Local executor: 1,92 seconds)

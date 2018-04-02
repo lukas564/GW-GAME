@@ -3,7 +3,7 @@
 #include "TankAimingComponent.h"
 #include "TankBarrel.h"
 #include "TankTurret.h"
-#include "Assault.h"
+#include "Tank.h"
 #include "Projectile.h"
 #include "Kismet/GameplayStatics.h" 
 
@@ -51,7 +51,7 @@ int32 UTankAimingComponent::GetRoundsLeft() const
 }
 
 /// Helper method for determining FiringState
-bool UTankAimingComponent::IsBarrelMoving() 
+bool UTankAimingComponent::IsBarrelMoving()
 {
 	if (!ensure(Barrel)) { return false; }
 	auto BarrelForward = Barrel->GetForwardVector();
@@ -122,7 +122,7 @@ void UTankAimingComponent::Fire()
 			Barrel->GetSocketLocation(FName("Projectile")),
 			Barrel->GetSocketRotation(FName("Projectile"))
 			);
-
+			
 		Projectile->LaunchProjectile(LaunchSpeed);
 		LastFireTime = FPlatformTime::Seconds();
 		RoundsLeft--;

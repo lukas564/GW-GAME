@@ -2,7 +2,7 @@
 
 #include "MovementPoint.h"
 
-UMovementPoint::UMovementPoint() 
+UMovementPoint::UMovementPoint()
 {
 	PrimaryComponentTick.bCanEverTick = false;
 }
@@ -34,11 +34,11 @@ void UMovementPoint::ApplySidewaysForce()
 /// Sets throttle from blueprint
 void UMovementPoint::SetThrottle(float Throttle)
 {
-	CurrentThrottle = FMath::Clamp<float>(CurrentThrottle + Throttle,-1, 1);
+	CurrentThrottle = FMath::Clamp<float>(CurrentThrottle + Throttle, -1, 1);
 }
 
 /// Applies force on points
-void UMovementPoint::DrivePoint() 
+void UMovementPoint::DrivePoint()
 {
 	auto ForceApplied = GetForwardVector() * CurrentThrottle * MovementPointMaxDrivingForce;
 	auto ForceLocation = GetComponentLocation();
