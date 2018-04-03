@@ -1,16 +1,7 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Parsing headers for GW_GameEditor
-    Running UnrealHeaderTool "D:\repos\GWGame\GW_Game\GW_Game.uproject" "D:\repos\GWGame\GW_Game\Intermediate\Build\Win64\GW_GameEditor\Development\GW_GameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for GW_GameEditor in 6,5346209 seconds
-  Performing 7 actions (4 in parallel)
-  GW_Game.init.gen.cpp
-  Tank.cpp
-  TankAimingComponent.cpp
-  Projectile.gen.cpp
-  Projectile.cpp
-  [6/7] Link UE4Editor-GW_Game.dll
-  [7/7] Link UE4Editor-GW_Game.lib
-     Creating library D:\repos\GWGame\GW_Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-GW_Game.lib and object D:\repos\GWGame\GW_Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-GW_Game.exp
-     Creating library D:\repos\GWGame\GW_Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-GW_Game.suppressed.lib and object D:\repos\GWGame\GW_Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-GW_Game.suppressed.exp
+﻿  Performing full C++ include scan (hot reloading a new target)
+  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for hot reloading GW_GameEditor (no existing makefile)
+  Compiling game modules for hot reload
+  Target is up to date
   Deploying GW_GameEditor Win64 Development...
-  Total build time: 9,88 seconds (Local executor: 1,92 seconds)
+  Total build time: 11,93 seconds (NoActionsToExecute executor: 0,00 seconds)
