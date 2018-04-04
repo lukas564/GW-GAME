@@ -1,3 +1,0 @@
-D:\repos\GWGame\GW_Game\Source\GW_Game\GW_Game.Build.cs
-D:\repos\GWGame\GW_Game\Source\GW_Game.Target.cs
-D:\repos\GWGame\GW_Game\Source\GW_GameEditor.Target.cs
