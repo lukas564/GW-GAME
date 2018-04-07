@@ -1,7 +1,0 @@
-﻿  Performing full C++ include scan (hot reloading a new target)
-  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for hot reloading GW_GameEditor (no existing makefile)
-  Compiling game modules for hot reload
-  Target is up to date
-  Deploying GW_GameEditor Win64 Development...
-  Total build time: 11,93 seconds (NoActionsToExecute executor: 0,00 seconds)

@@ -1,3 +1,7 @@
+#ignore Starter Content
+Content/StarterContent/*
+
+
 # Visual Studio 2015 user specific files
 GW_Game.VC.VC.opendb
 .vs/
